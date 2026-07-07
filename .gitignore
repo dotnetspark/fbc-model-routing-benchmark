@@ -1,0 +1,46 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+build/
+dist/
+.venv/
+venv/
+env/
+
+# --- Environment / secrets ---
+.env
+.env.*
+*.key
+secrets.toml
+
+# --- Jupyter ---
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# --- Results / data artifacts (raw run outputs — regenerate, don't commit by default) ---
+# Uncomment the results line if you want to publish exact benchmark runs for
+# reproducibility instead of regenerating them. For this project we DO want the
+# results committed (see project.md §6 — publication plan), so results/*.jsonl is
+# intentionally NOT ignored. Only transient/scratch outputs are excluded below.
+results/*.tmp
+results/scratch_*.jsonl
+analysis/*.html
+analysis/*_files/
+
+# --- Local model artifacts ---
+*.gguf
+*.bin
+.ollama/
+
+# --- OS / editor ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+
+# --- Streamlit ---
+.streamlit/secrets.toml
