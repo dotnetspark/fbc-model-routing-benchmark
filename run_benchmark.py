@@ -30,14 +30,15 @@ from dataclasses import asdict
 from pathlib import Path
 
 from clients.citation_utils import extract_section_citation
-from clients import foundation_client, instruction_tuned_client
+from clients import foundation_client, instruction_tuned_client, slm_client
 
 # One entry per model class: (client function, exceptions to record as failed
-# requests). Lesson 3+ clients get registered here with their own error types.
+# requests). Lesson 4+ clients get registered here with their own error types.
 CLIENTS = {
     "foundation": (foundation_client.call_foundation_model, foundation_client.API_ERRORS),
     "instruction_tuned": (instruction_tuned_client.call_instruction_tuned,
                           instruction_tuned_client.API_ERRORS),
+    "slm": (slm_client.call_slm, slm_client.API_ERRORS),
 }
 
 # Model-name constant per class — used by --resume to keep only prior successes
@@ -45,6 +46,7 @@ CLIENTS = {
 MODEL_NAMES = {
     "foundation": foundation_client.FOUNDATION_MODEL,
     "instruction_tuned": instruction_tuned_client.INSTRUCTION_TUNED_MODEL,
+    "slm": slm_client.SLM_MODEL,
 }
 
 DATA_PATH = Path("data/fbc_eval_questions.csv")
