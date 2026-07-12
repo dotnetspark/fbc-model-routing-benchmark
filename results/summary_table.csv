@@ -1,0 +1,2 @@
+model_class,p50_latency_ms,p95_latency_ms,mean_cost_usd,citation_accuracy
+foundation,6631.887499999721,11096.31344999652,0.010455333333333334,0.25925925925925924

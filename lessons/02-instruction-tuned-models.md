@@ -8,7 +8,7 @@ For this project, the practical distinction you're testing is **instruction-foll
 
 ## 2. Why it matters for routing decisions
 
-Instruction-tuned models are your default for any question requiring structured output — which is most of what a building-code assistant needs to return to a downstream system (a permit-checking form, a contractor's estimating tool). The key risk you're testing: does a cheaper mid-tier instruction-tuned model hold the schema contract as reliably as the flagship foundation-tier model on numeric and jurisdiction-amendment questions?
+Instruction-tuned models are your default for any question requiring structured output — which is most of what a building-code assistant needs to return to a downstream system (a permit-checking form, a contractor's estimating tool). The key risk you're testing: does a cheaper mid-tier instruction-tuned model hold the schema contract as reliably as the flagship foundation-tier model on numeric and jurisdiction_amendment questions?
 
 ## 3. Build increment
 
@@ -36,11 +36,11 @@ async def call_instruction_tuned(question: str, question_id: str, client) -> Inf
     #     add a schema_valid field
 ```
 
-Run this against your full evaluation set, focusing on the `numeric` and `jurisdiction-amendment` categories. Add a schema-validation-failure counter alongside your existing citation-match check.
+Run this against your full evaluation set, focusing on the `numeric` and `jurisdiction_amendment` categories. Add a schema-validation-failure counter alongside your existing citation-match check.
 
 ## 4. Checkpoint
 
-You should have a second raw result file plus a diff report comparing foundation vs. instruction-tuned on: (a) schema-validity rate, (b) numeric-answer accuracy, (c) citation-match rate, (d) cost and latency. Look specifically for cases where the cheaper model produces *more* schema-valid output than the foundation model — this is a common, counterintuitive finding worth flagging for the dashboard.
+You should have a second raw result file plus a diff report comparing foundation vs. instruction-tuned on: (a) schema-validity rate, (b) numeric-answer accuracy, (c) citation-match rate, (d) cost and latency. Look specifically for cases where the cheaper model produces _more_ schema-valid output than the foundation model — this is a common, counterintuitive finding worth flagging for the dashboard.
 
 **Next:** Lesson 3 adds a local SLM and tests whether it can handle FBC lookups at all without help.
 

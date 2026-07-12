@@ -1,0 +1,1595 @@
+Chapter 62 - FLOODS
+Footnotes:
+--- (1) ---
+Cross reference— Buildings and building regulations, ch. 22; coastal zone protection, § 22-286 et seq.; seawalls and
+revetments, § 22-321 et seq.; water resources management, § 90-26 et seq.; planning, ch. 106; special districts providing for
+drainage, ch. 122; stormwater utility, § 134-311 et seq.; waterways, ch. 146.
+ARTICLE I. - IN GENERAL
+Footnotes:
+--- (2) ---
+Editor's note— Ord. No. 98-1, adopted Jan. 6, 1998, set out provisions regulating the conversion of swales to culverts in the
+public rights-of-way within an area of Naples Park. This material has been included as §§ 110-41—110-52 to read as herein
+set out at the discretion of the editor. Former § 62-1 provided for a moratorium which expired on Jan. 1, 1997 relating to the
+same matter. See the Code Comparative Table.
+Secs. 62-1—62-25. - Reserved.
+ARTICLE II. - FLOODPLAIN MANAGEMENT
+Footnotes:
+--- (3) ---
+Editor's note— Ord. No. 2019-01, §§ 1—19, adopted Jan. 8, 2019, repealed the former Art. II, §§ 62-26—62-161, and
+enacted a new Art. II as set out herein. The former Art. II was entitled "Flood Damage Prevention," and derived from: Ord.
+No. 86-28, §§ 1—21; Ord. No. 87-80, § 1—21; Ord. No. 90-31, §§ 1—5; Ord. No. 2005-51, §§ 1, 2; and Ord. No. 2010-36,
+§§ 1, 2; Ord. No. 2011-07, § 1—6; Ord. No. 2012-06, §§ 1—4; Ord. No. 2012-24, §§ 1—4; and Ord. No. 2013-28, § 1.
+DIVISION 1. - STATUTORY AUTHORIZATION, FINDINGS OF FACT, PURPOSE, AND OBJECTIVES
+Sec. 62-26. - Statutory authorization.
+The Legislature of the State of Florida has authorized and delegated in F.S. ch. 125, the responsibility of
+local government units to adopt regulations designed to promote the public health, safety, and general
+welfare of its citizenry. Therefore, the Board of County Commissioners of Collier County does hereby adopt
+the following Floodplain management regulations.
+(Ord. No. 2019-01, § 1)
+Sec. 62-27. - Findings of fact.
+(1)
+(2)
+(1)
+(2)
+(3)
+(4)
+(5)
+(1)
+(2)
+(3)
+(4)
+The Flood hazard areas of Collier County are subject to periodic inundation from intense rain
+storms and/or tropical cyclone storm surge, which could result in loss of life and property, health
+and safety hazards, disruption of commerce and governmental services, extraordinary public
+expenditures for Flood protection and relief, and impairment of the tax base, all of which
+adversely affect the public health, safety and general welfare.
+These Flood losses are caused by the cumulative effect of obstructions in Floodplains causing
+increases in Flood heights and velocities, and by the occupancy in Flood hazard areas by uses
+vulnerable to Floods or hazardous to other lands which are inadequately elevated, Floodproofed
+or otherwise unprotected from Flood damages.
+(Ord. No. 2019-01, § 1)
+Sec. 62-28. - Statement of purpose.
+It is the purpose of this Ordinance to save lives, promote the public life health, safety and general welfare
+and minimize public and private losses due to Flood conditions in specific areas by provisions designed to:
+Restrict or prohibit uses which are dangerous to health, safety and property due to water or
+erosion hazards, which result in damaging increases in erosion or in Flood heights and
+velocities;
+Require that uses vulnerable to Floods including facilities which serve such uses be protected
+against Flood damage throughout their intended life span;
+Control the alteration of natural Floodplains, stream channels, and natural protective barriers
+which are involved in the accommodation of Floodwaters;
+Control filling, grading, dredging and other Development which may increase erosion or Flood
+damage; and
+Prevent or regulate the construction of Flood barriers which will unnaturally divert
+Floodwaters or which may increase Flood hazards to other lands.
+(Ord. No. 2019-01, § 1)
+Sec. 62-29. - Objectives.
+The objectives of this Ordinance are to:
+Protect human life, health and to eliminate or minimize property damage;
+Minimize expenditure of public money for costly Flood control projects;
+Minimize the need for rescue and relief efforts associated with Flooding and generally
+undertaken at the expense of the general public;
+Minimize prolonged business interruptions;
+(5)
+(6)
+(7)
+Minimize damage to public facilities and public utilities such as water and gas mains, electric,
+telephone and sewer lines, roadways, and bridges and culverts located in Floodplains;
+Maintain a stable tax base by providing for the sound use and Development of Flood prone
+areas in such a manner as to minimize Flood blight areas; and
+Ensure that potential homebuyers are notified that property is in a Special flood hazard area.
+(Ord. No. 2019-01, § 1)
+Secs. 62-30—62-50. - Reserved.
+DIVISION 2. - DEFINITIONS AND ACRONYMS
+Sec. 62-51. - Definitions.
+Unless otherwise expressly stated, the following words, terms, and acronyms shall, for the purposes of
+this ordinance, have the meanings shown in this section. Where terms are not defined in this ordinance and
+are defined in the Florida Building Code, such terms shall have the meanings ascribed to them in that code.
+Where terms are not defined in this ordinance or the Florida Building Code, such terms shall have ordinarily
+accepted meanings such as the context implies.
+Accessory structure. A structure on the same parcel of property as a principal structure and the use of
+which is incidental to the use of the principal structure. For floodplain management purposes, the term
+includes only accessory structures used for parking and storage.
+Agricultural structure. For floodplain management purposes, a walled and roofed structure used
+exclusively for agricultural purposes or uses in connection with the production, harvesting, storage, raising,
+or drying of agricultural commodities and livestock, including aquatic organisms. Structures that house tools
+or equipment used in connection with these purposes or uses are also considered to have agricultural
+purposes or uses.
+Alteration of a watercourse. A dam, impoundment, channel relocation, change in channel alignment,
+channelization, or change in cross-sectional area of the channel or the channel capacity, or any other form
+of modification which may alter, impede, retard or change the direction and/or velocity of the riverine flow
+of water during conditions of the base flood.
+Appeal. A request for a review of the Floodplain Administrator's interpretation of any provision of this
+ordinance.
+ASCE 24. A standard titled Flood-Resistant Design and Construction that is referenced by the Florida
+Building Code. ASCE 24 is developed and published by the American Society of Civil Engineers, Reston, VA.
+(1)
+(2)
+Base flood. A flood having a 1-percent chance of being equaled or exceeded in any given year. [Also
+defined in FBC, B, Section 202.] The base flood is commonly referred to as the "100-year flood" or the "1-
+percent-annual chance flood."
+Base flood elevation. The elevation of the base flood, including wave height, relative to the National
+Geodetic Vertical Datum (NGVD), North American Vertical Datum (NAVD) or other datum specified on the
+Flood Insurance Rate Map (FIRM). [Also defined in FBC, B, Section 202.]
+Basement. The portion of a building having its floor subgrade (below ground level) on all sides. [Also
+defined in FBC, B, Section 202.]
+Coastal A Zone. Area within a special flood hazard area, landward of a Zone V or landward of an open
+coast without mapped coastal high hazard areas. The inland limit of the Coastal A Zone is the Limit of
+Moderate Wave Action where delineated on the Flood Insurance Rate Map (FIRM).
+Coastal construction control line. The line established by the State of Florida pursuant to F.S. § 161.053,
+and recorded in the official records of the community, which defines that portion of the beach-dune system
+subject to severe fluctuations based on a 100-year storm surge, storm waves or other predictable weather
+conditions.
+Coastal high hazard area. A special flood hazard area extending from offshore to the inland limit of a
+primary frontal dune along an open coast and any other area subject to high velocity wave action from
+storms or seismic sources. Coastal high hazard areas are also referred to as "high hazard areas subject to
+high velocity wave action" or "V Zones" and are designated on Flood Insurance Rate Maps (FIRM) as Zone V1-
+V30, VE, or V.
+Declaration of Land Restriction (Non-conversion Agreement). A form provided by the Floodplain
+Administrator to be signed by the owner and recorded in the public records of Collier County, FL, stating the
+owner agrees to not convert or modify the following in any manner that is inconsistent with the terms of the
+building permit and this ordinance: (1) an enclosure below an elevated building; (2) crawl/underfloor spaces
+that are more than 5 feet in height (measured from the lowest interior grade or floor to the bottom of the
+floor system above); (3) a detached structure that is not elevated and is larger than 120 square feet in area.
+Design flood. The flood associated with the greater of the following two areas: [Also defined in FBC, B,
+Section 202.]
+Area with a floodplain subject to a 1-percent or greater chance of flooding in any year; or
+Area designated as a flood hazard area on the community's flood hazard map, or otherwise
+legally designated.
+Design flood elevation. The elevation of the "design flood," including wave height, relative to the datum
+specified on the community's legally designated flood hazard map. In areas designated as Zone AO, the
+design flood elevation shall be the elevation of the highest existing grade of the building's perimeter plus
+(1)
+(2)
+(1)
+(2)
+the depth number (in feet) specified on the flood hazard map. In areas designated as Zone AO where the
+depth number is not specified on the map, the depth number shall be taken as being equal to 2 feet. [Also
+defined in FBC, B, Section 202.]
+Development. Any man-made change to improved or unimproved real estate, including but not limited
+to, buildings or other structures, tanks, temporary structures, temporary or permanent storage of
+equipment or materials, mining, dredging, filling, grading, paving, excavations, drilling operations or any
+other land disturbing activities.
+Encroachment. The placement of fill, excavation, buildings, permanent structures or other development
+into a flood hazard area which may impede or alter the flow capacity of riverine flood hazard areas.
+Existing building and existing structure. Any buildings and structures for which the start of construction
+commenced before September 4, 1979. [Also defined in FBC, B, Section 202.]
+Federal Emergency Management Agency (FEMA). The federal agency that, in addition to carrying out
+other functions, administers the National Flood Insurance Program.
+Flood or flooding. A general and temporary condition of partial or complete inundation of normally dry
+land from: [Also defined in FBC, B, Section 202.]
+The overflow of inland or tidal waters.
+The unusual and rapid accumulation or runoff of surface waters from any source.
+Flood damage-resistant materials. Any construction material capable of withstanding direct and
+prolonged contact with floodwaters without sustaining any damage that requires more than cosmetic
+repair. [Also defined in FBC, B, Section 202.]
+Flood elevation determination. A determination by the County Manager or designee of the water surface
+elevations of the base flood, that is, the flood level that has a one percent or greater chance of occurrence in
+any given year.
+Flood hazard area. The greater of the following two areas: [Also defined in FBC, B, Section 202.]
+The area within a floodplain subject to a 1-percent or greater chance of flooding in any year.
+The area designated as a flood hazard area on the community's flood hazard map, or
+otherwise legally designated.
+Flood Insurance Rate Map (FIRM). The official map of the community on which the Federal Emergency
+Management Agency has delineated both special flood hazard areas and the risk premium zones applicable
+to the community. [Also defined in FBC, B, Section 202.]
+Flood Insurance Study (FIS). The official report provided by the Federal Emergency Management Agency
+that contains the Flood Insurance Rate Map, the Flood Boundary and Floodway Map (if applicable), the water
+surface elevations of the base flood, and supporting technical data. [Also defined in FBC, B, Section 202.]
+Floodplain Administrator. The office or position designated and charged with the administration and
+enforcement of this ordinance.
+Floodplain development permit or approval. An official document or certificate issued by the community,
+or other evidence of approval or concurrence, which authorizes performance of specific development
+activities that are located in flood hazard areas and that are determined to be compliant with this ordinance.
+For the purposes of this Ordinance, evidence of this approval can be demonstrated by providing an
+approved local development order, such as site development plan, construction plans, or building permit, as
+applicable.
+Floodway. The channel of a river or other riverine watercourse and the adjacent land areas that must be
+reserved in order to discharge the base flood without cumulatively increasing the water surface elevation
+more than one (1) foot. [Also defined in FBC, B, Section 202.]
+Floodway encroachment analysis. An engineering analysis of the impact that a proposed encroachment
+into a floodway is expected to have on the floodway boundaries and base flood elevations; the evaluation
+shall be prepared by a qualified Florida licensed engineer using standard engineering methods and models.
+Florida Building Code. The family of codes adopted by the Florida Building Commission, as amended by
+Collier County, including: Florida Building Code, Building; Florida Building Code, Residential: Florida Building
+Code, Existing Building; Florida Building Code, Mechanical; Florida Building Code, Plumbing; Florida Building
+Code, Fuel Gas.
+Functionally dependent use. A use which cannot perform its intended purpose unless it is located or
+carried out in close proximity to water. The term includes only docking facilities, port facilities that are
+necessary for the loading and unloading of cargo or passengers, and ship building and ship repair facilities;
+the term does not include long-term storage or related manufacturing facilities.
+Hardship. As related to variances from this Ordinance, hardship means the exceptional hardship
+associated with the land that would result from a failure to grant the requested variance. The community
+requires that the variance is exceptional, unusual, and peculiar to the property involved. Mere economic or
+financial hardship alone is not exceptional. Inconvenience, aesthetic considerations, physical handicaps,
+personal preferences, or the objection of one's neighbors likewise cannot, as a rule, qualify as an
+exceptional hardship. All of these problems can be resolved through other means without granting a
+variance, even if the alternative is more expensive, or requires the property owner to build elsewhere or put
+the parcel to a different use than originally intended or similar options.
+Highest adjacent grade. The highest natural elevation of the ground surface prior to construction next to
+the proposed walls or foundation of a structure.
+Historic structure. Any structure that is determined eligible for the exception to the flood hazard area
+requirements of the Florida Building Code, Existing Building, Chapter 12 Historic Buildings.
+(1)
+(2)
+(3)
+Letter of Map Change (LOMC). An official determination issued by FEMA that amends or revises an
+effective Flood Insurance Rate Map or Flood Insurance Study. Letters of Map Change include:
+Letter of Map Amendment (LOMA): An amendment based on technical data showing that a
+property was incorrectly included in a designated special flood hazard area. A LOMA amends the
+current effective Flood Insurance Rate Map and establishes that a specific property, portion of a
+property, or structure is not located in a special flood hazard area.
+Letter of Map Revision (LOMR): A revision based on technical data that may show changes to
+flood zones, flood elevations, special flood hazard area boundaries and floodway delineations,
+and other planimetric features.
+Letter of Map Revision Based on Fill (LOMR-F): A determination that a structure or parcel of land
+has been elevated by fill above the base flood elevation and is, therefore, no longer located within
+the special flood hazard area. In order to qualify for this determination, the fill must have been
+permitted and placed in accordance with the community's floodplain management regulations.
+Conditional Letter of Map Revision (CLOMR): A formal review and comment as to whether a
+proposed flood protection project or other project complies with the minimum NFIP
+requirements for such projects with respect to delineation of special flood hazard areas. A
+CLOMR does not revise the effective Flood Insurance Rate Map or Flood Insurance Study; upon
+submission and approval of certified as-built documentation, a Letter of Map Revision may be
+issued by FEMA to revise the effective FIRM.
+Light-duty truck. As defined in 40 C.F.R. 86.082-2, any motor vehicle rated at 8,500 pounds Gross
+Vehicular Weight Rating or less which has a vehicular curb weight of 6,000 pounds or less and which has a
+basic vehicle frontal area of 45 square feet or less, which is:
+Designed primarily for purposes of transportation of property or is a derivation of such a
+vehicle; or
+Designed primarily for transportation of persons and has a capacity of more than 12 persons;
+or
+Available with special features enabling off-street or off-highway operation and use.
+Limit of Moderate Wave Action (LiMWA). Line shown on FIRMs to indicate the inland limit of the 1½-foot
+breaking wave height during the base flood.
+Lowest floor. The lowest floor of the lowest enclosed area of a building or structure, including basement,
+but excluding any unfinished or flood-resistant enclosure, other than a basement, usable solely for vehicle
+parking, building access or limited storage provided that such enclosure is not built so as to render the
+structure in violation of the non-elevation requirements of the Florida Building Code or ASCE 24. [Also
+defined in FBC, B, Section 202.]
+(1)
+(2)
+(3)
+Mangrove stand. An assemblage of mangrove trees which are mostly low trees noted for a copious
+development of interlacing adventitious roots above ground and which contain one or more of the following
+species: Black mangrove (Avicennia germinans); red mangrove (Rhizophora mangle); white mangrove
+(Laguncularia racemosa); and buttonwood (Conocarpus erecta).
+Manufactured home. A structure, transportable in one or more sections, which is eight (8) feet or more in
+width and greater than four hundred (400) square feet, and which is built on a permanent, integral chassis
+and is designed for use with or without a permanent foundation when attached to the required utilities. The
+term "manufactured home" does not include a "recreational vehicle" or "park trailer." [Also defined in 15C-
+1.0101, F.A.C.]
+Manufactured home park or subdivision. A parcel (or contiguous parcels) of land divided into two or
+more manufactured home lots for rent or sale.
+Market value. The value of buildings and structures, excluding the land and other improvements on the
+parcel. Market value is the Actual Cash Value (in-kind replacement cost depreciated for age, wear and tear,
+neglect, and quality of construction) determined by a qualified independent appraiser, or tax assessment
+value adjusted to approximate market value by a factor provided by the Property Appraiser.
+National Geodetic Vertical Datum (NGVD) of 1929 means a vertical control used as a reference for
+establishing varying elevations within the Floodplain. Elevation information based upon NGVD and used for
+Floodplain management purposes prior to March 14, 2011, may continue to be used provided there is also
+converted elevation information based upon NAVD. After March 14, 2011, all elevation information
+submitted with a development permit shall utilize NAVD.
+New construction. For the purposes of administration of this ordinance and the flood-resistant
+construction requirements of the Florida Building Code, structures for which the start of construction
+commenced on or after September 4, 1979, and includes any subsequent improvements to such structures.
+North American Vertical Datum (NAVD) of 1988 means a vertical control used as a reference for
+establishing varying elevations within the Floodplain. After March 14, 2011, all elevation information
+submitted with a development permit shall utilize NAVD.
+Park trailer. A transportable unit which has a body width not exceeding fourteen (14) feet and which is
+built on a single chassis and is designed to provide seasonal or temporary living quarters when connected to
+utilities necessary for operation of installed fixtures and appliances. [Defined in F.S. § 320.01.]
+Recreational vehicle. A vehicle, including a park trailer, which is: [See F.S. § 320.01.)
+Built on a single chassis;
+Four hundred (400) square feet or less when measured at the largest horizontal projection;
+Designed to be self-propelled or permanently towable by a light-duty truck; and
+(4)
+(1)
+(2)
+Designed primarily not for use as a permanent dwelling but as temporary living quarters for
+recreational, camping, travel, or seasonal use.
+Sand dunes. Naturally occurring accumulations of sand in ridges or mounds landward of the beach.
+Special flood hazard area. An area in the floodplain subject to a 1-percent or greater chance of flooding in
+any given year. Special flood hazard areas are shown on FIRMs as Zone A, AO, A1 A30, AE, A99, AH, V1 V30,
+VE or V. [Also defined in FBC, B Section 202.]
+Start of construction. The date of issuance for new construction and substantial improvements to
+existing structures, provided the actual start of construction, repair, reconstruction, rehabilitation, addition,
+placement, or other improvement is within 180 days of the date of the issuance. The actual start of
+construction means either the first placement of permanent construction of a building (including a
+manufactured home) on a site, such as the pouring of slab or footings, the installation of piles, or the
+construction of columns.
+Permanent construction does not include land preparation (such as clearing, grading, or filling), the
+installation of streets or walkways, excavation for a basement, footings, piers, or foundations, the erection
+of temporary forms or the installation of accessory buildings such as garages or sheds not occupied as
+dwelling units or not part of the main buildings. For a substantial improvement, the actual "start of
+construction" means the first alteration of any wall, ceiling, floor or other structural part of a building,
+whether or not that alteration affects the external dimensions of the building. [Also defined in FBC, B
+Section 202.]
+Substantial damage. Damage of any origin sustained by a building or structure whereby the cost of
+restoring the building or structure to its before-damaged condition would equal or exceed 50 percent of the
+market value of the building or structure before the damage occurred. [Also defined in FBC, B Section 202.]
+Substantial improvement. Any repair, reconstruction, rehabilitation, alteration, addition, or other
+improvement of a building or structure, the cost of which equals or exceeds 50 percent of the market value
+of the building or structure before the improvement or repair is started. If the structure has incurred
+substantial damage, any repairs are considered substantial improvement regardless of the actual repair
+work performed. The term does not, however, include either: [Also defined in FBC, B, Section 202.]
+Any project for improvement of a building required to correct existing health, sanitary, or
+safety code violations identified by the building official and that are the minimum necessary
+to assure safe living conditions.
+Any alteration of a historic structure provided the alteration will not preclude the structure's
+continued designation as a historic structure. [See Instructions and Notes.]
+Temporary emergency housing. Typically provided by FEMA or the Florida Division of Emergency
+Management (FDEM) in accordance with guidance noted in the Stafford Act and/or the Post-Katrina
+Emergency Management Reform Act and similar laws. FEMA or the Florida Division of Emergency
+•
+•
+Management may provide housing resources via its contractor or other approved agency such as the U.S.
+Department of Housing and Urban Development and others to provide for temporary emergency housing
+including, but not limited to: modular homes, mobile homes, component homes, cottages, camper trailers,
+or some other type of temporary living quarters intended to house displaced residents impacted by a
+natural or man-made disaster event.
+Variance. A grant of relief from the requirements of this ordinance, or the flood-resistant construction
+requirements of the Florida Building Code, which permits construction in a manner that would not
+otherwise be permitted by this ordinance or the Florida Building Code.
+Watercourse. The channel and banks of a lake, river, creek, stream, wash, channel or other topographic
+feature in, on, through, or over which water flows at least periodically. The watercourse does not include the
+adjoining floodplain areas.
+Wet season water table elevation (WSWT). The elevation, in relation to the NAVD of 1988, of the
+groundwater during that period of time each year in which the upper surface of the groundwater, or that
+level below which the soil or underlying rock material is wholly saturated with water, can normally be
+expected to be at its highest level. Water table elevation is measured from the soil surface downward to the
+upper level of saturated soil or upward to the free water level. The WSWT may be determined using the
+South Florida Water Management District's Environmental Resource Permit Information Manual 2014
+(amended through August 7, 2016), Part 111 - References and Design Aids, Section D (Determination of
+Seasonal High Water Table), as amended, or other methodology as approved by the Florida Department of
+Environmental Protection.
+Zone X. The designation used on Flood Insurance Rate Maps to identify areas outside the Special Flood
+Hazard Area. No flood elevations or depths are shown in this zone, and mandatory Federal flood insurance
+purchase requirements do not apply. Flood insurance is optional and available. Zone X may be:
+Zone X-500 (also known as Zone X Shaded) which represents the area outside of the 1-percent
+annual chance Floodplain but within the 0.2-percent annual chance Floodplain; and
+Zone X (also known as Zone X Unshaded) which represents the area outside of the 0.2-
+percent annual chance Floodplain.
+(Ord. No. 2019-01, § 2; Ord. No. 2022-07, § 1; Ord. No. 2024-12, § 2)
+Sec. 62-52. - Acronyms.
+ASCE American Society of Civil Engineers
+BFE Base flood elevation
+A.
+B.
+C.
+FEMA Federal Emergency Management Agency
+FIRM Flood Insurance Rate Map
+FIS Flood Insurance Study
+NAVD North American Vertical Datum
+NFIP National Flood Insurance Program
+NGVD National Geodetic Vertical Datum
+WSWT Wet season water table
+(Ord. No. 2019-01, § 2)
+Secs. 62-53—62-70. - Reserved.
+DIVISION 3. - ADMINISTRATION AND GENERAL PROVISIONS.
+Sec. 62-71. - Administration—General.
+Title. These regulations shall be known as the Floodplain Management Ordinance of Collier
+County, Florida.
+Scope. The provisions of this ordinance shall apply to all development that is wholly within or
+partially within any flood hazard area, including but not limited to, the subdivision of land; filling,
+grading, and other site improvements and utility installations; construction, alteration,
+remodeling, enlargement, improvement, replacement, repair, relocation or demolition of
+buildings, structures, and facilities that are exempt from the Florida Building Code; placement,
+installation, or replacement of manufactured homes and manufactured buildings; installation or
+replacement of tanks; placement of recreational vehicles; installation of swimming pools; and any
+other development. This ordinance shall also apply to establishing minimum floor elevations for
+buildings constructed within areas identified as Zone X and X-500 on the Flood Insurance Rate
+Maps adopted in Section 4, C (§ 62-72.C) of this ordinance.
+(1)
+(2)
+(3)
+(4)
+(5)
+(6)
+(7)
+(8)
+D.
+E.
+F.
+Intent. The purposes of this ordinance and the flood load and flood-resistant construction requirements of
+the Florida Building Code are to establish minimum requirements to safeguard the public health, safety,
+and general welfare and to minimize public and private losses due to flooding through regulation of
+development in flood hazard areas to:
+Minimize unnecessary disruption of commerce, access and public service during times of
+flooding;
+Require the use of appropriate construction practices in order to prevent or minimize future
+flood damage;
+Manage filling, grading, dredging, mining, paving, excavation, drilling operations, storage of
+equipment or materials, and other development which may increase flood damage or erosion
+potential;
+Manage the alteration of flood hazard areas, watercourses, and shorelines to minimize the
+impact of development on the natural and beneficial functions of the floodplain;
+Minimize damage to public and private facilities and utilities;
+Help maintain a stable tax base by providing for the sound use and development of flood
+hazard areas;
+Minimize the need for future expenditure of public funds for flood control projects and
+response to and recovery from flood events; and
+Meet the requirements of the National Flood Insurance Program for community participation
+as set forth in Title 44 Code of Federal Regulations, Section 59.22.
+Coordination with the Florida Building Code. This ordinance is intended to be administered and
+enforced in conjunction with the Florida Building Code. Where cited, ASCE 24 refers to the edition
+of the standard that is referenced by the Florida Building Code.
+Warning. The degree of flood protection required by this ordinance and the Florida Building Code,
+as amended by this community, is considered the minimum reasonable for regulatory purposes
+and is based on scientific and engineering considerations. Larger floods can and will occur. Flood
+heights may be increased by manmade or natural causes. This ordinance does not imply that land
+outside of mapped special flood hazard areas, or that uses permitted within such flood hazard
+areas, will be free from flooding or flood damage. The flood hazard areas and base flood
+elevations contained in the Flood Insurance Study and shown on Flood Insurance Rate Maps and
+the requirements of Title 44 Code of Federal Regulations, Sections 59 and 60 may be revised by
+the Federal Emergency Management Agency, requiring this community to revise these regulations
+to remain eligible for participation in the National Flood Insurance Program. No guaranty of
+vested use, existing use, or future use is implied or expressed by compliance with this ordinance.
+A.
+B.
+C.
+D.
+(1)
+(2)
+E.
+F.
+Disclaimer of Liability. This ordinance shall not create liability on the part of the Board of County
+Commissioners of Collier County, Florida or by any officer or employee thereof for any flood damage that
+results from reliance on this ordinance or any administrative decision lawfully made thereunder.
+(Ord. No. 2019-01, § 3)
+Sec. 62-72. - Applicability.
+General. Where there is a conflict between a general requirement and a specific requirement, the
+specific requirement shall be applicable.
+Areas to Which This Ordinance Applies. This ordinance shall apply to all flood hazard areas within
+the unincorporated Collier County, as established in Section 4, C (§ 62-72.C) of this ordinance.
+Additionally, the requirements for establishing minimum floor elevations shall be applicable for
+all areas identified as Zone X and X-500.
+Basis for Establishing Flood Hazard Areas. The Flood Insurance Study for Collier County, Florida
+and Incorporated Areas dated February 8, 2024, and all subsequent amendments and revisions,
+and the accompanying Flood Insurance Rate Maps (FIRM), and all subsequent amendments and
+revisions to such maps, are adopted by reference as a part of this ordinance and shall serve as
+the minimum basis for establishing flood hazard areas. Studies and maps that establish flood
+hazard areas are on file at the office of the Clerk to the Board of County Commissioners located
+at the County Government Center, 3299 Tamiami Trail East, Bldg. F, 4th Floor, Naples, FL 34112.
+Submission of Additional Data To Establish Flood Hazard Areas. To establish flood hazard areas
+and base flood elevations, pursuant to Section 7 (§ 62-75) of this ordinance the Floodplain
+Administrator may require submission of additional data. Where field surveyed topography
+prepared by a Florida licensed professional surveyor or digital topography accepted by the
+community indicates that ground elevations:
+Are below the closest applicable base flood elevation, even in areas not delineated as a
+special flood hazard area on a FIRM, the area shall be considered as flood hazard area and
+subject to the requirements of this ordinance and, as applicable, the requirements of the
+Florida Building Code.
+Are above the closest applicable base flood elevation, the area shall be regulated as special
+flood hazard area unless the applicant obtains a Letter of Map Change that removes the area
+from the special flood hazard area.
+Other Laws. The provisions of this ordinance shall not be deemed to nullify any provisions of
+local, state or federal law.
+Abrogation and Greater Restrictions. This ordinance supersedes any ordinance in effect for
+management of development in flood hazard areas. However, it is not intended to repeal or
+abrogate any existing ordinances including but not limited to land development regulations,
+G.
+(1)
+(2)
+(3)
+A.
+B.
+C.
+(1)
+(2)
+(3)
+(4)
+(5)
+(6)
+zoning ordinances, stormwater management regulations, or the Florida Building Code. In the event of a
+conflict between this ordinance and any other ordinance, the more restrictive shall govern. This ordinance
+shall not impair any deed restriction, covenant or easement, but any land that is subject to such interests
+shall also be governed by this ordinance.
+Interpretation. In the interpretation and application of this ordinance, all provisions shall be:
+Considered as minimum requirements;
+Liberally construed in favor of the governing body; and
+Deemed neither to limit nor repeal any other powers granted under state statutes.
+(Ord. No. 2019-01, § 4; Ord. No. 2024-12, § 3)
+Sec. 62-73. - Duties and powers of the floodplain administrator.
+Designation. The County Manager or designee is designated as the Floodplain Administrator. The
+Floodplain Administrator may delegate performance of certain duties to other employees.
+General. The Floodplain Administrator is authorized and directed to administer and enforce the
+provisions of this ordinance. The Floodplain Administrator shall have the authority to render
+interpretations of this ordinance consistent with the intent and purpose of this ordinance and
+may establish policies and procedures in order to clarify the application of its provisions. Such
+interpretations, policies, and procedures shall not have the effect of waiving requirements
+specifically provided in this ordinance without the granting of a variance pursuant to Section 9 (§
+62-77) of this ordinance.
+Duties of the Floodplain Administrator. The Floodplain Administrator, in coordination with other
+pertinent offices of the community, shall:
+Review applications and plans to determine whether proposed new development will be
+located in flood hazard areas;
+Review applications for modification of any existing development in flood hazard areas for
+compliance with the requirements of this ordinance;
+Interpret flood hazard area boundaries where such interpretation is necessary to determine
+the exact location of boundaries; a person contesting the determination shall have the
+opportunity to appeal the interpretation;
+Provide available flood elevation and flood hazard information, and make flood elevation
+determinations;
+Determine whether additional flood hazard data shall be obtained from other sources or shall
+be developed by an applicant;
+Review applications to determine whether proposed development will be reasonably safe
+from flooding;
+(7)
+(8)
+(9)
+(10)
+(11)
+(12)
+(13)
+(14)
+D.
+(1)
+Require that applicants proposing alteration of a watercourse notify adjacent communities
+and the Florida Division of Emergency Management, State Floodplain Management Office, and
+submit copies of such notifications to the Federal Emergency Management Agency (FEMA);
+Require applicants who submit hydrologic and hydraulic engineering analyses to support
+permit applications to submit to FEMA the data and information necessary to maintain the
+Flood Insurance Rate Maps if the analyses propose to change base flood elevations, flood
+hazard area boundaries, or floodway designations; such submissions shall be made within 6
+months of such data becoming available;
+Issue floodplain development permits or approvals for development other than buildings and
+structures that are subject to the Florida Building Code, including buildings, structures and
+facilities exempt from the Florida Building Code, when compliance with this ordinance is
+demonstrated, or disapprove the same in the event of noncompliance;
+Coordinate with and provide comments to the Building Official to assure that applications,
+plan reviews, and inspections for buildings and structures in flood hazard areas comply with
+the applicable provisions of this ordinance;
+Review required design certifications and documentation of elevations specified by this
+ordinance and the Florida Building Code and this ordinance to determine that such
+certifications and documentations are complete;
+Establish, in coordination with the Building Official, procedures for administering and
+documenting determinations of substantial improvement and substantial damage made
+pursuant to Section 5, D (62-73.D) of this ordinance;
+Advise applicants for new buildings and structures, including substantial improvements, that
+are located in any unit of the Coastal Barrier Resources System established by the Coastal
+Barrier Resources Act (Pub. L. 97-348) and the Coastal Barrier Improvement Act of 1990 (Pub.
+L. 101 -591) that federal flood insurance is not available on such construction; areas subject to
+this limitation are identified on Flood Insurance Rate Maps as "Coastal Barrier Resource
+System Areas" and "Otherwise Protected Areas"; and
+Notify the Federal Emergency Management Agency when the corporate boundaries of
+unincorporated Collier County, Florida are modified.
+Substantial Improvement and Substantial Damage Determinations. For applications for building
+permits to improve buildings, structures, and manufactured homes, including alterations,
+movement, enlargement, replacement, repair, change of occupancy, additions, rehabilitations,
+renovations, substantial improvements, repairs of substantial damage, and any other
+improvement of or work on such buildings and structures, the Floodplain Administrator, in
+coordination with the Building Official, shall:
+(2)
+(3)
+(4)
+(5)
+E.
+F.
+G.
+H.
+Estimate the market value, or require the applicant to obtain an appraisal of the market value prepared by
+a qualified independent appraiser, of the building or structure before the start of construction of the
+proposed work; in the case of repair, the market value of the building or structure shall be the market value
+before the damage occurred and before any repairs are made;
+Compare the cost to perform the improvement, the cost to repair a damaged building to its
+pre-damaged condition, or the combined costs of improvements and repairs, if applicable, to
+the market value of the building or structure;
+Determine and document whether the proposed work constitutes substantial improvement
+or repair of substantial damage; and
+Notify the applicant if it is determined that the work constitutes substantial improvement or
+repair of substantial damage and that compliance with the flood-resistant construction
+requirements of the Florida Building Code and this ordinance is required.
+Property owners of buildings, structures and facilities regulated by, or exempt from, the
+Florida Building Code, including manufactured homes, may appeal a substantial damage
+determination first through the process established in the Administrative Code for Land
+Development. Subsequent appeals shall be processed in accordance with Section 9 (§ 62-77)
+of this ordinance.
+Modifications of the Strict Application of the Requirements of the Florida Building Code. The
+Floodplain Administrator shall review requests submitted to the Building Official that seek
+approval to modify the strict application of the flood load and flood-resistant construction
+requirements of the Florida Building Code to determine whether such requests require the
+granting of a variance pursuant to Section 9 (§ 62-77) of this ordinance.
+Notices and Orders. The Floodplain Administrator shall coordinate with appropriate local
+agencies for the issuance of all necessary notices or orders to ensure compliance with this
+ordinance.
+Inspections. The Floodplain Administrator shall make the required inspections as specified in
+Section 8 (§ 62-76) of this ordinance for development that is not subject to the Florida Building
+Code, including buildings, structures and facilities exempt from the Florida Building Code. The
+Floodplain Administrator shall inspect flood hazard areas to determine if development is
+undertaken without issuance of a permit.
+Floodplain Management Records. Regardless of any limitation on the period required for
+retention of public records, the Floodplain Administrator shall maintain and permanently keep
+and make available for public inspection all records that are necessary for the administration of
+this ordinance and the flood-resistant construction requirements of the Florida Building Code,
+including Flood Insurance Rate Maps; Letters of Map Change; records of issuance of permits and
+denial of permits; determinations of whether proposed work constitutes substantial
+A.
+B.
+C.
+(1)
+(2)
+(3)
+(4)
+(5)
+(6)
+improvement or repair of substantial damage; required design certifications and documentation of
+elevations specified by the Florida Building Code and this ordinance; notifications to adjacent communities,
+FEMA, and the state related to alterations of watercourses; assurances that the flood-carrying capacity of
+altered watercourses will be maintained; documentation related to appeals and variances, including
+justification for issuance or denial; and records of enforcement actions taken pursuant to this ordinance
+and the flood-resistant construction requirements of the Florida Building Code. These records shall be
+available for public inspection at the Growth Management Division-Planning and Regulation, 2800 North
+Horseshoe Drive, Naples, FL 34104.
+(Ord. No. 2019-01, § 5; Ord. No. 2024-12, § 4)
+Sec. 62-74. - Permits.
+Permits Required. Any owner or owner's authorized agent (hereinafter "applicant") who intends
+to undertake any development activity within the scope of this ordinance, including buildings,
+structures and facilities exempt from the Florida Building Code, which is wholly within or partially
+within any flood hazard area shall first make application to the Floodplain Administrator, and the
+Building Official if applicable, and shall obtain the required permit(s) and approval(s). No such
+permit or approval shall be issued until compliance with the requirements of this ordinance and
+all other applicable codes and regulations has been satisfied.
+Floodplain Development Permits or Approvals. Floodplain development permits or approvals
+shall be issued pursuant to this ordinance for any development activities not subject to the
+requirements of the Florida Building Code, including buildings, structures and facilities exempt
+from the Florida Building Code. Depending on the nature and extent of proposed development
+that includes a building or structure, the Floodplain Administrator may determine that a
+floodplain development permit or approval is required in addition to a building permit.
+Buildings, Structures and Facilities Exempt from the Florida Building Code. Pursuant to the
+requirements of federal regulation for participation in the National Flood Insurance Program (44
+C.F.R. Sections 59 and 60), floodplain development permits or approvals shall be required for the
+following buildings, structures and facilities that are exempt from the Florida Building Code and
+any further exemptions provided by law, which are subject to the requirements of this ordinance:
+Railroads and ancillary facilities associated with the railroad.
+Nonresidential farm buildings on farms, as provided in F.S. § 604.50.
+Temporary buildings or sheds used exclusively for construction purposes.
+Mobile or modular structures used as temporary offices.
+Those structures or facilities of electric utilities, as defined in F.S. § 366.02, which are directly
+involved in the generation, transmission, or distribution of electricity.
+(7)
+(8)
+(9)
+D.
+(1)
+(2)
+(3)
+(4)
+(5)
+(6)
+(7)
+(8)
+(a)
+(b)
+(c)
+E.
+Chickees constructed by the Miccosukee Tribe of Indians of Florida or the Seminole Tribe of Florida. As used
+in this paragraph, the term "chickee" means an open-sided wooden hut that has a thatched roof of palm or
+palmetto or other traditional materials, and that does not incorporate any electrical, plumbing, or other
+non-wood features.
+Family mausoleums not exceeding 250 square feet in area which are prefabricated and
+assembled on site or preassembled and delivered on site and have walls, roofs, and a floor
+constructed of granite, marble, or reinforced concrete.
+Temporary housing provided by the Department of Corrections to any prisoner in the state
+correctional system.
+Structures identified in F.S. § 553.73(10)(k), are not exempt from the Florida Building Code if
+such structures are located in flood hazard areas established on Flood Insurance Rate Maps.
+Application for a Permit or Approval. To obtain a floodplain development permit or approval the
+applicant shall first file an application in writing on a form furnished by the community. The
+information provided shall:
+Identify and describe the development to be covered by the permit or approval.
+Describe the land on which the proposed development is to be conducted by legal
+description, street address or similar description that will readily identify and definitively
+locate the site.
+Indicate the use and occupancy for which the proposed development is intended.
+Be accompanied by a site plan or construction documents as specified in Section 7 (§ 62-75) of
+this ordinance.
+State the valuation of the proposed work.
+Be signed by the applicant or the applicant's authorized agent.
+Give such other data and information as required by the Floodplain Administrator.
+A signed Declaration of Land Restriction (Non-conversion Agreement) shall be recorded in the
+public records of Collier County, FL, prior to issuance of the certificate of occupancy or
+certificate of completion for the following:
+An enclosure below an elevated building.
+A crawl/underfloor space that are more than 5 feet in height (measured from the lowest
+interior grade or floor to the bottom of the floor system above).
+A detached structure that is not elevated and is larger than 120 square feet in area.
+Validity of Permit or Approval. The issuance of a floodplain development permit or approval
+pursuant to this ordinance shall not be construed to be a permit for, or approval of, any violation
+of this ordinance, the Florida Building Codes, or any other ordinance of this community. The
+F.
+G.
+H.
+(1)
+(2)
+(3)
+(4)
+(5)
+(6)
+A.
+issuance of permits based on submitted applications, construction documents, and information shall not
+prevent the Floodplain Administrator from requiring the correction of errors and omissions.
+Expiration. A floodplain development permit or approval shall become invalid unless the work
+authorized by such permit is commenced within 180 days after its issuance, or if the work
+authorized is suspended or abandoned for a period of 180 days after the work commences.
+Extensions for periods of not more than 180 days each shall be requested in writing and
+justifiable cause shall be demonstrated.
+Suspension or Revocation. The Floodplain Administrator is authorized to suspend or revoke a
+floodplain development permit or approval if the permit was issued in error, on the basis of
+incorrect, inaccurate or incomplete information, or in violation of this ordinance or any other
+ordinance, regulation or requirement of this community.
+Other Permits Required. Floodplain development permits and building permits shall include a
+condition that all other applicable state or federal permits be obtained before commencement of
+the permitted development, including but not limited to the following:
+The South Florida Water Management District; F.S. § 373.036.
+Florida Department of Health for onsite sewage treatment and disposal systems; F.S. §
+381.0065, and Chapter 64E-6, F.A.C.
+Florida Department of Environmental Protection for construction, reconstruction, changes, or
+physical activities for shore protection or other activities seaward of the coastal construction
+control line; F.S. § 161.041.
+Florida Department of Environmental Protection for activities subject to the Joint Coastal
+Permit; F.S. § 161.055.
+Florida Department of Environmental Protection for activities that affect wetlands and alter
+surface water flows, in conjunction with the U.S. Army Corps of Engineers; Section 404 of the
+Clean Water Act.
+Federal permits and approvals.
+(Ord. No. 2019-01, § 6)
+Sec. 62-75. - Site plans and construction documents.
+Information for Development in Flood Hazard Areas. The Floodplain Administrator is authorized
+to waive the submission of site plans, construction documents, and other data that are required
+by this ordinance but that are not required to be prepared by a registered design professional if it
+is found that the nature of the proposed development is such that the review of such
+(1)
+(2)
+(3)
+(4)
+(5)
+(6)
+(7)
+(8)
+(9)
+B.
+(1)
+(2)
+submissions is not necessary to ascertain compliance with this ordinance. The site plan or construction
+documents for any development subject to the requirements of this ordinance shall be drawn to scale and
+shall include, as applicable to the proposed development:
+Delineation of flood hazard areas, floodway boundaries and flood zone(s), base flood
+elevation(s), and ground elevations if necessary for review of the proposed development.
+Where base flood elevations, or floodway data are not included on the FIRM or in the Flood
+Insurance Study, they shall be established in accordance with Sections 7, B(2) or (3) (§§ 62-
+75.B(2) or (3)) of this ordinance.
+Where the parcel on which the proposed development will take place will have more than 50
+lots or is larger than 5 acres and the base flood elevations are not included on the FIRM or in
+the Flood Insurance Study, such elevations shall be established in accordance with Section 7,
+B(1) (§ 62-75.B(1)) of this ordinance.
+Location of the proposed activity and proposed structures, and locations of existing buildings
+and structures; in coastal high hazard areas and Coastal A Zones, new buildings shall be
+located landward of the reach of mean high tide.
+Location, extent, amount, and proposed final grades of any filling, grading, or excavation.
+Where the placement of fill is proposed, the amount, type, and source of fill material;
+compaction specifications; a description of the intended purpose of the fill areas; and
+evidence that the proposed fill areas are the minimum necessary to achieve the intended
+purpose; and evidence that the proposed fill does not cause significant amounts of runoff to
+flow from the site onto abutting properties or into adjoining waters which are not County-
+approved drainage systems.
+Delineation of the Coastal Construction Control Line or notation that the site is seaward of the
+coastal construction control line, if applicable.
+Extent of any proposed alteration of sand dunes or mangrove stands, provided such
+alteration is approved by the Florida Department of Environmental Protection.
+Existing and proposed alignment of any proposed alteration of a watercourse.
+Information in Flood Hazard Areas without Base Flood Elevations (Approximate Zone A). Where
+flood hazard areas are delineated on the FIRM and base flood elevation data have not been
+provided, the Floodplain Administrator shall:
+Require the applicant to include base flood elevation data prepared in accordance with
+currently accepted engineering practices.
+Obtain, review, and provide to applicants base flood elevation and floodway data available
+from a federal or state agency or other source or require the applicant to obtain and use base
+flood elevation and floodway data available from a federal or state agency or other source.
+(3)
+(a)
+(b)
+(4)
+C.
+(1)
+(2)
+Where base flood elevation and floodway data are not available from another source, where
+the available data are deemed by the Floodplain Administrator to not reasonably reflect
+flooding conditions, or where the available data are known to be scientifically or technically
+incorrect or otherwise inadequate:
+Require the applicant to include base flood elevation data prepared in accordance with
+currently accepted engineering practices; or
+Specify that the base flood elevation is four (4) feet above the highest adjacent grade or
+Wet Season Water Table, whichever is higher; OR if utilizing a pressurized septic design:
+engineering justifications, considering adjacent flood elevations and other applicable
+criteria, may be presented to the Floodplain Administrator for consideration of a lowered
+flood elevation. In no case can the lowest floor be less than three (3) feet above the
+highest adjacent grade or Wet Season Water Table, whichever is higher at the location of
+the development, provided there is no evidence indicating flood depths have been or may
+be greater than the proposed elevation.
+Where the base flood elevation data are to be used to support a Letter of Map Change from
+FEMA, advise the applicant that the analyses shall be prepared by a Florida licensed engineer
+in a format required by FEMA, and that it shall be the responsibility of the applicant to satisfy
+the submittal requirements and pay the processing fees.
+Additional Analyses and Certifications. As applicable to the location and nature of the proposed
+development activity, and in addition to the requirements of this section, the applicant shall have
+the following analyses signed and sealed by a Florida licensed engineer for submission with the
+site plan and construction documents:
+For development activities proposed to be located in a regulatory floodway, a floodway
+encroachment analysis that demonstrates that the encroachment of the proposed
+development will not cause any increase in base flood elevations; where the applicant
+proposes to undertake development activities that do increase base flood elevations, the
+applicant shall submit such analysis to FEMA as specified in Section 7, D (§ 62-75.D) of this
+ordinance and shall submit the Conditional Letter of Map Revision, if issued by FEMA, with the
+site plan and construction documents.
+(3)
+(4)
+D.
+A.
+B.
+C.
+D.
+For development activities proposed to be located in a riverine flood hazard area for which base flood
+elevations are included in the Flood Insurance Study or on the FIRM and floodways have not been
+designated, hydrologic and hydraulic analyses that demonstrate that the cumulative effect of the proposed
+development, when combined with all other existing and anticipated flood hazard area encroachments, will
+not increase the base flood elevation more than one (1) foot at any point within the community. This
+requirement does not apply in isolated flood hazard areas not connected to a riverine flood hazard area or
+in flood hazard areas identified as Zone AO or Zone AH.
+For alteration of a watercourse, an engineering analysis prepared in accordance with
+standard engineering practices which demonstrates that the flood-carrying capacity of the
+altered or relocated portion of the watercourse will not be decreased, and certification that
+the altered watercourse shall be maintained in a manner which preserves the channel's flood-
+carrying capacity; the applicant shall submit the analysis to FEMA as specified in Section 7, D
+(§ 62-75.D) of this ordinance.
+For activities that propose to alter sand dunes or mangrove stands in coastal high hazard
+areas (Zone V) and Coastal A Zones, an engineering analysis that demonstrates that the
+proposed alteration will not increase the potential for flood damage.
+Submission of Additional Data. When additional hydrologic, hydraulic or other engineering data,
+studies, and additional analyses are submitted to support an application, the applicant has the
+right to seek a Letter of Map Change from FEMA to change the base flood elevations, change
+floodway boundaries, or change boundaries of flood hazard areas shown on FIRMs, and to submit
+such data to FEMA for such purposes. The analyses shall be prepared by a Florida licensed
+engineer in a format required by FEMA. Submittal requirements and processing fees shall be the
+responsibility of the applicant.
+(Ord. No. 2019-01, § 7; Ord. No. 2022-07, § 2; Ord. No. 2024-12, § 5)
+Sec. 62-76. - Inspections.
+General. Development for which a floodplain development permit or approval is required shall be
+subject to inspection.
+Development Other Than Buildings and Structures. The Floodplain Administrator shall inspect all
+development to determine compliance with the requirements of this ordinance and the
+conditions of issued floodplain development permits or approvals.
+Buildings, Structures and Facilities Exempt from the Florida Building Code. The Floodplain
+Administrator shall inspect buildings, structures and facilities exempt from the Florida Building
+Code to determine compliance with the requirements of this ordinance and the conditions of
+issued floodplain development permits or approvals.
+(1)
+(2)
+E.
+F.
+A.
+(1)
+(2)
+Buildings, Structures and Facilities Exempt from the Florida Building Code, Lowest Floor Inspection. Upon
+placement of the lowest floor, including basement, and prior to further vertical construction, the owner of a
+building, structure or facility exempt from the Florida Building Code, or the owner's authorized agent, shall
+submit to the Floodplain Administrator:
+If a design flood elevation was used to determine the required elevation of the lowest floor,
+the certification of elevation of the lowest floor prepared and sealed by a Florida licensed
+professional surveyor; or
+If the elevation used to determine the required elevation of the lowest floor was determined
+in accordance with Section 7, B(3)(b) (§ 62-75.B(3)(b)) of this ordinance, the documentation of
+height of the lowest floor above highest adjacent grade, prepared by the owner or the
+owner's authorized agent.
+Buildings, Structures and Facilities Exempt from the Florida Building Code, Final Inspection. As
+part of the final inspection, the owner or owner's authorized agent shall submit to the Floodplain
+Administrator a final certification of elevation of the lowest floor or final documentation of the
+height of the lowest floor above the highest adjacent grade; such certifications and
+documentations shall be prepared as specified in Section 8, D (§ 62-76.D) of this ordinance.
+Manufactured Homes. The Floodplain Administrator shall inspect manufactured homes that are
+installed or replaced in flood hazard areas to determine compliance with the requirements of this
+ordinance and the conditions of the issued permit. Upon placement of a manufactured home,
+certification of the elevation of the lowest floor shall be submitted to the Floodplain
+Administrator.
+(Ord. No. 2019-01, § 8)
+Sec. 62-77. - Variances and appeals.
+Variances and appeals; In General. Requests for variances and requests for appeals shall be
+processed in accordance with this section. Requests for variances and appeals shall be
+accompanied with the fee specified in the Growth Management Department, Development
+Services Fee Schedule.
+The Office of the Hearing Examiner (or the Planning Commission if the Hearing Examiner is
+not available) shall hear requests for variances from the strict application of requirements of
+this ordinance and which are not requirements of the Florida Building Code, in accordance
+with Land Development Code section 10.09.00.
+Pursuant to F.S. § 553.73(5), the Board of Building Adjustments and Appeals shall hear and
+decide on requests for appeals and requests for variances from the strict application of the
+flood-resistant construction requirements of the Florida Building Code. This section does not
+apply to Section 3109 of the Florida Building Code, Building.
+B.
+C.
+D.
+E.
+F.
+(1)
+Limitations on Authority to Grant Variances. The Office of the Hearing Examiner (or the Planning
+Commission if the Hearing Examiner is not available) and the Board of Building Adjustments and
+Appeals, as applicable, shall base its decisions on variances on technical justifications submitted
+by applicants, the considerations for issuance in Section 9, F (§ 62-77.F) of this ordinance, the
+conditions of issuance set forth in Section 9, G (§ 62-77.G) of this ordinance, and the comments
+and recommendations of the Floodplain Administrator and the Building Official. The Office of the
+Hearing Examiner (or the Planning Commission if the Hearing Examiner is not available) and the
+Board of Building Adjustments and Appeals, as applicable, has the right to attach such conditions
+as it deems necessary to further the purposes and objectives of this ordinance and the Florida
+Building Code, as applicable.
+Restrictions in Floodways. A variance shall not be issued by the Office of the Hearing Examiner (or
+the Planning Commission if the Hearing Examiner is not available) or the Board of Building
+Adjustments and Appeals, as applicable, for any proposed development in a floodway if any
+increase in base flood elevations would result, as evidenced by the applicable analyses and
+certifications required in Section 7, C (§ 62-75.C) of this ordinance.
+Historic Buildings. A variance is authorized to be issued by the Board of Building Adjustments and
+Appeals for the repair, improvement, or rehabilitation of a historic building that is determined
+eligible for the exception to the flood-resistant construction requirements of the Florida Building
+Code, Existing Building, Chapter 12 Historic Buildings, upon a determination that the proposed
+repair, improvement, or rehabilitation will not preclude the building's continued designation as a
+historic building and the variance is the minimum necessary to preserve the historic character
+and design of the building. If the proposed work precludes the building's continued designation
+as a historic building, a variance shall not be granted and the building and any repair,
+improvement, and rehabilitation shall be subject to the requirements of the Florida Building
+Code.
+Functionally Dependent Uses. A variance is authorized to be issued by the Board of Building
+Adjustments and Appeals for the construction or substantial improvement necessary for the
+conduct of a functionally dependent use, as defined in this ordinance, provided the variance
+meets the requirements of Section 9, C (§ 62-77.C) of this ordinance, is the minimum necessary
+considering the flood hazard, and all due consideration has been given to use of methods and
+materials that minimize flood damage during occurrence of the base flood.
+Considerations for Issuance of Variances. In making a determination under Section 9, G (§ 62-77)
+of this ordinance, the Office of the Hearing Examiner (or the Planning Commission if the Hearing
+Examiner is not available) and the Board of Building Adjustments and Appeals, as applicable, shall
+consider all technical evaluations, all relevant factors, all other applicable provisions of the Florida
+Building Code, this ordinance, and the following:
+(2)
+(3)
+(4)
+(5)
+(6)
+(7)
+(8)
+(9)
+(10)
+G.
+(1)
+(2)
+(a)
+(b)
+(c)
+(3)
+(4)
+The danger that materials and debris may be swept onto other lands resulting in further injury or damage;
+The danger to life and property due to flooding or erosion damage;
+The susceptibility of the proposed development, including contents, to flood damage and the
+effect of such damage on current and future owners;
+The importance of the services provided by the proposed development to the community;
+The availability of alternate locations for the proposed development that are subject to lower
+risk of flooding or erosion;
+The compatibility of the proposed development with existing and anticipated development;
+The relationship of the proposed development to the comprehensive plan and floodplain
+management program for the area;
+The safety of access to the property in times of flooding for ordinary and emergency vehicles;
+The expected heights, velocity, duration, rate of rise and debris and sediment transport of the
+floodwaters and the effects of wave action, if applicable, expected at the site; and
+The costs of providing governmental services during and after flood conditions including
+maintenance and repair of public utilities and facilities such as sewer, gas, electrical and water
+systems, streets and bridges.
+Conditions for Issuance of Variances. Variances shall be issued only upon:
+Submission by the applicant, of a showing of good and sufficient cause that the unique
+characteristics of the size, configuration, or topography of the site limit compliance with any
+provision of this ordinance or the required elevation standards;
+Determination by the Office of the Hearing Examiner (or the Planning Commission if the
+Hearing Examiner is not available) and the Board of Building Adjustments and Appeals, as
+applicable, that:
+Failure to grant the variance would result in exceptional hardship due to the physical
+characteristics of the land that render the lot undevelopable; increased costs to satisfy the
+requirements or inconvenience do not constitute hardship;
+The granting of a variance will not result in increased flood heights, additional threats to
+public safety, extraordinary public expense, nor create nuisances, cause fraud on or
+victimization of the public or conflict with existing local laws and ordinances; and
+The variance is the minimum necessary, considering the flood hazard, to afford relief.
+Receipt of a signed statement by the applicant that the variance, if granted, shall be recorded
+in the Office of the Clerk of the Court in such a manner that it appears in the chain of title of
+the affected parcel of land; and
+H.
+(1)
+(a)
+(b)
+(c)
+(d)
+(e)
+(2)
+(a)
+(b)
+(c)
+(d)
+I.
+If the request is for a variance to allow construction of the lowest floor of a new building, or substantial
+improvement of a building, below the required elevation, a copy in the record of a written notice from the
+Floodplain Administrator to the applicant for the variance, specifying the difference between the base flood
+elevation and the proposed elevation of the lowest floor, stating that the cost of federal flood insurance will
+be commensurate with the increased risk resulting from the reduced floor elevation (up to amounts as high
+as $25 for $100 of insurance coverage), and stating that construction below the base flood elevation
+increases risks to life and property.
+Agricultural structures. A variance is authorized to be issued by the Board of Building
+Adjustments and Appeals for the construction or substantial improvement of agricultural
+structures provided the requirements of this section are satisfied and:
+A determination has been made that the proposed agricultural structure:
+Is used exclusively in connection with the production, harvesting, storage, raising, or
+drying of agricultural commodities and livestock, or storage of tools or equipment used in
+connection with these purposes or uses, and will be restricted to such exclusive uses;
+Has low damage potential (amount of physical damage, contents damage, and loss of
+function);
+Does not increase risks and pose a danger to public health, safety, and welfare if flooded
+and contents are released, including but not limited to the effects of flooding on manure
+storage, livestock confinement operations, liquified natural gas terminals, and production
+and storage of highly volatile, toxic, or water-reactive materials;
+Is not located in a coastal high hazard area (Zone V/VE), except for aquaculture structures
+dependent on close proximity to water; and
+Complies with the wet floodproofing construction requirements of paragraph (2), below.
+Wet floodproofing construction requirements.
+Anchored to resist flotation, collapse, and lateral movement;
+When enclosed by walls, walls have flood openings that comply with the flood opening
+requirements of ASCE 24, Chapter 2;
+Flood damage-resistant materials are used below the base flood elevation plus one (1)
+foot; and
+Mechanical, electrical, and utility equipment, including plumbing fixtures, are elevated
+above the base flood elevation plus one (1) foot.
+Certain at-grade accessory structures. A request for a variance is authorized to be heard and
+decided by the Growth Management Department Head or designee for the construction or
+substantial improvement of at-grade accessory structures located in special flood hazard areas
+(1)
+(2)
+(3)
+(4)
+(5)
+J.
+K.
+A.
+(zone A/AE) other than coastal high hazard areas that are larger than the size limits specified in Section 12,
+C (§ 62-80.C), provided the requirements of this section are satisfied, the accessory structures are used only
+for parking or storage, and the accessory structures:
+Represent minimal investment and has low damage potential;
+Are one story and not larger than 1,200 square feet in size, and have flood openings in
+accordance with Section R322.2 of the Florida Building Code, Residential;
+Are anchored to resist flotation, collapse or lateral movement resulting from flood loads; and
+Have flood damage-resistant materials used below the base flood elevation plus one (1) foot.
+Have mechanical, plumbing and electrical systems, including plumbing fixtures, elevated to or
+above the base flood elevation plus one (1) foot.
+Requests for Appeals. The Office of the Hearing Examiner (or the Planning Commission if the
+Hearing Examiner is not available) or the Board of Building Adjustments and Appeals, as
+applicable, shall hear and decide on requests for appeals when it is alleged there is an error in
+any requirement, decision, or determination made by the Floodplain Administrator in the
+administration and enforcement of this ordinance.
+Process for Decisions and Appeal of Decisions of the Office of the Hearing Examiner. All decisions
+of the Hearing Examiner (or the Planning Commission if the Hearing Examiner is not available)
+and the Board of Building Adjustments and Appeals, as applicable, arising from Section 9 (§ 62-77)
+of this ordinance will be delivered or mailed by the Hearing Examiner to all parties of record, the
+County Attorney, and the County Manager. Any party, including the County, may appeal the
+decision to the Board of Zoning Appeals within the time frame and in the manner provided by the
+Rules of Procedure, as described in Ordinance No. 2013-25, Section 4, as amended. Failing a
+timely appeal, the decision of the Hearing Examiner will be considered final in all respects.
+Appeals shall be heard de novo by the Board of Zoning Appeals in the manner proscribed in the
+LDC. In reaching its decision, the Board of Zoning Appeals may adopt or deny, in whole or in part,
+the decision of the Hearing Examiner.
+(Ord. No. 2019-01, § 9; Ord. No. 2022-07, § 3)
+Sec. 62-78. - Violations.
+Violations. Any development that is not within the scope of the Florida Building Code but that is
+regulated by this ordinance that is performed without an issued permit, that is in conflict with an
+issued permit, or that does not fully comply with this ordinance, shall be deemed a violation of
+this ordinance. A building or structure without the documentation of elevation of the lowest floor,
+other required design certifications, or other evidence of compliance required by this ordinance
+or the Florida Building Code is presumed to be a violation until such time as that documentation
+is provided.
+B.
+C.
+A.
+B.
+1.
+2.
+C.
+D.
+Authority. For development that is not within the scope of the Florida Building Code but that is
+regulated by this ordinance and that is determined to be a violation, the Floodplain Administrator
+is authorized to serve notices of violation or stop work orders to owners of the property involved,
+to the owner's agent, or to the person or persons performing the work.
+Unlawful Continuance. Any person who shall continue any work after having been served with a
+notice of violation or a stop work order, except such work as that person is directed to perform to
+remove or remedy a violation or unsafe condition, shall be subject to penalties as prescribed in
+the Collier County Consolidated Code Enforcement Ordinance as it may be amended or replaced.
+(Ord. No. 2019-01, § 10)
+Sec. 62-79. - Temporary emergency housing.
+Establishing the Need for Temporary Emergency Housing. To establish the need for temporary
+emergency housing, the Board of County Commissioners must determine and declare by simple
+majority vote that an emergency condition exists due to a natural or man-made disaster. Based
+upon that disaster declaration the County Manager, in consultation with the Emergency
+Management Director and the Floodplain Administrator, is authorized to allow for temporary
+emergency housing in the special flood hazard area.
+Placement of Temporary Emergency Housing within the Flood Hazard Area. The Board of County
+Commissioners or the County Manager or designee, in coordination with the Floodplain
+Administrator, may allow for post-disaster emergency temporary manufactured homes,
+recreational vehicles or similar resources provided by federal, state, and local agencies within the
+flood hazard areas for a period of six months pursuant to subsection F below. The property
+owner or its representative shall provide sufficient evidence to the County demonstrating that the
+dwelling sustained damage from the disaster to warrant the temporary emergency housing.
+Additional six-month extensions for temporary emergency housing may be administratively
+approved, by the County Manager or designee, when:
+A homeowner has an active building permit and additional time is necessary for an issuance
+of the certificate of occupancy; and
+Any delay in construction activity has not been caused by action of the homeowner and is the
+result of an uncontrollable event such as unavailable construction materials, subcontractors,
+or essential services.
+Temporary Emergency Housing Prohibitions. Temporary emergency housing shall not be located
+in the VE or the Coastal A flood zones.
+Installation Standards. Manufactured homes shall be placed in a manner consistent with Section
+15 (§ 62-83) of this ordinance. Recreational vehicles or similar road ready vehicles shall comply
+with the requirements of Section 16 (§ 62-84) of this ordinance.
+E.
+F.
+G.
+A.
+B.
+(1)
+(a)
+(b)
+(c)
+(2)
+(3)
+(4)
+Emergency Notification and Evacuation Plan. An emergency notification and evacuation plan shall
+be prepared to ensure the safety of the occupants of the temporary emergency housing. The
+emergency notification and evacuation plan shall be submitted, within thirty (30) days of
+occupancy of the temporary emergency housing units, for review and approval to the Collier
+County Division of Emergency Management.
+Permit for the Temporary Placement of Emergency Housing. Prior to the placement of all
+temporary emergency housing in the special flood hazard area, the applicant shall be required to
+submit a temporary permit application to the Floodplain Administrator affirming that the
+structure is in compliance with this Section and 44 CFR 60.3(e).
+Consistent with Post-Disaster Recovery Ordinance. The efforts specified in this section shall be
+consistent with Ordinance No. 2006-35, Section 7.
+(Ord. No. 2019-01, § 11; Ord. No. 2020-05, § 1; Ord. No. 2024-12, § 6)
+Sec. 62-80. - Buildings and structures.
+Design and construction of buildings, structures and facilities exempt from the Florida Building
+Code. Pursuant to Section 6, C (§ 62-74.C) of this ordinance, buildings, structures, and facilities
+that are exempt from the Florida Building Code, including substantial improvement or repair of
+substantial damage of such buildings, structures and facilities, shall be designed and constructed
+in accordance with the flood load and flood-resistant construction requirements of ASCE 24.
+Structures exempt from the Florida Building Code that are not walled and roofed buildings shall
+comply with the requirements of Section 18 (§ 62-86) of this ordinance.
+Enclosures below the lowest floor. Enclosed areas below elevated buildings and structures shall
+comply with the requirements of the Florida Building Code, shall be limited to parking of vehicles,
+storage, and building access, and shall comply with the following:
+Access to the enclosed area shall be the minimum necessary to allow for:
+Parking of vehicles (garage doors);
+Limited storage of maintenance equipment used in connection with the premises
+(standard exterior door not to exceed 3.0 ft. by 8.0 ft.);
+Main entrance to the structure (one double door set).
+All areas that are partitioned within the enclosed area shall be vented in accordance with
+ASCE 24 Flood-Resistant Design and Construction;
+All construction below the lowest floor shall be built with flood damage-resistant materials
+consistent with ASCE 24 Flood-Resistant Design and Construction, for example: pressure
+treated wood and water-durable and mold-resistant cement backerboard; and
+C.
+(1)
+(2)
+(3)
+(4)
+(5)
+(6)
+D.
+E.
+Section 6, D(8) (§ 62-74.D(8)) of this ordinance, regarding a Declaration of Land Restriction (Non-conversion
+agreement).
+Detached accessory structures. Detached accessory structures used only for parking or storage
+that are not elevated (garages, tool sheds, storage buildings, steel ISO 10'-20'-40' storage
+containers, etc.) may be positioned on the ground or a slab below the base flood elevation
+provided:
+If located in special flood hazard areas (Zone A/AE) other than coastal high hazard areas and
+Coastal A Zones, are one-story and not larger than 600 sq. ft. and have flood openings in
+accordance with Section R322.2 of the Florida Building Code, Residential;
+If located in coastal high hazard areas (Zone V/VE) and Coastal A Zones, are not located below
+elevated buildings and are not larger than 100 sq. ft.;
+Are anchored to resist flotation, collapse or lateral movement resulting from flood loads;
+Have flood damage-resistant materials used below the base flood elevation plus one (1) foot;
+Have mechanical, plumbing and electrical systems, including plumbing fixtures, elevated to or
+above the base flood elevation plus one (1) foot; and
+A property owner must provide a signed Declaration of Land Restriction (Non-conversion
+agreement) prior to the issuance of the certificate of completion for detached accessory
+structures that are not elevated and are greater than 120 square feet.
+Design and construction of nonresidential farm buildings on farms. Pursuant to Section 6, C (§ 62-
+74.C) of this ordinance, nonresidential farm buildings on farms that are exempt from the Florida
+Building Code, including substantial improvement or repair of substantial damage of such
+buildings, shall be designed and constructed in accordance with the flood load and flood-resistant
+construction requirements of ASCE 24. If required to be elevated in accordance with ASCE 24,
+nonresidential farm buildings on farms shall be elevated to or above the base flood elevation
+unless granted a variance pursuant to Section 9 (§ 62-77) for wet floodproofing in accordance
+with Section 9, H (§ 62-77.H). Structures exempt from the Florida Building Code that are not
+walled and roofed buildings shall comply with the requirements of Section 18 (§ 62-86) of this
+ordinance.
+Permanently-mounted air-conditioners, generators, and other exterior mechanical equipment.
+When installed with new construction or replaced as part of substantial improvement or repair of
+substantial damage, permanently-mounted air-conditioners, generators, and other exterior
+mechanical equipment shall be elevated to or above the elevation required by the Florida
+Building Code - Residential Sec. R322.1.6 or Florida Building Code - Building, Sec. 1612 (ASCE 24),
+as applicable. When not part of substantial improvement or repair of substantial damage, new or
+F.
+G.
+(1)
+(2)
+H.
+(1)
+(2)
+(a)
+replacement of permanently-mounted air-conditioners, generators, and exterior mechanical equipment
+shall be elevated to or above the BFE or the lowest floor elevation of the building served, whichever is
+lower.
+Pool Equipment. When installed with new construction or new equipment is installed for an
+existing pool, pool equipment shall be elevated to or above the elevation required by the Florida
+Building Code, Residential R322.1.6 or Florida Building Code, Building, Sec. 1612 (ASCE 24), as
+applicable. Where pool equipment is installed to replace existing pool equipment, the new pool
+equipment shall be elevated to or above the elevation of the existing pool equipment. In cases
+where the elevation of pool equipment will hinder access for repair and maintenance, a letter
+may be submitted by the pool contractor to the building official demonstrating that the
+equipment can be installed to resist flood forces and is GFI protected per the National Electric
+Code (NEC) 2014, 680.21(C), as may be amended from time to time.
+Buildings and structures seaward of the coastal construction control line. If extending, in whole or
+in part, seaward of the coastal construction control line and also located, in whole or in part, in a
+flood hazard area:
+Buildings and structures shall be designed and constructed to comply with the more
+restrictive applicable requirements of the Florida Building Code, Building Section 3109 and
+Section 1612 or Florida Building Code, Residential Section R322.
+Minor structures and non-habitable major structures as defined in F.S. § 161.54, shall be
+designed and constructed to comply with the intent and applicable provisions of this
+ordinance and ASCE 24.
+Lowest floor elevation requirements for residential buildings. The area below the lowest floor
+shall be limited to storage, access, and parking.
+Residential buildings subject to South Florida Water Management District Permit
+requirements or were previously approved to a 100-year, three-day, zero-discharge
+stormwater plan standard, shall have the lowest floor elevated at or above the elevation
+required by the District Permit, Florida Building Code, or Section 12, I (§ 62-80.I) of this
+ordinance, as applicable.
+All residential buildings not subject to Section 12, H(1) (§ 62-80.H(1)) of this ordinance and
+located in a flood hazard area, Zone X-500, or Zone X shall have the lowest floor elevated at or
+above the elevation required by the Florida Building Code or as follows, whichever is higher:
+Buildings located on a paved road must be elevated 18 inches above the crown of the
+nearest street or interior finished roadway system. In the event that the nearest street or
+interior finished roadway system is located on an evacuation route, the residential
+(b)
+(c)
+(d)
+(e)
+I.
+A.
+(1)
+(2)
+(3)
+building may be elevated a minimum of 18 inches above the crown of the nearest side street just beyond
+the beginning of the vertical transition for the elevation connection to the evacuation route.
+Residential buildings located on a graded or otherwise unfinished road must be elevated a
+minimum of 24 inches above the crown of the nearest street.
+Garages for residential buildings shall have the lowest slab at or above the crown of the
+nearest street and shall meet one of the following: (1) be elevated at or above the base
+flood elevation, or (2) if using flood openings, the flood openings shall be installed so that
+the entire opening is below the base flood elevation and shall be no higher than one foot
+above grade. See FEMA Technical Bulletin 1, as amended, for additional information.
+Lanais for residential buildings shall have the lowest slab at or above the crown of the
+nearest street. See Section 12, C (§ 62-80.C) of this ordinance for detached structures.
+On parcels where unusual topographic conditions exist and the standard conditions
+established in Sections 12, H(2)(a), (b), (c), (d) (§§ 62-80.H(2)(a), (b), (c), (d)) of this ordinance
+cannot be reasonably applied, the Building Official shall consider requests to decrease the
+lowest floor elevation. All requests shall require an analysis, by a professional engineer, of
+the 100-year, 3-day storm event using zero discharge, for the entire discharge, for the
+drainage basin in which the proposed structure is located. Reductions may be allowed on
+the basis of the analysis, but in no case, shall the lowest floor be less than the elevation
+required by the Florida Building Code.
+Buildings and structures removed from the special flood hazard area. Buildings and structures
+removed from the special flood hazard area shall be elevated so that the lowest slab, such as a
+garage, lanai, enclosure, etc., is above the lowest lot elevation (GROUND) as identified on the
+Letter of Map Change provided by FEMA. Further, the lowest adjacent grade of a building or
+structure must be at or above the base flood elevation as established on the Digital Flood
+Insurance Rate Map.
+(Ord. No. 2019-01, § 12; Ord. No. 2021-29, § 1; Ord. No. 2022-07, § 4)
+Sec. 62-81. - Subdivisions.
+Minimum Requirements. Subdivision proposals, including proposals for manufactured home
+parks and subdivisions, shall be reviewed to determine that:
+Such proposals are consistent with the need to minimize flood damage and will be reasonably
+safe from flooding; and
+Where the subdivision has more than 50 lots or is larger than 5 acres and base flood
+elevations are not included on the FIRM, the base flood elevations are determined in
+accordance with Section 7, B (§ 62-75.B) of this ordinance; and
+(4)
+(5)
+A.
+(1)
+(2)
+(3)
+B.
+C.
+D.
+E.
+All public utilities and facilities such as sewer, gas, electric, communications, and water systems are located
+and constructed to minimize or eliminate flood damage; and
+Adequate drainage is provided to reduce exposure to flood hazards; in Zones AH and AO,
+adequate drainage paths shall be provided to guide floodwaters around and away from
+proposed structures; and
+The site improvement and utilities requirements of Section 14 (§ 62-82) of this ordinance are
+satisfied.
+(Ord. No. 2019-01, § 13)
+Sec. 62-82. - Site improvements, utilities and limitations.
+Minimum Requirements. All proposed new development shall be reviewed to determine that:
+Such proposals are consistent with the need to minimize flood damage and will be reasonably
+safe from flooding;
+All public utilities and facilities such as sewer, gas, electric, communications, and water
+systems are located and constructed to minimize or eliminate flood damage; and
+Adequate drainage is provided to reduce exposure to flood hazards; in Zones AH and AO,
+adequate drainage paths shall be provided to guide floodwaters around and away from
+proposed structures.
+Sanitary Sewage Facilities. All new and replacement sanitary sewage facilities, private sewage
+treatment plants (including all pumping stations and collector systems), and on-site waste
+disposal systems shall be designed in accordance with the standards for on-site sewage
+treatment and disposal systems in Chapter 64E-6, F.A.C. and ASCE 24 Chapter 7 to minimize or
+eliminate infiltration of floodwaters into the facilities and discharge from the facilities into
+floodwaters, and impairment of the facilities and systems.
+Water Supply Facilities. All new and replacement water supply facilities shall be designed in
+accordance with the water well construction standards in Chapter 62-532.500, F.A.C. and ASCE 24
+Chapter 7 to minimize or eliminate infiltration of floodwaters into the systems.
+Limitations on Sites in Regulatory Floodways. No development, including but not limited to, site
+improvements, and land disturbing activity involving fill or regrading, shall be authorized in the
+regulatory floodway unless the floodway encroachment analysis required in Section 7, C(1) (§ 62-
+75.C(1)) of this ordinance demonstrates that the proposed development or land disturbing
+activity will not result in any increase in the base flood elevation.
+Limitations on Placement of Fill. Subject to the limitations of this ordinance, fill shall be designed
+to be stable under conditions of flooding including rapid rise and rapid drawdown of floodwaters,
+prolonged inundation, and protection against flood-related erosion and scour. Fill shall not cause
+F.
+A.
+B.
+(1)
+(2)
+C.
+D.
+E.
+significant amounts of runoff to flow from the site onto abutting properties or into adjoining waters which
+are not County-approved drainage systems. In addition to these requirements, if intended to support
+buildings and structures (Zone A only), fill shall comply with the requirements of the Florida Building Code.
+Limitations on Sites in Coastal High Hazard Areas (Zone V) and Coastal A Zones. In coastal high
+hazard areas and Coastal A Zones, alteration of sand dunes and mangrove stands shall be
+permitted only if such alteration is approved by the Florida Department of Environmental
+Protection and only if the engineering analysis required by Section 7, C(4) (§ 62-75.C(4)) of this
+ordinance demonstrates that the proposed alteration will not increase the potential for flood
+damage. Construction or restoration of dunes under or around elevated buildings and structures
+shall comply with Section 18, H(3) (§ 62-86.H(3)) of this ordinance.
+(Ord. No. 2019-01, § 14; Ord. No. 2022-07, § 5; Ord. No. 2022-19, § 1; Ord. No. 2024-12, § 7)
+Sec. 62-83. - Manufactured homes.
+General. All manufactured homes installed in flood hazard areas shall be installed by an installer
+that is licensed pursuant to F.S. § 320.8249, and shall comply with the requirements of Chapter
+15C-1, F.A.C. and the requirements of this ordinance. If located seaward of the coastal
+construction control line, all manufactured homes shall comply with the more restrictive of the
+applicable requirements.
+Foundations. All new manufactured homes and replacement manufactured homes installed in
+flood hazard areas shall be installed on permanent foundations that:
+In flood hazard areas (Zone A) other than coastal high hazard areas, and Coastal A Zones are
+designed in accordance with the foundation requirements of the Florida Building Code,
+Residential Section R322.2 and this ordinance.
+In coastal high hazard areas (Zone V), are designed in accordance with the foundation
+requirements of the Florida Building Code, Residential Section R322.3 and this ordinance.
+Anchoring. All new manufactured homes and replacement manufactured homes shall be installed
+using methods and practices which minimize flood damage and shall be securely anchored to an
+adequately anchored foundation system to resist flotation, collapse or lateral movement.
+Methods of anchoring include, but are not limited to, use of over-the-top or frame ties to ground
+anchors. This anchoring requirement is in addition to applicable state and local anchoring
+requirements for wind resistance.
+Elevation. All manufactured homes that are placed, replaced, or substantially improved in flood
+hazard areas shall be elevated such that the lowest floor is at or above the elevation required, as
+applicable to the flood hazard area, in the Florida Building Code, Residential Section R322.2 (Zone
+A) or R322.3 (Zone V and Coastal A Zone).
+F.
+G.
+(1)
+(2)
+H.
+A.
+Enclosures. Enclosed areas below elevated manufactured homes shall comply with the requirements of the
+Florida Building Code, Residential Section R322 for such enclosed areas, as applicable to the flood hazard
+area.
+Utility Equipment. Utility equipment that serves manufactured homes, including electric, heating,
+ventilation, plumbing, and air conditioning equipment, and other service facilities, shall comply
+with the requirements of the Florida Building Code, Residential Section R322, as applicable to the
+flood hazard area. Replacement of permanently-mounted air-conditioning equipment,
+generators, and exterior mechanical equipment shall comply with Section 12, E (§ 62-80.E) of this
+ordinance.
+Permits Required for Additions, Attachments, Improvements and Repair of Manufactured Homes.
+Building permits are required for additions, attachments, improvements and repair of damage by
+any cause to manufactured homes. Any addition or attachment that is structurally connected to
+the manufactured home or is freestanding shall be constructed to meet the Florida Building
+Code, as may be amended from time to time. The design of an addition or attachment shall use
+the current wind criteria for the zone.
+An addition or attachment shall only be allowed where a manufactured home was
+constructed with a host beam by the manufacturer in order to provide the necessary
+structural support for the connection between the two structures. For manufactured homes
+that were not constructed by the manufacturer to support additions or attachments
+connected to them, the addition or attachment shall be freestanding, other than flashing
+required for weather-tightness.
+Applications for repair of structural components of a manufactured home shall include letters
+from a registered design professional or a mobile home inspector that states the structure is
+in compliance with the applicable Manufactured Home Construction and Safety Standards,
+developed by HUD, in place at the time of assembly.
+Substantially improved mobile homes in existing mobile home parks and subdivisions. If the
+repair, reconstruction, or improvement of the streets, utilities and pads equals or exceeds 50
+percent of the value of streets, utilities and pads before the repair, reconstruction, or
+improvement has commenced, existing mobile homes shall not be required to comply with the
+requirements of Ordinance No. 2019-01, as amended, unless those homes are substantially
+improved or substantially damaged.
+(Ord. No. 2019-01, § 15; Ord. No. 2022-07, § 6; Ord. No. 2022-19, § 2; Ord. No. 2024-12, § 8)
+Sec. 62-84. - Recreational vehicles and park trailers.
+Temporary Placement. Recreational vehicles and park trailers placed temporarily in flood hazard
+areas shall:
+(1)
+(2)
+B.
+A.
+B.
+(1)
+(2)
+C.
+D.
+(1)
+(2)
+Be on the site for fewer than 180 consecutive days; or
+Be fully licensed and ready for highway use, which means the recreational vehicle or park
+model is on wheels or jacking system, is attached to the site only by quick-disconnect type
+utilities and security devices, and has no permanent attachments such as additions, rooms,
+stairs, decks and porches.
+Permanent Placement. Recreational vehicles and park trailers that do not meet the limitations in
+Section 16, A (§ 62-84.A) of this ordinance for temporary placement shall meet the requirements
+of Section 15 (§ 62-83) of this ordinance for manufactured homes.
+(Ord. No. 2019-01, § 16)
+Sec. 62-85. - Tanks.
+Underground Tanks. Underground tanks in flood hazard areas shall be anchored to prevent
+flotation, collapse or lateral movement resulting from hydro-dynamic and hydrostatic loads
+during conditions of the design flood, including the effects of buoyancy assuming the tank is
+empty.
+Above-Ground Tanks, Not Elevated. Above-ground tanks that do not meet the elevation
+requirements of Section 17, C (§ 62-85.C) of this ordinance shall:
+Be permitted in flood hazard areas (Zone A) other than coastal high hazard areas and Coastal
+A Zones, provided the tanks are anchored or otherwise designed and constructed to prevent
+flotation, collapse or lateral movement resulting from hydrodynamic and hydrostatic loads
+during conditions of the design flood, including the effects of buoyancy assuming the tank is
+empty and the effects of flood-borne debris.
+Not be permitted in coastal high hazard areas (Zone V) and Coastal A Zones.
+Above-Ground Tanks, Elevated. Above-ground tanks in flood hazard areas shall be elevated to or
+above the design flood elevation and attached to a supporting structure that is designed to
+prevent flotation, collapse or lateral movement during conditions of the design flood. Tank-
+supporting structures shall meet the foundation requirements of the applicable flood hazard
+area.
+Tank Inlets and Vents. Tank inlets, fill openings, outlets and vents shall be:
+At or above the design flood elevation or fitted with covers designed to prevent the inflow of
+floodwater or outflow of the contents of the tanks during conditions of the design flood; and
+Anchored to prevent lateral movement resulting from hydrodynamic and hydrostatic loads,
+including the effects of buoyancy, during conditions of the design flood.
+(Ord. No. 2019-01, § 17; Ord. No. 2022-07, § 7)
+A.
+(1)
+(2)
+(3)
+(4)
+(5)
+B.
+C.
+D.
+E.
+(1)
+(2)
+Sec. 62-86. - Other development.
+General Requirements for Other Development. All development, including man-made changes to
+improved or unimproved real estate for which specific provisions are not specified in this
+ordinance or the Florida Building Code, shall:
+Be located and constructed to minimize flood damage;
+Meet the limitations of Section 14, D (§ 62-82.D) of this ordinance if located in a regulated
+floodway;
+Be anchored to prevent flotation, collapse or lateral movement resulting from hydrostatic
+loads, including the effects of buoyancy, during conditions of the design flood;
+Be constructed of flood damage-resistant materials; and
+Have mechanical, plumbing, and electrical systems above the base flood elevation, except
+that minimum electric service required to address life safety and electric code requirements is
+permitted below the base flood elevation provided it conforms to the provisions of the
+electrical part of building code for wet locations.
+Fences in Regulated Floodways. Fences in regulated floodways that have the potential to block
+the passage of floodwaters, such as stockade fences and wire mesh fences, shall meet the
+limitations of Section 14, D (§ 62-82.D) of this ordinance.
+Retaining Walls, Sidewalks and Driveways in Regulated Floodways. Retaining walls and sidewalks
+and driveways that involve the placement of fill in regulated floodways shall meet the limitations
+of Section 14, D (§ 62-82.D) of this ordinance.
+Roads and Watercourse Crossings in Regulated Floodways. Roads and watercourse crossings,
+including roads, bridges, culverts, low-water crossings and similar means for vehicles or
+pedestrians to travel from one side of a watercourse to the other side, that encroach into
+regulated floodways shall meet the limitations of Section 14, D (§ 62-82.D) of this ordinance.
+Alteration of a watercourse that is part of a road or watercourse crossing shall meet the
+requirements of Section 7, C(3) (§ 62-75.C(3)) of this ordinance.
+Concrete Slabs Used as Parking Pads, Enclosure Floors, Landings, Decks, Walkways, Patios and
+Similar Nonstructural Uses in Coastal High Hazard Areas (Zone V) and Coastal A Zones. In coastal
+high hazard areas and Coastal A Zones, concrete slabs used as parking pads, enclosure floors,
+landings, decks, walkways, patios and similar nonstructural uses are permitted beneath or
+adjacent to buildings and structures provided the concrete slabs are designed and constructed to
+be:
+Structurally independent of the foundation system of the building or structure;
+Frangible and not reinforced, so as to minimize debris during flooding that is capable of
+causing significant damage to any structure; and
+(3)
+F.
+(1)
+(2)
+(3)
+(4)
+G.
+(1)
+(2)
+(3)
+Have a maximum slab thickness of not more than four (4) inches.
+Decks and Patios in Coastal High Hazard Areas (Zone V) and Coastal A Zones. In addition to the
+requirements of the Florida Building Code, in coastal high hazard areas and Coastal A Zones
+decks and patios shall be located, designed, and constructed in compliance with the following:
+A deck that is structurally attached to a building or structure shall have the bottom of the
+lowest horizontal structural member at or above the design flood elevation and any
+supporting members that extend below the design flood elevation shall comply with the
+foundation requirements that apply to the building or structure, which shall be designed to
+accommodate any increased loads resulting from the attached deck.
+A deck or patio that is located below the design flood elevation shall be structurally
+independent from buildings or structures and their foundation systems, and shall be
+designed and constructed either to remain intact and in place during design flood conditions
+or to break apart into small pieces to minimize debris during flooding that is capable of
+causing structural damage to the building or structure or to adjacent buildings and structures.
+A deck or patio that has a vertical thickness of more than twelve (12) inches or that is
+constructed with more than the minimum amount of fill necessary for site drainage shall not
+be approved unless an analysis prepared by a qualified registered design professional
+demonstrates no harmful diversion of floodwaters or wave runup and wave reflection that
+would increase damage to the building or structure or to adjacent buildings and structures.
+A deck or patio that has a vertical thickness of twelve (12) inches or less and that is at natural
+grade or on nonstructural fill material that is similar to and compatible with local soils and is
+the minimum amount necessary for site drainage may be approved without requiring analysis
+of the impact on diversion of floodwaters or wave runup and wave reflection.
+Other Development in Coastal High Hazard Areas (Zone V) and Coastal A Zones. In coastal high
+hazard areas and Coastal A Zones, development activities other than buildings and structures
+shall be permitted only if also authorized by the appropriate federal, state or local authority; if
+located outside the footprint of, and not structurally attached to, buildings and structures; and if
+analyses prepared by qualified registered design professionals demonstrate no harmful diversion
+of floodwaters or wave runup and wave reflection that would increase damage to adjacent
+buildings and structures. Such other development activities include but are not limited to:
+Bulkheads, seawalls, retaining walls, revetments, and similar erosion control structures;
+Solid fences and privacy walls, and fences prone to trapping debris, unless designed and
+constructed to fail under flood conditions less than the design flood or otherwise function to
+avoid obstruction of floodwaters; and
+On-site sewage treatment and disposal systems defined in 64E-6.002, F.A.C., as filled systems
+or mound systems.
+H.
+(1)
+(2)
+(3)
+Nonstructural Fill in Coastal High Hazard Areas (Zone V) and Coastal A Zones. In coastal high
+hazard areas and Coastal A Zones:
+Minor grading and the placement of minor quantities of nonstructural fill shall be permitted
+for landscaping and for drainage purposes under and around buildings.
+Nonstructural fill with finished slopes that are steeper than one unit vertical to five units
+horizontal shall be permitted only if an analysis prepared by a qualified registered design
+professional demonstrates no harmful diversion of floodwaters or wave runup and wave
+reflection that would increase damage to adjacent buildings and structures.
+Where authorized by the Florida Department of Environmental Protection or applicable local
+approval, sand dune construction and restoration of sand dunes under or around elevated
+buildings are permitted without additional engineering analysis or certification of the
+diversion of floodwater or wave runup and wave reflection if the scale and location of the
+dune work is consistent with local beach-dune morphology and the vertical clearance is
+maintained between the top of the sand dune and the lowest horizontal structural member of
+the building.
+(Ord. No. 2019-01, § 18; Ord. No. 2022-07, § 8)
+Sec. 62-87. - Applicability.
+For the purposes of jurisdictional applicability, this ordinance shall apply in all unincorporated areas of
+Collier County. This ordinance shall apply to all applications for development, including building permit
+applications and subdivision proposals, submitted on or after the effective date of this ordinance.
+(Ord. No. 2019-01, § 19)
+Secs. 62-88—62-115. - Reserved.

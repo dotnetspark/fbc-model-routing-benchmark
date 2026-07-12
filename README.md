@@ -30,6 +30,7 @@ model-selection-tutorial/
 │   ├── 06-rag-integrated-models.md
 │   └── 07-when-to-use-each-model-type.md
 ├── clients/
+│   ├── citation_utils.py
 │   ├── foundation_client.py
 │   ├── instruction_tuned_client.py
 │   ├── slm_client.py
@@ -68,7 +69,7 @@ Use only the officially published text as your ground-truth corpus. Do not rely 
 ## Prerequisites
 
 - Python 3.11+
-- API access to at least one hosted foundation/instruction-tuned model (OpenAI, Azure OpenAI, or Anthropic)
+- API access to at least one hosted foundation/instruction-tuned model (Google Gemini — whose free tier covers the entire Lesson 1 benchmark at $0 — OpenAI, Azure OpenAI, or Anthropic)
 - Ollama or equivalent for local SLM inference (Phi-3, Llama 3.2 3B, or Qwen2.5 3B)
 - A local copy of the relevant FBC chapters and Naples municipal code sections (PDF or text) for the evaluation set and later RAG grounding
 

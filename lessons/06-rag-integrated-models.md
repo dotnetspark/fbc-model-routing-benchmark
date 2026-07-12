@@ -31,10 +31,10 @@ async def run_grounded_variant(question_id: str, question: str, context: str, cl
     return await client_fn(grounded_prompt, f"{question_id}_grounded")
 ```
 
-For each of your 25–40 evaluation questions, attach the actual FBC or Naples amendment text (200–500 words) containing the answer, sourced directly from the published code — not paraphrased, not from model memory. Run the grounded variant across all three model classes. Add a grounding-compliance check: does the cited section number actually match a section number present in the supplied context (not just a plausible-looking one)?
+For each of your 25+ evaluation questions, attach the actual FBC or Naples amendment text (200–500 words) containing the answer, sourced directly from the published code — not paraphrased, not from model memory. Run the grounded variant across all three model classes. Add a grounding-compliance check: does the cited section number actually match a section number present in the supplied context (not just a plausible-looking one)?
 
 ## 4. Checkpoint
 
-You now have paired (ungrounded, grounded) results per model class across your full evaluation set. Compute the citation-accuracy delta from grounding for each class. This is your headline chart: expect the SLM to show the largest relative improvement, closing most of the gap to the foundation model on straightforward numeric lookups, while jurisdiction-amendment questions with dense cross-references may still favor the stronger model even when grounded.
+You now have paired (ungrounded, grounded) results per model class across your full evaluation set. Compute the citation-accuracy delta from grounding for each class. This is your headline chart: expect the SLM to show the largest relative improvement, closing most of the gap to the foundation model on straightforward numeric lookups, while jurisdiction_amendment questions with dense cross-references may still favor the stronger model even when grounded.
 
 **Next:** Lesson 7 closes the loop with a decision engine that recommends a model class and grounding requirement, given the query type.

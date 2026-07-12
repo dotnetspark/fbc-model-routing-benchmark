@@ -1,0 +1,213 @@
+"""
+Cold-run benchmark harness (Lesson 1, reused by Lessons 2-4).
+
+Loads the evaluation set, fans each question out to a model client N times with
+no retrieved context, and writes one JSON line per request to
+results/<model_class>_raw.jsonl. The analysis notebook
+(analysis/benchmark_report.ipynb) consumes that file — this script is the only
+place inference happens, so there is exactly one source of truth for how a
+number was produced.
+
+Run from the repo root so the `clients.` imports resolve:
+
+    python run_benchmark.py                      # foundation client, 3 repeats per question
+    python run_benchmark.py --repeats 1 --limit 2    # cheap smoke test (2 questions, 1 run each)
+    python run_benchmark.py --concurrency 8          # more parallel requests
+
+Later lessons register their client function in CLIENTS and pass
+--model-class instruction_tuned / slm / multimodal.
+"""
+
+import argparse
+import asyncio
+import csv
+import json
+import math
+import statistics
+import time
+from collections import defaultdict
+from dataclasses import asdict
+from pathlib import Path
+
+from clients.citation_utils import extract_section_citation
+from clients import foundation_client
+
+# One entry per model class: (client function, exceptions to record as failed
+# requests). Lesson 2+ clients get registered here with their own error types.
+CLIENTS = {
+    "foundation": (foundation_client.call_foundation_model, foundation_client.API_ERRORS),
+}
+
+DATA_PATH = Path("data/fbc_eval_questions.csv")
+RESULTS_DIR = Path("results")
+
+
+def load_eval_set(path: Path) -> list[dict]:
+    with path.open(encoding="utf-8", newline="") as f:
+        return list(csv.DictReader(f))
+
+
+async def run_one(
+    sem: asyncio.Semaphore,
+    client_fn,
+    api_errors: tuple,
+    model_class: str,
+    row: dict,
+    repeat: int,
+) -> dict:
+    """Run one (question, repeat) pair; never raises on API errors — failures
+    become rows too, because the failure rate is itself a rubric metric."""
+    qid = row["question_id"]
+    async with sem:
+        start = time.perf_counter()
+        try:
+            result = await client_fn(row["question"], qid)
+            record = asdict(result)
+            record["error"] = None
+        except api_errors as e:
+            record = {
+                "model_class": model_class,
+                "model_name": None,
+                "question_id": qid,
+                "output": None,
+                "latency_ms": (time.perf_counter() - start) * 1000,
+                "input_tokens": 0,
+                "output_tokens": 0,
+                "cost_usd": 0.0,
+                "cited_section": None,
+                "error": f"{type(e).__name__}: {e}",
+            }
+
+    # Gold sections are prose-styled ("FBC Building 1020.2"); cited_section is
+    # already normalized ("1020.2"). Normalize gold with the same extractor so
+    # the match is apples-to-apples.
+    gold_norm = extract_section_citation(row["gold_section"])
+    record["repeat"] = repeat
+    record["category"] = row["category"]
+    record["gold_section"] = row["gold_section"]
+    record["gold_section_norm"] = gold_norm
+    record["citation_match"] = (
+        record["error"] is None
+        and record["cited_section"] is not None
+        and gold_norm is not None
+        and record["cited_section"] == gold_norm
+    )
+    return record
+
+
+def print_summary(records: list[dict], model_class: str) -> None:
+    ok = [r for r in records if r["error"] is None]
+    failures = [r for r in records if r["error"] is not None]
+
+    print(f"\n=== {model_class}: {len(records)} runs "
+          f"({len(ok)} succeeded, {len(failures)} failed) ===")
+
+    if failures:
+        print(f"Failure rate (reliability metric): {len(failures) / len(records):.1%}")
+        for r in failures[:5]:
+            print(f"  {r['question_id']} (repeat {r['repeat']}): {r['error']}")
+
+    unmatchable = {r["question_id"] for r in records if r["gold_section_norm"] is None}
+    if unmatchable:
+        print(f"\nNOTE: {len(unmatchable)} question(s) have a gold_section the regex "
+              f"extractor can't normalize ({', '.join(sorted(unmatchable))}) — these can "
+              f"never score a citation match and inflate the hallucination rate. "
+              f"Review them or score them separately.")
+
+    if not ok:
+        return
+
+    # Scoreable = succeeded AND the gold section normalizes. Within those,
+    # distinguish citing the WRONG section (hallucination per the rubric)
+    # from giving NO citation (abstention — a different, more honest failure).
+    scoreable = [r for r in ok if r["gold_section_norm"] is not None]
+    matched = [r for r in scoreable if r["citation_match"]]
+    no_cite = [r for r in scoreable if r["cited_section"] is None]
+    wrong = [r for r in scoreable if r["cited_section"] is not None and not r["citation_match"]]
+    n = len(scoreable)
+    print(f"\nOf {n} scoreable runs: "
+          f"{len(matched)} matched ({len(matched)/n:.1%}) | "
+          f"{len(wrong)} wrong citation ({len(wrong)/n:.1%}) | "
+          f"{len(no_cite)} no citation ({len(no_cite)/n:.1%})")
+    print(f"Hallucination rate (wrong/invented citation): {len(wrong)/n:.1%}   <- headline number")
+    print(f"Citation-match rate:                          {len(matched)/n:.1%}")
+
+    by_cat: dict[str, list[bool]] = defaultdict(list)
+    for r in ok:
+        by_cat[r["category"]].append(r["citation_match"])
+    print("\nCitation match by category:")
+    for cat, matches in sorted(by_cat.items()):
+        print(f"  {cat:25} {sum(matches) / len(matches):6.1%}   (n={len(matches)})")
+
+    latencies = sorted(r["latency_ms"] for r in ok)
+    p95 = latencies[max(0, math.ceil(0.95 * len(latencies)) - 1)]
+    total_cost = sum(r["cost_usd"] for r in ok)
+    print(f"\nLatency p50 / p95: {statistics.median(latencies):.0f} ms / {p95:.0f} ms")
+    print(f"Total run cost:    ${total_cost:.4f} "
+          f"(${total_cost / len(ok):.5f} per request)")
+
+
+async def main() -> None:
+    parser = argparse.ArgumentParser(description=__doc__.split("\n")[1])
+    parser.add_argument("--model-class", choices=CLIENTS, default="foundation")
+    parser.add_argument("--repeats", type=int, default=3,
+                        help="runs per question (default 3, per Lesson 1)")
+    parser.add_argument("--concurrency", type=int, default=4,
+                        help="max in-flight API requests (default 4)")
+    parser.add_argument("--limit", type=int, default=None,
+                        help="only run the first N questions (smoke tests)")
+    parser.add_argument("--output", type=Path, default=None,
+                        help="override results/<model_class>_raw.jsonl")
+    parser.add_argument("--resume", action="store_true",
+                        help="keep successful rows already in the output file and "
+                             "only run the missing/failed (question, repeat) pairs — "
+                             "essential on free tiers with small daily quotas")
+    args = parser.parse_args()
+
+    rows = load_eval_set(DATA_PATH)
+    if args.limit:
+        rows = rows[: args.limit]
+
+    client_fn, api_errors = CLIENTS[args.model_class]
+    out_path = args.output or RESULTS_DIR / f"{args.model_class}_raw.jsonl"
+
+    # Resume: keep prior successes for the CURRENT model only (rows from a
+    # different model or failed rows get re-run), so the final file is a clean
+    # single-model run even when assembled across several days/quota windows.
+    kept: list[dict] = []
+    done: set[tuple] = set()
+    if args.resume and out_path.exists():
+        current_model = foundation_client.FOUNDATION_MODEL
+        for line in out_path.open(encoding="utf-8"):
+            r = json.loads(line)
+            if r.get("error") is None and r.get("model_name") == current_model:
+                kept.append(r)
+                done.add((r["question_id"], r["repeat"]))
+        print(f"Resume: keeping {len(kept)} successful rows, "
+              f"re-running the rest.")
+
+    sem = asyncio.Semaphore(args.concurrency)
+    tasks = [
+        run_one(sem, client_fn, api_errors, args.model_class, row, repeat)
+        for row in rows
+        for repeat in range(1, args.repeats + 1)
+        if (row["question_id"], repeat) not in done
+    ]
+    print(f"Running {len(tasks)} requests "
+          f"({len(rows)} questions x {args.repeats} repeats, "
+          f"concurrency {args.concurrency})...")
+    new_records = await asyncio.gather(*tasks)
+
+    records = sorted(kept + list(new_records),
+                     key=lambda r: (r["question_id"], r["repeat"]))
+    out_path.parent.mkdir(parents=True, exist_ok=True)
+    with out_path.open("w", encoding="utf-8") as f:
+        for record in records:
+            f.write(json.dumps(record, ensure_ascii=False) + "\n")
+    print(f"Wrote {len(records)} rows -> {out_path}")
+
+    print_summary(records, args.model_class)
+
+
+if __name__ == "__main__":
+    asyncio.run(main())

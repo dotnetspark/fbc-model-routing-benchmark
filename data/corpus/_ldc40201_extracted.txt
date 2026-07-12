@@ -1,0 +1,456 @@
+A.
+4.02.01 - Dimensional Standards for Principal Uses in Base Zoning Districts
+The following tables describe the dimensional standards pertaining to base zoning districts. Site
+design requirements apply to the principal building on each site.
+Table 1. Lot Design Requirements for Principal Uses in Base Zoning Districts.
+Zoning District Minimum Lot Area
+(square feet)
+Minimum Lot Width
+(linear feet)
+Maximum Building
+Coverage
+(%)
+GC None None None
+A 217,800 165 None
+E 98,010 150 None
+RSF-1 43,560 150 None
+RSF-2 20,000 120 None
+RSF-3 10,000 Corner lot
+95
+Interior lot
+80
+None
+RSF-4 7,500 75 70 None
+RSF-5 6,000 70 60 None
+RSF-6 6,000 70 60 None
+RMF-6 S.F.
+Duplex
+3+ units
+6,500
+12,000
+5,500 per unit
+60
+80
+100
+None
+RMF-12 43,560 150 None
+RMF-16 43,560 150 None
+RT 43,560 150 None
+VR
+S.F./MH
+Duplex
+M.F.
+6,000
+10,000
+43,560
+60
+100
+150
+None
+MH 6,000 60 None
+TTRVC Park
+site
+lots
+20 acres
+800
+Travel trailers/Park models 40
+Campsites 30
+None
+C-1 20,000 100 None
+C-2 15,000 150 None
+C-3 10,000 75 None
+C-4 10,000 100 None
+C-5 10,000 100 None
+I 20,000 100 None
+BP Park
+site
+lots
+35 acres
+20,000
+100 45
+CON 217,800 150 None
+P None None None
+CF 10,000 80 None
+Table 2. Building Dimension Standards for Principal Uses in Base Zoning Districts.
+Zoning
+District
+Maximum
+Building
+Height
+(feet)
+Minimum
+Distance
+Between
+Buildings
+Minimum Floor Area of
+Buildings
+(square feet)
+Floor Area
+Ratio
+(%)
+GC 35 None None None
+A 35 None 550 None
+E 30 None 1,000 None
+RSF-1 35 None 1-story
+1,500
+2-story
+1,800
+None
+RSF-2 35 None 1,500 1,800 None
+RSF-3 35 None 1,000 1,200 None
+RSF-4 35 None 800 1,200
+RSF-5 35 None 600 1,200 None
+RSF-6 35 None 600 800 None
+RMF-6 35 A 750 None
+RMF-12 50 A Efficiency 450
+1 BR 600
+2+ BR 750
+None
+RMF-16 75 A Efficiency 450
+1 BR 600
+2+ BR 750
+None
+RT 10 stories, not to
+exceed 100'
+A 300
+(max. for hotel units = 500')
+None
+VR S.F. 30
+MH 30
+Duplex 30
+M.F. 35
+None
+None
+None
+B
+None None
+MH 30 None None None
+TTRVC 30 10 None None
+C-1 35 None 1,000 (ground floor) None
+C-2 35 A 1,000 (ground floor) None
+C-3 50 None 700 (ground floor) None
+C-4 75 A 700 (ground floor) Hotels .60
+Destination
+resort .80
+C-5 35 A 700 (ground floor) Hotels .60
+Destination
+resort .80
+I 50 A 1,000 None
+BP 35 A 1,000 None
+CON 35 None None None
+1.
+a.
+b.
+P C None None None
+CF Towers/antennas
+40
+Other 30
+D 1,000 (ground floor) None
+Overlay
+Districts
+See table of special design requirements applicable to overlay districts.
+A = 50% of the sum of the heights of the buildings, but not less than 15 feet.
+B = 50% of the sum of the heights of the buildings.
+C = Buildings within 100 feet of an adjoining district are limited to the height of the most restrictive
+of an adjoining district.
+D = 50% of the sum of the heights of the buildings, but not less than 25 feet.
+Principal Structure Minimum Yard (Setback) Requirements: Table 2.1, below, provides the
+minimum yard requirements for principal structures on conforming lots of record in base
+zoning districts. The following shall apply for all other lots:
+Corner Lots: Corner lots shall have front yards along each street frontage. The other
+yards shall be considered side yards. See LDC section 2.03.01 for Estates setbacks.
+Nonconforming Lots of Record: Minimum yard requirements for nonconforming lots of
+record are provided in LDC section 9.03.03 A.
+Table 2.1 - TABLE OF MINIMUM YARD REQUIREMENTS
+(SETBACKS) FOR BASE ZONING DISTRICTS
+Note as to setback line measurement: minimum setback lines are typically measured from the
+legal boundary of a lot, regardless of all easements burdening a lot, with the exception of
+easements that comprise a road right-of-way where the minimum setback line is to be measured
+from the road right-of-way easement line.
+Zoning
+district
+Minimum
+Front
+Yard
+(feet)
+Minimum Side Yard (feet) Minimum Rear Yard (feet) Public School
+Requirements
+GC None None None
+A 50 30 50 x
+E 75 30 75 x
+RSF-1 50 30 50 x
+RSF-2 40 20 30 x
+RSF-3
+30
+Waterfront
+10
+Non-
+waterfront
+7.5
+25 x
+RSF-4 25 10 7.5 25 x
+RSF-5 25 10 7.5 20 x
+RSF-6 25 10 7.5 20 x
+RMF-6 S.F. 25 10 7.5 20 x
+Duplex
+25
+3 + units
+30
+10
+15
+10
+15
+20
+20
+RMF-1230 a 30 x
+RMF-16b a b x
+RT b a b x
+VR
+SF./MH
+20
+Duplex
+35
+M.F. 35
+Waterfront
+10
+15
+15
+Non-
+waterfront
+5
+15
+15
+20
+30
+30
+x
+MH 
+25
+Waterfront
+10
+Non-
+waterfront
+7.5
+10 x
+TTRVC 
+10
+Waterfront
+10
+Non-
+waterfront
+5
+Waterfront
+10
+Non-
+waterfront
+8
+-
+C-1
+25
+Residential
+25
+Non-
+residential
+15
+Residential
+25
+Non-
+residential
+15
+x
+C-2 25 25 15 25 15 x
+C-3 c 25 a 25 a x
+C-4 d 25 a 25 a x
+C-5 25 25 15 25 15 x
+I 25 50 e 50 15 x
+BP 50 50 10 50 25 -
+CON 50 50 50 50 50 -
+1
+2
+3
+4
+4
+4
+5
+P f f f f f x
+CF
+25
+Residential
+25
+Non-
+residential
+15
+Residential
+25
+Non-
+residential
+15
+x
+Overlay
+Districts
+See table of special design requirements for the applicable overlay district located
+in the appropriate section for that district in chapter 4.
+ MH District - additional yard requirements: side yard setback from a public road that is external
+to the boundary of the park = 50 ft.; the minimum setback on any side from the exterior boundary
+of the park = 15ft.
+ TTRVC District - additional yard requirements: setback from exterior boundary of park = 50 ft.;
+setback from an external street = 50 ft., setback from an internal street = 25 ft.; setback from any
+building or other structure = 10 ft.
+ C-3 District - minimum setback on any side that is waterfront = 25 ft.; setback for marinas =
+none.
+ C-4, C-5 and I Districts - minimum setback on any side that is waterfront = 25 ft.;
+setback for marinas = none; setback on any side adjacent to a railroad right-of-way = none
+ Any non-conforming platted lot of record in the CON District that existed before November 13,
+1991 will be subject to the following standards:
+Front yard: 40 feet.
+Side yard: ten percent of the lot width, but no more than 20 feet on each side.
+Rear Yard: 30 feet.
+a = 50% of the building height, but not less than 15 feet.
+b = 50% of the building height, but not less than 30 feet.
+c = 50% of the building height, but not less than 25 feet.
+d = 50% of the building height, but not less than 25 feet. Structures 50 feet or more in height = 25
+feet plus one additional foot of setback for each foot of building height over 50 feet.
+1 
+2 
+3 
+4 
+5 
+B.
+1.
+2.
+3.
+C.
+D.
+1.
+e = the total of all side yard setbacks shall equal 20% of the lot width, with a maximum of 50 feet.
+No side yard shall be less than 10 feet. Alternative dimensions may be possible when approved
+through a unified plan of development involving one or more lots under common ownership
+where the yard requirements are met for the unified site but not necessarily for each parcel within
+the unified site.
+f = the yard requirements shall be equal to the most restrictive adjoining district.
+x = for principal structures: 50 feet from all property lines; for accessory structures: 25 feet from all
+property lines.
+Open space requirements. Usable open space shall be provided as follows, except as required in
+the Rural Fringe Mixed Use District within the Future Land Use Element of the Growth
+Management Plan.
+In residential developments, at least 60 percent of the gross area shall be devoted to usable
+open space. This requirement shall not apply to individual single-family lots less than 2.5
+acres in size.
+In developments of commercial, industrial and mixed use including residential, at least 30
+percent of the gross area shall be devoted to usable open space. This requirement shall not
+apply to individual parcels less than five acres in size.
+Historical/archaeological resources that are to be preserved may be utilized to satisfy
+required setbacks, buffer strips or open space up to the maximum area required by
+development regulations. Conservation of such historic or archaeological resources shall
+qualify for any open space requirements mandated by the development regulations.
+Specific Requirements for Uses Involving Shopping Carts.
+When the operating characteristics of a duly authorized business require the utilization of
+shopping carts by customers, provision shall be made for outside storage areas to be illustrated on
+a site development plan, and said shopping carts shall be collected at the close of business each
+day and stored at the front of that business establishment. It shall be the responsibility of the
+merchant to collect any and all shopping carts that stray from the premises upon which they are
+intended to be utilized. A name-plate on a shopping cart shall be prima facia evidence of
+ownership.
+Exemptions and exclusions from design standards.
+The height limitations contained in LDC subsection 4.02.01 A. Table 2. Building Dimension
+Standards for Principal Uses in Base Zoning Districts do not apply to infrastructure in support
+of the building, such as mechanical penthouses, elevator shafts, stair shafts, mechanical
+equipment, mechanical screening, spires, belfries, cupolas, flagpoles, antennas, wireless
+communication facilities, water tanks, fire towers when operated by a branch of government,
+a.
+b.
+c.
+d.
+2.
+3.
+4.
+5.
+6.
+7.
+ventilators, chimneys, feed storage structures, silos, windmills, airport control towers, or other
+appurtenances placed above the roof level and not intended for human occupancy or for commercial
+purposes as provided below:
+Structural elements shall be no higher than necessary to accomplish the purpose it is
+intended to serve.
+The aggregate area of structures or appurtenances shall not exceed one-third the area of
+the supporting roof.
+Where this section conflicts with section 5.05.08, the provisions of section 5.05.08 will
+control.
+The heights of these structures or appurtenances thereto shall not exceed any height
+limitations prescribed by the Federal Aviation Agency or airport zoning regulations within
+the flight approach zone of airports. (See section 2.03.07 C.).
+In instances where off-street parking is provided within the principal structure, the County
+Manager or designee may waive the maximum height requirements to the extent necessary
+to permit off-street parking within the principal structure, provided however: (1) the number
+of off-street parking spaces required by this LDC for the use involved may not be reduced; (2)
+the waiver in height shall not be greater than that necessary to provide for the off-street
+parking within the principal structure, with a maximum of two parking levels; (3) the waiver
+of the maximum height requirements are compatible with the uses on adjacent properties;
+and (4) for each off-street parking space permitted within the principal structure for which
+the maximum height waiver is granted, 300 square feet of additional open space beyond that
+which is otherwise required by this LDC shall be provided.
+Every part of every required yard shall be open and unobstructed from thirty (30) inches
+above the general ground level of the gradedlot upward to the sky except as hereinafter
+provided or as otherwise permitted in this LDC.
+Sills and other architectural and design treatments shall not project over twelve (12) inches
+into a required yard.
+Movable awnings shall not project over three (3) feet into a required yard, provided that
+where the yard is less than five (5) feet in width the projection shall not exceed one-half (1/2)
+the width of the yard.
+Window- or wall-mounted air conditioning units, chimneys, fireplaces, bay windows, or
+pilasters shall not project over two (2) feet into a required yard.
+Fire escapes, stairways, and balconies which are unroofed (except as otherwise permitted
+within this section) and unenclosed shall not project over five (5) feet into a required side or
+rear yard and three (3) feet into a front yard of a multi-familydwelling, hotel or motel and
+8.
+9.
+10.
+11.
+12.
+13.
+a.
+not over three (3) feet into a required front, side or rear yard of a single-family residential dwelling.
+Regardless of the extent of encroachment, the minimum requirement for separation of structures shall be
+maintained.
+Hoods, canopies, or roof overhangs shall not project over (3) three feet into a required yard,
+but shall not come closer than one (1) foot to the lot line.
+Fences, walls and hedges, subject to section 5.03.02, ground mounted air conditioners,
+unenclosed pool equipment and well pumps, are permitted in required yards, subject to the
+provisions of section 4.06.00. This includes air conditioners that are ground mounted and
+those required to be elevated to meet flood elevation, including their supporting structures,
+provided the minimum separation of structures is maintained.
+Cornices, eaves or gutters shall not project over three (3) feet into a required yard, provided
+that where the required yard is less than six (6) feet in width, such projection shall not exceed
+one-half (½) the width of the yard.
+Except as otherwise provided by this LDC, when lots on both sides of an undeveloped
+recorded lot contain a residential structure whose front yardsetback is less than is now
+required, the average of the setbacks of the two (2) contiguous developed lots shall serve to
+establish the minimum front yard requirement for the vacant lot.
+In commercial, industrial and multi-family residential developments, carports which are open
+on all sides may encroach into the required yards provided they do not encroach into the
+required landscape buffers, as required by this LDC; and furthermore, if the landscaping is
+deficient where the carports are proposed, the landscaping must be upgraded to comply with
+the LDC requirements to the greatest extent possible prior to the issuance of a building
+permit for said carports. This shall be accomplished by a site development plan amendment
+or a site improvement plan approval.
+Permanent emergency generators may be placed within the rear yard with a 10-foot rear yard
+setback. Permanent emergency generators may encroach into side yards up to 36 inches.
+Generators are not permitted to encroach into required front yards. For single-family and
+two-family dwelling units, see LDC section 5.03.07 for exceptions and requirements. Above-
+ground fuel tanks for the generators are subject to the same setbacks; however, underground
+tanks are not subject to setback requirements. In order to reduce noise during required
+routine exercising of the generators, this exercising is restricted to operating the generator
+for no more than 30 minutes, once every seven days, during the hours of 9:00 a.m. to 5:00
+p.m. and shall not exceed sound level limits for Manufacturing and Industrial uses as set forth
+in Ordinance No. 90-17, the Noise Ordinance, as amended. All permanent emergency
+generators must be equipped with sound attenuating housing to reduce noise.
+b.
+Facilities with fuel pumps. Permanent emergency generators and related fuel storage installed at existing
+facilities with fuel pumps may encroach into any required side or rear yards, provided the encroachment
+does not create a hazard to pedestrian or vehicular traffic.
+Assisted living facilities and nursing homes. Permanent emergency generators and related
+fuel storage installed at existing assisted living facilities or nursing homes that are subject
+to LDC section 5.05.04 E. may encroach into any required side or rear yards or buffers,
+provided the encroachment does not create a hazard to pedestrian or vehicular traffic.
+(Ord. No. 04-72, § 3.L; Ord. No. 05-27, § 3.P; Ord. No. 07-67, § 3.I; Ord. No. 10-23, § 3.Q; Ord. No. 12-38, § 3.J;
+Ord. No. 14-33, § 3.I; Ord. No. 18-18, § 3.G; Ord. No. 18-32, § 3.A; Ord. No. 19-13, § 3.A; Ord. No. 24-05, § 3.K)

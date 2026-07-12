@@ -17,7 +17,7 @@ import pandas as pd
 
 def recommend_model_class(
     results_df: pd.DataFrame,
-    query_category: str,   # "definitional" | "numeric" | "jurisdiction_amendment" | "diagram"
+    query_category: str,   # "definitional" | "numeric" | "state_amendment" | "jurisdiction_amendment" | "diagram"
     latency_budget_ms: float,
     cost_ceiling_usd: float,
     accuracy_floor: float,
@@ -48,7 +48,7 @@ import streamlit as st
 
 st.title("Florida Building Code — Model Routing Dashboard")
 query_category = st.selectbox(
-    "Query type", ["definitional", "numeric", "jurisdiction_amendment", "diagram"]
+    "Query type", ["definitional", "numeric", "state_amendment", "jurisdiction_amendment", "diagram"]
 )
 latency_budget = st.slider("Latency budget (ms)", 100, 10000, 2000)
 cost_ceiling = st.slider("Cost ceiling ($/1K requests)", 0.0, 50.0, 5.0)

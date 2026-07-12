@@ -46,7 +46,7 @@ Add a resource-consumption profiler: peak RAM and tokens/second (`eval_count / e
 
 ## 4. Checkpoint
 
-Compute the SLM's citation-match rate and numeric-accuracy rate on the `jurisdiction-amendment` category specifically — expect this to be near zero. Compare against the general `definitional` category, where general building-code terminology (more likely to appear in pretraining data) should perform noticeably better. Model SLM cost as amortized compute (hardware cost / expected request volume), not literally $0 — a $0 line item misrepresents the real tradeoff in your dashboard.
+Compute the SLM's citation-match rate and numeric-accuracy rate on the `jurisdiction_amendment` category specifically — expect this to be near zero. Compare against the general `definitional` category, where general building-code terminology (more likely to appear in pretraining data) should perform noticeably better. Model SLM cost as amortized compute (hardware cost / expected request volume), not literally $0 — a $0 line item misrepresents the real tradeoff in your dashboard.
 
 **Next:** Lesson 4 adds multimodal routing for site-plan and diagram-bearing questions.
 
