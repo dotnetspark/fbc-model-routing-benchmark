@@ -680,3 +680,730 @@ To get accurate information about the maximum fine for violating Collier County'
 4. **Contacting the County Clerk's office** - They maintain official records of adopted ordinances
 
 If you have access to the text of the ordinance itself, I'd be happy to help you interpret specific provisions. Is there anything else I can help you with regarding this topic?"
+q001,claude-haiku-4-5,numeric,"What section of the 2023 Florida Building Code, Building, governs the width and capacity of corridors used as a means of egress?",1005,1020.2,"```json
+{
+  ""value"": null,
+  ""unit"": null,
+  ""section"": ""1005"",
+  ""confidence"": ""high""
+}
+```"
+q001,claude-haiku-4-5,numeric,"What section of the 2023 Florida Building Code, Building, governs the width and capacity of corridors used as a means of egress?",1005,1020.2,"```json
+{
+  ""value"": null,
+  ""unit"": null,
+  ""section"": ""1005"",
+  ""confidence"": ""high""
+}
+```"
+q001,claude-haiku-4-5,numeric,"What section of the 2023 Florida Building Code, Building, governs the width and capacity of corridors used as a means of egress?",1005,1020.2,"```json
+{
+  ""value"": null,
+  ""unit"": null,
+  ""section"": ""1005"",
+  ""confidence"": ""high""
+}
+```"
+q004,claude-haiku-4-5,numeric,"What is the means-of-egress capacity factor per occupant for components other than stairways in sprinklered buildings with an emergency voice/alarm communication system, per the 2023 FBC?",1005.1,1005.3.2,"```json
+{
+  ""value"": 0.2,
+  ""unit"": ""square feet per occupant"",
+  ""section"": ""1005.1"",
+  ""confidence"": ""high""
+}
+```"
+q004,claude-haiku-4-5,numeric,"What is the means-of-egress capacity factor per occupant for components other than stairways in sprinklered buildings with an emergency voice/alarm communication system, per the 2023 FBC?",1005.1,1005.3.2,"```json
+{
+  ""value"": 0.2,
+  ""unit"": ""square feet per occupant"",
+  ""section"": ""1005.1"",
+  ""confidence"": ""high""
+}
+```"
+q004,claude-haiku-4-5,numeric,"What is the means-of-egress capacity factor per occupant for components other than stairways in sprinklered buildings with an emergency voice/alarm communication system, per the 2023 FBC?",1005.1,1005.3.2,"```json
+{
+  ""value"": 0.2,
+  ""unit"": ""square feet per occupant"",
+  ""section"": ""FBC 1005.1"",
+  ""confidence"": ""high""
+}
+```"
+q005,claude-haiku-4-5,numeric,"What is the means-of-egress capacity factor per occupant for stairways in sprinklered buildings with an emergency voice/alarm communication system, per the 2023 FBC?",1005.1,1005.3.1,"```json
+{
+  ""value"": 0.3,
+  ""unit"": ""square feet per occupant"",
+  ""section"": ""1005.1"",
+  ""confidence"": ""low""
+}
+```"
+q005,claude-haiku-4-5,numeric,"What is the means-of-egress capacity factor per occupant for stairways in sprinklered buildings with an emergency voice/alarm communication system, per the 2023 FBC?",1005.1,1005.3.1,"```json
+{
+  ""value"": 0.2,
+  ""unit"": ""square feet per occupant"",
+  ""section"": ""1005.1"",
+  ""confidence"": ""high""
+}
+```"
+q005,claude-haiku-4-5,numeric,"What is the means-of-egress capacity factor per occupant for stairways in sprinklered buildings with an emergency voice/alarm communication system, per the 2023 FBC?",1005.1,1005.3.1,"```json
+{
+  ""value"": 0.2,
+  ""unit"": ""square feet per occupant"",
+  ""section"": ""1005.1"",
+  ""confidence"": ""low""
+}
+```"
+q007,claude-haiku-4-5,numeric,"How is the ultimate design wind speed (Vult) for Risk Category II buildings determined under the 2023 Florida Building Code, Building?",3.3.2,1609.3,"```json
+{
+  ""value"": null,
+  ""unit"": null,
+  ""section"": ""3.3.2"",
+  ""confidence"": ""high""
+}
+```"
+q007,claude-haiku-4-5,numeric,"How is the ultimate design wind speed (Vult) for Risk Category II buildings determined under the 2023 Florida Building Code, Building?",C26.5.1.1,1609.3,"```json
+{
+  ""value"": null,
+  ""unit"": null,
+  ""section"": ""C26.5.1.1"",
+  ""confidence"": ""high""
+}
+```"
+q007,claude-haiku-4-5,numeric,"How is the ultimate design wind speed (Vult) for Risk Category II buildings determined under the 2023 Florida Building Code, Building?",3.3.2,1609.3,"```json
+{
+  ""value"": null,
+  ""unit"": null,
+  ""section"": ""3.3.2"",
+  ""confidence"": ""high""
+}
+```"
+q008,claude-haiku-4-5,numeric,"Under the 2023 FBC, on which figure is the wind-borne debris region based for Risk Category II buildings?",FIGURE 301.2(1),1609.2,"```json
+{
+  ""value"": null,
+  ""unit"": null,
+  ""section"": ""Figure 301.2(1)"",
+  ""confidence"": ""high""
+}
+```"
+q008,claude-haiku-4-5,numeric,"Under the 2023 FBC, on which figure is the wind-borne debris region based for Risk Category II buildings?",2023,1609.2,"```json
+{
+  ""value"": null,
+  ""unit"": null,
+  ""section"": ""FBC 2023 Figure 301.2(1)"",
+  ""confidence"": ""high""
+}
+```"
+q008,claude-haiku-4-5,numeric,"Under the 2023 FBC, on which figure is the wind-borne debris region based for Risk Category II buildings?",FIGURE 301.2(1),1609.2,"```json
+{
+  ""value"": null,
+  ""unit"": null,
+  ""section"": ""Figure 301.2(1)"",
+  ""confidence"": ""high""
+}
+```"
+q009,claude-haiku-4-5,numeric,"What Florida Building Code section governs foundation walls and retaining wall design for lateral soil loads, and where are the minimum design soil loads found?",1805,1610,"```json
+{
+  ""value"": null,
+  ""unit"": null,
+  ""section"": ""FBC Section 1805 and 1806"",
+  ""confidence"": ""high""
+}
+```"
+q009,claude-haiku-4-5,numeric,"What Florida Building Code section governs foundation walls and retaining wall design for lateral soil loads, and where are the minimum design soil loads found?",1805,1610,"```json
+{
+  ""value"": null,
+  ""unit"": null,
+  ""section"": ""FBC Section 1805 and 1806"",
+  ""confidence"": ""high""
+}
+```"
+q009,claude-haiku-4-5,numeric,"What Florida Building Code section governs foundation walls and retaining wall design for lateral soil loads, and where are the minimum design soil loads found?",1806,1610,"```json
+{
+  ""value"": null,
+  ""unit"": null,
+  ""section"": ""FBC Section 1806 and IBC Section 1806"",
+  ""confidence"": ""high""
+}
+```"
+q010,claude-haiku-4-5,numeric,"What section of the 2023 Florida Building Code, Building, governs geotechnical investigations for foundation design?",1803.1,1803,"```json
+{
+  ""value"": null,
+  ""unit"": null,
+  ""section"": ""1803.1"",
+  ""confidence"": ""high""
+}
+```"
+q011,claude-haiku-4-5,numeric,"What section addresses grading and fill placement requirements in flood hazard areas under the 2023 FBC, Building?",1612.3,1804.4,"```json
+{
+  ""value"": null,
+  ""unit"": null,
+  ""section"": ""1612.3"",
+  ""confidence"": ""high""
+}
+```"
+q011,claude-haiku-4-5,numeric,"What section addresses grading and fill placement requirements in flood hazard areas under the 2023 FBC, Building?",804.3,1804.4,"```json
+{
+  ""value"": null,
+  ""unit"": null,
+  ""section"": ""804.3"",
+  ""confidence"": ""high""
+}
+```"
+q011,claude-haiku-4-5,numeric,"What section addresses grading and fill placement requirements in flood hazard areas under the 2023 FBC, Building?",2.4.3,1804.4,"```json
+{
+  ""value"": null,
+  ""unit"": null,
+  ""section"": ""2.4.3"",
+  ""confidence"": ""low""
+}
+```"
+q012,claude-haiku-4-5,state_amendment,What Florida Building Code section governs construction seaward of the Coastal Construction Control Line (CCCL)?,FBC 62-330.370,3109,"```json
+{
+  ""value"": null,
+  ""unit"": null,
+  ""section"": ""FBC 62-330.370"",
+  ""confidence"": ""high""
+}
+```"
+q012,claude-haiku-4-5,state_amendment,What Florida Building Code section governs construction seaward of the Coastal Construction Control Line (CCCL)?,"62-330.370, FLORIDA ADMINISTRATIVE CODE (FAC)",3109,"```json
+{
+  ""value"": null,
+  ""unit"": null,
+  ""section"": ""62-330.370, Florida Administrative Code (FAC)"",
+  ""confidence"": ""high""
+}
+```"
+q012,claude-haiku-4-5,state_amendment,What Florida Building Code section governs construction seaward of the Coastal Construction Control Line (CCCL)?,"62-330.370, FLORIDA ADMINISTRATIVE CODE",3109,"```json
+{
+  ""value"": null,
+  ""unit"": null,
+  ""section"": ""62-330.370, Florida Administrative Code"",
+  ""confidence"": ""high""
+}
+```"
+q013,claude-haiku-4-5,state_amendment,What Florida Building Code section requires elevation certification to be submitted for buildings in flood hazard areas after the foundation inspection?,1612.5,110.3,"```json
+{
+  ""value"": null,
+  ""unit"": null,
+  ""section"": ""FBC 1612.5"",
+  ""confidence"": ""high""
+}
+```"
+q013,claude-haiku-4-5,state_amendment,What Florida Building Code section requires elevation certification to be submitted for buildings in flood hazard areas after the foundation inspection?,432.2,110.3,"```json
+{
+  ""value"": null,
+  ""unit"": null,
+  ""section"": ""FBC 432.2"",
+  ""confidence"": ""high""
+}
+```"
+q013,claude-haiku-4-5,state_amendment,What Florida Building Code section requires elevation certification to be submitted for buildings in flood hazard areas after the foundation inspection?,432.2,110.3,"```json
+{
+  ""value"": null,
+  ""unit"": null,
+  ""section"": ""FBC 432.2"",
+  ""confidence"": ""high""
+}
+```"
+q014,claude-haiku-4-5,state_amendment,"What section of the Florida Building Code, Residential, addresses flood-resistant construction requirements, including provisions for coastal high-hazard areas?",4.3,R322,"```json
+{
+  ""value"": null,
+  ""unit"": null,
+  ""section"": ""Chapter 4 (Flood-Resistant Construction) and Chapter 4, Section 4.3 (Coastal High-Hazard Areas)"",
+  ""confidence"": ""high""
+}
+```"
+q015,claude-haiku-4-5,jurisdiction_amendment,"Which Collier County code section governs flood variance requests, including variances from the flood-resistant construction requirements of the Florida Building Code?",2,62-77,"```json
+{
+  ""value"": null,
+  ""unit"": null,
+  ""section"": ""Collier County Code Chapter 2"",
+  ""confidence"": ""low""
+}
+```"
+q015,claude-haiku-4-5,jurisdiction_amendment,"Which Collier County code section governs flood variance requests, including variances from the flood-resistant construction requirements of the Florida Building Code?",22-242,62-77,"```json
+{
+  ""value"": null,
+  ""unit"": null,
+  ""section"": ""Collier County Code Chapter 22, Section 22-242"",
+  ""confidence"": ""low""
+}
+```"
+q015,claude-haiku-4-5,jurisdiction_amendment,"Which Collier County code section governs flood variance requests, including variances from the flood-resistant construction requirements of the Florida Building Code?",22,62-77,"```json
+{
+  ""value"": null,
+  ""unit"": null,
+  ""section"": ""Collier County Code Chapter 22"",
+  ""confidence"": ""low""
+}
+```"
+q016,claude-haiku-4-5,jurisdiction_amendment,"Which Collier County ordinance adopted the 2023 8th Edition Florida Building Code, and which subsequent ordinance amended that adoption?",COLLIER COUNTY ORDINANCE,2023-64,"```json
+{
+  ""value"": null,
+  ""unit"": null,
+  ""section"": ""Collier County Ordinance"",
+  ""confidence"": ""low""
+}
+```"
+q016,claude-haiku-4-5,jurisdiction_amendment,"Which Collier County ordinance adopted the 2023 8th Edition Florida Building Code, and which subsequent ordinance amended that adoption?",COLLIER COUNTY ORDINANCE ADOPTION OF 2023 8TH EDITION FLORIDA BUILDING CODE,2023-64,"```json
+{
+  ""value"": null,
+  ""unit"": null,
+  ""section"": ""Collier County Ordinance Adoption of 2023 8th Edition Florida Building Code"",
+  ""confidence"": ""low""
+}
+```"
+q016,claude-haiku-4-5,jurisdiction_amendment,"Which Collier County ordinance adopted the 2023 8th Edition Florida Building Code, and which subsequent ordinance amended that adoption?",COLLIER COUNTY ORDINANCES,2023-64,"```json
+{
+  ""value"": null,
+  ""unit"": null,
+  ""section"": ""Collier County Ordinances"",
+  ""confidence"": ""low""
+}
+```"
+q019,claude-haiku-4-5,definitional,What are the three separate and distinct parts of a means of egress under the Florida Building Code?,1002.1,202,"```json
+{
+  ""value"": null,
+  ""unit"": null,
+  ""section"": ""FBC 1002.1"",
+  ""confidence"": ""high""
+}
+```
+
+Note: The three separate and distinct parts of a means of egress are: (1) exit access, (2) exit, and (3) exit discharge. While the answer itself is not numeric, the reference section is FBC 1002.1 which defines these three components."
+q019,claude-haiku-4-5,definitional,What are the three separate and distinct parts of a means of egress under the Florida Building Code?,1002.1,202,"```json
+{
+  ""value"": null,
+  ""unit"": null,
+  ""section"": ""FBC 1002.1"",
+  ""confidence"": ""high""
+}
+```
+
+The three separate and distinct parts of a means of egress are:
+1. Exit access
+2. The exit
+3. Exit discharge (or public way)"
+q019,claude-haiku-4-5,definitional,What are the three separate and distinct parts of a means of egress under the Florida Building Code?,1002.1,202,"```json
+{
+  ""value"": null,
+  ""unit"": null,
+  ""section"": ""FBC 1002.1"",
+  ""confidence"": ""high""
+}
+```
+
+The answer is: **exit access, exit, and exit discharge** (or in some contexts: exit access, exit, and public way). These are the three separate and distinct parts of a means of egress as defined in Florida Building Code Section 1002.1."
+q020,claude-haiku-4-5,definitional,What is a 'public way' as defined by the Florida Building Code?,2,202,"```json
+{
+  ""value"": null,
+  ""unit"": null,
+  ""section"": ""FBC Chapter 2"",
+  ""confidence"": ""high""
+}
+```"
+q022,claude-haiku-4-5,numeric,"What is the minimum tread depth and maximum riser height for a residential stairway under the Florida Building Code, Residential?",R311.7,R311.7.5.1,"```json
+{
+  ""value"": null,
+  ""unit"": null,
+  ""section"": ""R311.7"",
+  ""confidence"": ""high""
+}
+```
+
+Note: The question asks for two separate measurements. Per Florida Building Code Residential Section R311.7:
+- Minimum tread depth: 10 inches
+- Maximum riser height: 7.75 inches
+
+A single JSON response cannot adequately capture both values, so the response indicates the relevant section where both requirements are specified."
+q022,claude-haiku-4-5,numeric,"What is the minimum tread depth and maximum riser height for a residential stairway under the Florida Building Code, Residential?",R311.7,R311.7.5.1,"```json
+{
+  ""value"": null,
+  ""unit"": null,
+  ""section"": ""R311.7"",
+  ""confidence"": ""high""
+}
+```"
+q022,claude-haiku-4-5,numeric,"What is the minimum tread depth and maximum riser height for a residential stairway under the Florida Building Code, Residential?",R311.7,R311.7.5.1,"```json
+{
+  ""value"": null,
+  ""unit"": null,
+  ""section"": ""R311.7"",
+  ""confidence"": ""low""
+}
+```"
+q023,claude-haiku-4-5,numeric,What is the maximum vertical rise permitted between landings in a single residential stairway flight?,R311.7.5.1,R311.7.3,"```json
+{
+  ""value"": 12,
+  ""unit"": ""feet"",
+  ""section"": ""R311.7.5.1"",
+  ""confidence"": ""high""
+}
+```"
+q023,claude-haiku-4-5,numeric,What is the maximum vertical rise permitted between landings in a single residential stairway flight?,R311.7.5.1,R311.7.3,"```json
+{
+  ""value"": 12,
+  ""unit"": ""feet"",
+  ""section"": ""R311.7.5.1"",
+  ""confidence"": ""high""
+}
+```"
+q023,claude-haiku-4-5,numeric,What is the maximum vertical rise permitted between landings in a single residential stairway flight?,R311.7.5.1,R311.7.3,"```json
+{
+  ""value"": 12,
+  ""unit"": ""feet"",
+  ""section"": ""R311.7.5.1"",
+  ""confidence"": ""high""
+}
+```"
+q024,claude-haiku-4-5,numeric,"What Section 1023 requirement applies to interior exit stairways serving floor levels more than 30 feet below the exit discharge level, per the 2023 FBC?",1023,1023.11,"```json
+{
+  ""value"": 30,
+  ""unit"": ""feet"",
+  ""section"": ""1023"",
+  ""confidence"": ""low""
+}
+```"
+q024,claude-haiku-4-5,numeric,"What Section 1023 requirement applies to interior exit stairways serving floor levels more than 30 feet below the exit discharge level, per the 2023 FBC?",1023.1,1023.11,"```json
+{
+  ""value"": null,
+  ""unit"": null,
+  ""section"": ""1023.1"",
+  ""confidence"": ""high""
+}
+```"
+q024,claude-haiku-4-5,numeric,"What Section 1023 requirement applies to interior exit stairways serving floor levels more than 30 feet below the exit discharge level, per the 2023 FBC?",1023.1,1023.11,"```json
+{
+  ""value"": null,
+  ""unit"": null,
+  ""section"": ""1023.1"",
+  ""confidence"": ""low""
+}
+```"
+q025,claude-haiku-4-5,numeric,"Under the 2023 FBC, what is the maximum encroachment allowed by a door into a required means-of-egress width when the door is fully open?",1005.1,1005.7.1,"```json
+{
+  ""value"": 7,
+  ""unit"": ""inches"",
+  ""section"": ""1005.1"",
+  ""confidence"": ""high""
+}
+```"
+q025,claude-haiku-4-5,numeric,"Under the 2023 FBC, what is the maximum encroachment allowed by a door into a required means-of-egress width when the door is fully open?",1005.1,1005.7.1,"```json
+{
+  ""value"": 7,
+  ""unit"": ""inches"",
+  ""section"": ""1005.1"",
+  ""confidence"": ""high""
+}
+```"
+q025,claude-haiku-4-5,numeric,"Under the 2023 FBC, what is the maximum encroachment allowed by a door into a required means-of-egress width when the door is fully open?",1005.1,1005.7.1,"```json
+{
+  ""value"": 7,
+  ""unit"": ""inches"",
+  ""section"": ""1005.1"",
+  ""confidence"": ""high""
+}
+```"
+q026,claude-haiku-4-5,jurisdiction_amendment,Which section of the Collier County Code of Ordinances adopts the Florida Building Code and sets out the County's local additions to it?,1,22-26,"```json
+{
+  ""value"": null,
+  ""unit"": null,
+  ""section"": ""Collier County Code of Ordinances Chapter 1"",
+  ""confidence"": ""low""
+}
+```"
+q026,claude-haiku-4-5,jurisdiction_amendment,Which section of the Collier County Code of Ordinances adopts the Florida Building Code and sets out the County's local additions to it?,2,22-26,"```json
+{
+  ""value"": null,
+  ""unit"": null,
+  ""section"": ""Collier County Code of Ordinances Chapter 2, Article II"",
+  ""confidence"": ""low""
+}
+```"
+q026,claude-haiku-4-5,jurisdiction_amendment,Which section of the Collier County Code of Ordinances adopts the Florida Building Code and sets out the County's local additions to it?,1,22-26,"```json
+{
+  ""value"": null,
+  ""unit"": null,
+  ""section"": ""Collier County Code of Ordinances Chapter 1"",
+  ""confidence"": ""low""
+}
+```"
+q027,claude-haiku-4-5,jurisdiction_amendment,Which administrative section of the Florida Building Code did Collier County amend to allow approved digital construction documents to be kept at the work site?,1,107.3.1,"```json
+{
+  ""value"": null,
+  ""unit"": null,
+  ""section"": ""Chapter 1 (Administrative)"",
+  ""confidence"": ""low""
+}
+```"
+q027,claude-haiku-4-5,jurisdiction_amendment,Which administrative section of the Florida Building Code did Collier County amend to allow approved digital construction documents to be kept at the work site?,1,107.3.1,"```json
+{
+  ""value"": null,
+  ""unit"": null,
+  ""section"": ""Chapter 1 (Administrative)"",
+  ""confidence"": ""low""
+}
+```"
+q027,claude-haiku-4-5,jurisdiction_amendment,Which administrative section of the Florida Building Code did Collier County amend to allow approved digital construction documents to be kept at the work site?,1,107.3.1,"```json
+{
+  ""value"": null,
+  ""unit"": null,
+  ""section"": ""Chapter 1 (Administrative)"",
+  ""confidence"": ""low""
+}
+```"
+q029,claude-haiku-4-5,jurisdiction_amendment,Which prior ordinance did Collier County Ordinance 2023-64 repeal when it adopted the 2023 Florida Building Code?,2023-64,2020-48,"```json
+{
+  ""value"": null,
+  ""unit"": null,
+  ""section"": ""Collier County Ordinance 2023-64"",
+  ""confidence"": ""low""
+}
+```"
+q029,claude-haiku-4-5,jurisdiction_amendment,Which prior ordinance did Collier County Ordinance 2023-64 repeal when it adopted the 2023 Florida Building Code?,2023-64,2020-48,"```json
+{
+  ""value"": null,
+  ""unit"": null,
+  ""section"": ""Collier County Ordinance 2023-64"",
+  ""confidence"": ""low""
+}
+```"
+q029,claude-haiku-4-5,jurisdiction_amendment,Which prior ordinance did Collier County Ordinance 2023-64 repeal when it adopted the 2023 Florida Building Code?,2023-64,2020-48,"```json
+{
+  ""value"": null,
+  ""unit"": null,
+  ""section"": ""Collier County Ordinance 2023-64"",
+  ""confidence"": ""low""
+}
+```"
+q030,claude-haiku-4-5,jurisdiction_amendment,"Which section of Collier County's flood ordinance (Code of Ordinances Chapter 62, Floods) governs requirements for buildings and structures in flood hazard areas?",62,62-80,"```json
+{
+  ""value"": null,
+  ""unit"": null,
+  ""section"": ""Collier County Code of Ordinances Chapter 62"",
+  ""confidence"": ""low""
+}
+```"
+q030,claude-haiku-4-5,jurisdiction_amendment,"Which section of Collier County's flood ordinance (Code of Ordinances Chapter 62, Floods) governs requirements for buildings and structures in flood hazard areas?",62,62-80,"```json
+{
+  ""value"": null,
+  ""unit"": null,
+  ""section"": ""Collier County Code of Ordinances Chapter 62"",
+  ""confidence"": ""low""
+}
+```"
+q030,claude-haiku-4-5,jurisdiction_amendment,"Which section of Collier County's flood ordinance (Code of Ordinances Chapter 62, Floods) governs requirements for buildings and structures in flood hazard areas?",62,62-80,"```json
+{
+  ""value"": null,
+  ""unit"": null,
+  ""section"": ""Collier County Code of Ordinances Chapter 62"",
+  ""confidence"": ""low""
+}
+```"
+q031,claude-haiku-4-5,jurisdiction_amendment,Which Collier County Code section establishes the duties and powers of the county floodplain administrator?,22,62-73,"```json
+{
+  ""value"": null,
+  ""unit"": null,
+  ""section"": ""Collier County Code Chapter 22"",
+  ""confidence"": ""low""
+}
+```"
+q031,claude-haiku-4-5,jurisdiction_amendment,Which Collier County Code section establishes the duties and powers of the county floodplain administrator?,2,62-73,"```json
+{
+  ""value"": null,
+  ""unit"": null,
+  ""section"": ""Collier County Code Chapter 2"",
+  ""confidence"": ""low""
+}
+```"
+q031,claude-haiku-4-5,jurisdiction_amendment,Which Collier County Code section establishes the duties and powers of the county floodplain administrator?,22,62-73,"```json
+{
+  ""value"": null,
+  ""unit"": null,
+  ""section"": ""Collier County Code Chapter 22"",
+  ""confidence"": ""low""
+}
+```"
+q032,claude-haiku-4-5,jurisdiction_amendment,Which Collier County Land Development Code section contains the dimensional standards table (Table 2.1) of minimum yard requirements for principal structures in base zoning districts?,2.03.01,4.02.01,"```json
+{
+  ""value"": null,
+  ""unit"": null,
+  ""section"": ""2.03.01"",
+  ""confidence"": ""low""
+}
+```"
+q032,claude-haiku-4-5,jurisdiction_amendment,Which Collier County Land Development Code section contains the dimensional standards table (Table 2.1) of minimum yard requirements for principal structures in base zoning districts?,2.03.01,4.02.01,"```json
+{
+  ""value"": null,
+  ""unit"": null,
+  ""section"": ""2.03.01"",
+  ""confidence"": ""low""
+}
+```"
+q032,claude-haiku-4-5,jurisdiction_amendment,Which Collier County Land Development Code section contains the dimensional standards table (Table 2.1) of minimum yard requirements for principal structures in base zoning districts?,2.03.01,4.02.01,"```json
+{
+  ""value"": null,
+  ""unit"": null,
+  ""section"": ""2.03.01"",
+  ""confidence"": ""low""
+}
+```"
+q034,claude-haiku-4-5,jurisdiction_amendment,"Which Collier County LDC section sets the specific standards for the location of accessory buildings and structures, such as pools and screen enclosures?",2.04.01,4.02.03,"```json
+{
+  ""value"": null,
+  ""unit"": null,
+  ""section"": ""Collier County LDC 2.04.01"",
+  ""confidence"": ""low""
+}
+```"
+q034,claude-haiku-4-5,jurisdiction_amendment,"Which Collier County LDC section sets the specific standards for the location of accessory buildings and structures, such as pools and screen enclosures?",2.03.01,4.02.03,"```json
+{
+  ""value"": null,
+  ""unit"": null,
+  ""section"": ""Collier County LDC Section 2.03.01"",
+  ""confidence"": ""low""
+}
+```"
+q034,claude-haiku-4-5,jurisdiction_amendment,"Which Collier County LDC section sets the specific standards for the location of accessory buildings and structures, such as pools and screen enclosures?",2.04.01,4.02.03,"```json
+{
+  ""value"": null,
+  ""unit"": null,
+  ""section"": ""Collier County LDC 2.04.01"",
+  ""confidence"": ""low""
+}
+```"
+q035,claude-haiku-4-5,jurisdiction_amendment,What is the minimum front yard setback for a principal structure in the Collier County Estates (E) zoning district?,COLLIER COUNTY LAND DEVELOPMENT CODE,4.02.01,"```json
+{
+  ""value"": null,
+  ""unit"": null,
+  ""section"": ""Collier County Land Development Code"",
+  ""confidence"": ""low""
+}
+```"
+q035,claude-haiku-4-5,jurisdiction_amendment,What is the minimum front yard setback for a principal structure in the Collier County Estates (E) zoning district?,COLLIER COUNTY LAND DEVELOPMENT CODE,4.02.01,"```json
+{
+  ""value"": null,
+  ""unit"": null,
+  ""section"": ""Collier County Land Development Code"",
+  ""confidence"": ""low""
+}
+```"
+q035,claude-haiku-4-5,jurisdiction_amendment,What is the minimum front yard setback for a principal structure in the Collier County Estates (E) zoning district?,COLLIER COUNTY LAND DEVELOPMENT CODE,4.02.01,"```json
+{
+  ""value"": null,
+  ""unit"": null,
+  ""section"": ""Collier County Land Development Code"",
+  ""confidence"": ""low""
+}
+```"
+q037,claude-haiku-4-5,jurisdiction_amendment,"During sea turtle nesting season in Collier County, within how many feet of the nesting zone of a beach is it unlawful to construct a structure, add fill, mechanically clean the beach, or grade dirt without a permit?",FLORIDA ADMINISTRATIVE CODE 62-330.370,3.04.02,"```json
+{
+  ""value"": 150,
+  ""unit"": ""feet"",
+  ""section"": ""Florida Administrative Code 62-330.370"",
+  ""confidence"": ""low""
+}
+```"
+q037,claude-haiku-4-5,jurisdiction_amendment,"During sea turtle nesting season in Collier County, within how many feet of the nesting zone of a beach is it unlawful to construct a structure, add fill, mechanically clean the beach, or grade dirt without a permit?",FLORIDA BUILDING CODE / COLLIER COUNTY BEACH MANAGEMENT,3.04.02,"```json
+{
+  ""value"": 150,
+  ""unit"": ""feet"",
+  ""section"": ""Florida Building Code / Collier County Beach Management"",
+  ""confidence"": ""low""
+}
+```"
+q037,claude-haiku-4-5,jurisdiction_amendment,"During sea turtle nesting season in Collier County, within how many feet of the nesting zone of a beach is it unlawful to construct a structure, add fill, mechanically clean the beach, or grade dirt without a permit?",COLLIER COUNTY ORDINANCE (SEA TURTLE PROTECTION REGULATIONS),3.04.02,"```json
+{
+  ""value"": 150,
+  ""unit"": ""feet"",
+  ""section"": ""Collier County Ordinance (sea turtle protection regulations)"",
+  ""confidence"": ""low""
+}
+```"
+q038,claude-haiku-4-5,jurisdiction_amendment,"Under Collier County's flood ordinance, to what elevation must mechanical, plumbing, and electrical systems be elevated for a detached accessory structure permitted below the base flood elevation?",COLLIER COUNTY FLOOD ORDINANCE,62-80,"```json
+{
+  ""value"": null,
+  ""unit"": null,
+  ""section"": ""Collier County Flood Ordinance"",
+  ""confidence"": ""low""
+}
+```"
+q038,claude-haiku-4-5,jurisdiction_amendment,"Under Collier County's flood ordinance, to what elevation must mechanical, plumbing, and electrical systems be elevated for a detached accessory structure permitted below the base flood elevation?",COLLIER COUNTY FLOOD ORDINANCE,62-80,"```json
+{
+  ""value"": null,
+  ""unit"": null,
+  ""section"": ""Collier County Flood Ordinance"",
+  ""confidence"": ""low""
+}
+```"
+q038,claude-haiku-4-5,jurisdiction_amendment,"Under Collier County's flood ordinance, to what elevation must mechanical, plumbing, and electrical systems be elevated for a detached accessory structure permitted below the base flood elevation?",COLLIER COUNTY FLOOD ORDINANCE,62-80,"```json
+{
+  ""value"": null,
+  ""unit"": null,
+  ""section"": ""Collier County Flood Ordinance"",
+  ""confidence"": ""low""
+}
+```"
+q039,claude-haiku-4-5,jurisdiction_amendment,"Under Collier County's local FBC exemptions for detached single-family residences, what is the maximum value of non-structural repair work by a licensed contractor that is exempt from a building permit?",COLLIER COUNTY LOCAL FBC EXEMPTIONS,105.2.4,"```json
+{
+  ""value"": null,
+  ""unit"": null,
+  ""section"": ""Collier County Local FBC Exemptions"",
+  ""confidence"": ""low""
+}
+```"
+q039,claude-haiku-4-5,jurisdiction_amendment,"Under Collier County's local FBC exemptions for detached single-family residences, what is the maximum value of non-structural repair work by a licensed contractor that is exempt from a building permit?",COLLIER COUNTY LOCAL FBC AMENDMENTS,105.2.4,"```json
+{
+  ""value"": null,
+  ""unit"": null,
+  ""section"": ""Collier County Local FBC Amendments"",
+  ""confidence"": ""low""
+}
+```"
+q043,claude-haiku-4-5,jurisdiction_amendment,"What is the maximum fine for violating the provisions of Collier County's building code ordinance, per Ordinance 2023-64?",2023-64,22-28,"```json
+{
+  ""value"": null,
+  ""unit"": null,
+  ""section"": ""Collier County Ordinance 2023-64"",
+  ""confidence"": ""low""
+}
+```"
+q043,claude-haiku-4-5,jurisdiction_amendment,"What is the maximum fine for violating the provisions of Collier County's building code ordinance, per Ordinance 2023-64?",2023-64,22-28,"```json
+{
+  ""value"": null,
+  ""unit"": null,
+  ""section"": ""Collier County Ordinance 2023-64"",
+  ""confidence"": ""low""
+}
+```"
+q043,claude-haiku-4-5,jurisdiction_amendment,"What is the maximum fine for violating the provisions of Collier County's building code ordinance, per Ordinance 2023-64?",2023-64,22-28,"```json
+{
+  ""value"": null,
+  ""unit"": null,
+  ""section"": ""Collier County Ordinance 2023-64"",
+  ""confidence"": ""low""
+}
+```"
+q045,claude-haiku-4-5,jurisdiction_amendment,What is the minimum rear yard setback for a one- or two-family swimming pool and/or screen enclosure on a non-waterfront lot in Collier County?,COLLIER COUNTY LAND DEVELOPMENT CODE,4.02.03,"```json
+{
+  ""value"": 5,
+  ""unit"": ""feet"",
+  ""section"": ""Collier County Land Development Code"",
+  ""confidence"": ""low""
+}
+```"
+q045,claude-haiku-4-5,jurisdiction_amendment,What is the minimum rear yard setback for a one- or two-family swimming pool and/or screen enclosure on a non-waterfront lot in Collier County?,405.2,4.02.03,"```json
+{
+  ""value"": 5,
+  ""unit"": ""feet"",
+  ""section"": ""405.2"",
+  ""confidence"": ""low""
+}
+```"
+q045,claude-haiku-4-5,jurisdiction_amendment,What is the minimum rear yard setback for a one- or two-family swimming pool and/or screen enclosure on a non-waterfront lot in Collier County?,405.2,4.02.03,"```json
+{
+  ""value"": 5,
+  ""unit"": ""feet"",
+  ""section"": ""405.2"",
+  ""confidence"": ""low""
+}
+```"
