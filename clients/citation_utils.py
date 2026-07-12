@@ -69,6 +69,25 @@ def _normalize(raw_section: str) -> str:
     return raw_section.strip().rstrip(".").upper()
 
 
+def normalize_section(raw_section: str | None) -> str | None:
+    """
+    Normalize an ALREADY-ISOLATED section value (e.g. the `section` field of a
+    structured JSON answer, which is a bare "1003.2" with no prose around it).
+
+    Unlike extract_section_citation(), this does NOT require a "FBC"/"Section"
+    prefix — the caller has already told us this string *is* the citation, so a
+    bare number is valid here. Use extract_section_citation() for free prose and
+    this for a dedicated citation field:
+
+        cited = extract_section_citation(field) or normalize_section(field)
+
+    Returns None for empty/whitespace input so "no section" stays distinguishable.
+    """
+    if not raw_section or not raw_section.strip():
+        return None
+    return _normalize(raw_section)
+
+
 def section_present_in_context(section: str | None, context: str) -> bool:
     """
     Used in Lesson 6's grounding-compliance check: does the section the model cited

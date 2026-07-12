@@ -30,12 +30,21 @@ from dataclasses import asdict
 from pathlib import Path
 
 from clients.citation_utils import extract_section_citation
-from clients import foundation_client
+from clients import foundation_client, instruction_tuned_client
 
 # One entry per model class: (client function, exceptions to record as failed
-# requests). Lesson 2+ clients get registered here with their own error types.
+# requests). Lesson 3+ clients get registered here with their own error types.
 CLIENTS = {
     "foundation": (foundation_client.call_foundation_model, foundation_client.API_ERRORS),
+    "instruction_tuned": (instruction_tuned_client.call_instruction_tuned,
+                          instruction_tuned_client.API_ERRORS),
+}
+
+# Model-name constant per class — used by --resume to keep only prior successes
+# from the CURRENT model (a model swap should re-run, not reuse stale rows).
+MODEL_NAMES = {
+    "foundation": foundation_client.FOUNDATION_MODEL,
+    "instruction_tuned": instruction_tuned_client.INSTRUCTION_TUNED_MODEL,
 }
 
 DATA_PATH = Path("data/fbc_eval_questions.csv")
@@ -177,7 +186,7 @@ async def main() -> None:
     kept: list[dict] = []
     done: set[tuple] = set()
     if args.resume and out_path.exists():
-        current_model = foundation_client.FOUNDATION_MODEL
+        current_model = MODEL_NAMES[args.model_class]
         for line in out_path.open(encoding="utf-8"):
             r = json.loads(line)
             if r.get("error") is None and r.get("model_name") == current_model:
