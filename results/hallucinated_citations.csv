@@ -6,7 +6,7 @@ That said, I can offer some helpful general guidance:
 **Where to look**
 
 - The Florida Building Code, Building (FBC-B) is based on the **International Building Code (IBC)**, so its numbering generally mirrors the IBC.
-- In the IBC (and typically the FBC-B), **Chapter 10 â€“ Means of Egress** is the relevant chapter.
+- In the IBC (and typically the FBC-B), **Chapter 10 – Means of Egress** is the relevant chapter.
 - Within Chapter 10:
   - **Section 1005** typically covers **Means of Egress Sizing** (including egress capacity/width calculations based on occupant load).
   - **Section 1020** typically covers **Corridors** (including minimum corridor width and fire-resistance requirements).
@@ -21,7 +21,7 @@ That said, I can offer some general guidance:
 - The Florida Building Code, Building (FBC-B) is based on the **International Building Code (IBC)**, and Florida typically maintains the IBC's chapter and section structure.
 
 - In the IBC, **means of egress** provisions are found in **Chapter 10**. Within that chapter:
-  - **Corridors** are generally addressed in a section numbered around **Section 1020** (this shifted between editionsâ€”it was 1018 in older editions).
+  - **Corridors** are generally addressed in a section numbered around **Section 1020** (this shifted between editions—it was 1018 in older editions).
   - **Egress width/capacity** determinations (including the capacity factors per occupant) are addressed in **Section 1005 (Means of Egress Sizing)**.
 
 So corridor **minimum width and capacity** would typically involve both:
@@ -68,7 +68,7 @@ A few additional points worth noting:
 - The code permits alternative methods, such as the wind provisions in the **ICC 600 (Standard for Residential Construction in High-Wind Regions)** or **AAMA/WDMA/CSA** standards for certain components, but ASCE 7 is the primary referenced standard for the analytical procedures.
 
 If you're working on a specific project, I'd recommend verifying the exact edition and any local amendments, since Florida sometimes adopts modifications beyond the base code."
-q006,claude-opus-4-8,numeric,"What section of the 2023 Florida Building Code, Building, governs wind loads, and which standard does it reference for detailed calculation?",1609.1.1,1609,"In the 2023 Florida Building Code, Building (8th Edition), wind loads are primarily governed by **Chapter 16 â€“ Structural Design**, specifically **Section 1609 â€“ Wind Loads**.
+q006,claude-opus-4-8,numeric,"What section of the 2023 Florida Building Code, Building, governs wind loads, and which standard does it reference for detailed calculation?",1609.1.1,1609,"In the 2023 Florida Building Code, Building (8th Edition), wind loads are primarily governed by **Chapter 16 – Structural Design**, specifically **Section 1609 – Wind Loads**.
 
 For detailed wind load calculations, Section 1609 references **ASCE 7 (Minimum Design Loads and Associated Criteria for Buildings and Other Structures)**. The 2023 FBC edition references **ASCE 7-22**.
 
@@ -76,14 +76,14 @@ A few additional points worth noting:
 
 - **Section 1609.1.1** establishes ASCE 7 as the standard for determining wind loads, with certain exceptions (for example, alternative methods like the wind provisions of the ICC-600 Standard for Residential Construction in High-Wind Regions, or AWC's Wood Frame Construction Manual, may be permitted for specific applications).
 - **Section 1609.3** addresses basic (ultimate) design wind speeds and includes wind speed maps applicable to Florida, which has some of the most stringent wind design requirements in the U.S. due to hurricane exposure.
-- Florida also has special provisions for the **High-Velocity Hurricane Zone (HVHZ)**â€”which covers Miami-Dade and Broward countiesâ€”found in later sections of the code (e.g., the 1620 series and related HVHZ-specific chapters), which impose additional requirements beyond the base ASCE 7 provisions.
+- Florida also has special provisions for the **High-Velocity Hurricane Zone (HVHZ)**—which covers Miami-Dade and Broward counties—found in later sections of the code (e.g., the 1620 series and related HVHZ-specific chapters), which impose additional requirements beyond the base ASCE 7 provisions.
 
 Because code editions and adopted standard versions can be updated, I'd recommend verifying the exact referenced ASCE 7 edition against the official published FBC text for your specific project, as this affects load calculations and compliance."
 q006,claude-opus-4-8,numeric,"What section of the 2023 Florida Building Code, Building, governs wind loads, and which standard does it reference for detailed calculation?",1609.1.1,1609,"In the **2023 Florida Building Code, Building (8th Edition)**, wind loads are governed by:
 
-## Chapter 16 â€“ Structural Design
+## Chapter 16 – Structural Design
 
-Specifically, **Section 1609 â€“ Wind Loads** is the section that addresses wind load requirements.
+Specifically, **Section 1609 – Wind Loads** is the section that addresses wind load requirements.
 
 ## Referenced Standard
 
@@ -92,17 +92,17 @@ Section 1609 references **ASCE 7** (*Minimum Design Loads and Associated Criteri
 ## Key Points
 
 - **Section 1609.1.1** directs the user to ASCE 7 for determining wind loads, with certain exceptions (such as the simplified provisions for specific building types).
-- Florida includes important **state-specific amendments**, particularly for **High-Velocity Hurricane Zones (HVHZ)** â€” which cover **Miami-Dade and Broward counties** â€” where additional and more stringent requirements apply.
+- Florida includes important **state-specific amendments**, particularly for **High-Velocity Hurricane Zones (HVHZ)** — which cover **Miami-Dade and Broward counties** — where additional and more stringent requirements apply.
 - The code also incorporates **wind speed maps** (Figures 1609.3) and provisions for **windborne debris regions** and **wind design regions**, which are critical given Florida's hurricane exposure.
 
 ## Practical Note
 
-Because interpretation of these provisionsâ€”especially in HVHZ areasâ€”can be complex, it's always advisable to verify against the **exact current adopted text** and any local amendments, as building codes are periodically updated and local jurisdictions may impose additional requirements."
-q007,claude-opus-4-8,numeric,"How is the ultimate design wind speed (Vult) for Risk Category II buildings determined under the 2023 Florida Building Code, Building?",1609.3.1,1609.3,"# Ultimate Design Wind Speed (Vult) for Risk Category II Buildings â€” 2023 Florida Building Code
+Because interpretation of these provisions—especially in HVHZ areas—can be complex, it's always advisable to verify against the **exact current adopted text** and any local amendments, as building codes are periodically updated and local jurisdictions may impose additional requirements."
+q007,claude-opus-4-8,numeric,"How is the ultimate design wind speed (Vult) for Risk Category II buildings determined under the 2023 Florida Building Code, Building?",1609.3.1,1609.3,"# Ultimate Design Wind Speed (Vult) for Risk Category II Buildings — 2023 Florida Building Code
 
 Under the **2023 Florida Building Code, Building (8th Edition)**, the ultimate design wind speed (Vult) is determined as follows:
 
-## Primary Method â€” Wind Speed Maps
+## Primary Method — Wind Speed Maps
 
 The basic (ultimate) design wind speed is obtained from the **wind speed maps** referenced in the code. For Risk Category II buildings specifically, this is found in:
 
@@ -141,19 +141,19 @@ The **basic (ultimate) design wind speed, Vult**, is obtained from the wind spee
 
 Key points on how this is determined:
 
-1. **Figure references** â€“ The FBC references **ASCE 7-22** wind speed maps (adopted through Chapter 16, Structural Design). Risk Category II has its own dedicated map showing contour lines of wind speeds across geographic areas.
+1. **Figure references** – The FBC references **ASCE 7-22** wind speed maps (adopted through Chapter 16, Structural Design). Risk Category II has its own dedicated map showing contour lines of wind speeds across geographic areas.
 
-2. **Location-based** â€“ The value is found by locating your specific building site on the applicable map and reading the wind speed contour (in miles per hour). Florida has some of the highest values in the nation, particularly in:
-   - **High-Velocity Hurricane Zones (HVHZ)** â€“ Miami-Dade and Broward counties
+2. **Location-based** – The value is found by locating your specific building site on the applicable map and reading the wind speed contour (in miles per hour). Florida has some of the highest values in the nation, particularly in:
+   - **High-Velocity Hurricane Zones (HVHZ)** – Miami-Dade and Broward counties
    - **Coastal areas** subject to hurricane exposure
 
-3. **Interpolation** â€“ For sites located between contour lines, linear interpolation is permitted.
+3. **Interpolation** – For sites located between contour lines, linear interpolation is permitted.
 
-4. **Special wind regions** â€“ Certain areas may require additional analysis, and local jurisdictions may establish site-specific wind speeds where mountainous terrain, gorges, or other special conditions exist.
+4. **Special wind regions** – Certain areas may require additional analysis, and local jurisdictions may establish site-specific wind speeds where mountainous terrain, gorges, or other special conditions exist.
 
 ## Additional Considerations
 
-- **Risk Category** is established per **FBC Table 1604.5** based on the nature of occupancy (Category II covers buildings not falling into Categories I, III, or IVâ€”essentially most standard buildings).
+- **Risk Category** is established per **FBC Table 1604.5** based on the nature of occupancy (Category II covers buildings not falling into Categories I, III, or IV—essentially most standard buildings).
 - The maps provide **strength design (ultimate)** wind speeds, associated with specific mean recurrence intervals (for Risk Category II, this corresponds to approximately a **700-year** return period / 7% probability of exceedance in 50 years).
 
 ## Verification Recommendation
@@ -163,14 +163,14 @@ Because wind provisions are heavily amended in Florida (especially for HVHZ), yo
 - Check for **local amendments** in your jurisdiction
 
 Would you like details on a specific location, the HVHZ requirements, or how Vult is applied in subsequent design calculations?"
-q009,claude-opus-4-8,numeric,"What Florida Building Code section governs foundation walls and retaining wall design for lateral soil loads, and where are the minimum design soil loads found?",18,1610,"I don't have reliable, section-specific citations memorized for the Florida Building Code that I can guarantee are accurate. Rather than risk giving you an incorrect section numberâ€”which matters a lot for code complianceâ€”let me point you in a useful direction.
+q009,claude-opus-4-8,numeric,"What Florida Building Code section governs foundation walls and retaining wall design for lateral soil loads, and where are the minimum design soil loads found?",18,1610,"I don't have reliable, section-specific citations memorized for the Florida Building Code that I can guarantee are accurate. Rather than risk giving you an incorrect section number—which matters a lot for code compliance—let me point you in a useful direction.
 
 ## General guidance (based on how the code is typically structured)
 
 The Florida Building Code (FBC) is based on the International Code family, so the structure is usually similar:
 
-- **Foundation walls and retaining walls** are generally addressed in **Chapter 18 (Soils and Foundations)** of the **FBC â€“ Building**, and in the **residential context, Chapter 4 (Foundations) of the FBC â€“ Residential**.
-- **Minimum lateral soil load (design lateral soil load) tables** are commonly found within that same foundations chapterâ€”in the IBC/IRC lineage this is often a table titled something like ""Design Lateral Soil Load,"" organized by soil classification (e.g., well-graded gravel, sandy silt, clay, etc.).
+- **Foundation walls and retaining walls** are generally addressed in **Chapter 18 (Soils and Foundations)** of the **FBC – Building**, and in the **residential context, Chapter 4 (Foundations) of the FBC – Residential**.
+- **Minimum lateral soil load (design lateral soil load) tables** are commonly found within that same foundations chapter—in the IBC/IRC lineage this is often a table titled something like ""Design Lateral Soil Load,"" organized by soil classification (e.g., well-graded gravel, sandy silt, clay, etc.).
 
 ## Why I'm hedging
 
@@ -182,8 +182,8 @@ Section numbers and table numbers **do change between code editions** (e.g., 7th
 2. **Verify which edition applies** to your project (the current adopted edition and effective date).
 3. Look in the **Soils and Foundations** chapter for the retaining/foundation wall provisions and the associated soil load table.
 
-If you tell me which **FBC edition and which volume** (Building vs. Residential) you're working with, I can try to help you reason through the structure more specificallyâ€”but please verify any section numbers against the official published code before relying on them."
-q009,claude-opus-4-8,numeric,"What Florida Building Code section governs foundation walls and retaining wall design for lateral soil loads, and where are the minimum design soil loads found?",18,1610,"# Florida Building Code â€“ Foundation and Retaining Wall Lateral Soil Loads
+If you tell me which **FBC edition and which volume** (Building vs. Residential) you're working with, I can try to help you reason through the structure more specifically—but please verify any section numbers against the official published code before relying on them."
+q009,claude-opus-4-8,numeric,"What Florida Building Code section governs foundation walls and retaining wall design for lateral soil loads, and where are the minimum design soil loads found?",18,1610,"# Florida Building Code – Foundation and Retaining Wall Lateral Soil Loads
 
 ## Important Caveat
 
@@ -196,11 +196,11 @@ I want to be upfront: I can point you toward the **general structure** of where 
 ## General Guidance on Where to Look
 
 **Florida Building Code, Building (FBC-B):**
-- **Chapter 18 â€“ Soils and Foundations** is the primary chapter governing foundations and retaining structures.
-- **Minimum design lateral soil loads** are typically presented in a table within Chapter 16 (Structural Design) â€” historically **Table 1610.1**, ""Soil Lateral Load,"" which lists design pressures (psf per foot of depth) by soil classification.
+- **Chapter 18 – Soils and Foundations** is the primary chapter governing foundations and retaining structures.
+- **Minimum design lateral soil loads** are typically presented in a table within Chapter 16 (Structural Design) — historically **Table 1610.1**, ""Soil Lateral Load,"" which lists design pressures (psf per foot of depth) by soil classification.
 
 **Florida Building Code, Residential (FBC-R):**
-- Foundation provisions fall under **Chapter 4 â€“ Foundations**, with foundation wall and lateral soil load tables located there.
+- Foundation provisions fall under **Chapter 4 – Foundations**, with foundation wall and lateral soil load tables located there.
 
 ## Recommended Verification Steps
 
@@ -215,7 +215,7 @@ q009,claude-opus-4-8,numeric,"What Florida Building Code section governs foundat
 
 In the **Florida Building Code, Residential (FBC-R)**, foundation walls are generally addressed in **Chapter 4 (Foundations)**, particularly:
 
-- **Section R404** â€“ Foundation and Retaining Walls. This section covers concrete and masonry foundation wall design, including provisions for resisting lateral soil loads.
+- **Section R404** – Foundation and Retaining Walls. This section covers concrete and masonry foundation wall design, including provisions for resisting lateral soil loads.
 
 ## Minimum Design Lateral Soil Loads
 
@@ -233,8 +233,8 @@ More specifically, minimum lateral soil load values (expressed in pounds per squ
 If you're working under the **Florida Building Code, Building** volume, look at:
 
 - **Chapter 18 (Soils and Foundations)**
-- **Section 1807** â€“ Foundation Walls, Retaining Walls, and Embedded Posts and Poles
-- **Table 1610.1** â€“ Minimum design lateral soil loads (this is a key table you're likely asking about)
+- **Section 1807** – Foundation Walls, Retaining Walls, and Embedded Posts and Poles
+- **Table 1610.1** – Minimum design lateral soil loads (this is a key table you're likely asking about)
 
 ## Recommendation
 
@@ -248,7 +248,7 @@ q010,claude-opus-4-8,numeric,"What section of the 2023 Florida Building Code, Bu
 
 That said, I can offer some helpful context:
 
-- In the **International Building Code (IBC)**, which Florida's code is based on, geotechnical and soils-related provisions for foundations are generally found in **Chapter 18 â€“ Soils and Foundations**. Within that chapter, sections addressing geotechnical/soils investigations are typically in the **Section 1803 (Geotechnical Investigations)** range.
+- In the **International Building Code (IBC)**, which Florida's code is based on, geotechnical and soils-related provisions for foundations are generally found in **Chapter 18 – Soils and Foundations**. Within that chapter, sections addressing geotechnical/soils investigations are typically in the **Section 1803 (Geotechnical Investigations)** range.
 
 - The Florida Building Code, Building often mirrors this structure, so Chapter 18 would be the logical place to look, with the investigation requirements likely around Section 1803.
 
@@ -261,7 +261,7 @@ q010,claude-opus-4-8,numeric,"What section of the 2023 Florida Building Code, Bu
 
 What I can tell you generally:
 
-- In the **International Building Code (IBC)**, which Florida's code is based on, foundation and soil-related requirements are typically found in **Chapter 18 â€“ Soils and Foundations**. Geotechnical/soil investigation provisions are usually within that chapter (historically around Section 1803, ""Geotechnical Investigations"").
+- In the **International Building Code (IBC)**, which Florida's code is based on, foundation and soil-related requirements are typically found in **Chapter 18 – Soils and Foundations**. Geotechnical/soil investigation provisions are usually within that chapter (historically around Section 1803, ""Geotechnical Investigations"").
 
 - The Florida Building Code often mirrors IBC chapter and section numbering, so Chapter 18 would be the most likely place to look, but Florida makes amendments, so the exact section could differ.
 
@@ -274,9 +274,9 @@ q010,claude-opus-4-8,numeric,"What section of the 2023 Florida Building Code, Bu
 
 That said, I can offer some helpful context:
 
-- In the **International Building Code (IBC)**, which the Florida Building Code is based on, geotechnical investigations and soils/foundation requirements are generally found in **Chapter 18 â€“ Soils and Foundations**. Section **1803** specifically addresses **""Geotechnical Investigations.""**
+- In the **International Building Code (IBC)**, which the Florida Building Code is based on, geotechnical investigations and soils/foundation requirements are generally found in **Chapter 18 – Soils and Foundations**. Section **1803** specifically addresses **""Geotechnical Investigations.""**
 
-- The Florida Building Code typically mirrors the IBC's chapter and section numbering, so Chapter 18 / Section 1803 is a very likely locationâ€”but Florida does add state-specific amendments, so you should verify.
+- The Florida Building Code typically mirrors the IBC's chapter and section numbering, so Chapter 18 / Section 1803 is a very likely location—but Florida does add state-specific amendments, so you should verify.
 
 To get the authoritative answer, I'd recommend:
 1. Checking the official Florida Building Code online (the state provides a searchable version through the **Florida Building Commission** / **UpCodes** or the **ICC** digital codes platform).
@@ -335,7 +335,7 @@ To get the precise, current section number, I'd recommend:
 1. Checking the **Florida Building Code, Building** (current edition) directly at the official online code portal (codes.iccsafe.org or the Florida Building Commission site).
 2. Consulting your **local building department or floodplain administrator**, since they enforce these requirements and can point to the exact citation.
 
-If you can tell me which edition of the FBC you're working with (e.g., 7th Edition 2020, 8th Edition 2023), I can try to help narrow it down furtherâ€”but I'd still encourage verifying the section number against the official text."
+If you can tell me which edition of the FBC you're working with (e.g., 7th Edition 2020, 8th Edition 2023), I can try to help narrow it down further—but I'd still encourage verifying the section number against the official text."
 q013,claude-opus-4-8,state_amendment,What Florida Building Code section requires elevation certification to be submitted for buildings in flood hazard areas after the foundation inspection?,1,110.3,"I don't have reliable, specific knowledge of the exact Florida Building Code section number that requires elevation certification submission after foundation inspection, and I don't want to give you a citation that might be incorrect.
 
 What I can tell you generally:
@@ -346,7 +346,7 @@ What I can tell you generally:
 
 To get the precise, current section number, I'd recommend:
 
-1. **Checking the Florida Building Code directly** at the official source (the code is published online and searchable) â€” look in the **Building volume, Chapter 1 (Scope and Administration)** and the flood-related provisions.
+1. **Checking the Florida Building Code directly** at the official source (the code is published online and searchable) — look in the **Building volume, Chapter 1 (Scope and Administration)** and the flood-related provisions.
 2. **UpCodes or ICC Digital Codes**, which let you search the Florida Building Code by keyword like ""elevation certificate"" or ""flood.""
 3. **Contacting your local building department or floodplain administrator**, who can point to the exact adopted section and edition (the numbering can shift between code editions like 2017, 2020, 2023).
 
@@ -370,21 +370,21 @@ q015,claude-opus-4-8,jurisdiction_amendment,"Which Collier County code section g
 
 Here's how you can find the accurate answer:
 
-1. **Collier County Code of Ordinances** â€“ Flood damage prevention regulations are typically found within the county's floodplain management or flood damage prevention ordinance. You can search the codified ordinances at **Municode** (library.municode.com), which hosts Collier County's code.
+1. **Collier County Code of Ordinances** – Flood damage prevention regulations are typically found within the county's floodplain management or flood damage prevention ordinance. You can search the codified ordinances at **Municode** (library.municode.com), which hosts Collier County's code.
 
-2. **Collier County Growth Management Department / Floodplain Management** â€“ This office administers flood variances and can point you to the exact citation. They handle variances from flood-resistant construction standards.
+2. **Collier County Growth Management Department / Floodplain Management** – This office administers flood variances and can point you to the exact citation. They handle variances from flood-resistant construction standards.
 
-3. **Florida Building Code cross-reference** â€“ Because you mentioned variances from the FBC's flood-resistant construction requirements, the relevant provision usually ties local floodplain ordinance language to FBC Section 1612 and the state floodplain management statutes.
+3. **Florida Building Code cross-reference** – Because you mentioned variances from the FBC's flood-resistant construction requirements, the relevant provision usually ties local floodplain ordinance language to FBC Section 1612 and the state floodplain management statutes.
 
 For a definitive and current citation, I'd recommend calling Collier County's Floodplain Management/Growth Management Department directly, as ordinance section numbers can change with recodification.
 
 Would you like help drafting a question to send to the county, or guidance on the general variance process under FEMA/NFIP standards (44 CFR 60.6), which local ordinances must follow?"
-q022,claude-opus-4-8,numeric,"What is the minimum tread depth and maximum riser height for a residential stairway under the Florida Building Code, Residential?",R311.7,R311.7.5.1,"# Florida Building Code, Residential â€“ Stairway Requirements
+q022,claude-opus-4-8,numeric,"What is the minimum tread depth and maximum riser height for a residential stairway under the Florida Building Code, Residential?",R311.7,R311.7.5.1,"# Florida Building Code, Residential – Stairway Requirements
 
 Under the **Florida Building Code, Residential (FBC-R)**, Section R311.7 governs stairways. The standard requirements are:
 
 ## Riser Height
-- **Maximum riser height: 7Â¾ inches (7.75"")**
+- **Maximum riser height: 7¾ inches (7.75"")**
 - Measured vertically between leading edges of adjacent treads
 
 ## Tread Depth
@@ -405,19 +405,19 @@ q022,claude-opus-4-8,numeric,"What is the minimum tread depth and maximum riser 
 
 ## Stair Riser and Tread Requirements
 
-**Maximum Riser Height:** 7Â¾ inches (7.75"")
+**Maximum Riser Height:** 7¾ inches (7.75"")
 - Measured vertically between the leading edges of adjacent treads
-- The greatest riser height within any flight of stairs cannot exceed the smallest by more than â…œ inch
+- The greatest riser height within any flight of stairs cannot exceed the smallest by more than ⅜ inch
 
 **Minimum Tread Depth:** 10 inches (10"")
 - Measured horizontally between the vertical planes of the foremost projection of adjacent treads
-- The greatest tread depth within any flight cannot exceed the smallest by more than â…œ inch
+- The greatest tread depth within any flight cannot exceed the smallest by more than ⅜ inch
 
 ## Additional Related Requirements
 
 - **Minimum stairway width:** 36 inches
 - **Minimum headroom:** 6 feet 8 inches
-- **Nosing:** Where solid risers are used, a nosing of Â¾ inch to 1Â¼ inch is generally required on stairways with tread depths less than 11 inches
+- **Nosing:** Where solid risers are used, a nosing of ¾ inch to 1¼ inch is generally required on stairways with tread depths less than 11 inches
 
 ## Important Notes
 
@@ -435,10 +435,10 @@ Under the **Florida Building Code, Residential (FBC-R)**, Section R311.7, the re
 - **Minimum tread depth: 10 inches** (measured horizontally between the vertical planes of the foremost projection of adjacent treads)
 
 ## Riser Height
-- **Maximum riser height: 7Â¾ inches** (measured vertically between leading edges of adjacent treads)
+- **Maximum riser height: 7¾ inches** (measured vertically between leading edges of adjacent treads)
 
 ## Additional Related Requirements
-- **Uniformity:** The greatest tread depth and riser height within any flight of stairs cannot exceed the smallest by more than **â…œ inch**
+- **Uniformity:** The greatest tread depth and riser height within any flight of stairs cannot exceed the smallest by more than **⅜ inch**
 - **Headroom:** Minimum **6 feet 8 inches** measured vertically from the sloped line adjoining the tread nosing
 - **Stairway width:** Minimum **36 inches** above the permitted handrail height and below the required headroom height
 
@@ -466,7 +466,7 @@ Additionally, doors **when fully opened and during the course of their swing** s
 | Condition | Maximum Encroachment |
 |-----------|---------------------|
 | Door fully open | 7 inches (178 mm) |
-| Door during swing | Not more than Â½ of required width |
+| Door during swing | Not more than ½ of required width |
 
 **Note:** These provisions generally mirror the International Building Code (IBC) since the Florida Building Code is based on the IBC. For any specific project, always verify against the current adopted code edition and consult the local Authority Having Jurisdiction (AHJ), as amendments may apply.
 
@@ -481,7 +481,7 @@ Under the **2023 Florida Building Code** (which follows the International Buildi
 When fully open, a door shall **not reduce the required width by more than 7 inches (178 mm)**.
 
 **2. During Swing (One-Half / 50%):**
-Doors in any position (while swinging/opening) shall **not reduce the required width to less than one-half (Â½)** of the required width.
+Doors in any position (while swinging/opening) shall **not reduce the required width to less than one-half (½)** of the required width.
 
 ## Summary
 
@@ -497,7 +497,7 @@ So the direct answer to your question: **when a door is fully open, it may encro
 *Note: Always verify against the current adopted edition and any local amendments, as jurisdictions may modify or supplement the code. This is the standard IBC-based provision carried into the 2023 FBC.*"
 q025,claude-opus-4-8,numeric,"Under the 2023 FBC, what is the maximum encroachment allowed by a door into a required means-of-egress width when the door is fully open?",1005.7,1005.7.1,"# Door Encroachment into Egress Width (2023 FBC)
 
-Under the **2023 Florida Building Code (Building)**, referencing **Section 1005.7 â€“ Encroachment**, the requirements for doors encroaching into the required means of egress width are:
+Under the **2023 Florida Building Code (Building)**, referencing **Section 1005.7 – Encroachment**, the requirements for doors encroaching into the required means of egress width are:
 
 ## Fully Open Door (Section 1005.7.1)
 When **fully open**, doors shall **not project more than 7 inches** into the required egress width.
@@ -541,11 +541,11 @@ q028,claude-opus-4-8,jurisdiction_amendment,To which Florida Building Code secti
 
 To get an accurate answer, I'd recommend:
 
-1. **Collier County Growth Management Department / Building Review and Permitting Division** â€“ they can point you to the specific local amendment and section reference.
+1. **Collier County Growth Management Department / Building Review and Permitting Division** – they can point you to the specific local amendment and section reference.
 
-2. **Municode or the county's code of ordinances** â€“ Collier County's local amendments to the Florida Building Code are typically codified in the county's Code of Laws and Ordinances.
+2. **Municode or the county's code of ordinances** – Collier County's local amendments to the Florida Building Code are typically codified in the county's Code of Laws and Ordinances.
 
-3. **The Florida Building Code itself** â€“ local exemptions often relate to sections like the administrative provisions (Chapter 1) governing permits, but the specific section would need verification.
+3. **The Florida Building Code itself** – local exemptions often relate to sections like the administrative provisions (Chapter 1) governing permits, but the specific section would need verification.
 
 If you can tell me more about the context (such as a document you're referencing), I may be able to help interpret it, but I don't want to guess at a section number and risk giving you incorrect information."
 q029,claude-opus-4-8,jurisdiction_amendment,Which prior ordinance did Collier County Ordinance 2023-64 repeal when it adopted the 2023 Florida Building Code?,2023-64,2020-48,"I don't have reliable, specific information about Collier County Ordinance 2023-64 or the particular prior ordinance it may have repealed when adopting the 2023 Florida Building Code.
@@ -574,7 +574,7 @@ q029,claude-opus-4-8,jurisdiction_amendment,Which prior ordinance did Collier Co
 
 To get an accurate answer, I'd recommend:
 
-1. **Collier County's official website** or their **Municipal Code library** (often hosted through Municode or American Legal Publishing), where you can look up the full text of Ordinance 2023-64â€”the repealing clause is typically stated in the ordinance itself.
+1. **Collier County's official website** or their **Municipal Code library** (often hosted through Municode or American Legal Publishing), where you can look up the full text of Ordinance 2023-64—the repealing clause is typically stated in the ordinance itself.
 
 2. **Contacting the Collier County Clerk of Courts** or the **Growth Management/Building Department**, which handles building code adoptions.
 
@@ -585,11 +585,11 @@ q030,claude-opus-4-8,jurisdiction_amendment,"Which section of Collier County's f
 
 To get an accurate answer, I'd recommend:
 
-1. **Municode Library** â€“ Collier County's Code of Ordinances is typically hosted on Municode (library.municode.com), where you can browse or search Chapter 62 directly.
+1. **Municode Library** – Collier County's Code of Ordinances is typically hosted on Municode (library.municode.com), where you can browse or search Chapter 62 directly.
 
-2. **Collier County government website** â€“ The Growth Management Department or Floodplain Management program often provides guidance and citations.
+2. **Collier County government website** – The Growth Management Department or Floodplain Management program often provides guidance and citations.
 
-3. **Collier County Floodplain Coordinator** â€“ They can point you to the exact applicable section for your situation.
+3. **Collier County Floodplain Coordinator** – They can point you to the exact applicable section for your situation.
 
 Generally speaking, floodplain ordinances that follow the model based on the Florida Building Code and FEMA/NFIP standards often place site-specific building/structure requirements (like elevation, flood-resistant construction, and manufactured home standards) in a dedicated article or division on ""flood hazard reduction"" or ""specific standards."" However, the precise section number for Collier County would need to be verified through the sources above.
 
@@ -598,22 +598,22 @@ q030,claude-opus-4-8,jurisdiction_amendment,"Which section of Collier County's f
 
 To find this accurately, I'd recommend:
 
-1. **Municode Library** (municode.com) â€” Collier County's Code of Ordinances is typically hosted there, and you can browse or search Chapter 62 directly.
+1. **Municode Library** (municode.com) — Collier County's Code of Ordinances is typically hosted there, and you can browse or search Chapter 62 directly.
 
-2. **Collier County's official website** â€” Look for the Growth Management Department or Floodplain Management division.
+2. **Collier County's official website** — Look for the Growth Management Department or Floodplain Management division.
 
-3. **Collier County Floodplain Management program** â€” They can point you to the specific provisions, and many counties structure their flood ordinances around FEMA/NFIP model language, where building and structure requirements often appear under headings like ""Provisions for Flood Hazard Reduction"" or ""Specific Standards.""
+3. **Collier County Floodplain Management program** — They can point you to the specific provisions, and many counties structure their flood ordinances around FEMA/NFIP model language, where building and structure requirements often appear under headings like ""Provisions for Flood Hazard Reduction"" or ""Specific Standards.""
 
 If you can share the text or table of contents of Chapter 62, I'd be glad to help you identify the relevant section."
 q030,claude-opus-4-8,jurisdiction_amendment,"Which section of Collier County's flood ordinance (Code of Ordinances Chapter 62, Floods) governs requirements for buildings and structures in flood hazard areas?",62,62-80,"I don't have reliable, specific knowledge of the exact section numbering within Collier County's Code of Ordinances Chapter 62 that governs building and structure requirements in flood hazard areas. Providing a specific section citation without being certain would risk giving you incorrect information that could matter for compliance purposes.
 
 To get an accurate answer, I'd recommend:
 
-1. **Municode Library** â€” Collier County's Code of Ordinances is typically hosted at library.municode.com, where you can search Chapter 62 directly.
+1. **Municode Library** — Collier County's Code of Ordinances is typically hosted at library.municode.com, where you can search Chapter 62 directly.
 
-2. **Collier County Growth Management / Building Review and Permitting Division** â€” They administer floodplain regulations and can point you to the correct provisions.
+2. **Collier County Growth Management / Building Review and Permitting Division** — They administer floodplain regulations and can point you to the correct provisions.
 
-3. **The county floodplain management office** â€” They handle NFIP (National Flood Insurance Program) compliance and can identify the specific construction standards.
+3. **The county floodplain management office** — They handle NFIP (National Flood Insurance Program) compliance and can identify the specific construction standards.
 
 A few notes that may help your search:
 - Florida communities typically incorporate the **Florida Building Code** flood provisions and reference **ASCE 24** for building requirements in flood hazard areas.
@@ -626,8 +626,8 @@ While Collier County's LDC does contain dimensional standards for zoning distric
 
 To get the accurate, current citation, I'd recommend:
 
-1. **Municode** â€“ Collier County's LDC is published on Municode's website, where you can search the code directly.
-2. **Collier County Growth Management Department** â€“ They can direct you to current standards.
+1. **Municode** – Collier County's LDC is published on Municode's website, where you can search the code directly.
+2. **Collier County Growth Management Department** – They can direct you to current standards.
 3. **The county's official LDC page** on colliercountyfl.gov.
 
 Land development codes are also periodically amended, so section numbering can change, making it especially important to verify against the current official version."
@@ -640,9 +640,9 @@ That said, I can offer some helpful guidance:
 - The LDC frequently references accessory structures in the context of ""Accessory Uses and Structures.""
 
 **Best ways to get an authoritative answer:**
-1. **Municode** â€“ The Collier County LDC is published online through Municode (municode.com). You can search terms like ""accessory structures,"" ""screen enclosure,"" or ""swimming pool setbacks.""
-2. **Collier County Growth Management Department** â€“ They can direct you to the exact section and confirm current standards.
-3. **Collier County Planning & Zoning** â€“ Staff can help interpret how the standards apply to your specific property and zoning district.
+1. **Municode** – The Collier County LDC is published online through Municode (municode.com). You can search terms like ""accessory structures,"" ""screen enclosure,"" or ""swimming pool setbacks.""
+2. **Collier County Growth Management Department** – They can direct you to the exact section and confirm current standards.
+3. **Collier County Planning & Zoning** – Staff can help interpret how the standards apply to your specific property and zoning district.
 
 Because setback and location requirements vary by zoning district and can be amended, I'd strongly recommend verifying with the county directly or a licensed local land use professional before relying on this for a permit or project.
 
@@ -1407,3 +1407,388 @@ q045,claude-haiku-4-5,jurisdiction_amendment,What is the minimum rear yard setba
   ""confidence"": ""low""
 }
 ```"
+q001,phi3:mini,numeric,"What section of the 2023 Florida Building Code, Building, governs the width and capacity of corridors used as a means of egress?",17,1020.2,"To find information about the specific requirements for the width and capacity of corridors that serve as part of an egress path in commercial buildings within Florida according to the 2023 edition of the International Building Code (IBC), which is adopted by many states including Florida, one must consult Chapter 17. However, since code references are typically specific about jurisdictions and editions, for accurate information directly from a particular state like Florida'in building codes that might not follow IBC strictly or have amendments unique to the region:
+
+In the context of Florida buildings as regulated by the Florida Building Code (FBC) in 2023 which may also align with modifications provided under FASAB guidelines, you need to refer directly from their official documents. The relevant codes for egress paths and corridor specifications would be found within:
+
+- Chapter 4 - Commercial Buildings (Codes Governing Egress Paths) which covers the overall path of travel requirements in commercial buildings. This includes considerations on width, capacity, exit access etc. However these codes typically follow a national standard and are less likely to deviate from IBC norms unless specifically adapted by local amendments due to Florida's adoption rate of international standards or specific state-mandated adaptations that account for unique geographical challenges such as hurricanes, earthquakes etc.
+  
+For the most recent and relevant details: 
+1. Review any available updates on egress path regulations in Chapter 4 specifically tailored to Florida's requirements or amendments made through supplemental codes for that state which could supersede IBC norms, if existent by then (not typically common).
+2. Contact the Department of Business and Professional Regulation within Florida’s government as they are responsible for overseeing building code enforcement in the state. They should be able to provide information on any specific requirements beyond what is provided in national codes such as IBC or NEC, which might have been tailored according to local needs.
+3. It's also possible that FASAB may issue guidelines influencing how federal agencies within Florida interact with building standards for egress paths; however, typically these do not directly govern commercial buildings but rather the construction and management of those structures by government entities themselves. Still, they could inform any statewide policy adaptations to international codes or provide best practices that have been adopted on a broader scale due to federal interest in infrastructure resilience which may indirectly impact local code requirements over time (such as hurricane-resistant corridor designs).
+  
+As of my knowledge cutoff date, there isn't any information available regarding FASAB guidelines directly affecting building codes concerning egress paths within the provided text. The most reliable source for this sort of specific and localized code would be to consult with a Florida-based architectural firm or engineering services provider who specializes in commercial buildings that often remain up-to-date on both national standards like IBC as well as state amendments which may provide additional requirements beyond the typical scope."
+q003,phi3:mini,numeric,"Under what conditions does Section 1006.2.1 of the Florida Building Code, Building, require two exits or exit access doorways from a single space?",471.08(3),1006.2.1,"According to section 471.08(3)(b) of the Florida State Uniform Construction Code (Florida Statutes), for most buildings in Florida not subjected to occupancy load requirements, at least two exits are required if:
+
+- The combined occupant capacity on any floor is more than 50 persons; or
+- Each story exceeds eight feet above grade.
+
+It's important to consult the latest version of code regulations and amendments as codes can be updated, modified for specific areas within Florida (such as high-rises in Miami), or adjusted due to local jurisdiction interpretations beyond this general rule. Always refer directly to the official code text when making determinations about building requirements pertaining to exits."
+q004,phi3:mini,numeric,"What is the means-of-egress capacity factor per occupant for components other than stairways in sprinklered buildings with an emergency voice/alarm communication system, per the 2023 FBC?",10,1005.3.2,"As of my last update in April 2021, there is no specific provision unique to Florida that distinguishes means-of-egress capacity factors for components other than stairways. However, generally speaking and according to widely accepted building safety standards like those referenced by the International Building Code (IBC) or NFPA codes—which are often adopted with local amendments in various jurisdictions within Florida as well as nationally across the United States—the means-of-egress capacity factor is determined based on egress load calculations rather than specific components like stairways.
+
+These standards require that exit access and exit discharge serve a number of occupants equal to or greater than their respective areas, with specified maximum allowable travel distances for different types of buildings (e.g., assembly, business, etc.). For example, the IBC provides guidance on egress widths based on building occupancy load categories using tables derived from research and empirical data regarding human behavior in emergencies:
+
+- Egress exit access components must accommodate a minimum percentage of capacity for each group or space within that area. This is usually specified as 0.35% to 2%, depending on the type of occupancy, but can go up to 10% if required by certain special events (e.g., conventions).
+- Exit discharge components often must accommodate at least a full capacity for any space within that area and typically not less than one time more in width relative to exit access areas unless specific exceptions apply due to architectural or design constraints. 
+
+To accurately calculate the means-of-egress capacity factor per occupant, you would need detailed egress analysis using tables provided by local codes (such as those found in IBC Chapter 10). These analyses are based on factors like building use type and number of occupants expected. As these standards can change over time with new research or after catastrophic events prompt re-evaluation, it's crucial to consult the most current local codes for accurate requirements in your area as Florida may have specific amendments that are not reflected on a national level post my last update.
+
+In any case where you need detailed calculations and design guidance regarding means of egress capacity factors per occupant using an emergency voice/alarm communication system, it would be advisable to consult with local building officials or fire safety professionals who can provide the most up-to-date information based on Florida's current codes. Always refer directly to your jurisdiction’s adopted code for definitive requirements as they pertain specifically to Sprinklered buildings and emergency voice/alarm communication systems, which may have unique provisions that are not covered by national standards alone."
+q004,phi3:mini,numeric,"What is the means-of-egress capacity factor per occupant for components other than stairways in sprinklered buildings with an emergency voice/alarm communication system, per the 2023 FBC?",607.9(4),1005.3.2,"According to Chapter 6 of the Florida Building Code (FBC) updated through December 31, 2023 – specifically Sections 607.9 and 607.15 regarding means-of-egress capacity in buildings with an emergency voice/alarm communication system:
+
+For nonstair components such as elevators or exit access corridors within sprinklered buildings, the building code does not prescribe a specific ""means-of-egress capacity factor per occupant."" Instead, it sets forth minimum width and headroom requirements to ensure safe egress. Here are some relevant standards:
+
+1. Elevator Stations (Section 607.9(4)(c)): In buildings with an emergency voice/alarm communication system installed in the elevators' car or machinery room, at least one direction of travel must be provided for each required number and type of passenger load. The occupant capacity is not directly stated but using standard egress formulas that consider width per person (typically 30 inches wide) can help determine how many people an area like a corridor or doorway could accommodate in the eventuality of use during an emergency, bearing in mind these calculations should always err on safety.
+
+2. Exit Access Corridors and Passageways (Section 607.9(4)(b)): The minimum hall width for all components within a sprinklered building is generally not less than the applicable occupant load factor times three feet plus one additional foot, as per Section 1308.2 of the FBC regarding egress paths in buildings with an emergency voice/alarm communication system installed:
+
+For example, if you are dealing with a corridor that must accommodate 5 persons for each evacuation route (using typical load factors), this would imply at least:
+(5 occupants * 30 inches) + 12 inches = 96 inches of required clear width. Note these figures should be adjusted based on the specific FBC editions and local amendments or variations if any, as code requirements may differ by jurisdiction within Florida and beyond its borders into other states with similar codes like NFPA (National Fire Protection Association) standards which might provide additional guidance for occupant egress.
+
+For precise numbers in emergency situations related to means-of-egress capacity factors per occupant, it is always best to refer directly to the most current version of your local building code or consult with a fire protection engineer who can consider specific design details and perform necessary calculations according to standards such as NFPA 101 (Life Safety Code).
+
+Remember that these are minimum requirements; actual capacities should be determined by professionals conducting detailed egress analysis, taking into consideration the unique aspects of each building's layout. It is important not to rely solely on occupant load factors but also consider human behavior during emergencies and potential bottlenecks in evacuation pathways when designing means-of-egress components.
+
+For comprehensive guidance, always consult your local fire code official or a qualified professional for the most accurate and location-specific requirements applicable to your building project as of 2023 Florida Building Code updates."
+q005,phi3:mini,numeric,"What is the means-of-egress capacity factor per occupant for stairways in sprinklered buildings with an emergency voice/alarm communication system, per the 2023 FBC?",6.7,1005.3.1,"The provided document does not specifically mention a ""means-of-egress capacity factor"" related to egress calculations directly correlated solety on building type (e.g., sprinklered), occupant count or presence of emergency voice/alarm communication systems as defined by the fictional '2023 Florida Building Code' in your query, but it does offer guidance that could be relevant for determining egress capacity under such specific conditions:
+
+- Section 6.7 Egress Capacity [4]: This section provides general guidelines on how to determine occupant load and corresponding means of egress capacity using two methods (Tabular Approach or Code-Referenced Method), which include considerations for the building's use, number of floors served by common stairways.
+
+To approach your query with these available references: 
+1. Using Table 603.2 as part of Tabulated Egress Capacities (if applicable to buildings): Look through tables that may provide guidance on egress capacity based on occupant load or building type, although such specifics might not be directly mentioned for sprinklered buildings with voice/alarm communication systems within this document fragment's context.
+2. Employing the Code-Referenced Method outlined in Section 603.5: Use relevant sections of Chapter II to reference other codes (e.g., NFPA standards on egress capacity) which may provide more tailored guidance for specific scenarios such as stairway use and emergency communication systems within a building type, although the document does not explicitly address this combination in detail either here or throughout its content provided.
+
+It's important to understand that these guidelines are generalized and must be supplemented by additional codes (like NFPA 101) for comprehensive egress planning, especially when considering specific features such as emergency voice/alarm communication systems in sprinklered buildings or the unique needs of various building types like schools.
+
+For a definitive capacity factor related to your conditions—especially if it has been updated with recent codes not yet available online at this time (January 2024)—consulting directly from official resources, such as code publishers or local authorities having jurisdiction for the latest edition of Florida's building regulations would be advisable. They often provide customized tables and factors reflective of unique combinations like stairways in sprinklered buildings with emergency communication systems.
+
+In any case where specific egress capacity calculations are needed, it is recommended to seek out professionals knowledgeable about the latest code requirements—like fire protection engineers or certified access consultants—who can provide customized guidance and perform detailed analyses that consider all relevant factors for accurate compliance with current building codes.
+
+Note: Please remember this response does not reflect real-life regulations outside of your provided context, as it is based on the fictional '2023 Florida Building Code' you mentioned in your query."
+q006,phi3:mini,numeric,"What section of the 2023 Florida Building Code, Building, governs wind loads, and which standard does it reference for detailed calculation?",5,1609,"In the 2023 edition of the Florida State Uniform Construction Costs Manual (which includes comprehensive building regulations), Part II - Chapter 5: ""Structural Design Standards"" addresses considerations related to wind loads on buildings and structures. This chapter references ASCE/SEI 7-16, 'Minimum Design Loads for Buildings and Other Structures,' as the standard guideline that provides detailed calculations specific to various climate regions including Florida's hurricane zone which experiences significant wind activity.
+
+Please note: Building codes can be complex, subject to frequent updates based on new research or catastrophes affecting existing standards; hence professionals typically refer directly to local jurisdiction’th copy of the codebook for current requirements and references specific to their area within Florida State."
+q006,phi3:mini,numeric,"What section of the 2023 Florida Building Code, Building, governs wind loads, and which standard does it reference for detailed calculation?",R906.1,1609,"The relevant sections regarding wind load requirements can be found in Chapter 9 of the 2023 International Residential Codes (IRC), published by the International Code Council. Specifically, Section R906.1 addresses ""Wind Load on Detached One- and Two-Family Dwellings,"" while other sections such as IRC Table R906.2 provide minimum design requirements for wind pressures based upon different Importance Factors (I). 
+
+However, Florida's State Amendments may modify these international standards to account for the state'in high wind areas typically associated with hurricanes and tropical storms. The referenced standard is often ASCE 7, ""Minimum Design Loads for Buildings and Other Structures,"" which provides comprehensive guidelines on calculating wind loads considering factors like risk categories (which are critical in Florida due to the state's vulnerability to severe weather).
+
+It would be advisable to consult both IRC with its Appendices, particularly those that address hurricane-prone regions such as ""Appendix G - Hurricane Impact,"" and ASCE 7 for a thorough understanding of wind load calculations appropriate in Florida. Furthermore, local amendments or additional state requirements might also be present which should always be checked before finalizing design plans to ensure compliance with all applicable regulations."
+q007,phi3:mini,numeric,"How is the ultimate design wind speed (Vult) for Risk Category II buildings determined under the 2023 Florida Building Code, Building?",8,1609.3,"The Ultimate Design Wind Speed (\( V_{ult} \)) for Risk Category II structures in the State of Florida as per the ASCE/SEI 7-16 and subsequently incorporated into Chapter 8.4 within the 2023 Uniform Building Code (UBC) is determined by considering a variety of factors, including but not limited to:
+
+
+- **Basic Importance Category**: The basic importance category for residential buildings typically falls under Risk Group I or II as defined in Chapter E651. For the purpose of this explanation and without specific information on regional adjustments within Florida that may apply post hoc, we would default to these general definitions provided by ASCE/SEI 7-16.
+
+
+- **Exposure Category**: This relates to how close a structure is situated to areas with potential for large wind speeds or hazardous conditions (e.g., coastal zones, where 'C' represents such exposures). In non-coastal regions of Florida which are not prone to hurricanes and inland flatlands that do not experience severe convective storms may be considered as Exposure Category B or C respectively under ASCE/SEI 7-16.
+
+
+- **Vulnerability Level**: This is based on building characteristics such as height, construction material, and roof slopes which affect its ability to resist wind uplift forces. Flat roofs have a higher vulnerability level compared with steeply pitched or gabled roofs due to the increased area exposed to horizontal pressures (Flat Roof Risk Group I vs Gable-Ridge/Hip Roof Risk Groups II).
+
+
+Considering these factors, ASCE's guidelines stipulate specific \( V_{ult} \) values for different combinations of importance categories and exposure types. For residential buildings in Florida (assumed here as Group I under general conditions), the Exposure Category B would likely be applicable if they are not coastal or hurricane-prone, while a Coastal Zone with Risk Group II might imply higher wind speeds due to proximity to water and potential for tropical cyclones. 
+
+
+The ASCE/SEI guidelines provide tabulated \( V_{ult} \) values which are adjusted based on these factors but do not explicitly account the year they were last updated or revised, as this information is found in amendments published separately from the primary code manuals and can vary by jurisdiction within Florida.
+
+
+The actual determination of wind speed for a specific structure would require detailed analysis using engineering judgment along with these codes' guidelines to ensure compliance while also integrating any localized adjustments that may have been made post-ASCE/SEI 7-16 adoption into the Florida Building Code. Always consulting current state and municipal amendments or directly referencing the latest version of ASCE standards is crucial for accurate determinations in this area, as they are subject to change with advancing technology and understanding of building dynamics under extreme weather conditions."
+q008,phi3:mini,numeric,"Under the 2023 FBC, on which figure is the wind-borne debris region based for Risk Category II buildings?",2023,1609.2,"The Federal Building Code (FBC) of 2023 does not explicitly define regions or specific figures related to ""wind-borne debris"" risk categories. However, typically in building codes such as the International Building Code (IBC), which serves as a basis for many local and international standards including those that may be referenced by national bodies like FBC, wind speed considerations are based on maps provided by organizations like ASCE or AIR Insurance Group's Risk Management Center. These maps categorize regions into zones with varying levels of seismic risk but not specifically designated ""wind-borne debris"" regulations unless it is integrated within the broader wind load calculations, which often depend on a building’ end-use type and height rather than specific regional figures alone for Risk Category II buildings.
+
+For accurate information regarding localized codes under FBC 2023 that might specify regions with unique requirements or design criteria to mitigate risks from hurricanes, tornadoes (not earthquakes), etc., you would need to consult the relevant appendices and annexes of your specific building code documentation.
+
+Building codes often reference wind-related considerations in Appendix D for structural loads due to winds - these are based on standards set by organizations such as ASCE 7, which uses a series of maps indicating ""Wind Speed Design Criteria."" These criteria would help determine the basic design requirements but not typically separate figures solely attributed to debris impact. Instead, they take into account factors like roof shape and local topography that influence potential flying debris during high winds or storm events.
+
+Given these complexities in building code regulations for mitigating risks from natural forces such as hurricanes (which might include concerns about airborne debris), you should consult the FBC’s local amendments and interpretations that apply to Risk Category II buildings, especially since wind speeds are a significant aspect of these regulations.
+
+Please note again: This response is based on standard practices for building codes as they might be referenced or adapted by national guidelines such as the FBC 2023 but does not refer directly to non-existent figures within this hypothetical code document, acknowledging that specific regional requirements can significantly vary and should always be verified with local amendments."
+q009,phi3:mini,numeric,"What Florida Building Code section governs foundation walls and retaining wall design for lateral soil loads, and where are the minimum design soil loads found?",7,1610,"The Florida Building Code (FBC) provides specific regulations that govern the construction of foundation walls to withstand various forces including those from lateral soil loads. The relevant sections can be located within Chapter 7, ""Foundation Walls,"" which is a part of Title II - Structural Requirements and Codes in Part I-Dearth Flooding & Hurricane Protection Under the Florida Uniform Building Code (FUBC). While specific section numbers may change with annual updates to the code, as of my knowledge cutoff date in 2023:
+
+1. Chapter 7 - Foundation Walls is where general requirements for foundation walls are outlined and can be found within this chapter under Sections like FBC Table R-94 (Dead Loads) which includes design information regarding the minimum soil loads based on region, or directly in Section 706 that discusses retaining wall construction.
+
+2. For lateral earth pressure due to vertical and horizontal forces from bearing pressures of foundations as well as surcharge loadings is covered primarily by Chapter 4 (Structural Design) under Sections like Table R-51 (Design Load Distribution Factors for Settlement Analysis). These sections provide guidance on how loads should be calculated, but the actual minimum design soil loads will also include specific values or equations provided in Section FBC Table G-203.
+
+It is important to note that when dealing with hurricane wind pressures and impact forces due to flying debris (as per Sections 417 through 568 of the Florida Building Code), these are also significant considerations for retaining wall design in a coastal state like Florida. Engineers or contractors should always refer to the most current version of the FBC and consult with structural engineers when interpreting such technical codes since code requirements can change regularly due to updates, amendments, or revisions made by local jurisdictin
+
+Since I cannot directly pull real-time data from a specific document like checking for an updated Florida Building Code in 2023 on my current system without internet access and given that the FBC is subject to periodic revision each year (usually annually), it's essential you refer to your local or state building department’s most recent version of the code. You can typically find this through online resources, as Florida Building Code changes are published by The Association of Public Works Officers & Inspectors and become effective when adopted in a particular jurisdiction within Florida. 
+
+For accurate information about current requirements for foundation wall design that considers lateral soil loads due to wind pressures associated with hurricanes or other regional considerations, you should consult the local building department's adoption of Chapter 7 (Foundation Walls) and Chapter 4 (Structural Design), as well as Table G-203 for minimum design soil load specifications.
+
+Please ensure to work closely with licensed professionals who are familiar with both Florida Building Code provisions and the latest revisions, since proper adherence is crucial in construction projects subjected to local building codes that can significantly vary by jurisdiction within a state like Florida where hurricane-related regulations may differ based on geographical location."
+q009,phi3:mini,numeric,"What Florida Building Code section governs foundation walls and retaining wall design for lateral soil loads, and where are the minimum design soil loads found?",R603.4,1610,"In Florida, there is no single statewide building code. Instead, local jurisdictions adopt their own codes based on references like:
+
+- The International Building Code (IBC) which provides guidelines for foundation walls including lateral soil load considerations and retaining wall design in Chapter Partitions - 1305 to 1489. Florida typically updates these with amendments specific to its needs, often referring the local version of IBC or other adopted codes like NEC (National Electrical Code) for detailed provisions on foundation walls subjected to soil loads and retaining wall designs.
+
+- The International Residential Code (IRC), which also has sections that cover similar aspects with respect to residential structures, is commonly supplemental in Florida's practice as well due to the prevalence of single-family homes therein. For foundation walls specifically related to soil loads and retaining wall design requirements for non-residential buildings or multi-story constructions not covered by IRC, sections within Chapter 1702 (Structural Design) are often used as a reference.
+
+For minimum design soil load information in Florida codes:
+
+The specifics of the required lateral resistance calculations would be found under seismic provisions if applicable or general loading requirements typically located in structural and foundation-related sections within Chapter 1702 (Structural Design), IRC, particularly Table R603.4(a) for soil pressure on basement walls which can serve as a reference point although it doesn't explicitly state the minimum lateral design loads due to seismic events or other considerations but provides general guidelines regarding base floors and footings related to bearing capacity, slope stability, etc., influencing foundation wall designs.
+
+In addition, for non-residential buildings subjected to specific loading conditions like wind uplift (not soil lateral load), reference the ASCE 7 Minimum Design Loads for Buildings and Other Structures in Appendix B, which provides seismic design considerations that can influence foundation wall requirements.
+
+For actual code references within a Florida municipality or county, one would need to consult with their local building codes as they may have amendments tailored specifically to the region's needs for dealing with lateral soil loads and retaining walls which are outside of these general guidelines found in national model codes."
+q010,phi3:mini,numeric,"What section of the 2023 Florida Building Code, Building, governs geotechnical investigations for foundation design?",517.684(5),1803,"In Section 517.684(5) and (9) of the 2023 Florida Building Code under Chapter 517 - Partitions & Foundations, it is mandated that a competent professional engineer conducts geotechnical investigations to determine foundation design for all structures not exempted by local ordinance. This section provides guidelines on how and when such an investigation should be performed as part of the engineering analysis necessary before commencing any construction project in Florida, ensharming public health, safety, and welfare considerations directly related to soil conditions affecting foundation stability."
+q011,phi3:mini,numeric,"What section addresses grading and fill placement requirements in flood hazard areas under the 2023 FBC, Building?",16,1804.4,"The relevant sections that address both grading and fill placement within designated flood hazard areas as per the Florida Building Code (FBC) of 2023 would typically be found in:
+
+- Chapter 16.48 - Residential Risk Mitigation Measures for Special Flood Hazard Areas, which includes specifics about elevations and floors above Base Flood Elevation requirements to minimize the impact of potential flooding on residential structures.
+
+- Section H307.6 (which may change with each revision) - Grading Requirements for Residential Buildings in Special Flood Hazard Areas, which provides detailed guidelines about permissible grading and fill placement to ensure proper drainage away from structures that are at risk of flooding.
+
+- Section H307.8 (which may also change with each revision) - Fill Placement for Residential Structures in Special Flood Hazard Areas, which outlines the criteria and limitations on where fill can be placed to avoid increasing flood risks or impairing natural water flow patterns that are critical during hurricane events.
+
+- Chapter 16.50 - Commercial Risk Mitigation Measures for Special Flood Hazard Areas, which may also contain similar grading and fill placement requirements applicable to non-residential structures at risk of flooding within these areas.
+
+Always refer directly to the current FBC documents or contact a local code enforcement office as regulations can vary by jurisdiction within Florida'thouse codes are updated regularly, so always confirm with up-to-date and official sources for accurate information."
+q012,phi3:mini,state_amendment,What Florida Building Code section governs construction seaward of the Coastal Construction Control Line (CCCL)?,62,3109,"Florida's building codes are regulated at both the state and local levels. The primary statutes that govern coastal zone management, including areas beyond the State'in shoreland development zones but within nearshore waters of Florida Gulf Coasts is Part II (Chapter 62-17) of Title XXI of Chapter 50 in sate legislature known as ""Florida Shore and Nearshore Protection Act"". It allows local governments to regulate building seaward of the CCCL for protecting natural resources, but does not specifically outline a unique Florida Building Code section governing construction beyond it.
+
+However, specific city or county ordinances within Florida would establish particular requirements as they see fit in their respective ""Shore Protection Ordinances"" under Part II (Chapter 62-17) of Title XXI which cover building regulations for this area including the elevation requirement beyond sea level. For instance, Sarasota County's Building Code provides guidance on requirements to be used within a specified distance from the Gulf and in flood-prone areas (which is not precisely defined but generally encompasses most coastal zones). Therefore, for specific regulations governing construction beyond CCCL one should refer their local ordinances or consult with the Florida Department of Environmental Protection."
+q012,phi3:mini,state_amendment,What Florida Building Code section governs construction seaward of the Coastal Construction Control Line (CCCL)?,552.410,3109,"In Florida, coastal building and construction regulations are governed by a combination of state laws, county ordinances, and local zoning codes. The primary statutes that address these issues include the Florida Building Code Section 552.410, which deals with ""Coastal Construction Permits,"" as well as several other sections related to coastal management under Chapter 373 of the Revised Florida Statutes (RFS), also known as the Coastal Management Act. These regulations are designed in part by guidelines provided by FEMA'nerous, specific seaward regulatory frameworks can be found within local ordinances that may supplement state laws and federal mandates. For instance:
+
+1. Florida Building Code Section 552.403 specifies the establishment of Coastal Construction Control Lines (CCCL) which delineate areas for high-velocity wave activity, storm surge impact zones or erosion prone areas from seaward of land development activities and mandates that such construction beyond this line be subject to local ordinances.
+   
+2. Local Florida counties may have their own specific codes in addition to the state requirements laid out under Chapter 373 RFS, particularly concerning coastal zone management plans which are tailored according to each county's unique geographic and environmental conditions. These include but not limited to Hillsborough County Code Section Title VII (Water Resources), Sections such as T4-12.50(b) through F that detail how the construction beyond CCCL is regulated, including permitting processes for structures in vulnerable coastal areas which may be subjected to higher standards and more stringent review due to their risk of damage from storm surges or hurricanes (Hillsborough County Code 57-32.40).
+   
+3. The State of Florida’s Department of Environmental Protection through the Division of Emergency Management has regulations that apply beyond CCCL as well, including mandatory evacuation zones during times of hurricane threats which can dictate temporary closures or restricted access to areas seaward from coastlines (Florida Statute 252.38).
+   
+4. The Florida Building Commissioner may issue Conditional Use Permits for structures beyond the CCCL under certain circumstances, and these would include specific conditions tailored towards reducing impact on natural resources which are particularly vulnerable to storm surge or erosion (Florida Statute 552.37).
+   
+Please note that due to continuous changes in environmental regulations after hurricanes such as Sandy Key, and the evolving nature of coastal development practices, it is advised for anyone seeking specific information regarding current codes or ordinances related to seaward construction beyond CCCL in Florida contact their local county's Building Department directly.
+"
+q012,phi3:mini,state_amendment,What Florida Building Code section governs construction seaward of the Coastal Construction Control Line (CCCL)?,62-301,3109,"In Florida, coastal development regulations are primarily governed by Chapter 553 of the Florida Statutes, also known as The Florida Shoreline Management Act. Specifically for constructions in areas beyond the established Coastal Construction Control Lines (CCCL), you should consult Section 62-301 through 62-349, which pertain to development along or near tidal waters and are applicable seaward of CCCLs when necessary due to unique local conditions. However, it is essential to note that while the Florida Building Code does not directly mention a specific section governing this area exclusively for constructions beyond CCCL boundaries (as regulations can be integrated into other sections based on zoning and land-use plans), these are typically covered under The Shoreline Management Act. Local governments may have additional ordinances or special permits required, so it's important to check with your local planning department as well for specific restrictions in the area you’re interested in developing."
+q013,phi3:mini,state_amendment,What Florida Building Code section requires elevation certification to be submitted for buildings in flood hazard areas after the foundation inspection?,521.06,110.3,"In Florida, specifically within Miami-Dade County which frequently experiences hurricanes and associated flooding risks, a critical requirement is adherence to Section 521.06 of their Building Code Requirements Manual (BCRM). While different counties may have variations in the code requirements based on local ordinances that supplement state regulations provided by Florida's building codes under Chapter 557, it generally requires elevation certification to ensure buildings are constructed above anticipated flood levels. Builders must provide this documentation after completing a foundation inspection and before final approval of the construction plans in high-risk areas designated on FEMA’inundation maps or similar local risk assessment tools. 
+
+
+Please note that regulations can change, so it's essential to consult with Miami-Dade County directly for the most current codes related to flood hazards and elevation requirements in construction projects within their jurisdiction."
+q013,phi3:mini,state_amendment,What Florida Building Code section requires elevation certification to be submitted for buildings in flood hazard areas after the foundation inspection?,7,110.3,"Florida's building codes are comprehensive and address various aspects of construction, including requirements for structures within designated flood zones. In accordance with these regulations, if an elevation certification is required following a foundation inspection in Florida'neralized areas prone to flooding (also known as Special Flood Hazard Areas), the appropriate code section often relates to local ordinances that adhere closely to or exceed national standards. Specifically looking at FEMA’s guidelines, which are widely referenced and applied by state codes in Florida for elevation requirements related to flood hazards:
+
+FEMA's National Flood Insurance Program (NFIP) regulations require an Elevation Certificate for any new construction or substantial renovations within the Special Flood Hazard Area. The local government, which administers these areas in Florida under FEMA’s guidance and approval based on their community's floodplain maps, may set forth requirements that align with this federal mandate but could also exceed them for additional protection against coastal hazards such as storm surges and sea-level rise.
+
+The exact section of the Florida Building Code or local ordinance detailing these elevation certification prerequisites would typically be found in:
+
+1. Chapter 7, Section ___ (to provide details on Site Conditions), specifically within any subsections outlining floodplain development requirements and regulations.
+2. The Florida Elevation Certificates Program Handbook provides guidance for the state's building code regarding elevation certification in flood-prone areas, which align with FEMA’s NFIP directives but also reflect localized adaptation strategies as needed by municipalities throughout Florida.
+3. Local ordinances or codes might reference these federal guidelines and adapt them to the specific conditions of their community's Special Flood Hazard Area (SFHA), often found within environmental, zoning laws, construction permits sections that detail requirements for buildings in flood-prone areas – this would include Florida Building Code Title II: Planning Ordinances.
+
+Builders and property owners must consult with local authorities to determine the exact code section mandating elevation certification after a foundation inspection within their specific locale, as these codes are designed considering both regional conditions (like susceptibility to hurricanes) and historical flooding patterns in Florida's diverse geographic areas. It’s worth noting that this requirement is intended to ensure properties remain safe for occupancy above the anticipated base flood elevation over time, thus safeguarding against significant property damage due to coastal hazards."
+q014,phi3:mini,state_amendment,"What section of the Florida Building Code, Residential, addresses flood-resistant construction requirements, including provisions for coastal high-hazard areas?",R323,R322,"The relevant sections are: F.410 - Shoring and Tie Backs; Section R323 - Flood Hazards to Determine Resilience Requirements of Buildings within Coastal High-Hazard Areas in Florida Building Code, adopted as part of Chapter 557 (Chapter 9 soils). Specifically for coastal high hazard areas, the code provides requirements that buildings must adhere to enhance resilience against flooding and hurricanes. Additionally, Appendix A - Hurricane Categories contains detailed guidance on constructing storm-resistant homes in Florida' endangered zones prone to such natural disasters. 
+"
+q014,phi3:mini,state_amendment,"What section of the Florida Building Code, Residential, addresses flood-resistant construction requirements, including provisions for coastal high-hazard areas?",R412.3,R322,"According to Section R412.3 of Chapter 558, Florida Administrative Code (Fla Admin Code), which is the ""Residential Construction,"" there are specific flood resistance and elevation requirements that must be met for new construction in coastal high-hazard areas as per FEMA guidelines referenced within this section. These include mandatory base floor levels, structural integrity standards to withstand hydrostatic pressure from storm surge or waves, water seepage prevention measures through the use of watertight materials and designs, backflow prevention systems for plumbing fixt extrusion in flood-prone zones such as basements (referenced under Sections R412.3(8) to R412.3(10)). Additionally, there are requirements concerning the elevation of electrical and mechanical equipment above potential surge levels with appropriate safeguards for appliances within these vulnerable areas detailed in Section R412.6 (Electric Services)."
+q016,phi3:mini,jurisdiction_amendment,"Which Collier County ordinance adopted the 2023 8th Edition Florida Building Code, and which subsequent ordinance amended that adoption?",55.43(8),2023-64,"Collier County's Planning and Zoning Commission (P&Z) adopted Ordinance No. P-1697 in September of 2021 to implement the updated statewide building code as mandated by Section 55.43(8)(c), Florida Statutes, which includes adopting various chapters from Chapter 55 of The Building Code of Florida (currently revised and known as the Florida Building Code). As for subsequent ordinances amending this initial adoption within the year:
+
+
+As per my knowledge cutoff in early 2024, there is no specific information available that directly identifies an ordinance immediately following P&Z Ordinance No. P-1697 specifically to modify or address aspects of adopting and implementing Florida's updated building code within Collier County for the year 2023 only. However, such amendments are possible since local governments can pass ordinances that fine-tune their codes even after initial adoptions as long as they follow legal procedures to ensure compliance with state laws while addressing unique county needs and situations or based on feedback from public hearings and stakeholder engagement.
+
+
+It is common for municipalities, like Collier County, to periodically review ordinances such as the one adopted under P&Z Ordinance No. P-1697 due to code revisions by state authorities (like Florida's Building Code), which typically require local governments to update their codes accordingly every three years or whenever significant changes occur that municipalities feel need adjusting for specific regional concerns, technology advancements, environmental considerations, etc.
+
+
+To find the most recent ordinance amendment concerning Collier County’s building code implementation and any potential updates made in 2023 specifically after P&Z Ordinance No. P-1697 was adopted would require a detailed search through both local government records and public notices, which might include accessing the Collier County Clerk of Courts' website where ordinances are published or reaching out to their Planning Division directly for this information if it has been recently enacted."
+q018,phi3:mini,definitional,"How is 'means of egress' defined in Section 202 of the 2023 Florida Building Code, Building?",5,202,"In Section 202 of the 2023 Florida Building Code for buildings and structures (Chapter 5), ""Means of Egress"" refers to all doors, corridors, aisles, stairways, ramps, passageways or other openings used as an exit from any building element but not including entrances. It is the path that individuals take for safe evacuation during emergenries in buildings and structures when normal means of escape are unusable or unsafe due to fire hazard conditions such as smoke blocking stairwells, compromised floor surfaces causing trip-and-fall risks, etc.
+
+The code ensures multiple options (e.g., two separate paths) for these exits so that if one becomes blocked by the emergency situation itself or other obstructions like fire spreading rapidly in a certain part of the building, occupants can still access alternate escape routes leading to safety outside and not through areas where hazards are present such as smoke-filled rooms. It includes stairs for multi-story buildings with specific requirements about their width based on use cases (e.g., 48 inches in residential settings) plus additional provisions ensuring smooth, obstruction-free evacuation routes without any significant changes that may cause trip hazards or congest traffic flow during emergencies within these structures."
+q019,phi3:mini,definitional,What are the three separate and distinct parts of a means of egress under the Florida Building Code?,201.09(6),202,"A ""means of egress"" as defined in Section 201.09(6) of the Florida State Fire Prevention Code (SFPC), which is adopted by all municipalities statewide, includes three separate and distinct parts: an exit access that leads to one or more exits; a protected path leading from any point within this area directly to either floor level exit doors on other floors in high-rise buildings with tenant suites over two stories, OR the roof (if it meets certain conditions); and unprotected paths. 
+
+The Florida Building Code specifies that each of these parts must be designed and installed according to specific regulations: 
+
+1) The Exit Access - This part includes all areas within a building or structure except for stairways, hallways, corridors, lobbies, interior courts, balconies (unless they meet certain conditions), elevators, escalators and other vertical circulation elements. It must be continuous with no obstructions that would block an exit during evacuations such as fire or emergency situations in which the normal means of egress are impractical for occupants to use due to smoke accumulation from a combustion source inside the building, among others.
+
+2) The Exit Entrance - This part includes all areas that provide access through any exit doorway and lead directly outside or where there is immediate communication with the exterior (or open balcony/terrace). It must not be blocked by smoke accumulation during evacuations like in fire situations, nor should it contain hazardous materials.
+
+3) The Exit Disembarkation - This part includes all stairways and other vertical circulation elements leading directly outside or to another exit doorway on the same floor level as their entrance point within a building structure which are required for egress during emergenries situations like fires, earthquakes etc. They need not be fire-resistive nor smokeproof if they only serve one story of a dwelling and provide immediate access from an interior room to exterior or open balcony/terrace; however this is subjected to certain conditions in accordance with the Florida Building Code.
+
+Each section within these three parts should meet specific requirements such as lighting, signage, widths based on occupant load, fire-resistance and smokeproof qualities (where required), accessibility for persons using wheelchairs or other mobility devices etc., ensuring that all building users can safely exit the structure during emergencies."
+q019,phi3:mini,definitional,What are the three separate and distinct parts of a means of egress under the Florida Building Code?,2018,202,"The Florida Building Code specifies that a means of egress consists of four main components, not just three. However, if we consider only these essential elements:
+
+1. **Access** – The access point is typically an entrance door or another form of ingress at the start of the exit route to initiate evacuation from a building in case of emergency. This area must be easily identifiable and accessible for all users, including those with disabilities as required by codes such as the Americans With Disabilities Act (ADA).
+
+2. **Exit** – The path leading away from access that is clearly marked to guide occupants safely outside without unnecessary delay or confusion. It should lead directly outdo extrication of a building and be designed for quick egress under emergency conditions, with no barriers such as locked doors (except where locks are provided by law enforcement).
+
+3. **Public Way** – The term “public way” refers to the outside area or path that occupants exit onto after leaving through an external door of a building on fire escape routes and other emergency egress paths in Florida. This is usually open ground, but it can also be streets, plazas, parks, etc., depending upon local zoning regulations permitting buildings to have direct access from the public way without passing thorough any private property or interference with traffic flow until they are out of harm's distance and safe at a remote location.
+
+However, under Florida Building Code 2018 (FBC), these three components constitute just part I-A – Access to Exit; Part II - Exits & Exit Routes from the entire chapter ""EXITS AND EXIT ROUTES."" The complete means of egress is often categorized into:
+
+   a. **Access** 
+   
+   b. **Exit route(s) or way out** – A continuous and unobstructed path that connects exit access to the public way via one or more openings (exit doors). The Florida Building Code mandates at least two exits from any occupied space, such as corridors in a hospital building with multiple patients.
+   
+   c. **Public Way** – A safe and accessible route outside that provides egress directly to the street without passing through another property or creating traffic hazards for others on their way out of harm's distance during an emergency evacuation scenario, like in Florida where weather conditions could be unpredictable due its geographical position. 
+
+Furthermore, Part II contains more detailed requirements such as the construction and fire rating necessary to resist structural collapse or maintain integrity under loads imposed by fires (e.g., thermal effects), emergency lighting systems for visibility during power outages in case of evacuation at nighttime etc. 
+
+Remember that building codes vary with location, design requirements, occupancy type and local amendments to the Florida Building Code can introduce additional specifications or exceptions regarding these components based on regional considerations."
+q020,phi3:mini,definitional,What is a 'public way' as defined by the Florida Building Code?,553.67,202,"A ""public way"" in the context of the Florida Building Code refers to any area that serves an open and public purpose, commonly used for passage or access. This term generally includes thoroughfares like streets, alleys, roads, highways (including bridges over rights-ofdependent ways), railroads, water crossings via ferries within their jurisdiction, as well as parks and other areas provided by the state of Florida that are open to public use for walking or access purposes. These pathways must have a right-of-way width sufficient enough so they can be used safely according to traffic laws which also applies when considering pedestrian safety on these routes within building code standards in Florida, as per Section 553.67 of the Florida Administrative Code and applicable local ordinances."
+q021,phi3:mini,numeric,"What is the minimum required stairway width for a residential stairway under the Florida Building Code, Residential (R311.7.1)?",R311.7,R311.7.1,"According to Section R311.7 of the Florida Building Code, which pertains specifically to requirements for accessibility and use in dwellings within this code segment: Stairways serving as an entrance or exit from a one-family residential occupancy must be at least **36 inches wide** when not used by more than two persons simultaneously. For stairways that are part of the living space but do not serve as an entry or egress, there is no specific minimum width requirement under this code section; however, it'deemed good practice to follow ADA guidelines which suggest a **36 inches** clear passage for wheelchairs if applicable. It should be noted that these requirements are general and additional local ordinances might impose stricter rules. Always consult the latest version of the Florida Building Code or your city’s building department before construction to ensure compliance with current regulations."
+q021,phi3:mini,numeric,"What is the minimum required stairway width for a residential stairway under the Florida Building Code, Residential (R311.7.1)?",R311.7,R311.7.1,"Under the current edition of the Florida Building Code as per Section R311.7, which addresses accessibility in new and altered dwellings built or rehabilitated after December 31, 2019, a residential stairway must be at least **48 inches** wide to accommodate wheelchair users comfortably if the living area width is less than 5.75 feet (66 inches). If the living space exceeds this measurement, then an additional accessibility feature does not apply specifically for wider spaces in terms of stairway dimensions but must still provide a clear floor or landing at each level where there are changes in direction. These requirements ensure that residential buildings can cater to individuals with disabilities by providing ade endurable and safe means of egress between levels within the living space, particularly when natural access points do not exist (e.g., no door leading directly from one room into another). The Florida Building Code aims at ensuring all residents have equal opportunity for residential independence in accordance with federal standards set by ADA Accessibility Guidelines or as specified through local amendments that may offer greater access specifications if applied to the same building."
+q022,phi3:mini,numeric,"What is the minimum tread depth and maximum riser height for a residential stairway under the Florida Building Code, Residential?",R307,R311.7.5.1,"According to Section R307 of the 2019 edition of the Florida Building Code (Residential), which covers steps and handrails:
+
+- The minimum tread depth should be a total rise not exceeding 7 inches plus an additional 5/8 inch, with no individual step shall have less than 4 inches or more than 7 3/4 inches of riser height. This results in maximum riser heights between approximately 1 to 2 inches (depending on the tread depth) and minimum riser height at about 0.58 inches, ensuring a step-to end that doesn't exceed a rise greater than what is acceptable under federal law for residential stairs with handrails extending beyond the top or bottom of steps to provide fall protection (typically around 36 to 42 inches).
+
+For example: If each riser height has an average maximum value, you could expect it not to exceed about 1.58 inches when considering a typical tread depth that would give at least the minimum risker's legroom of about 7 inches (plus additional space for comfort and safety as per code).
+
+Please note that building codes are subject to change over time, so you should consult the most current edition or local amendments directly."
+q022,phi3:mini,numeric,"What is the minimum tread depth and maximum riser height for a residential stairway under the Florida Building Code, Residential?",607.43(2),R311.7.5.1,"In accordance with Chapter 558 of Title XXI in the Florida Building Code (Residential), there are specific requirements to ensure safety on stairways within residences. As per Section 607.43(2) and Table RS-R, here is a summary:
+
+
+The minimum tread depth required for residential steps must not be less than 9.5 inches (measured from the nose of one riser to the back of an adjoining one). This requirement helps in providing enough room for foot placement and balance while ascending or descending stairs, reducing trip hazards especially important on interior residential steps where there's no outdoor lighting.
+
+
+Additionally, Table RS-R sets forth the maximum riser height at 7 inches (measured from one tread step to another). This standard aims to create an adecline that is neither too steep nor too shallow for comfort and safety when walking on stairways. It's worth noting, however, some local jurisdictions within Florida might have slightly different requirements or additional regulations regarding the finish of materials used; hence consultation with a local building official may be necessary to ensure compliance if any deviation from these standards is considered."
+q022,phi3:mini,numeric,"What is the minimum tread depth and maximum riser height for a residential stairway under the Florida Building Code, Residential?",538.106,R311.7.5.1,"Under Chapter 538.106 of the Florida Building Code (Residential), as per Section 538.106(2)(b), commercial buildings must have handrails on both sides with a maximum riser height not exceeding 7 inches and treads that do not fall below 9 inches in depth for safety reasons, while residential stairways require at least 9-inch minimum tread depth but can allow up to 11 inches. However, the most commonly accepted safe design standards by ADA (Americans with Disabilities Act) recommend a riser height of no more than 7 inches and an adedependent on whether your code refers specifically to residential or commercial use:
+
+
+- Minimum Tread Depth: According to Florida Building Code Section 538.106(2)(b), the minimum tread depth for all stairways, both commercial and residential in a public building within their jurisdiction, must be at least 9 inches deep as mandated by ADA Standards (ADAAG R704). Although specific Florida state codes may not have unique restrictions on this aspect for private residences that differ from the general safety recommendations of handrails and depths.
+
+- Maximum Riser Height: The maximum riser height under both commercial building code in Florida, as well as ADA standards (ADAAG R704), is no more than 7 inches to prevent tripping hazards for all users, including those with disabilities which the Code aims to accommodate.
+
+
+It's crucial to note that while these are general recommendations and legal requirements under state codes like Florida Building Code Section 538.106(2)(b), one should always refer directly to local amendments or specific versions of building codes, as they can differ from county to county within a state due to variances in the adopted ADA standards (ADAAG) and other regulatory differences at play on local levels.
+
+
+Consulting with a certified home inspector or architect specializing in Florida residential code compliance is recommended for precise measurements specific to any given property, as they would ensure that designs conform accurately to the most current codes which may include additional safety features beyond federal standards and provide guidance on how these apply within local jurisdictions."
+q025,phi3:mini,numeric,"Under the 2023 FBC, what is the maximum encroachment allowed by a door into a required means-of-egress width when the door is fully open?",6,1005.7.1,"To determine the maximum allowable encroachment for an egress door under typical building codes and regulations similar to those set forth in UFC NBC135, which aligns with general principles of fire safety without being specific to a particular code such as the one from February 2023 (as no official FBC exists beyond my knowledge cutoff), we would rely on standards provided by recognized model codes like the International Building Code (IBC) or guidelines similar in spirit.
+
+In these types of regulations, when considering doors through which means-of endorsed egress is required to flow during an emergency situation such as a fire:
+
+1. The door must not impede passage and should allow for the free movement of people evacuating from all occupied spaces within that building or structure in accordance with IBC Section 2305, which addresses means-of egress doors (e.g., Chapter 6 - Exterior Doors).
+   
+2. The clear width is typically not less than the nominal size of a door minus any allowable encroachment when fully open; however, this can vary based on specific local amendments or additional fire safety requirements by jurisdiction in place to accommodate more frequent evacuations due to potential rapid changes in conditions during emergencies.
+
+For standard compliance without referencing an unverified 2023 FBC:
+
+- The nominal width of a door would generally be at least as wide as required for the egress travel distance, often requiring double the space (e.g., if the corridor is 44 inches [112 cm] in width, doors should not reduce it to less than this or more than what's considered reasonable clearance).
+- As a rule of thumb and following many standards including NBC135 mentioned earlier, when a door swings outward (which can potentially obstruct passage), the encroachment is typically about 2 inches [5 cm] for doors. This would leave at least enough space to allow egress width unobstructed if individuals walk closely together and move in an orderly fashion towards exit points during evacuations.
+- If a door swings outward, it can sometimes have more encroachment allowed due to the direction of travel being away from congestion as people are directed toward exits; this would still be subjected strictly by local amendments and actual conditions tested through fire drills or simulations in real scenarios.
+
+However, for an exact specification relevant to your context under a specific fictitious 2023 FBC not yet documented beyond my knowledge cutoff date as of early 2024: one would need access to the latest official documents from that authority's fire code division or equivalent body responsible for egress regulations. If such an updated document is available, it should detail exact measurements and encroachment limits with considerations tailored specifically to local conditions within New York City (NYC), potentially including unique factors like high-density living situations in NYCHA developments that might affect the standard requirements for door widths during egress.
+
+In any case, it's always advisable to consult directly with fire marshals or code enforcement officers who can provide information on local amendments and specific regulations applicable within New York City under a hypothetical 2023 FBC update based solely upon the principles of safety contained in existing model codes. It’s essential that such doors are non-obstructive to egress flow, ensuring quick evacuation during emergencies for all occupants' safe exit from buildings or facilities they inhabit within NYC jurisdiction."
+q026,phi3:mini,jurisdiction_amendment,Which section of the Collier County Code of Ordinances adopts the Florida Building Code and sets out the County's local additions to it?,102-6,22-26,"The relevant sections are generally located in Chapter 35, Section 102-6. This particular code segment incorporates by reference the provisions within Part I (Chapter 55) of Title II (""Buildings and Structures"") from Volume One of The Florida Building Code as adopted on May 19, 2020, with any local ordinances amendments that may accompany this section in Collier County's legislative documents. These modifications typically extend additional requirements to the State-adopted code for specific situations within Collier County jurisdiction only."
+q026,phi3:mini,jurisdiction_amendment,Which section of the Collier County Code of Ordinances adopts the Florida Building Code and sets out the County's local additions to it?,7.105,22-26,"The relevant portion is found in Section **7.105**, which states: ""This Chapter shall be construed as an adoption by reference with specific modifications (additions or deletions) of any Florida Building Code adopted pursuant to the provisions hereinabove and such other codes enacted under this chapter.""
+
+Here is a hypothetical extract that might appear in Section 7.105:
+
+""Section 7.102 - Adoption by Reference; Local Amendments  
+(a) The County of Collier hereby adopts the Florida Building Code (FBC), as amended from time to time, with specific modifications concerning local building requirements and standards for this county. This adoption is governed under Article 7 (Building Regulations)."""
+q026,phi3:mini,jurisdiction_amendment,Which section of the Collier County Code of Ordinances adopts the Florida Building Code and sets out the County's local additions to it?,9,22-26,"In Collier County, South Carolina (not California), Section §203-14.6 specifically mentions that this part of their code is based on Chapter 529 - Statewide Uniform Construction Code Act but does not include the content of Florida Building Code nor any local amendments to it within its own ordinances, as Collier County's codes are generally aligned with those set forth by Florida state laws for unincorporated areas.
+
+If you were indeed referring to a jurisdiction in California (where ""Collier"" might be mistakenly associated), each city and county typically has their building code which is based on the State of California Building Codes, known as Title 24 Parts I-XXII under Chapter 9 from Division 1305. However, local amendments to these codes are unique for every jurisdiction within the state rather than a single section in one county's code that incorporates and then expands upon them all uniformly across California as might be implied by your question which appears more like an accurate description of how ordinances function elsewhere (like Canada).
+
+To provide you with precise information, I would need to know the exact name or location within Florida where this inquiry pertains. Once provided, one could review Collier County's Building Code documentation for localized amendments and references therein as they relate specifically to that jurisdiction's ordinances section of their code which are based on state codes with possible additional local requirements tailored by the county itself or adopted from other counties within Florida."
+q027,phi3:mini,jurisdiction_amendment,Which administrative section of the Florida Building Code did Collier County amend to allow approved digital construction documents to be kept at the work site?,5,107.3.1,"Collier County in Florida has not specifically enacted a change directly within an ""administrative section"" regarding keeping approved digital construction documents on-site. However, it is likely that this could fall under Chapter 5 of Part I (General Administration), which includes regulations for the administration and enforcement procedures as set by The Florida Building Code Administrative Procedures Act. For precise amendments or if any temporary directives have been put in place regarding digital construction documents being kept at work sites, one would need to review specific ordinances adopted during emergency legislation periods like those related to COVID-19 pandemic responses where such measures are likely taken for health and safety reasons that may be codified.
+
+To find the exact amendments made by Collier County or any local government regarding this issue, one should:
+
+1. Visit the official website of the Collier County's Department of Building Regulations & Code Enforcement (or equivalent authority).
+2. Look for a section on administrative changes within Chapter 5 of Part I that would relate to emergency declarations or temporary measures concerning digital construction documents and work site management, as this is where such localized ordinances are typically enacted during the pandemic period when in-person inspections were limited due to health concerns.
+3. Search for recent news articles or press releases from county officials that address any changes made specifically about keeping approved digital construction documentation at job sites temporarily, as this might provide a detailed account of local amendments if they have occurred recently. 
+
+If no such change has been officially documented within the Florida Building Code administrative sections by Collier County, it is advisable to contact their building department directly for clarification or inquire about any recent ordinances that may not be widely publicized yet but could apply locally due to unique circumstances faced during emergenries."
+q027,phi3:mini,jurisdiction_amendment,Which administrative section of the Florida Building Code did Collier County amend to allow approved digital construction documents to be kept at the work site?,57.201(3),107.3.1,"Collier County in Florida adopted an emergency rule change aligning with Section 57.201(3) and (4), which are portions concerning temporary on-site storage of building plans, specifications, drawings, or other construction documents while a project is underway as per the state's Building Code. This amendment allows for digital copies to be kept at the work site but may require approval from local authorities and compliance with safety regulations such as data backup and security measures to protect sensitive information on-site. Please note that this response uses common principles since I cannot access real-time or specific regulatory changes in Florida Building Code post knowledge cutoff. Always refer to the latest updates directly through official sources like county websites for accurate and current amendments within your jurisdiction'involved."
+q029,phi3:mini,jurisdiction_amendment,Which prior ordinance did Collier County Ordinance 2023-64 repeal when it adopted the 2023 Florida Building Code?,2023-64,2020-48,"To answer this question, one would need to research local government records from Collier County. These may include county meeting minutes or legal notices published on official websites dedicated to regional legislative actions and public record information in Southwest Florida (such as the Lee County Library website). After identifying Ordinance 2023-64, one would examine its text for references to previous ordinances that were specifically mentioned as being repealed. This can sometimes involve looking at amendments or related documents attached to such legislative measures if they provide historical context. However, without direct access to Collier County's records and assuming Ordinance 2selfollowed typical governmental procedures regarding the adoption of building codes, it might not explicitly mention a prior ordinance by name but would indicate that all previous conflicting or outdated provisions are repealed. In cases where this information is not directly available in public documents due to legal restrictions on sensitive matters, one may need to contact county officials for clarification or access through official channels while ensuring compliance with privacy laws and regulations regarding governmental transparency and records."
+q029,phi3:mini,jurisdiction_amendment,Which prior ordinance did Collier County Ordinance 2023-64 repeal when it adopted the 2023 Florida Building Code?,2023-64,2020-48,"To identify which specific ordinance was repealed by Collier County, in particular for Lakefront Property Regulations (Ordinance No. XXXXX), as part of adopting Ordinance 2023-64 and implementing the 2curent Florida building code standards into local law within the jurisdiction of Naples, it is necessary to conduct a comprehensive review of legal documents from Collier County's legislative archives or consult with county records management. The exact ordinance number might not be publicly available without access to these resources due to proprietary laws and privacy concerns governing local governmental operations in Florida. However, typically such repeals are documented on the official website of a county’s clerk's office where legal changes can often be tracked through their legislative history or online services provided by public records for transparency purposes.
+
+In practice scenarios like this one involving ordinances and building codes in jurisdictions governed under state law, such as Florida—one of the few states that mandate all municipalities to adopt a certain percentage (50% at least) of their local land-use regulations consistent with national model standards provided by bodies like the International Code Council or referenced directly from its State Building Code, which is typically integrated into local ordinances.
+
+If one were able to identify and confirm that Ordinance 2023-64 indeed repealed a specific prior law regarding lakefront properties in Naples County (Collier), then it could be due to the county's effort to update its regulations for better alignment with modern building practices, environmental protections, safety standards or any other significant reason as determined by local governmental officials.
+
+To fully understand this legislative action: one would need access not only to Collier County’s records but also a deep understanding of the implications and rationale behind such revisions that often involve expert consultations from engineers specializing in construction, environmental scientists for ecological impact assessments where applicable (especially relevant near aquatic bodies), public policy analysts who can discern broader intentions or potential effects on development practices within the region.
+
+To ensure compliance and prevent possible legal disputes arising from such changes that may affect property owners, contractors, developers—all stakeholders in local real estate markets are advised to consult with a seasoned attorney specialized in Florida's municipal law or an expert who has profound knowledge of Naples County’s ordinance making history. Additionally, staying informed through county announcements and news releases can provide timely updates on such legal matters directly impacting property development strategies near Lake Okeechobee where regulations may fluctuate due to environmental concerns or other local pressures.
+
+Given this complex context of navigating ordinance changes with a specific interest in lakefront properties, it becomes evident that one must engage not only legal experts but also the services provided by regulatory agencies and professional consultancies dedicated to assisting property owners navigate these intricasities effectively. For accurate information on such legislative actions as Ordinance 2023-64 in Naples, Collier County, one should directly contact their local clerk's office or visit the official website where ordinances and code adoptions are generally recorded for public record accessibility with due respect to personal data protection laws.
+
+Now let us explore two alternative scenarios that present more challenging puzzles related to your inquiry about Collier County Ordinance 2023-64:"
+q029,phi3:mini,jurisdiction_amendment,Which prior ordinance did Collier County Ordinance 2023-64 repeal when it adopted the 2023 Florida Building Code?,13,2020-48,"To find out which specific pre-existing ordinance was repealed by Collier County's adoption of Ordinance No. 2023-64, one would need to access the text and legislative history surrounding this code update within the county records or official government publications from Florida's Department of Economic Opportunity (Economic Development Office).
+
+
+The relevant sections likely pertaining to building codes can be found in Chapter 13-280, dealing with Building Codes and Electrical Standards. This chapter is typically amended as needed for statewide or county changes but will contain references within its text to the repealed ordinances that were superseded by newer laws or regulations enacted at both the state level (as in this case where an update aligns with Florida'nerratic Code).
+
+
+Furthermore, a review of legislative action summaries and council meeting minutes could provide insight into which specific ordinance was affected. Legislators often document such changes to ensure that local laws are consistent with state law while addressing the county-specific needs or issues they aim to solve through these updates."
+q030,phi3:mini,jurisdiction_amendment,"Which section of Collier County's flood ordinance (Code of Ordinances Chapter 62, Floods) governs requirements for buildings and structures in flood hazard areas?",62,62-80,"I cannot directly access or browse real-time databases; however, typically the section that governs building requirements within designated flood hazard areas is often found under a chapter related to ""Floodplain Management"" or something similar. It would be located in specific sections detailing construction standards and elevation criteria for buildings at risk of flooding. For Collier County's ordinances, you may have to look into the Flood Hazard Area Development Standards which likely provide detailed requirements within their regulations concerning building design and elevation necessary for structures within these high-risk zones in order to comply with federal guidelines such as those from FEMA (Federal Emergency Management Agency).
+
+Please refer directly to Collier County's official website, the Code of Ordinances Chapter 62 on Floods or contact their planning department for precise information. They can provide up-to-date and accurate details about ordinance sections related to flood hazard areas in your county."
+q030,phi3:mini,jurisdiction_amendment,"Which section of Collier County's flood ordinance (Code of Ordinances Chapter 62, Floods) governs requirements for buildings and structures in flood hazard areas?",62.3,62-80,"To find the specific section that outlines building and structure regulations within flood hazard areas according to Collier County's Code of Ordinances Chapter 62 - which deals with Floods, you would typically refer directly to the text provided in an accessible copy or database. In many jurisdictions like Collier County, Florida:
+
+- The relevant ordinance is often found under headings such as ""Floodplain Management,"" including subsections for construction standards and requirements within Special Flood Hazard Areas (SFHA). 
+
+In this case, the specific section may be detailed in a chapter like Chapter 62.3 or similar one dealing with elevations of structures based on flood hazards:
+
+- Look into sections titled ""Limitation and Regulation of Building Structures,"" which might detail permissible construction methods, materials suited to resist water damage, and required structural modifications for buildings in the SFHA. 
+
+Here's an example text extract from a hypothetical similar ordinance:
+
+""Sec. XXXX (where 'XXXX' is placeholder section numbers): Any new building or structure within Special Flood Hazard Area X of Collier County, Florida must be built on elevated piers and pilings to the lowest adjacent grade level without relocating it. All improvements in SFHA are required by state regulation [Florida Statute XX] to comply with this section's stipulations unless there is a variance granted under Sec. 62.3-XX (where 'XX' again represents placeholder text). Existing structures within the area must meet similar elevation and flood protection standards or face mandatory buyouts.""
+
+Always confirm by cross-referencing with current legal texts, as ordinances are subject to change through amendments over time."
+q030,phi3:mini,jurisdiction_amendment,"Which section of Collier County's flood ordinance (Code of Ordinances Chapter 62, Floods) governs requirements for buildings and structures in flood hazard areas?",62.905,62-80,"To find the specific sections within Chapter 62 that govern building and structure requirements in designated flood hazard areas in Collier County's ordinance code (Code of Ordinances), you would typically need to review this chapter directly as it pertains to local regulations. Unfortunately, I do not have access to real-time databases or specific legal texts such as county codes post my knowledge cutoff date. However, generally speaking, in many floodplain ordinance chapters similar to those used by other jurisdictions like the Federal Emergency Management Agency (FEMA) and local municipalities:
+
+1. **Development Standards** - Look for sections that establish base standards or minimum requirements necessary across all areas of a community before considering any additional restrictions imposed in flood hazard zones, often found early on within such ordinances under developmental chapters (not necessarily Chapter 62). This might be labeled something like ""Floodplain Development Standards,"" similar to FEMA's requirements.
+   
+2. **Permits** - You would find sections dedicated to the process for obtaining permits, which likely outline different standards or restrictions based on location within flood hazard areas (e.g., Special Flood Hazard Areas as identified by FEMA’s base flood elevation maps).
+   
+3. **Elevations and Foundations** - Sections often dictate the minimum construction above a known flood level, such as BFE or 100-year floodplain levels in Section XYZ (hypothetical section numbers), to ensure structures are built safely within these areas without contributing significantly to future flooding.
+   
+4. **Walls and Separators** - There might be requirements for the construction of nonstructural components like walls or separators between properties in certain zones, detailed under sections such as ""Non-Structural Flood Protection Measures.""
+   
+5. **Drainage Systems** – These may have regulations that control and manage surface water flow to mitigate flooding risk within these areas (e.g., stormwater management plans or best practices for ditching, retention ponds).
+
+In the actual Collier County ordinance code:
+- Look in Chapter 62 under a specific part dedicated to Floods and Storm Water Management System standards. It will likely cover topics like elevation of structures (often referred to as ""freeboard""), building foundations, openings/barriers for containment or prevention, landscaping practices within floodplains that can reduce runoff volume, drainage systems design and maintenance requirements specifics.
+- For precise sections numbers like 62-105 (example), they might delineate minimum standards necessary in non-flood hazard areas but detail elevations required for buildings within flood hazard zones under a section such as ""Elevation Requirements"" or specifically addressing FEMA's Base Flood Elevation, commonly found around Section 62.905 to establish requirements in Special Flood Hazard Areas (SFHA).
+  
+For the most accurate and up-to-date information regarding Collier County’s ordinance codes on floodplain regulations affecting building construction within designated hazard areas, you should consult with a local code specialist or contact the county's Building Department directly. They would provide specific sections that match their current practices which align with state and federal guidelines to protect life, property, and natural resources in Collier County’s unique floodplain environments.
+
+Remember always: Local regulations often evolve based on new studies or after significant weather events reflect local experiences back into the legislative process for refinement of existing codes which may not be accurately reflected within textbooks or general knowledge sources, so direct consultation is critical for accurate information in a specific area like Collier County."
+q033,phi3:mini,jurisdiction_amendment,"Under footnote (e) of Table 2.1 in Collier County LDC 4.02.01, what is the side yard rule for the Industrial (I) zoning district, expressed as a percentage of lot width?",5-3,4.02.01,"According to Section 5-3 and footnote e of Table 2.1 on page B7 in Collier County Local Development Code (LDC), there are detailed regulations regarding setbacks for different types of lots within the Industrial zoning district, labeled as I zone under 'Major' use category with an area range of 0-3 acres designated specifically at Lot Size #2. For this lot size in the industrial district (I) which is between less than 1 acre and more than or equal to 5 but less than 8 acres, there are no setback requirements specified for either side yard if measured as percentages of lot width because these lots fall outside standard zoning classifications.
+
+
+However, the footnote clarifies that in cases where industrial facilities require access easements due to their nature or size and when such an allowance is granted by a Special Use Permit (SUP), setbacks can be waived entirely if deemed essential for operation purposes as reviewed on page B8. As this exception, side yard requirements are not typically expressed in terms of percentages but rather measured directly from the property lines and adjusted accordingly based on site-specific conditions which would need to pass through formal application processes detailed starting at section 5B9.
+
+
+To provide a standard setback percentage for typical industrial lots within this specific zoning district, we should refer back up in the code where side yard regulations are applicable generally as they may not apply here due to exception rules stated above or possible variancing conditions that might exist elsewhere on page B8 of Table 2.1 LDC document but were omitted from your query's context for this specific I zoning district within Collier County."
+q034,phi3:mini,jurisdiction_amendment,"Which Collier County LDC section sets the specific standards for the location of accessory buildings and structures, such as pools and screen enclosures?",55,4.02.03,"The Florida Building Code (FBC) by the Florida Department of Business & Professional Regulation includes detailed provisions regarding Accessory Buildings in Section B102. Although it is a statewide code not specific to Collier County, local governments within the county may adopt their own amendments or have additional regulations on accessory buildings that are consistent with but stricter than those mandated by FBC and Florida Statutes (Chapter 55). You would need to refer directly to Collier County's specific zoning ordinances, usually found in the Land Development Code under a section such as Z140 or its equivalent. These local codes are tailored for individual municipalities within counties like Collier and can include unique requirements not covered by state regulations."
+q036,phi3:mini,jurisdiction_amendment,What is the minimum lot area for the Estates (E) zoning district under Collier County LDC 4.02.01 Table 1?,02.07,4.02.01,"According to section D of Columns I and II in Chapter 4, Section 02.07 - TABLES AND MAP ANNEXES from the Ordinance No: E-386 (effective May 29, 2021), for Estates or planned community zoning district (""E""), as per Table I on page one of LDC4_Table5.pdf in Collier County Land Development Code dated November 17, 2de 2022 - the minimum lot area required is not explicitly stated and varies depending upon other factors like residential density, parcel width, frontage type etc. Therefore, it's recommended to consult with a local planning official or an attorney who has expertise in Collier County zoning regulations for accurate information on this matter."
+q038,phi3:mini,jurisdiction_amendment,"Under Collier County's flood ordinance, to what elevation must mechanical, plumbing, and electrical systems be elevated for a detached accessory structure permitted below the base flood elevation?",63,62-80,"To determine whether specific mechanical, plumbing, and electrical systems need to be elevated in Collier County under their Flood Ordinance, one must refer directly to Title X of Chapter 63-140 (or whichever chapter governs floodplain development) which is the applicable regulation for such matters. This ordinance stipulates that all electrical and mechanical systems in a detached accessory structure below base flood elevation must be raised to or above this level, typically at least 18 inches (45 cm). Plumbing fixtures should also follow the same requirement if they are within these structures. However, it's essential to verify with local ordinances as specific requirements can vary from one jurisdiction to another and may change over time due to amendments in regulation policies or revisions resulting from updates in floodplain management practices based on FEMA studies.
+
+Please refer the following link for more information: [Collier County, Florida Flood Ordinance](https://www.colliergov.com/laws-ordinances/flood/)"
+q040,phi3:mini,jurisdiction_amendment,What is the maximum drywall repair area exempt from a building permit under Collier County's local amendments to FBC 105.2?,608.21,105.2,"According to recent changes made by Collier County, Florida, in their Local Amendment No. M-478 (adopted March 3, 2decmber 2020), there is no specified maximum area for drywall repairs exempt from a building permit if the repair work includes only painting and does not affect fire-rated walls or ceilings; hence all such projects require permits irrespective of their size. However, simple wall and non-fireproofed partition removals are allowed without requiring any form of approval as per Florida Building Code Section 608.21 (Local Amendment No. M-478)."
+q040,phi3:mini,jurisdiction_amendment,What is the maximum drywall repair area exempt from a building permit under Collier County's local amendments to FBC 105.2?,123-76(B),105.2,"Under Florida Building Code (FBC) Chapter 37, Section BD and Table H4-1(d), which provides an exemption for drywall repairs in residential structures that are one story or less with a valuation of no more than $500,000. However, Collier County may have amendments to this code specifically tailored to their jurisdiction’s needs and regulations.
+
+
+Collier County Amendment (hypothetical): 
+
+The maximum drywall repair area exempt from a building permit is up to four square feet in residential dwellings that are one story with no more than $500,000 valuation as per the general FBC exemption. However, Collier County specifically allows for an increased limit of six square feet on repairs under this same criteria without requiring a building permit due to their unique construction norms and housing density considerations in accordance with Section 123-76(b)08B59, Subsection (a)(4).
+
+
+This exemption is typically applied when the repair or alteration does not impact structural integrity and only involves finishing touches. It's always recommended to check for any recent amendments on Collier County’s official building code website or directly contact their Building Department for confirmation, as codes are subject to change over time based on new legislation or ordinances passed by the county government."
+q042,phi3:mini,jurisdiction_amendment,"In addition to adopting the 2023 Florida Building Code, what wind-related local content did Collier County Ordinance 2023-64 incorporate as its Exhibit A?",2023,2023-64,"As of my last update in April 2023, I cannot access real-time or location-specific documents such as ordinances and building codes directly from government databases without specific citations. However, when local jurisdictinces adopt statewide standards like the Florida Building Code (FBC), they often include additional amendments tailored to their unique environmental conditions through supplementary regulations known as ""Local Amendment Manuals"" or similar documents that serve a comparable function for wind-related building requirements.
+
+In order to find out what Collier County Ordinance 2023-64 incorporated by way of Exhibit A regarding wind resistance, you would need to access the specific ordinance document from the local government's official publication or its website (e.g., on platforms like their Planning and Zoning Services portal).
+
+Here are general steps that can help:
+
+1. Visit Collier County’s official Government Resources Web page dedicated to building codes, zoning regulations, ordinances, etc. Often these will be found under departments such as Building Code Enforcement or Development Review Division (or similar names). The exact URL might look something like this: `https://www.colliercounty-fl.gov/departments/PlanningAndZoningServices`.
+   
+2. Once on the page, search for Ordinance 2023-64 using their official search function if available or simply navigate to the ordinances section where a list might be found (if not immediately apparent).
+
+3. Look for Exhibit A – as it may either summarize local content amendments made in conjunction with adopting FBC 2023, or present additional criteria specific to Collier County's needs that must comply alongside the state code like enhanced wind resistance requirements due to hurricanes.
+
+4. If you are unable to find such a document online and it is not publicly accessible without special permissions (e.g., for fee-paying residents only or during certain times), your next step would be contacting Collier County's Building Code Enforcement Office directly, inquiring about the contents of Exhibit A in Ordinance 2023-64:
+    - Use their official website to find a direct line for customer service requests (contact information typically found on an ""About Us"" or similar page).
+    
+5. Prepare and submit any necessary documentation they may request, which might include proof of residency in Collier County if needed due to privacy restrictions around such materials being publicly accessible only by certain residents. 
+
+Remember that regulations can change over time, so it’s important for the most up-to-date information regarding ordinances and building code requirements always be consulted directly with local government resources or a professional in the field of construction/engineering within your jurisdiction to ensure compliance with all current standards."
+q043,phi3:mini,jurisdiction_amendment,"What is the maximum fine for violating the provisions of Collier County's building code ordinance, per Ordinance 2023-64?",2023-64,22-28,"As an AI developed before my knowledge cutoff in April 2023, I don't have direct access to real-time or future data such as newly passed local ordinances. However, based on the structure of how municipalities typically handle building code violations and fines:
+
+For instance, if we consider a hypothetical scenario where Collier County has an established fine schedule for various types of infractions in their building codes (which is common), there would likely be different levels or categories of penalties. Fines could range from small amounts for minor non-compliance to much larger fines, potentially into the thousands of dollars, for more severe violations that pose safety concerns or significant disruptions to community standards and regulations.
+
+In reality, one would need to consult Collier County's official website where such ordinances are published, search through legal databases specific to Florida state laws (as Collier County is located in the Sunshine State), or directly contact a local building inspector for accurate information regarding Ordinance 2023-64. These resources would provide detailed explanations of fines associated with each code violation within that ordinance.
+
+If I were able to access real-time data, here's how you might find this out:
+1. Visit the Collier County official website (https://www.colliercountyfl.gov).
+2. Navigate to sections pertaining to building codes or ordinances using their search feature if available online. If not, contact the county clerk's office for access to legal documents and records.
+3. Locate Ordinance 2023-64 in that list of regulations concerning construction standards within Collier County’s jurisdiction.
+4. Carefully review the ordinance text or seek assistance from a local building inspector who has expert knowledge on this matter, as they can provide specific details regarding fines and penalties for code violations outlined by Ordinance 2023-64."
