@@ -46,7 +46,27 @@ Add a resource-consumption profiler: peak RAM and tokens/second (`eval_count / e
 
 ## 4. Checkpoint
 
-Compute the SLM's citation-match rate and numeric-accuracy rate on the `jurisdiction_amendment` category specifically — expect this to be near zero. Compare against the general `definitional` category, where general building-code terminology (more likely to appear in pretraining data) should perform noticeably better. Model SLM cost as amortized compute (hardware cost / expected request volume), not literally $0 — a $0 line item misrepresents the real tradeoff in your dashboard.
+Compute the SLM's citation-match rate on each category, and its resource profile (tokens/sec, latency). Model SLM cost as amortized compute (hardware cost / expected volume), not literally $0 — a $0 line item misrepresents the real tradeoff.
+
+### Measured result (reference run — phi3:mini, CPU, no GPU)
+
+Cold, no retrieval, 45 questions × 3 repeats, against the two hosted tiers:
+
+| tier | correct citation | wrong (hallucination) | abstained | $/req | p50 latency |
+|---|---|---|---|---|---|
+| Opus 4.8 (foundation) | 26.5% | 31.8% | 41.7% | $0.0105 | 6.6 s |
+| Haiku 4.5 (instruction-tuned) | 31.8% | 67.4% | 0.8% | $0.0004 | 0.8 s |
+| **phi3:mini (SLM, local)** | **7.9%** | 39.4% | 52.8% | ~$0.001¹ | **68 s** |
+
+¹ amortized wall-clock hardware cost (a documented placeholder), not $0 — see `slm_client.py`.
+
+**The SLM is the weakest tier by a wide margin, exactly as predicted — and the *way* it's weak is the lesson.** Correct-citation recall collapses to **7.9%**, 3–4× below either hosted model, and near-floor in every category (jurisdiction 10.8%, numeric 6.7%, definitional and state_amendment 0%). A ~3.8B model simply has almost no parametric exposure to the Florida Building Code and none to Naples/Collier local amendments — there is nothing to recall.
+
+Three findings worth carrying to the dashboard and the decision engine (Lesson 7):
+
+- **"Free" is not free — it's slow.** At **68 s median latency (5.3 tokens/sec)** on CPU, phi3:mini is ~80× slower than Haiku. The near-zero *marginal* cost is real, but the latency makes it unusable for interactive lookups without a GPU, and the 3.7% timeout rate is a reliability cost a $0 line item hides. On the latency/cost chart it is a clear outlier.
+- **The small model is honest, not reckless.** Like the flagship and unlike the schema-forced instruction-tuned model, phi3 **abstains more than it fabricates** (53% no-citation vs 39% wrong). It's reasonably calibrated about not knowing — it just doesn't know. Calibration without knowledge is still unusable.
+- **This is the strongest case for grounding in the series.** An SLM that scores 7.9% cold but runs locally at near-zero marginal cost is the exact profile that Lesson 6 targets: if retrieval can lift *this* model's citation accuracy toward the hosted tiers, "cheap local model + good retrieval" becomes the compelling production architecture. That measurement is the whole point of Lesson 6.
 
 **Next:** Lesson 4 adds multimodal routing for site-plan and diagram-bearing questions.
 
