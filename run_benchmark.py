@@ -29,7 +29,7 @@ from collections import defaultdict
 from dataclasses import asdict
 from pathlib import Path
 
-from clients.citation_utils import extract_section_citation
+from clients.citation_utils import extract_section_citation, section_present_in_context
 from clients import foundation_client, instruction_tuned_client, slm_client
 
 # One entry per model class: (client function, exceptions to record as failed
@@ -50,12 +50,34 @@ MODEL_NAMES = {
 }
 
 DATA_PATH = Path("data/fbc_eval_questions.csv")
+CONTEXT_PATH = Path("data/fbc_eval_context.csv")
 RESULTS_DIR = Path("results")
 
 
 def load_eval_set(path: Path) -> list[dict]:
     with path.open(encoding="utf-8", newline="") as f:
         return list(csv.DictReader(f))
+
+
+def load_contexts() -> dict:
+    """question_id -> retrieved code passage (Lesson 6 grounding). Questions with
+    no passage (e.g. q017, a FEMA date not in any code) are simply absent."""
+    if not CONTEXT_PATH.exists():
+        return {}
+    with CONTEXT_PATH.open(encoding="utf-8", newline="") as f:
+        return {r["question_id"]: r["context"] for r in csv.DictReader(f)}
+
+
+def build_grounded_prompt(question: str, context: str) -> str:
+    """Lesson 6 inference-time contract: answer only from the supplied passage,
+    cite the section as it appears there, and admit when the answer isn't present."""
+    return (
+        "Answer the Florida Building Code question using ONLY the context below.\n"
+        'If the answer is not in the context, say "Not found in context."\n'
+        "Always cite the section number exactly as it appears in the context.\n\n"
+        f"Context:\n{context}\n\n"
+        f"Question: {question}\n"
+    )
 
 
 async def run_one(
@@ -65,14 +87,20 @@ async def run_one(
     model_class: str,
     row: dict,
     repeat: int,
+    context: str | None = None,
 ) -> dict:
     """Run one (question, repeat) pair; never raises on API errors — failures
-    become rows too, because the failure rate is itself a rubric metric."""
-    qid = row["question_id"]
+    become rows too, because the failure rate is itself a rubric metric.
+
+    When `context` is given (Lesson 6 grounded run), the question is wrapped with
+    the retrieved passage and the question_id is suffixed `_grounded`."""
+    grounded = context is not None
+    qid = f"{row['question_id']}_grounded" if grounded else row["question_id"]
+    prompt = build_grounded_prompt(row["question"], context) if grounded else row["question"]
     async with sem:
         start = time.perf_counter()
         try:
-            result = await client_fn(row["question"], qid)
+            result = await client_fn(prompt, qid)
             record = asdict(result)
             record["error"] = None
         except api_errors as e:
@@ -89,8 +117,8 @@ async def run_one(
                 "error": f"{type(e).__name__}: {e}",
             }
 
-    # Gold sections are prose-styled ("FBC Building 1020.2"); cited_section is
-    # already normalized ("1020.2"). Normalize gold with the same extractor so
+    # Gold sections are prose-styled ("FBC Building 1020.3"); cited_section is
+    # already normalized ("1020.3"). Normalize gold with the same extractor so
     # the match is apples-to-apples.
     gold_norm = extract_section_citation(row["gold_section"])
     record["repeat"] = repeat
@@ -102,6 +130,12 @@ async def run_one(
         and record["cited_section"] is not None
         and gold_norm is not None
         and record["cited_section"] == gold_norm
+    )
+    # Grounding-compliance (Lesson 6): did the model cite a section that is
+    # ACTUALLY in the supplied passage, or invent a plausible one anyway? Only
+    # meaningful for grounded runs; None otherwise.
+    record["grounding_compliant"] = (
+        section_present_in_context(record["cited_section"], context) if grounded else None
     )
     return record
 
@@ -143,6 +177,13 @@ def print_summary(records: list[dict], model_class: str) -> None:
     print(f"Hallucination rate (wrong/invented citation): {len(wrong)/n:.1%}   <- headline number")
     print(f"Citation-match rate:                          {len(matched)/n:.1%}")
 
+    # Grounded runs: did the cited section actually appear in the supplied passage?
+    grounded = [r for r in ok if r.get("grounding_compliant") is not None]
+    if grounded:
+        compliant = sum(r["grounding_compliant"] for r in grounded)
+        print(f"Grounding compliance (cited a section IN the context): {compliant/len(grounded):.1%}"
+              f"  ({compliant}/{len(grounded)})")
+
     by_cat: dict[str, list[bool]] = defaultdict(list)
     for r in ok:
         by_cat[r["category"]].append(r["citation_match"])
@@ -173,14 +214,24 @@ async def main() -> None:
                         help="keep successful rows already in the output file and "
                              "only run the missing/failed (question, repeat) pairs — "
                              "essential on free tiers with small daily quotas")
+    parser.add_argument("--grounded", action="store_true",
+                        help="Lesson 6: inject the retrieved code passage per question "
+                             "(from data/fbc_eval_context.csv); writes "
+                             "results/<class>_grounded.jsonl and skips questions with no passage")
     args = parser.parse_args()
 
     rows = load_eval_set(DATA_PATH)
     if args.limit:
         rows = rows[: args.limit]
 
+    contexts = load_contexts() if args.grounded else {}
+    if args.grounded:
+        rows = [r for r in rows if r["question_id"] in contexts]
+        print(f"GROUNDED mode: {len(rows)} questions have a retrieved context passage")
+
     client_fn, api_errors = CLIENTS[args.model_class]
-    out_path = args.output or RESULTS_DIR / f"{args.model_class}_raw.jsonl"
+    suffix = "grounded" if args.grounded else "raw"
+    out_path = args.output or RESULTS_DIR / f"{args.model_class}_{suffix}.jsonl"
 
     # Resume: keep prior successes for the CURRENT model only (rows from a
     # different model or failed rows get re-run), so the final file is a clean
@@ -198,11 +249,16 @@ async def main() -> None:
               f"re-running the rest.")
 
     sem = asyncio.Semaphore(args.concurrency)
+    # done stores the AS-WRITTEN question_id (suffixed `_grounded` in grounded runs),
+    # so build the effective id per row when checking what still needs running.
+    def eff_qid(row):
+        return f"{row['question_id']}_grounded" if args.grounded else row["question_id"]
     tasks = [
-        run_one(sem, client_fn, api_errors, args.model_class, row, repeat)
+        run_one(sem, client_fn, api_errors, args.model_class, row, repeat,
+                context=contexts.get(row["question_id"]) if args.grounded else None)
         for row in rows
         for repeat in range(1, args.repeats + 1)
-        if (row["question_id"], repeat) not in done
+        if (eff_qid(row), repeat) not in done
     ]
     print(f"Running {len(tasks)} requests "
           f"({len(rows)} questions x {args.repeats} repeats, "

@@ -44,5 +44,8 @@ Thumbs.db
 
 # --- Streamlit ---
 .streamlit/secrets.toml
-# Oversized source PDF (25MB) — extracted text kept in data/corpus/_ldc30402_extracted.txt
-data/corpus/collier_ch3_3.04.02.pdf
+
+# FBC chapter source PDFs + full-text extracts — ICC-copyrighted, not redistributable.
+# Only short per-question excerpts (fair-use research) live in data/fbc_eval_context.csv.
+data/corpus/fbc_ch*.pdf
+data/corpus/_fbc_ch*.txt
