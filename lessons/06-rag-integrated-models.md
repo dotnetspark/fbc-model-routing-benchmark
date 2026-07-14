@@ -35,6 +35,26 @@ For each of your 25+ evaluation questions, attach the actual FBC or Naples amend
 
 ## 4. Checkpoint
 
-You now have paired (ungrounded, grounded) results per model class across your full evaluation set. Compute the citation-accuracy delta from grounding for each class. This is your headline chart: expect the SLM to show the largest relative improvement, closing most of the gap to the foundation model on straightforward numeric lookups, while jurisdiction_amendment questions with dense cross-references may still favor the stronger model even when grounded.
+You now have paired (ungrounded, grounded) results per model class. Compute the citation-accuracy delta from grounding for each class — this is the series' headline chart.
 
-**Next:** Lesson 7 closes the loop with a decision engine that recommends a model class and grounding requirement, given the query type.
+### Measured result (reference run)
+
+Cold vs. grounded citation-match rate, same 44 groundable questions (q017 excluded — a FEMA date with no code section). Grounding = the correct FBC/Collier passage injected as context, sourced from published text.
+
+| tier | cold | grounded | delta | grounded compliance¹ |
+|---|---|---|---|---|
+| Opus 4.8 (foundation) | 25.9% | **59.1%** | +33.2 | 70.5% |
+| Haiku 4.5 (instruction-tuned) | 31.1% | **77.3%** | **+46.2** | 84.1% |
+| phi3:mini (SLM, local) | 7.7% | **52.5%** | +44.8 | 62.5% |
+
+¹ grounding compliance = fraction of answers that cite a section *actually present in the supplied passage* (vs inventing a plausible one anyway).
+
+**Grounding is the highest-leverage intervention in the series — it lifts every tier by 33–46 points.** Three findings drive the routing decisions in Lesson 7:
+
+- **Retrieval rescues the cheap local model — this is the economic headline.** The SLM jumps from 7.7% to 52.5% (a 6.6× relative gain), with jurisdiction_amendment questions going 10.8% → 70.0%. **Grounded phi3 (52.5%) beats *cold* Opus (26%) by roughly 2×**, at near-zero marginal cost. Cold, the SLM trailed the flagship by ~18 points; grounded, the gap shrinks to ~7. "Cheap local model + good retrieval" is now a defensible production architecture — exactly the bet Lesson 2 §2 flagged.
+- **The JSON schema flips from liability to asset.** In Lesson 2 the required-`section` field made Haiku the *worst* tier cold (67% hallucination — forbidding "I don't know" turned uncertainty into fabrication). Grounded, that same forced-citation mechanism makes Haiku the *best* tier (77.3%): with the right passage present, being forced to cite means being forced to cite *correctly*. Meanwhile the flagship, even grounded, still abstains ~30% ("Not found in context") — its calibration, an asset cold, now leaves accuracy on the table.
+- **Grounding is necessary but not sufficient.** Compliance tops out at 84% (Haiku) and falls to 62% (SLM): even with the correct passage in front of it, a model sometimes still cites a section that isn't there. The residual hallucination is real — a decision engine should treat grounding as risk-reduction, not a guarantee, and weight it against query type (jurisdiction questions benefit most; the few dense cross-referenced ones still slip).
+
+A methodological note worth publishing: assembling the grounding corpus **caught three errors in our own statewide gold sections** (q001 §1020.2→1020.3, q002 §1003.2→1003.3.1, q011 §1804.4→1804.5) that were written from memory and never checked against the published FBC — the same "trust the model's memory" failure this whole series measures, committed by the authors of the gold set. Verify gold against primary text, always.
+
+**Next:** Lesson 7 closes the loop with a decision engine that recommends a model class and whether grounding is mandatory, given the query type.
