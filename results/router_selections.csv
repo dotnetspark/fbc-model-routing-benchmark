@@ -1,0 +1,91 @@
+question_id,category,router,strength,grounded,raw_model
+q001,numeric,custom,cheap,True,cheap+grounded
+q001,numeric,difficulty_baseline,strong,False,strong (difficulty=2.4)
+q002,numeric,custom,cheap,True,cheap+grounded
+q002,numeric,difficulty_baseline,cheap,False,cheap (difficulty=1.0)
+q003,numeric,custom,cheap,True,cheap+grounded
+q003,numeric,difficulty_baseline,strong,False,strong (difficulty=2.6)
+q004,numeric,custom,cheap,True,cheap+grounded
+q004,numeric,difficulty_baseline,strong,False,strong (difficulty=5.1)
+q005,numeric,custom,cheap,True,cheap+grounded
+q005,numeric,difficulty_baseline,strong,False,strong (difficulty=4.8)
+q006,numeric,custom,cheap,True,cheap+grounded
+q006,numeric,difficulty_baseline,strong,False,strong (difficulty=2.6)
+q007,numeric,custom,cheap,True,cheap+grounded
+q007,numeric,difficulty_baseline,strong,False,strong (difficulty=3.5)
+q008,numeric,custom,cheap,True,cheap+grounded
+q008,numeric,difficulty_baseline,strong,False,strong (difficulty=3.2)
+q009,numeric,custom,cheap,True,cheap+grounded
+q009,numeric,difficulty_baseline,cheap,False,cheap (difficulty=1.8)
+q010,numeric,custom,cheap,True,cheap+grounded
+q010,numeric,difficulty_baseline,strong,False,strong (difficulty=2.3)
+q011,numeric,custom,cheap,True,cheap+grounded
+q011,numeric,difficulty_baseline,cheap,False,cheap (difficulty=1.3)
+q012,state_amendment,custom,cheap,True,cheap+grounded
+q012,state_amendment,difficulty_baseline,cheap,False,cheap (difficulty=1.2)
+q013,state_amendment,custom,cheap,True,cheap+grounded
+q013,state_amendment,difficulty_baseline,cheap,False,cheap (difficulty=1.7)
+q014,state_amendment,custom,cheap,True,cheap+grounded
+q014,state_amendment,difficulty_baseline,cheap,False,cheap (difficulty=1.8)
+q015,jurisdiction_amendment,custom,cheap,True,cheap_local+grounded
+q015,jurisdiction_amendment,difficulty_baseline,cheap,False,cheap (difficulty=1.9)
+q016,jurisdiction_amendment,custom,cheap,True,cheap_local+grounded
+q016,jurisdiction_amendment,difficulty_baseline,strong,False,strong (difficulty=3.5)
+q017,definitional,custom,cheap,True,cheap+grounded
+q017,definitional,difficulty_baseline,cheap,False,cheap (difficulty=1.3)
+q018,definitional,custom,cheap,True,cheap+grounded
+q018,definitional,difficulty_baseline,cheap,False,cheap (difficulty=1.0)
+q019,definitional,custom,cheap,True,cheap+grounded
+q019,definitional,difficulty_baseline,cheap,False,cheap (difficulty=1.1)
+q020,definitional,custom,cheap,True,cheap+grounded
+q020,definitional,difficulty_baseline,cheap,False,cheap (difficulty=0.7)
+q021,numeric,custom,cheap,True,cheap+grounded
+q021,numeric,difficulty_baseline,cheap,False,cheap (difficulty=1.4)
+q022,numeric,custom,cheap,True,cheap+grounded
+q022,numeric,difficulty_baseline,cheap,False,cheap (difficulty=1.4)
+q023,numeric,custom,cheap,True,cheap+grounded
+q023,numeric,difficulty_baseline,cheap,False,cheap (difficulty=1.1)
+q024,numeric,custom,cheap,True,cheap+grounded
+q024,numeric,difficulty_baseline,cheap,False,cheap (difficulty=1.7)
+q025,numeric,custom,cheap,True,cheap+grounded
+q025,numeric,difficulty_baseline,cheap,False,cheap (difficulty=1.5)
+q026,jurisdiction_amendment,custom,cheap,True,cheap_local+grounded
+q026,jurisdiction_amendment,difficulty_baseline,strong,False,strong (difficulty=2.5)
+q027,jurisdiction_amendment,custom,cheap,True,cheap_local+grounded
+q027,jurisdiction_amendment,difficulty_baseline,cheap,False,cheap (difficulty=1.8)
+q028,jurisdiction_amendment,custom,cheap,True,cheap_local+grounded
+q028,jurisdiction_amendment,difficulty_baseline,cheap,False,cheap (difficulty=1.6)
+q029,jurisdiction_amendment,custom,cheap,True,cheap_local+grounded
+q029,jurisdiction_amendment,difficulty_baseline,strong,False,strong (difficulty=2.3)
+q030,jurisdiction_amendment,custom,cheap,True,cheap_local+grounded
+q030,jurisdiction_amendment,difficulty_baseline,strong,False,strong (difficulty=2.8)
+q031,jurisdiction_amendment,custom,cheap,True,cheap_local+grounded
+q031,jurisdiction_amendment,difficulty_baseline,cheap,False,cheap (difficulty=1.2)
+q032,jurisdiction_amendment,custom,cheap,True,cheap_local+grounded
+q032,jurisdiction_amendment,difficulty_baseline,strong,False,strong (difficulty=3.0)
+q033,jurisdiction_amendment,custom,cheap,True,cheap_local+grounded
+q033,jurisdiction_amendment,difficulty_baseline,strong,False,strong (difficulty=2.9)
+q034,jurisdiction_amendment,custom,cheap,True,cheap_local+grounded
+q034,jurisdiction_amendment,difficulty_baseline,cheap,False,cheap (difficulty=1.7)
+q035,jurisdiction_amendment,custom,cheap,True,cheap_local+grounded
+q035,jurisdiction_amendment,difficulty_baseline,cheap,False,cheap (difficulty=1.3)
+q036,jurisdiction_amendment,custom,cheap,True,cheap_local+grounded
+q036,jurisdiction_amendment,difficulty_baseline,strong,False,strong (difficulty=2.2)
+q037,jurisdiction_amendment,custom,cheap,True,cheap_local+grounded
+q037,jurisdiction_amendment,difficulty_baseline,strong,False,strong (difficulty=2.4)
+q038,jurisdiction_amendment,custom,cheap,True,cheap_local+grounded
+q038,jurisdiction_amendment,difficulty_baseline,strong,False,strong (difficulty=3.2)
+q039,jurisdiction_amendment,custom,cheap,True,cheap_local+grounded
+q039,jurisdiction_amendment,difficulty_baseline,strong,False,strong (difficulty=2.2)
+q040,jurisdiction_amendment,custom,cheap,True,cheap_local+grounded
+q040,jurisdiction_amendment,difficulty_baseline,cheap,False,cheap (difficulty=1.4)
+q041,jurisdiction_amendment,custom,cheap,True,cheap_local+grounded
+q041,jurisdiction_amendment,difficulty_baseline,cheap,False,cheap (difficulty=1.9)
+q042,jurisdiction_amendment,custom,cheap,True,cheap_local+grounded
+q042,jurisdiction_amendment,difficulty_baseline,strong,False,strong (difficulty=2.7)
+q043,jurisdiction_amendment,custom,cheap,True,cheap_local+grounded
+q043,jurisdiction_amendment,difficulty_baseline,strong,False,strong (difficulty=2.3)
+q044,jurisdiction_amendment,custom,cheap,True,cheap_local+grounded
+q044,jurisdiction_amendment,difficulty_baseline,cheap,False,cheap (difficulty=1.3)
+q045,jurisdiction_amendment,custom,cheap,True,cheap_local+grounded
+q045,jurisdiction_amendment,difficulty_baseline,cheap,False,cheap (difficulty=1.6)

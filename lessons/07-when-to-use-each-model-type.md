@@ -63,6 +63,10 @@ st.bar_chart(results_df.set_index("model_class")[["p95_latency_ms", "cost_per_1k
 
 ## 4. Checkpoint — series complete
 
+> **Implemented as a routing-behavior comparison, not a router product.** Rather than ship yet another model router into a crowded market (RouteLLM, NotDiamond, Martian, …), Lesson 7 **dry-runs** several routers over the eval set — recording *which model each picks*, not the answer — and plots the selections on **model-strength × grounding**. See [`LESSON7_PLAN.md`](../LESSON7_PLAN.md), [`routers/`](../routers/), [`run_router_dryrun.py`](../run_router_dryrun.py), and [`analysis/router_comparison.py`](../analysis/router_comparison.py).
+>
+> **Measured result.** Every off-the-shelf router (a difficulty-heuristic stand-in for RouteLLM; NotDiamond as a real commercial router) sits **entirely in the ungrounded band** — their ranking is closed and has no grounding axis. The custom, extensible lookup-table router sits entirely in the *grounded* band (grounded-cheap clears the floor everywhere, so it never needs the strong tier). Following the custom router's picks implies **~77% correct citations vs. ~30% for the difficulty router** — a ~47-point gap that is entirely the grounding blind spot. The claim is **expressiveness**, not "smarter": generic routers optimize *which model*; for a verifiable-answer domain the dominant lever is *whether to ground*, which they cannot express. Full synthesis in [`FINDINGS.md`](../FINDINGS.md) § Lesson 7.
+
 At this point you have:
 
 - Three (or four, with multimodal) working model clients measured against real FBC and Naples code questions

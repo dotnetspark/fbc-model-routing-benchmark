@@ -51,6 +51,20 @@ Full list in [`results/hallucinated_citations.csv`](results/hallucinated_citatio
 - **Plausible near-misses** — the right neighborhood, wrong section (`62-81` for `62-80`, `105.2.2` for `105.2.4`) — the worst kind for a compliance tool because they pass a smell test.
 - **Outright fabrication** — inventing an ordinance that doesn't exist ("Collier County Ordinance 2021-03," complete with a fake adoption history), a 300-ft coastal buffer (actual: 100 ft), a 30-ft setback (actual: 75 ft).
 
+## Lesson 7 — routing behavior: the grounding axis generic routers can't reach
+
+The obvious closer would be "build a model router." But the market is crowded (RouteLLM, NotDiamond, Martian, Unify, OpenRouter), and those products route on one axis — *prompt difficulty → model tier* — with **closed, embedded ranking you cannot extend**. So instead of shipping another router, we **dry-ran** several routers over the 45 questions — recording *which model each would pick*, not the answer (near-zero cost) — and plotted the selections on two axes: **model strength** and **grounded?**
+
+The result ([`results/router_selection_gravity.png`](results/router_selection_gravity.png), from [`analysis/router_comparison.py`](analysis/router_comparison.py)):
+
+- **A generic difficulty router** (a transparent stand-in for RouteLLM, which wouldn't install on Windows) splits its picks across strength — but sits **entirely in the ungrounded band**. It has no grounding axis to move on.
+- **NotDiamond** (a real commercial router, via `model_router.select_model`) routes its own catalog by cost/complexity — and is **structurally stuck at ungrounded** too. *(Run with `NOT_DIAMOND_API_KEY` set to populate its bar.)*
+- **The custom domain-aware router** — a readable, extensible lookup table encoding the measured findings — sits **entirely in the grounded band**: given the Lessons 1–6 data, grounded-cheap clears the accuracy floor on every category, so it never needs the strong tier.
+
+The payoff is visual: **the grounded band is empty for every off-the-shelf router and full for the custom one.** The extensibility gap is a literal hole in the plot. Quantified against the measured data — *if you actually followed each router's selections* — the custom router's picks imply **~77% correct citations vs. ~30% for the difficulty router**, a ~47-point gap that is entirely the cost of the grounding blind spot.
+
+**The conclusion isn't "our router is smarter"** (it encodes the findings, so that would be circular). It's an **expressiveness** claim: for a verifiable-answer domain the dominant lever is *whether to ground*, off-the-shelf routers optimize *which model* and cannot express the grounding decision, and their ranking is closed so you cannot add it. Put a thin, extensible grounding-first decision in front of routing; use an off-the-shelf router, if at all, only for the tier choice *after* the grounding decision is made. Full method and honesty guardrails: [`LESSON7_PLAN.md`](LESSON7_PLAN.md).
+
 ## Caveats
 - **Small category counts.** `state_amendment` (n=3) and `definitional` (n=4) are directional, not headline. The 22 jurisdiction and 16 numeric questions carry the weight.
 - **Repeats aren't independent.** Three calls to frozen weights are correlated; effective n ≈ questions, not questions × repeats. Grounded runs are a single pass over 44 questions.

@@ -2,6 +2,12 @@
 
 **Self-contained execution plan.** Written so a fresh agent (Copilot CLI) or a human can finish Lesson 7 without prior chat context. Follow the phases in order; each has a verification step. Commit as you go.
 
+> **Execution status (updated during the build — corrections to the sketches below):**
+> - **Env:** built in a **separate `.venv311`** (not by replacing `.venv`, which was file-locked by the IDE). Python 3.11.13 via `uv`. Everything works; the 3.13 `.venv` is untouched.
+> - **RouteLLM: abandoned on this box** — its `litellm→torch→transformers→datasets→pyarrow→huggingface-hub` stack has cascading, unresolvable version conflicts on Windows. **Replaced by `routers/difficulty_baseline.py`** (the §11 fallback), which makes the same point reproducibly. If you want RouteLLM, you'll need a Rust toolchain + pinned deps, or Linux/WSL.
+> - **NotDiamond API (real, introspected):** env var is **`NOT_DIAMOND_API_KEY`** (underscores). Call is `client.model_router.select_model(llm_providers=[{"provider","model"}], messages=[...], tradeoff="cost")`; the pick is `resp.providers[0]` (`.provider`, `.model`). Implemented in `routers/notdiamond_router.py`.
+> - **Done:** `routers/` (base, custom, notdiamond_router, difficulty_baseline), `run_router_dryrun.py`, `analysis/router_comparison.py`, the selection-gravity chart, FINDINGS § Lesson 7, lessons/07 checkpoint. **Remaining:** add `NOT_DIAMOND_API_KEY` to `.env`, run `.venv311/Scripts/python run_router_dryrun.py`, re-run the analysis, refresh the NotDiamond numbers, merge `feat/lesson7_router`.
+
 ---
 
 ## 0. Context (read first)
