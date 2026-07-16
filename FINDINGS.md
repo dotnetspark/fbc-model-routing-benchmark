@@ -46,25 +46,42 @@ Even with the correct passage in front of it, a model sometimes still cites a se
 Building the grounding corpus against the *published* text caught errors in the gold answers we had written from memory: three statewide FBC section numbers were wrong (§1020.2→1020.3 corridor width, §1003.2→1003.3.1 headroom, §1804.4→1804.5 flood-hazard fill), plus a local Pre-FIRM date. This is the project's own thesis turned on its authors — *do not trust memory for code citations, verify against primary text* — and it's a caution for anyone building an eval set.
 
 ## Exhibit A — what cold failure looks like
-Full list in [`results/hallucinated_citations.csv`](results/hallucinated_citations.csv). Three archetypes recur, not equally dangerous:
-- **Base-code substitution** — answering the *Florida* question from the generic ICC model code seen more in pretraining (a model literally opens "According to the International Building Code…" on an FBC question).
+Full list in [`results/hallucinated_citations.csv`](results/hallucinated_citations.csv). These are drawn from the cold runs across tiers — including a **second, free-tier foundation model (Gemini 3 Flash)** we ran alongside Opus; the vivid fabrications below are *its* output (`results/foundation_gemini3flash_raw.jsonl`), not the headline Opus run's, which fails more by abstaining than by inventing. Three archetypes recur, not equally dangerous:
+- **Base-code substitution** — answering the *Florida* question from the generic ICC model code seen more in pretraining (Gemini 3 Flash literally opens "According to the International Building Code…" on an FBC question — and the local SLM does the same).
 - **Plausible near-misses** — the right neighborhood, wrong section (`62-81` for `62-80`, `105.2.2` for `105.2.4`) — the worst kind for a compliance tool because they pass a smell test.
-- **Outright fabrication** — inventing an ordinance that doesn't exist ("Collier County Ordinance 2021-03," complete with a fake adoption history), a 300-ft coastal buffer (actual: 100 ft), a 30-ft setback (actual: 75 ft).
+- **Outright fabrication** — Gemini 3 Flash inventing an ordinance that doesn't exist ("Collier County Ordinance 2021-03," complete with a fake adoption history), a 300-ft coastal buffer (actual: 100 ft), a 30-ft setback (actual: 75 ft).
 
 ## Lesson 7 — routing behavior: the grounding axis generic routers can't reach
 
-The obvious closer would be "build a model router." But the market is crowded (RouteLLM, NotDiamond, Martian, Unify, OpenRouter), and those products route on one axis — *prompt difficulty → model tier* — with **closed, embedded ranking you cannot extend**. So instead of shipping another router, we **dry-ran** several routers over the 45 questions — recording *which model each would pick*, not the answer (near-zero cost) — and plotted the selections on two axes: **model strength** and **grounded?**
+The obvious closer would be "build a model router." But the market is crowded (RouteLLM, NotDiamond, Martian, Unify, OpenRouter), and they all route on one axis — *prompt → model tier*. So instead of shipping another router, we **dry-ran** several routers over the 45 questions — recording *which model each would pick*, not the answer (near-zero cost) — and plotted the selections on two axes: **model strength** and **grounded?**
 
-The result ([`results/router_selection_gravity.png`](results/router_selection_gravity.png), from [`analysis/router_comparison.py`](analysis/router_comparison.py)):
+The result ([`results/router_selection_gravity.png`](results/router_selection_gravity.png), from [`analysis/router_comparison.py`](analysis/router_comparison.py)) — two *real* routers plus a transparent illustration, all against a custom baseline:
 
-- **RouteLLM** — a real, published router (its local `bert` win-rate classifier) — picks the cheap tier on 89% of questions and the strong tier on 11%, and sits **entirely in the ungrounded band**. It has no grounding axis to move on. *(Its ML stack won't install on Windows, so it runs in a Linux container — `docker compose run --rm routers` — which also makes the whole comparison reproducible.)*
-- **A transparent difficulty heuristic** (readable stand-in: prompt length + complexity markers → tier) splits 44/56 strong/cheap and is likewise **100% ungrounded** — same blind spot, arrived at independently, confirming it's structural to the *tier-routing* framing rather than an artifact of one product.
-- **NotDiamond** (another real commercial router, via `model_router.select_model`) routes its own catalog by cost/complexity — and is structurally stuck at ungrounded too. *(Add `NOT_DIAMOND_API_KEY` to `.env` to populate its bar; the container reads it via `env_file`.)*
+- **RouteLLM** — a real, published router (its local `bert` win-rate classifier) — picks the cheap tier on 89% of questions, strong on 11%, and sits **entirely in the ungrounded band**. It has no grounding axis to move on. *(Its ML stack won't install on Windows, so it runs in a Linux container — `docker compose run --rm routers` — which also makes the whole comparison reproducible.)*
+- **NotDiamond** — a real commercial router (`model_router.select_model`) — routes its own multi-provider catalog by cost/complexity, splitting 42/58 strong/cheap. Also **100% ungrounded**. Note NotDiamond *can* be trained on your own eval data (`train_custom_router`) — so it isn't "closed" — but even the trained router optimizes *which model scores best per prompt*; there's no first-class input for "is grounding available." Extensible on the model axis, still blind on the grounding one.
+- **A transparent difficulty heuristic** (*illustrative*, not evidence: 38 readable lines, prompt length + complexity markers → tier) splits 44/56 and is **100% ungrounded** — but by construction (`grounded=False` is hardcoded). Its job is to make the mechanism legible: "difficulty → tier" has no grounding variable to set. The two real routers above are the actual proof; this just shows *why*.
 - **The custom domain-aware router** — a readable, extensible lookup table encoding the measured findings — sits **entirely in the grounded band**: given the Lessons 1–6 data, grounded-cheap clears the accuracy floor on every category, so it never needs the strong tier.
 
-The payoff is visual: **the grounded band is empty for every off-the-shelf router and full for the custom one.** The extensibility gap is a literal hole in the plot. Quantified against the measured data — *if you actually followed each router's selections* — the custom router's picks imply **~77% correct citations vs. ~30% for both RouteLLM and the difficulty heuristic**, a ~47-point gap that is entirely the cost of the grounding blind spot.
+The payoff is visual: **the grounded band is empty for both real off-the-shelf routers and full for the custom one.** The gap is a literal hole in the plot. Quantified against the measured data — *if you actually followed each router's selections* — the custom router's picks imply **~77% correct citations vs. ~30% for RouteLLM and ~31% for NotDiamond**, a ~47-point gap that is entirely the cost of the grounding blind spot.
 
-**The conclusion isn't "our router is smarter"** (it encodes the findings, so that would be circular). It's an **expressiveness** claim: for a verifiable-answer domain the dominant lever is *whether to ground*, off-the-shelf routers optimize *which model* and cannot express the grounding decision, and their ranking is closed so you cannot add it. Put a thin, extensible grounding-first decision in front of routing; use an off-the-shelf router, if at all, only for the tier choice *after* the grounding decision is made. Full method and honesty guardrails: [`LESSON7_PLAN.md`](LESSON7_PLAN.md).
+**The conclusion isn't "our router is smarter"** — it encodes the findings, so that number is circular *by design* and is not the point. The point is **expressiveness**: for a verifiable-answer domain the dominant lever is *whether to ground*; off-the-shelf routers optimize *which model* and — trainable or not — expose no way to make the grounding decision. Put a thin, extensible grounding-first decision in front of routing, and use an off-the-shelf router (if at all) only for the tier choice *after* grounding is decided. Method, parameter provenance, and honesty guardrails below and in [`LESSON7_PLAN.md`](LESSON7_PLAN.md).
+
+### Design & parameter provenance (Lesson 7)
+
+For anyone presenting this: the method is a **dry-run selection study** — run each router's *choice* over the 45 questions (which model, and would it ground) *without calling the model*, so it isolates the routing **policy** from answer quality at near-zero cost. Then plot strength × grounding. Every parameter, and exactly what it rests on:
+
+| Parameter | Value | Based on | Honest status |
+|---|---|---|---|
+| custom router's grounded-accuracy table | measured rates | Lessons 1–6 results | data-derived — but **circular for scoring**, so we don't lead with the score |
+| custom `FLOOR` (min usable accuracy) | 0.50 | a product judgment call | stated as a choice, not derived |
+| RouteLLM router | `bert` | local/offline (the `mf` router calls the OpenAI *embeddings* API per prompt) | real model output |
+| RouteLLM strong/cheap threshold | win-rate ≥ 0.5 | neutral default | arbitrary — **and irrelevant to the finding** (no threshold adds a grounding axis) |
+| NotDiamond candidates | gpt-4o / claude-3-7-sonnet vs gpt-4o-mini / claude-3-haiku | probed against NotDiamond 1.7.0's catalog (many strings 400) | verified accepted |
+| NotDiamond tradeoff | `"cost"` | cost-aware routing | a knob; quality-mode would shift the split, not the grounding axis |
+| difficulty heuristic threshold / markers | 2.0, hand-picked words | domain intuition | **illustrative only**, not derived from data |
+| strong→Opus, cheap→Haiku (accuracy overlay) | — | a stated mapping | assumption for the overlay, not measured per router |
+
+The move that makes it defensible: **separate the parameters that could be accused of "tuning to win" (the thresholds) from the finding, and show the finding survives any of their values.** The empty grounded band does not depend on a single cutoff.
 
 ## Caveats
 - **Small category counts.** `state_amendment` (n=3) and `definitional` (n=4) are directional, not headline. The 22 jurisdiction and 16 numeric questions carry the weight.

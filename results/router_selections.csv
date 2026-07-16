@@ -1,181 +1,181 @@
 question_id,category,router,strength,grounded,raw_model
 q001,numeric,custom,cheap,True,cheap+grounded
 q001,numeric,difficulty_baseline,strong,False,strong (difficulty=2.4)
-q001,numeric,notdiamond,ERROR,,NotDiamondError: The api_key client option must be set either by passing api_key to the client or by
+q001,numeric,notdiamond,strong,False,anthropic/claude-3-7-sonnet-latest
 q001,numeric,routellm,cheap,False,bert/win_rate=0.37
 q002,numeric,custom,cheap,True,cheap+grounded
 q002,numeric,difficulty_baseline,cheap,False,cheap (difficulty=1.0)
-q002,numeric,notdiamond,ERROR,,NotDiamondError: The api_key client option must be set either by passing api_key to the client or by
+q002,numeric,notdiamond,cheap,False,openai/gpt-4o-mini
 q002,numeric,routellm,cheap,False,bert/win_rate=0.44
 q003,numeric,custom,cheap,True,cheap+grounded
 q003,numeric,difficulty_baseline,strong,False,strong (difficulty=2.6)
-q003,numeric,notdiamond,ERROR,,NotDiamondError: The api_key client option must be set either by passing api_key to the client or by
+q003,numeric,notdiamond,strong,False,anthropic/claude-3-7-sonnet-latest
 q003,numeric,routellm,cheap,False,bert/win_rate=0.23
 q004,numeric,custom,cheap,True,cheap+grounded
 q004,numeric,difficulty_baseline,strong,False,strong (difficulty=5.1)
-q004,numeric,notdiamond,ERROR,,NotDiamondError: The api_key client option must be set either by passing api_key to the client or by
+q004,numeric,notdiamond,strong,False,anthropic/claude-3-7-sonnet-latest
 q004,numeric,routellm,cheap,False,bert/win_rate=0.43
 q005,numeric,custom,cheap,True,cheap+grounded
 q005,numeric,difficulty_baseline,strong,False,strong (difficulty=4.8)
-q005,numeric,notdiamond,ERROR,,NotDiamondError: The api_key client option must be set either by passing api_key to the client or by
+q005,numeric,notdiamond,strong,False,anthropic/claude-3-7-sonnet-latest
 q005,numeric,routellm,cheap,False,bert/win_rate=0.39
 q006,numeric,custom,cheap,True,cheap+grounded
 q006,numeric,difficulty_baseline,strong,False,strong (difficulty=2.6)
-q006,numeric,notdiamond,ERROR,,NotDiamondError: The api_key client option must be set either by passing api_key to the client or by
+q006,numeric,notdiamond,strong,False,anthropic/claude-3-7-sonnet-latest
 q006,numeric,routellm,cheap,False,bert/win_rate=0.42
 q007,numeric,custom,cheap,True,cheap+grounded
 q007,numeric,difficulty_baseline,strong,False,strong (difficulty=3.5)
-q007,numeric,notdiamond,ERROR,,NotDiamondError: The api_key client option must be set either by passing api_key to the client or by
+q007,numeric,notdiamond,strong,False,anthropic/claude-3-7-sonnet-latest
 q007,numeric,routellm,cheap,False,bert/win_rate=0.43
 q008,numeric,custom,cheap,True,cheap+grounded
 q008,numeric,difficulty_baseline,strong,False,strong (difficulty=3.2)
-q008,numeric,notdiamond,ERROR,,NotDiamondError: The api_key client option must be set either by passing api_key to the client or by
+q008,numeric,notdiamond,cheap,False,openai/gpt-4o-mini
 q008,numeric,routellm,strong,False,bert/win_rate=0.52
 q009,numeric,custom,cheap,True,cheap+grounded
 q009,numeric,difficulty_baseline,cheap,False,cheap (difficulty=1.8)
-q009,numeric,notdiamond,ERROR,,NotDiamondError: The api_key client option must be set either by passing api_key to the client or by
+q009,numeric,notdiamond,strong,False,anthropic/claude-3-7-sonnet-latest
 q009,numeric,routellm,cheap,False,bert/win_rate=0.31
 q010,numeric,custom,cheap,True,cheap+grounded
 q010,numeric,difficulty_baseline,strong,False,strong (difficulty=2.3)
-q010,numeric,notdiamond,ERROR,,NotDiamondError: The api_key client option must be set either by passing api_key to the client or by
+q010,numeric,notdiamond,cheap,False,openai/gpt-4o-mini
 q010,numeric,routellm,cheap,False,bert/win_rate=0.33
 q011,numeric,custom,cheap,True,cheap+grounded
 q011,numeric,difficulty_baseline,cheap,False,cheap (difficulty=1.3)
-q011,numeric,notdiamond,ERROR,,NotDiamondError: The api_key client option must be set either by passing api_key to the client or by
+q011,numeric,notdiamond,cheap,False,openai/gpt-4o-mini
 q011,numeric,routellm,cheap,False,bert/win_rate=0.28
 q012,state_amendment,custom,cheap,True,cheap+grounded
 q012,state_amendment,difficulty_baseline,cheap,False,cheap (difficulty=1.2)
-q012,state_amendment,notdiamond,ERROR,,NotDiamondError: The api_key client option must be set either by passing api_key to the client or by
+q012,state_amendment,notdiamond,cheap,False,openai/gpt-4o-mini
 q012,state_amendment,routellm,cheap,False,bert/win_rate=0.31
 q013,state_amendment,custom,cheap,True,cheap+grounded
 q013,state_amendment,difficulty_baseline,cheap,False,cheap (difficulty=1.7)
-q013,state_amendment,notdiamond,ERROR,,NotDiamondError: The api_key client option must be set either by passing api_key to the client or by
+q013,state_amendment,notdiamond,strong,False,anthropic/claude-3-7-sonnet-latest
 q013,state_amendment,routellm,cheap,False,bert/win_rate=0.13
 q014,state_amendment,custom,cheap,True,cheap+grounded
 q014,state_amendment,difficulty_baseline,cheap,False,cheap (difficulty=1.8)
-q014,state_amendment,notdiamond,ERROR,,NotDiamondError: The api_key client option must be set either by passing api_key to the client or by
+q014,state_amendment,notdiamond,strong,False,anthropic/claude-3-7-sonnet-latest
 q014,state_amendment,routellm,cheap,False,bert/win_rate=0.18
 q015,jurisdiction_amendment,custom,cheap,True,cheap_local+grounded
 q015,jurisdiction_amendment,difficulty_baseline,cheap,False,cheap (difficulty=1.9)
-q015,jurisdiction_amendment,notdiamond,ERROR,,NotDiamondError: The api_key client option must be set either by passing api_key to the client or by
+q015,jurisdiction_amendment,notdiamond,strong,False,anthropic/claude-3-7-sonnet-latest
 q015,jurisdiction_amendment,routellm,cheap,False,bert/win_rate=0.21
 q016,jurisdiction_amendment,custom,cheap,True,cheap_local+grounded
 q016,jurisdiction_amendment,difficulty_baseline,strong,False,strong (difficulty=3.5)
-q016,jurisdiction_amendment,notdiamond,ERROR,,NotDiamondError: The api_key client option must be set either by passing api_key to the client or by
+q016,jurisdiction_amendment,notdiamond,strong,False,anthropic/claude-3-7-sonnet-latest
 q016,jurisdiction_amendment,routellm,cheap,False,bert/win_rate=0.35
 q017,definitional,custom,cheap,True,cheap+grounded
 q017,definitional,difficulty_baseline,cheap,False,cheap (difficulty=1.3)
-q017,definitional,notdiamond,ERROR,,NotDiamondError: The api_key client option must be set either by passing api_key to the client or by
+q017,definitional,notdiamond,cheap,False,openai/gpt-4o-mini
 q017,definitional,routellm,cheap,False,bert/win_rate=0.25
 q018,definitional,custom,cheap,True,cheap+grounded
 q018,definitional,difficulty_baseline,cheap,False,cheap (difficulty=1.0)
-q018,definitional,notdiamond,ERROR,,NotDiamondError: The api_key client option must be set either by passing api_key to the client or by
+q018,definitional,notdiamond,cheap,False,openai/gpt-4o-mini
 q018,definitional,routellm,cheap,False,bert/win_rate=0.37
 q019,definitional,custom,cheap,True,cheap+grounded
 q019,definitional,difficulty_baseline,cheap,False,cheap (difficulty=1.1)
-q019,definitional,notdiamond,ERROR,,NotDiamondError: The api_key client option must be set either by passing api_key to the client or by
+q019,definitional,notdiamond,cheap,False,openai/gpt-4o-mini
 q019,definitional,routellm,cheap,False,bert/win_rate=0.20
 q020,definitional,custom,cheap,True,cheap+grounded
 q020,definitional,difficulty_baseline,cheap,False,cheap (difficulty=0.7)
-q020,definitional,notdiamond,ERROR,,NotDiamondError: The api_key client option must be set either by passing api_key to the client or by
+q020,definitional,notdiamond,cheap,False,openai/gpt-4o-mini
 q020,definitional,routellm,cheap,False,bert/win_rate=0.25
 q021,numeric,custom,cheap,True,cheap+grounded
 q021,numeric,difficulty_baseline,cheap,False,cheap (difficulty=1.4)
-q021,numeric,notdiamond,ERROR,,NotDiamondError: The api_key client option must be set either by passing api_key to the client or by
+q021,numeric,notdiamond,cheap,False,openai/gpt-4o-mini
 q021,numeric,routellm,cheap,False,bert/win_rate=0.40
 q022,numeric,custom,cheap,True,cheap+grounded
 q022,numeric,difficulty_baseline,cheap,False,cheap (difficulty=1.4)
-q022,numeric,notdiamond,ERROR,,NotDiamondError: The api_key client option must be set either by passing api_key to the client or by
+q022,numeric,notdiamond,strong,False,anthropic/claude-3-7-sonnet-latest
 q022,numeric,routellm,cheap,False,bert/win_rate=0.43
 q023,numeric,custom,cheap,True,cheap+grounded
 q023,numeric,difficulty_baseline,cheap,False,cheap (difficulty=1.1)
-q023,numeric,notdiamond,ERROR,,NotDiamondError: The api_key client option must be set either by passing api_key to the client or by
+q023,numeric,notdiamond,cheap,False,openai/gpt-4o-mini
 q023,numeric,routellm,cheap,False,bert/win_rate=0.49
 q024,numeric,custom,cheap,True,cheap+grounded
 q024,numeric,difficulty_baseline,cheap,False,cheap (difficulty=1.7)
-q024,numeric,notdiamond,ERROR,,NotDiamondError: The api_key client option must be set either by passing api_key to the client or by
+q024,numeric,notdiamond,strong,False,anthropic/claude-3-7-sonnet-latest
 q024,numeric,routellm,cheap,False,bert/win_rate=0.32
 q025,numeric,custom,cheap,True,cheap+grounded
 q025,numeric,difficulty_baseline,cheap,False,cheap (difficulty=1.5)
-q025,numeric,notdiamond,ERROR,,NotDiamondError: The api_key client option must be set either by passing api_key to the client or by
+q025,numeric,notdiamond,strong,False,anthropic/claude-3-7-sonnet-latest
 q025,numeric,routellm,strong,False,bert/win_rate=0.54
 q026,jurisdiction_amendment,custom,cheap,True,cheap_local+grounded
 q026,jurisdiction_amendment,difficulty_baseline,strong,False,strong (difficulty=2.5)
-q026,jurisdiction_amendment,notdiamond,ERROR,,NotDiamondError: The api_key client option must be set either by passing api_key to the client or by
+q026,jurisdiction_amendment,notdiamond,cheap,False,openai/gpt-4o-mini
 q026,jurisdiction_amendment,routellm,cheap,False,bert/win_rate=0.29
 q027,jurisdiction_amendment,custom,cheap,True,cheap_local+grounded
 q027,jurisdiction_amendment,difficulty_baseline,cheap,False,cheap (difficulty=1.8)
-q027,jurisdiction_amendment,notdiamond,ERROR,,NotDiamondError: The api_key client option must be set either by passing api_key to the client or by
+q027,jurisdiction_amendment,notdiamond,strong,False,anthropic/claude-3-7-sonnet-latest
 q027,jurisdiction_amendment,routellm,cheap,False,bert/win_rate=0.22
 q028,jurisdiction_amendment,custom,cheap,True,cheap_local+grounded
 q028,jurisdiction_amendment,difficulty_baseline,cheap,False,cheap (difficulty=1.6)
-q028,jurisdiction_amendment,notdiamond,ERROR,,NotDiamondError: The api_key client option must be set either by passing api_key to the client or by
+q028,jurisdiction_amendment,notdiamond,cheap,False,openai/gpt-4o-mini
 q028,jurisdiction_amendment,routellm,cheap,False,bert/win_rate=0.20
 q029,jurisdiction_amendment,custom,cheap,True,cheap_local+grounded
 q029,jurisdiction_amendment,difficulty_baseline,strong,False,strong (difficulty=2.3)
-q029,jurisdiction_amendment,notdiamond,ERROR,,NotDiamondError: The api_key client option must be set either by passing api_key to the client or by
+q029,jurisdiction_amendment,notdiamond,cheap,False,openai/gpt-4o-mini
 q029,jurisdiction_amendment,routellm,cheap,False,bert/win_rate=0.36
 q030,jurisdiction_amendment,custom,cheap,True,cheap_local+grounded
 q030,jurisdiction_amendment,difficulty_baseline,strong,False,strong (difficulty=2.8)
-q030,jurisdiction_amendment,notdiamond,ERROR,,NotDiamondError: The api_key client option must be set either by passing api_key to the client or by
+q030,jurisdiction_amendment,notdiamond,cheap,False,openai/gpt-4o-mini
 q030,jurisdiction_amendment,routellm,cheap,False,bert/win_rate=0.12
 q031,jurisdiction_amendment,custom,cheap,True,cheap_local+grounded
 q031,jurisdiction_amendment,difficulty_baseline,cheap,False,cheap (difficulty=1.2)
-q031,jurisdiction_amendment,notdiamond,ERROR,,NotDiamondError: The api_key client option must be set either by passing api_key to the client or by
+q031,jurisdiction_amendment,notdiamond,cheap,False,openai/gpt-4o-mini
 q031,jurisdiction_amendment,routellm,cheap,False,bert/win_rate=0.18
 q032,jurisdiction_amendment,custom,cheap,True,cheap_local+grounded
 q032,jurisdiction_amendment,difficulty_baseline,strong,False,strong (difficulty=3.0)
-q032,jurisdiction_amendment,notdiamond,ERROR,,NotDiamondError: The api_key client option must be set either by passing api_key to the client or by
+q032,jurisdiction_amendment,notdiamond,cheap,False,openai/gpt-4o-mini
 q032,jurisdiction_amendment,routellm,cheap,False,bert/win_rate=0.43
 q033,jurisdiction_amendment,custom,cheap,True,cheap_local+grounded
 q033,jurisdiction_amendment,difficulty_baseline,strong,False,strong (difficulty=2.9)
-q033,jurisdiction_amendment,notdiamond,ERROR,,NotDiamondError: The api_key client option must be set either by passing api_key to the client or by
+q033,jurisdiction_amendment,notdiamond,strong,False,anthropic/claude-3-7-sonnet-latest
 q033,jurisdiction_amendment,routellm,strong,False,bert/win_rate=0.63
 q034,jurisdiction_amendment,custom,cheap,True,cheap_local+grounded
 q034,jurisdiction_amendment,difficulty_baseline,cheap,False,cheap (difficulty=1.7)
-q034,jurisdiction_amendment,notdiamond,ERROR,,NotDiamondError: The api_key client option must be set either by passing api_key to the client or by
+q034,jurisdiction_amendment,notdiamond,cheap,False,openai/gpt-4o-mini
 q034,jurisdiction_amendment,routellm,cheap,False,bert/win_rate=0.36
 q035,jurisdiction_amendment,custom,cheap,True,cheap_local+grounded
 q035,jurisdiction_amendment,difficulty_baseline,cheap,False,cheap (difficulty=1.3)
-q035,jurisdiction_amendment,notdiamond,ERROR,,NotDiamondError: The api_key client option must be set either by passing api_key to the client or by
+q035,jurisdiction_amendment,notdiamond,cheap,False,openai/gpt-4o-mini
 q035,jurisdiction_amendment,routellm,cheap,False,bert/win_rate=0.36
 q036,jurisdiction_amendment,custom,cheap,True,cheap_local+grounded
 q036,jurisdiction_amendment,difficulty_baseline,strong,False,strong (difficulty=2.2)
-q036,jurisdiction_amendment,notdiamond,ERROR,,NotDiamondError: The api_key client option must be set either by passing api_key to the client or by
+q036,jurisdiction_amendment,notdiamond,cheap,False,openai/gpt-4o-mini
 q036,jurisdiction_amendment,routellm,strong,False,bert/win_rate=0.56
 q037,jurisdiction_amendment,custom,cheap,True,cheap_local+grounded
 q037,jurisdiction_amendment,difficulty_baseline,strong,False,strong (difficulty=2.4)
-q037,jurisdiction_amendment,notdiamond,ERROR,,NotDiamondError: The api_key client option must be set either by passing api_key to the client or by
+q037,jurisdiction_amendment,notdiamond,cheap,False,openai/gpt-4o-mini
 q037,jurisdiction_amendment,routellm,cheap,False,bert/win_rate=0.27
 q038,jurisdiction_amendment,custom,cheap,True,cheap_local+grounded
 q038,jurisdiction_amendment,difficulty_baseline,strong,False,strong (difficulty=3.2)
-q038,jurisdiction_amendment,notdiamond,ERROR,,NotDiamondError: The api_key client option must be set either by passing api_key to the client or by
+q038,jurisdiction_amendment,notdiamond,strong,False,anthropic/claude-3-7-sonnet-latest
 q038,jurisdiction_amendment,routellm,cheap,False,bert/win_rate=0.33
 q039,jurisdiction_amendment,custom,cheap,True,cheap_local+grounded
 q039,jurisdiction_amendment,difficulty_baseline,strong,False,strong (difficulty=2.2)
-q039,jurisdiction_amendment,notdiamond,ERROR,,NotDiamondError: The api_key client option must be set either by passing api_key to the client or by
+q039,jurisdiction_amendment,notdiamond,cheap,False,openai/gpt-4o-mini
 q039,jurisdiction_amendment,routellm,cheap,False,bert/win_rate=0.16
 q040,jurisdiction_amendment,custom,cheap,True,cheap_local+grounded
 q040,jurisdiction_amendment,difficulty_baseline,cheap,False,cheap (difficulty=1.4)
-q040,jurisdiction_amendment,notdiamond,ERROR,,NotDiamondError: The api_key client option must be set either by passing api_key to the client or by
+q040,jurisdiction_amendment,notdiamond,strong,False,anthropic/claude-3-7-sonnet-latest
 q040,jurisdiction_amendment,routellm,cheap,False,bert/win_rate=0.27
 q041,jurisdiction_amendment,custom,cheap,True,cheap_local+grounded
 q041,jurisdiction_amendment,difficulty_baseline,cheap,False,cheap (difficulty=1.9)
-q041,jurisdiction_amendment,notdiamond,ERROR,,NotDiamondError: The api_key client option must be set either by passing api_key to the client or by
+q041,jurisdiction_amendment,notdiamond,cheap,False,openai/gpt-4o-mini
 q041,jurisdiction_amendment,routellm,cheap,False,bert/win_rate=0.30
 q042,jurisdiction_amendment,custom,cheap,True,cheap_local+grounded
 q042,jurisdiction_amendment,difficulty_baseline,strong,False,strong (difficulty=2.7)
-q042,jurisdiction_amendment,notdiamond,ERROR,,NotDiamondError: The api_key client option must be set either by passing api_key to the client or by
+q042,jurisdiction_amendment,notdiamond,strong,False,anthropic/claude-3-7-sonnet-latest
 q042,jurisdiction_amendment,routellm,cheap,False,bert/win_rate=0.37
 q043,jurisdiction_amendment,custom,cheap,True,cheap_local+grounded
 q043,jurisdiction_amendment,difficulty_baseline,strong,False,strong (difficulty=2.3)
-q043,jurisdiction_amendment,notdiamond,ERROR,,NotDiamondError: The api_key client option must be set either by passing api_key to the client or by
+q043,jurisdiction_amendment,notdiamond,cheap,False,openai/gpt-4o-mini
 q043,jurisdiction_amendment,routellm,cheap,False,bert/win_rate=0.21
 q044,jurisdiction_amendment,custom,cheap,True,cheap_local+grounded
 q044,jurisdiction_amendment,difficulty_baseline,cheap,False,cheap (difficulty=1.3)
-q044,jurisdiction_amendment,notdiamond,ERROR,,NotDiamondError: The api_key client option must be set either by passing api_key to the client or by
+q044,jurisdiction_amendment,notdiamond,cheap,False,openai/gpt-4o-mini
 q044,jurisdiction_amendment,routellm,strong,False,bert/win_rate=0.50
 q045,jurisdiction_amendment,custom,cheap,True,cheap_local+grounded
 q045,jurisdiction_amendment,difficulty_baseline,cheap,False,cheap (difficulty=1.6)
-q045,jurisdiction_amendment,notdiamond,ERROR,,NotDiamondError: The api_key client option must be set either by passing api_key to the client or by
+q045,jurisdiction_amendment,notdiamond,cheap,False,openai/gpt-4o-mini
 q045,jurisdiction_amendment,routellm,cheap,False,bert/win_rate=0.35

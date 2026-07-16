@@ -81,7 +81,7 @@ def main():
               ("strong", "False", "strong_ung", "strong · ungrounded"),
               ("cheap", "True", "cheap_grd", "cheap · GROUNDED"),
               ("strong", "True", "strong_grd", "strong · GROUNDED")]
-    fig, ax = plt.subplots(figsize=(8.5, 0.9 + 0.7 * len(routers)))
+    fig, ax = plt.subplots(figsize=(8.5, 1.5 + 0.7 * len(routers)))
     for i, router in enumerate(routers):
         rows = [r for r in sel if r["router"] == router]
         left = 0
@@ -91,14 +91,20 @@ def main():
                 ax.barh(i, n, left=left, color=C[ckey], edgecolor="white", linewidth=1.2)
                 ax.text(left + n / 2, i, str(n), ha="center", va="center", color="white", fontsize=8, weight="bold")
             left += n
-    ax.set_yticks(range(len(routers))); ax.set_yticklabels(routers)
+    # difficulty_baseline is an illustrative stand-in (grounded=False by construction),
+    # not evidence like the two real routers — label it so a viewer can't mistake it.
+    DISPLAY = {"difficulty_baseline": "difficulty\n(illustrative)"}
+    ax.set_yticks(range(len(routers)))
+    ax.set_yticklabels([DISPLAY.get(r, r) for r in routers])
     ax.set_xlabel("number of questions")
-    ax.set_title("Router selection gravity — strength × grounding", pad=34)
     handles = [plt.Rectangle((0, 0), 1, 1, color=C[k]) for _, _, k, _ in combos]
-    ax.legend(handles, [lbl for *_, lbl in combos], fontsize=8, ncol=4,
-              loc="lower center", bbox_to_anchor=(0.5, 1.12), frameon=False)
+    # Title at the figure top, legend just below it — both above the plot, in
+    # figure coords so they don't collide as the router count (axes height) grows.
+    fig.suptitle("Router selection gravity — strength × grounding", y=0.98, fontsize=12)
+    fig.legend(handles, [lbl for *_, lbl in combos], fontsize=8, ncol=4,
+               loc="upper center", bbox_to_anchor=(0.5, 0.92), frameon=False)
     ax.spines[["top", "right"]].set_visible(False)
-    plt.tight_layout(); plt.savefig(OUT_PNG, dpi=120, bbox_inches="tight"); print(f"wrote {OUT_PNG}")
+    fig.tight_layout(rect=[0, 0, 1, 0.86]); plt.savefig(OUT_PNG, dpi=120); print(f"wrote {OUT_PNG}")
 
     # --- Expected-accuracy overlay: follow each router's picks, score by measured data ---
     print("\nExpected citation accuracy if you followed each router's selections")

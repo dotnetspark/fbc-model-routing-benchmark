@@ -5,18 +5,23 @@ WITHOUT running inference — a true dry-run selection. NotDiamond routes on que
 complexity / cost / latency across a model catalog; it has NO grounding concept,
 so grounded is always False (the finding, not a bug).
 
-Requires NOT_DIAMOND_API_KEY in the environment (note the underscores — the SDK
-uses NOT_DIAMOND_API_KEY). Candidate models are a strong/cheap pair from
-NotDiamond's catalog; adjust to the current catalog via `client.models.list()`.
+Requires the API key in the environment — either NOTDIAMOND_API_KEY or
+NOT_DIAMOND_API_KEY (we pass it explicitly, so either spelling works). Candidate
+models are a strong/cheap pair from NotDiamond's catalog; adjust to the current
+catalog via `client.models.list()`.
 """
+
+import os
 
 from routers.base import RouterChoice, STRONG, CHEAP
 
 # (provider, model) pairs from NotDiamond's catalog, split by tier. These are NOT
 # our benchmark models (Opus 4.8 / Haiku 4.5 / phi3) — NotDiamond routes its own
 # catalog, so we compare at the strength-tier level, not model-for-model.
-_STRONG = {("openai", "gpt-4o"), ("anthropic", "claude-3-5-sonnet-20241022")}
-_CHEAP = {("openai", "gpt-4o-mini"), ("anthropic", "claude-3-5-haiku-20241022")}
+# Verified against NotDiamond 1.7.0's catalog (probed via select_model — some
+# model strings 400; these are accepted).
+_STRONG = {("openai", "gpt-4o"), ("anthropic", "claude-3-7-sonnet-latest")}
+_CHEAP = {("openai", "gpt-4o-mini"), ("anthropic", "claude-3-haiku-20240307")}
 
 _client = None
 
@@ -25,7 +30,8 @@ def _get_client():
     global _client
     if _client is None:
         from notdiamond import NotDiamond
-        _client = NotDiamond()  # reads NOT_DIAMOND_API_KEY from env
+        key = os.environ.get("NOTDIAMOND_API_KEY") or os.environ.get("NOT_DIAMOND_API_KEY")
+        _client = NotDiamond(api_key=key)
     return _client
 
 

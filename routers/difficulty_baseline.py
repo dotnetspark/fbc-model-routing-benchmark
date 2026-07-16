@@ -1,17 +1,15 @@
-"""Difficulty-heuristic router (dry-run) — stand-in for a generic difficulty router.
+"""Difficulty-heuristic router (dry-run) — ILLUSTRATIVE, not evidence.
 
-Substituted for RouteLLM, whose ML dependency stack (litellm/torch/transformers/
-datasets/pyarrow/huggingface-hub) has unresolvable version conflicts on this
-Windows box — the exact install landmine LESSON7_PLAN.md §11 anticipated.
+The evidence in Lesson 7 is the two *real* routers (RouteLLM in Docker, NotDiamond
+via its API), both of which land 100% ungrounded. This module's job is different:
+it's a transparent, readable stand-in so you can *see* the mechanism behind that
+result — "difficulty → model tier" simply has no grounding variable to set.
 
-It routes on estimated query difficulty → model tier, which is how real difficulty
-routers (RouteLLM et al.) behave, and — crucially — it has NO grounding concept,
-so grounded is always False. That empty-grounded-band behavior is the shared
-property being demonstrated; the specific strong/cheap split is illustrative.
-
-Transparent by construction (a readable heuristic), which is the point: unlike a
-trained/closed router, you can see and change its logic — but it still can't
-express the grounding decision, because "difficulty → tier" has no such axis.
+It routes on estimated query difficulty → tier, which is how real difficulty
+routers behave. Its empty grounded band is NOT independent corroboration — it is
+true *by construction* (grounded is hardcoded False below), so don't cite it as
+proof. Cite it as the legible explanation of why a tier-only framing can't express
+the grounding decision, while the real routers show it holds in the wild.
 """
 
 from routers.base import RouterChoice, STRONG, CHEAP
