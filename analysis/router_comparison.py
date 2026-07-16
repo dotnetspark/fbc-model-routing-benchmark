@@ -76,35 +76,58 @@ def main():
     routers = sorted({r["router"] for r in sel})
     acc = measured_accuracy()
 
-    # --- Chart: stacked horizontal bar per router over the 4 combos ---
+    # --- Chart: 2x2 quadrant "gravity" map per router (small multiples) ---
+    # POSITION encodes both axes (x = cheap|strong tier, y = cold|GROUNDED); each
+    # router's 45 picks pile into quadrants as bubbles sized by count. The empty
+    # GROUNDED (top) half for every real router is the finding, as literal space —
+    # not a missing bar segment you have to notice.
     combos = [("cheap", "False", "cheap_ung", "cheap · ungrounded"),
               ("strong", "False", "strong_ung", "strong · ungrounded"),
               ("cheap", "True", "cheap_grd", "cheap · GROUNDED"),
               ("strong", "True", "strong_grd", "strong · GROUNDED")]
-    fig, ax = plt.subplots(figsize=(8.5, 1.5 + 0.7 * len(routers)))
-    for i, router in enumerate(routers):
+    POS = {("cheap", "False"): (0, 0, "cheap_ung"), ("strong", "False"): (1, 0, "strong_ung"),
+           ("cheap", "True"): (0, 1, "cheap_grd"), ("strong", "True"): (1, 1, "strong_grd")}
+    TXT = {"cheap_ung": INK, "strong_ung": "white", "cheap_grd": "white", "strong_grd": "white"}
+    SCALE = 62  # bubble area per question (points^2)
+
+    # Real routers first, custom (the contrast) last; illustrative heuristic flagged.
+    ORDER = ["routellm", "notdiamond", "difficulty_baseline", "custom"]
+    panels = [r for r in ORDER if r in routers] + [r for r in routers if r not in ORDER]
+    DISPLAY = {"difficulty_baseline": "difficulty (illustrative)"}
+
+    ncol = 2
+    nrow = (len(panels) + ncol - 1) // ncol
+    fig, axes = plt.subplots(nrow, ncol, figsize=(8.8, 4.4 * nrow), squeeze=False)
+    for idx, router in enumerate(panels):
+        ax = axes[idx // ncol][idx % ncol]
         rows = [r for r in sel if r["router"] == router]
-        left = 0
-        for strength, grd, ckey, _ in combos:
+        ax.axhspan(0.5, 1.9, color="#1baf7a", alpha=0.06)          # the "grounded zone"
+        ax.axhline(0.5, color="#d8d8d5", lw=1, zorder=0)
+        ax.axvline(0.5, color="#d8d8d5", lw=1, zorder=0)
+        for (strength, grd), (x, y, ckey) in POS.items():
             n = sum(r["strength"] == strength and r["grounded"] == grd for r in rows)
             if n:
-                ax.barh(i, n, left=left, color=C[ckey], edgecolor="white", linewidth=1.2)
-                ax.text(left + n / 2, i, str(n), ha="center", va="center", color="white", fontsize=8, weight="bold")
-            left += n
-    # difficulty_baseline is an illustrative stand-in (grounded=False by construction),
-    # not evidence like the two real routers — label it so a viewer can't mistake it.
-    DISPLAY = {"difficulty_baseline": "difficulty\n(illustrative)"}
-    ax.set_yticks(range(len(routers)))
-    ax.set_yticklabels([DISPLAY.get(r, r) for r in routers])
-    ax.set_xlabel("number of questions")
-    handles = [plt.Rectangle((0, 0), 1, 1, color=C[k]) for _, _, k, _ in combos]
-    # Title at the figure top, legend just below it — both above the plot, in
-    # figure coords so they don't collide as the router count (axes height) grows.
-    fig.suptitle("Router selection gravity — strength × grounding", y=0.98, fontsize=12)
+                ax.scatter([x], [y], s=n * SCALE, color=C[ckey], edgecolor="white",
+                           linewidth=1.5, zorder=3)
+                ax.text(x, y, str(n), ha="center", va="center", color=TXT[ckey],
+                        fontsize=9, weight="bold", zorder=4)
+        ax.set_xlim(-0.75, 1.75); ax.set_ylim(-0.75, 1.9)
+        ax.set_xticks([0, 1]); ax.set_xticklabels(["cheap", "strong"])
+        ax.set_yticks([0, 1]); ax.set_yticklabels(["cold", "GROUNDED"])
+        ax.set_title(DISPLAY.get(router, router), fontsize=11, weight="bold")
+        ax.tick_params(length=0)
+        ax.spines[["top", "right"]].set_visible(False)
+    for j in range(len(panels), nrow * ncol):   # hide any unused panel
+        axes[j // ncol][j % ncol].axis("off")
+
+    fig.suptitle("Router selection gravity — where each router's 45 picks land", y=0.99, fontsize=13)
+    fig.text(0.5, 0.945, "x: model tier   ·   y: grounded?   —   the shaded GROUNDED half is empty for every real router",
+             ha="center", fontsize=9, color=MUTED)
+    handles = [plt.Line2D([0], [0], marker="o", color="w", markerfacecolor=C[k], markersize=10)
+               for _, _, k, _ in combos]
     fig.legend(handles, [lbl for *_, lbl in combos], fontsize=8, ncol=4,
-               loc="upper center", bbox_to_anchor=(0.5, 0.92), frameon=False)
-    ax.spines[["top", "right"]].set_visible(False)
-    fig.tight_layout(rect=[0, 0, 1, 0.86]); plt.savefig(OUT_PNG, dpi=120); print(f"wrote {OUT_PNG}")
+               loc="upper center", bbox_to_anchor=(0.5, 0.915), frameon=False)
+    fig.tight_layout(rect=[0, 0, 1, 0.9]); plt.savefig(OUT_PNG, dpi=130); print(f"wrote {OUT_PNG}")
 
     # --- Expected-accuracy overlay: follow each router's picks, score by measured data ---
     print("\nExpected citation accuracy if you followed each router's selections")
