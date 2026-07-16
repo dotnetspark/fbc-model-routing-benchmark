@@ -1,0 +1,24 @@
+# Router dry-run in a Linux container so RouteLLM installs (the Windows host can't).
+#
+#   docker compose run --rm routers
+#
+# Runs run_router_dryrun.py over the eval set and writes results/router_selections.csv
+# back to the repo (bind mount). NotDiamond needs NOT_DIAMOND_API_KEY — put it in
+# .env (which env_file loads). No ports: this is a batch job, not a server.
+services:
+  routers:
+    build: ./docker
+    working_dir: /app
+    volumes:
+      - .:/app            # repo mounted live: reads data/, writes results/
+    env_file:
+      - .env              # NOT_DIAMOND_API_KEY (and any model keys) live here, never committed
+    # HF cache persists across runs so RouteLLM's mf checkpoint downloads once.
+    environment:
+      - HF_HOME=/app/.cache/huggingface
+      # RouteLLM's Controller demands an OpenAI credential at init, but the mf
+      # win-rate is computed locally and NO model is ever called in a dry-run, so
+      # a placeholder is correct — there is nothing to authenticate. A real .env
+      # OPENAI_API_KEY, if present, overrides this via env_file.
+      - OPENAI_API_KEY=sk-dryrun-routing-only-no-calls
+    command: python run_router_dryrun.py

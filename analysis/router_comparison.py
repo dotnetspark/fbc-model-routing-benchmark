@@ -92,10 +92,11 @@ def main():
                 ax.text(left + n / 2, i, str(n), ha="center", va="center", color="white", fontsize=8, weight="bold")
             left += n
     ax.set_yticks(range(len(routers))); ax.set_yticklabels(routers)
-    ax.set_xlabel("number of questions"); ax.set_title("Router selection gravity — strength × grounding")
+    ax.set_xlabel("number of questions")
+    ax.set_title("Router selection gravity — strength × grounding", pad=34)
     handles = [plt.Rectangle((0, 0), 1, 1, color=C[k]) for _, _, k, _ in combos]
     ax.legend(handles, [lbl for *_, lbl in combos], fontsize=8, ncol=4,
-              loc="lower center", bbox_to_anchor=(0.5, 1.06), frameon=False)
+              loc="lower center", bbox_to_anchor=(0.5, 1.12), frameon=False)
     ax.spines[["top", "right"]].set_visible(False)
     plt.tight_layout(); plt.savefig(OUT_PNG, dpi=120, bbox_inches="tight"); print(f"wrote {OUT_PNG}")
 

@@ -26,6 +26,14 @@ ROUTERS = {
     "difficulty_baseline": difficulty_baseline.select,
     "notdiamond": notdiamond_router.select,
 }
+
+# RouteLLM's ML stack only installs on Linux (the Docker image); include it when
+# importable, skip it silently on the Windows host. See docker/Dockerfile.
+try:
+    from routers import routellm_router
+    ROUTERS["routellm"] = routellm_router.select
+except Exception:
+    pass
 DATA = Path("data/fbc_eval_questions.csv")
 OUT = Path("results/router_selections.csv")
 

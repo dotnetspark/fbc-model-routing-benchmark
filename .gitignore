@@ -50,3 +50,6 @@ Thumbs.db
 data/corpus/fbc_ch*.pdf
 data/corpus/_fbc_ch*.txt
 .venv311/
+
+# --- Docker router image caches (HF checkpoints downloaded at runtime) ---
+.cache/
