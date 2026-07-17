@@ -2,19 +2,19 @@
 
 **Submit as a Show HN *link* post to the repo** — https://github.com/dotnetspark/fbc-model-routing-benchmark — not as a text post. HN text posts don't render markdown (no tables, no headers), and the README now leads with the results table and charts, so the repo *is* the post. Then immediately add the first comment below.
 
-**Title** (frames it as a benchmark, not a stunt; avoids inviting "you gave it the answer" as the top comment):
+**Title** (leads with the routing thesis, so the repo name, the README, and the post tell one story; the citation task appears as the method in the first comment. Also avoids inviting "you gave it the answer" as the top comment):
 
-> Show HN: Can an LLM cite the Florida Building Code? Three tiers, cold vs. grounded
+> Show HN: A model-routing benchmark — the routers optimize the wrong axis
 
-Backup title:
+Backup title (citation-first, if the routing frame feels too abstract on the day):
 
-> Show HN: Measuring LLM citation accuracy on building code (45 questions, 3 model tiers)
+> Show HN: Measuring LLM citation accuracy on building code (3 tiers, cold vs. grounded)
 
 **First comment** — paste the text below verbatim. It's written in HN-safe formatting: blank-line paragraphs, 4-space-indented blocks for aligned numbers, no tables or headers. It leads with method, preempts the strongest objection in the body instead of the footnotes, and ends with an invitation to attack the setup.
 
 ---
 
-I kept seeing "LLMs are good at code lookup now" and wanted a number, not a vibe. So I measured a checkable task: can a model cite the section of the Florida Building Code (and the Naples/Collier County local amendments) that governs a question? Either it names the section the published code assigns, or it doesn't. A regex extractor does the scoring — no LLM judge, so the signal doesn't depend on any model's opinion.
+I wanted a measured answer to a routing question — which model tier should handle which query — and I suspected the honest answer would embarrass somebody, possibly me. So I built a routing benchmark on a task where correctness is checkable: can a model cite the section of the Florida Building Code (and the Naples/Collier County local amendments) that governs a question? Either it names the section the published code assigns, or it doesn't. A regex extractor does the scoring — no LLM judge, so the signal doesn't depend on any model's opinion. The punchline up front: the tier question turned out to be the wrong *first* question, and every off-the-shelf router I tested optimizes that secondary lever.
 
 Setup: 45 questions, each with a gold citation verified against the published text (22 are narrow local-jurisdiction questions — the low-traffic material). Three tiers: Claude Opus 4.8 (flagship), Claude Haiku 4.5 forced through a JSON schema with a required "section" field (cheap hosted), and phi3:mini (~3.8B) on local Ollama. Two conditions: cold (parametric memory only) and grounded (the correct code passage injected as context). All data, raw results, and the analysis notebook are in the repo (MIT).
 

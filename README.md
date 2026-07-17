@@ -1,6 +1,6 @@
 # Can an LLM correctly cite the Florida Building Code?
 
-**A measured tutorial series on model-tier selection and grounding — three model tiers, cold vs. grounded, scored with a deterministic citation-match metric against the published code text.**
+**A model-routing benchmark and tutorial series: which model should handle a query — and is that even the right first question? Three model tiers, cold vs. grounded, scored with a deterministic citation-match metric against the published code text.**
 
 45 real questions about the 2023 8th-Edition Florida Building Code and the Naples/Collier County local amendments, each with a gold section citation verified against the published text. Every number below regenerates from the committed raw results via [`analysis/benchmark_report.ipynb`](analysis/benchmark_report.ipynb).
 

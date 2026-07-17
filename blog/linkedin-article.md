@@ -5,7 +5,7 @@
 > - **Inline image** at the routing section: `results/router_selection_gravity.png`.
 > - LinkedIn articles without a visual underperform badly; both charts regenerate from the repo's notebook.
 
-Everyone building with LLMs eventually asks the same two questions: *how big a model do I actually need?* and *do I need retrieval?* I got tired of answering them with intuition, so I ran a small, fully reproducible benchmark on a task where the answer is checkable — **can a model correctly cite the section of the Florida Building Code that governs a question?** — and the results reorder how I'd architect these systems.
+Everyone building with LLMs eventually faces the same routing decision: *which model should handle this query — and do I need retrieval in front of it?* I got tired of answering with intuition, so I built a small, fully reproducible **model-routing benchmark** on a task where the answer is checkable — **can a model correctly cite the section of the Florida Building Code that governs a question?** — and the results reorder how I'd architect these systems: the "which model" question turned out to be the wrong one to ask first.
 
 Full data, code, and results (MIT-licensed): https://github.com/dotnetspark/fbc-model-routing-benchmark
 
