@@ -8,7 +8,7 @@ SLMs achieve disproportionate capability-per-parameter by prioritizing training-
 
 ## 2. Why it matters for routing decisions
 
-SLMs are the right default for high-volume, low-complexity tasks; latency-sensitive or on-device deployments (e.g., a field inspector's offline tablet app); and cost-sensitive pipelines. For a permitting-software vendor processing thousands of lookups a day, an SLM's near-zero marginal cost is compelling — *if* it can be paired with retrieval grounding to compensate for its narrow domain exposure. This lesson measures the gap that Lesson 6 will close.
+SLMs are the right default for high-volume, low-complexity tasks; latency-sensitive or on-device deployments (e.g., a field inspector's offline tablet app); and cost-sensitive pipelines. For a permitting-software vendor processing thousands of lookups a day, an SLM's near-zero marginal cost is compelling — *if* it can be paired with retrieval grounding to compensate for its narrow domain exposure. This lesson measures the gap that Lesson 4 will close.
 
 ## 3. Build increment
 
@@ -62,13 +62,13 @@ Cold, no retrieval, 45 questions × 3 repeats, against the two hosted tiers:
 
 **The SLM is the weakest tier by a wide margin, exactly as predicted — and the *way* it's weak is the lesson.** Correct-citation recall collapses to **7.9%**, 3–4× below either hosted model, and near-floor in every category (jurisdiction 10.8%, numeric 6.7%, definitional and state_amendment 0%). A ~3.8B model simply has almost no parametric exposure to the Florida Building Code and none to Naples/Collier local amendments — there is nothing to recall.
 
-Three findings worth carrying to the dashboard and the decision engine (Lesson 7):
+Three findings worth carrying to the dashboard and the decision engine (Lesson 5):
 
 - **"Free" is not free — it's slow.** At **68 s median latency (5.3 tokens/sec)** on CPU, phi3:mini is ~80× slower than Haiku. The near-zero *marginal* cost is real, but the latency makes it unusable for interactive lookups without a GPU, and the 3.7% timeout rate is a reliability cost a $0 line item hides. On the latency/cost chart it is a clear outlier.
 - **The small model is honest, not reckless.** Like the flagship and unlike the schema-forced instruction-tuned model, phi3 **abstains more than it fabricates** (53% no-citation vs 39% wrong). It's reasonably calibrated about not knowing — it just doesn't know. Calibration without knowledge is still unusable.
-- **This is the strongest case for grounding in the series.** An SLM that scores 7.9% cold but runs locally at near-zero marginal cost is the exact profile that Lesson 6 targets: if retrieval can lift *this* model's citation accuracy toward the hosted tiers, "cheap local model + good retrieval" becomes the compelling production architecture. That measurement is the whole point of Lesson 6.
+- **This is the strongest case for grounding in the series.** An SLM that scores 7.9% cold but runs locally at near-zero marginal cost is the exact profile that Lesson 4 targets: if retrieval can lift *this* model's citation accuracy toward the hosted tiers, "cheap local model + good retrieval" becomes the compelling production architecture. That measurement is the whole point of Lesson 4.
 
-**Next:** Lesson 4 adds multimodal routing for site-plan and diagram-bearing questions.
+**Next:** Lesson 4 adds retrieval grounding — the correct code passage injected as context — where hallucination rates should drop the most.
 
 ## References
 

@@ -1,4 +1,4 @@
-"""Lesson 7 dry-run driver.
+"""Lesson 5 dry-run driver.
 
 Runs each router's SELECTION over the 45 evaluation questions — which model would
 it pick, and would it ground — WITHOUT calling the target LLM. Writes

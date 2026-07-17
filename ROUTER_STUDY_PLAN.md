@@ -1,4 +1,6 @@
-# Lesson 7 Plan — Routing-behavior comparison: custom vs. RouteLLM vs. NotDiamond
+# Router-Study Plan — custom vs. RouteLLM vs. NotDiamond
+
+> **Historical planning doc.** Written while the router study was slotted as "Lesson 7" of a seven-lesson series. The published series was cut to five lessons — this study is now [Lesson 5](lessons/05-when-to-use-each-model-type.md) — and internal "Lesson 7" / `lessons/07` references below are left as written.
 
 **Self-contained execution plan.** Written so a fresh agent (Copilot CLI) or a human can finish Lesson 7 without prior chat context. Follow the phases in order; each has a verification step. Commit as you go.
 

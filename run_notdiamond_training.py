@@ -1,4 +1,4 @@
-"""Lesson 7 — train a CUSTOM NotDiamond router on grounded prompts.
+"""Lesson 5 — train a CUSTOM NotDiamond router on grounded prompts.
 
 The hypothesis (from the reader's own push): instead of hand-building a router,
 can we *train* NotDiamond so it learns to route grounded prompts to the CHEAP tier

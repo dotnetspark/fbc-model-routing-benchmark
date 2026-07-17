@@ -1,6 +1,6 @@
 """Custom, domain-aware router — the readable, extensible lookup table.
 
-Encodes the Lessons 1-6 findings: GROUND everything groundable, then pick the
+Encodes the Lessons 1-4 findings: GROUND everything groundable, then pick the
 CHEAPEST tier that clears an accuracy floor. This is the opposite of an off-the-
 shelf router's embedded ranking — the decision is a table you can read and extend.
 

@@ -1,5 +1,7 @@
 # Project Specification: Florida Building Code Model Selection Assistant
 
+> **Historical planning doc.** The published series was cut to five lessons: multimodal (planned Lesson 4) and fine-tuning (planned Lesson 5) became a scope note in the README, RAG became Lesson 4, and the router study became Lesson 5.
+
 ## 1. Objective
 
 Build a service that:

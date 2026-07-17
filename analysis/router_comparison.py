@@ -1,7 +1,7 @@
-"""Lesson 7 analysis — routing behavior + data-referenced recommendation.
+"""Lesson 5 analysis — routing behavior + data-referenced recommendation.
 
 Reads results/router_selections.csv (from run_router_dryrun.py) and the measured
-Lessons 1-6 results, and produces:
+Lessons 1-4 results, and produces:
   1. The selection-gravity chart: strength x grounding per router. The payoff is
      visual — the grounded band is empty for every router but the custom one.
   2. An expected-accuracy overlay: if you actually followed each router's picks,
@@ -134,7 +134,7 @@ def main():
 
     # --- Expected-accuracy overlay: follow each router's picks, score by measured data ---
     print("\nExpected citation accuracy if you followed each router's selections")
-    print("(strong→Opus, cheap→Haiku, cheap_local→phi3; grounded per the flag; measured Lessons 1-6):")
+    print("(strong→Opus, cheap→Haiku, cheap_local→phi3; grounded per the flag; measured Lessons 1-4):")
     gold = _gold()
     for router in routers:
         tot = corr = 0.0

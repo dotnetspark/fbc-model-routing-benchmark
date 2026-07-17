@@ -1,4 +1,4 @@
-"""Lesson 7 — dry-run routers.
+"""Lesson 5 — dry-run routers.
 
 Each router exposes `select(question, category) -> RouterChoice`, returning WHICH
 model it would pick (and, for routers that can, whether to ground) WITHOUT running

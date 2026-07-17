@@ -1,4 +1,4 @@
-# Lesson 7 — When to Use Each Model Type (Decision Engine + Dashboard)
+# Lesson 5 — When to Use Each Model Type (Decision Engine + Dashboard)
 
 ## 1. Concept
 
@@ -10,7 +10,7 @@ This lesson makes the project operationally useful rather than just a benchmark 
 
 ## 3. Build increment — the original design (a sketch, superseded by §4)
 
-> **Status note.** The code in this section is the *original design* for Lesson 7 — a constraint-based recommendation function plus a Streamlit dashboard. The reference implementation **replaced it** with the router dry-run study described in the checkpoint below (see [`routers/custom.py`](../routers/custom.py) for the lookup-table router that survived from this design). The sketch is kept because it's the natural product layer a permitting-software vendor would build *on top of* the measured results — but it is not implemented in this repo, and no result in FINDINGS.md depends on it.
+> **Status note.** The code in this section is the *original design* for this lesson — a constraint-based recommendation function plus a Streamlit dashboard. The reference implementation **replaced it** with the router dry-run study described in the checkpoint below (see [`routers/custom.py`](../routers/custom.py) for the lookup-table router that survived from this design). The sketch is kept because it's the natural product layer a permitting-software vendor would build *on top of* the measured results — but it is not implemented in this repo, and no result in FINDINGS.md depends on it.
 
 A recommendation engine over the measured results would look like:
 
@@ -19,7 +19,7 @@ import pandas as pd
 
 def recommend_model_class(
     results_df: pd.DataFrame,
-    query_category: str,   # "definitional" | "numeric" | "state_amendment" | "jurisdiction_amendment" | "diagram"
+    query_category: str,   # "definitional" | "numeric" | "state_amendment" | "jurisdiction_amendment"
     latency_budget_ms: float,
     cost_ceiling_usd: float,
     accuracy_floor: float,
@@ -50,7 +50,7 @@ import streamlit as st
 
 st.title("Florida Building Code — Model Routing Dashboard")
 query_category = st.selectbox(
-    "Query type", ["definitional", "numeric", "state_amendment", "jurisdiction_amendment", "diagram"]
+    "Query type", ["definitional", "numeric", "state_amendment", "jurisdiction_amendment"]
 )
 latency_budget = st.slider("Latency budget (ms)", 100, 10000, 2000)
 cost_ceiling = st.slider("Cost ceiling ($/1K requests)", 0.0, 50.0, 5.0)
@@ -65,13 +65,13 @@ st.bar_chart(results_df.set_index("model_class")[["p95_latency_ms", "cost_per_1k
 
 ## 4. Checkpoint — series complete
 
-> **Implemented as a routing-behavior comparison, not a router product.** Rather than ship yet another model router into a crowded market (RouteLLM, NotDiamond, Martian, …), Lesson 7 **dry-runs** several routers over the eval set — recording *which model each picks*, not the answer — and plots the selections on **model-strength × grounding**. See [`LESSON7_PLAN.md`](../LESSON7_PLAN.md), [`routers/`](../routers/), [`run_router_dryrun.py`](../run_router_dryrun.py), and [`analysis/router_comparison.py`](../analysis/router_comparison.py). RouteLLM's ML stack won't install on Windows, so the routers run in a Linux container ([`docker/`](../docker/), [`docker-compose.yml`](../docker-compose.yml)) — which also makes the comparison one-command reproducible.
+> **Implemented as a routing-behavior comparison, not a router product.** Rather than ship yet another model router into a crowded market (RouteLLM, NotDiamond, Martian, …), this lesson **dry-runs** several routers over the eval set — recording *which model each picks*, not the answer — and plots the selections on **model-strength × grounding**. See [`ROUTER_STUDY_PLAN.md`](../ROUTER_STUDY_PLAN.md), [`routers/`](../routers/), [`run_router_dryrun.py`](../run_router_dryrun.py), and [`analysis/router_comparison.py`](../analysis/router_comparison.py). RouteLLM's ML stack won't install on Windows, so the routers run in a Linux container ([`docker/`](../docker/), [`docker-compose.yml`](../docker-compose.yml)) — which also makes the comparison one-command reproducible.
 >
-> **Measured result.** Off the shelf, **RouteLLM** (89% cheap / 11% strong) and **NotDiamond** (42% strong / 58% cheap) both route **cold** — 100% ungrounded — because grounding isn't a lever they expose. But grounding and model-tier are **orthogonal layers**: retrieve the passage yourself and hand the *grounded* prompt to NotDiamond and it climbs into the grounded band — except its cost model reads the longer prompt as *harder* and picks the **expensive** tier (strong 43/44, ~61%). **Training fixes that.** On our 44 grounded prompts the cheap model (Haiku) was never worse than strong (equal on 43, better on 1), so a NotDiamond custom router trained on those citation scores routes **cheap + grounded on all 44 (~77%)** — matching, even edging, the hand-built custom router (~71%, which routes a third of questions to a free *local* phi3). So the honest conclusion isn't "our router wins": it's that **the grounding decision belongs in front of routing**, and once you've made it a *trained* off-the-shelf router recovers cheap+grounded on its own. The custom router's only durable edge is **cost** — it can route to a free local model, which NotDiamond's hosted catalog cannot. Full synthesis + parameter provenance in [`FINDINGS.md`](../FINDINGS.md) § Lesson 7; the training CSV/code is walked through below.
+> **Measured result.** Off the shelf, **RouteLLM** (89% cheap / 11% strong) and **NotDiamond** (42% strong / 58% cheap) both route **cold** — 100% ungrounded — because grounding isn't a lever they expose. But grounding and model-tier are **orthogonal layers**: retrieve the passage yourself and hand the *grounded* prompt to NotDiamond and it climbs into the grounded band — except its cost model reads the longer prompt as *harder* and picks the **expensive** tier (strong 43/44, ~61%). **Training fixes that.** On our 44 grounded prompts the cheap model (Haiku) was never worse than strong (equal on 43, better on 1), so a NotDiamond custom router trained on those citation scores routes **cheap + grounded on all 44 (~77%)** — matching, even edging, the hand-built custom router (~71%, which routes a third of questions to a free *local* phi3). So the honest conclusion isn't "our router wins": it's that **the grounding decision belongs in front of routing**, and once you've made it a *trained* off-the-shelf router recovers cheap+grounded on its own. The custom router's only durable edge is **cost** — it can route to a free local model, which NotDiamond's hosted catalog cannot. Full synthesis + parameter provenance in [`FINDINGS.md`](../FINDINGS.md) § Lesson 5; the training CSV/code is walked through below.
 
 ### NotDiamond custom-router training — the CSV and the code
 
-Because "just customize NotDiamond instead of building a router" is the natural objection, Lesson 7 actually runs it ([`run_notdiamond_training.py`](../run_notdiamond_training.py), in the Docker image). The pipeline:
+Because "just customize NotDiamond instead of building a router" is the natural objection, this lesson actually runs it ([`run_notdiamond_training.py`](../run_notdiamond_training.py), in the Docker image). The pipeline:
 
 1. **Build the training set** — run both candidate models on the 44 *grounded* prompts and score each answer with our citation-match metric (1.0 correct / 0.0 otherwise).
 2. **Write NotDiamond's required CSV** (verified against the `notdiamond` 1.7.0 SDK docstring):

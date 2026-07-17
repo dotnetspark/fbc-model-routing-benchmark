@@ -15,7 +15,7 @@ Run from the repo root so the `clients.` imports resolve:
     python run_benchmark.py --concurrency 8          # more parallel requests
 
 Later lessons register their client function in CLIENTS and pass
---model-class instruction_tuned / slm / multimodal.
+--model-class instruction_tuned / slm / foundation_gemini.
 """
 
 import argparse
@@ -33,7 +33,7 @@ from clients.citation_utils import extract_section_citation, section_present_in_
 from clients import foundation_client, instruction_tuned_client, slm_client
 
 # One entry per model class: (client function, exceptions to record as failed
-# requests). Lesson 4+ clients get registered here with their own error types.
+# requests). Additional clients are registered here with their own error types.
 CLIENTS = {
     "foundation": (foundation_client.call_foundation_model, foundation_client.API_ERRORS),
     "instruction_tuned": (instruction_tuned_client.call_instruction_tuned,
@@ -72,7 +72,7 @@ def load_eval_set(path: Path) -> list[dict]:
 
 
 def load_contexts() -> dict:
-    """question_id -> retrieved code passage (Lesson 6 grounding). Questions with
+    """question_id -> retrieved code passage (Lesson 4 grounding). Questions with
     no passage (e.g. q017, a FEMA date not in any code) are simply absent."""
     if not CONTEXT_PATH.exists():
         return {}
@@ -81,7 +81,7 @@ def load_contexts() -> dict:
 
 
 def build_grounded_prompt(question: str, context: str) -> str:
-    """Lesson 6 inference-time contract: answer only from the supplied passage,
+    """Lesson 4 inference-time contract: answer only from the supplied passage,
     cite the section as it appears there, and admit when the answer isn't present."""
     return (
         "Answer the Florida Building Code question using ONLY the context below.\n"
@@ -104,7 +104,7 @@ async def run_one(
     """Run one (question, repeat) pair; never raises on API errors — failures
     become rows too, because the failure rate is itself a rubric metric.
 
-    When `context` is given (Lesson 6 grounded run), the question is wrapped with
+    When `context` is given (Lesson 4 grounded run), the question is wrapped with
     the retrieved passage and the question_id is suffixed `_grounded`."""
     grounded = context is not None
     qid = f"{row['question_id']}_grounded" if grounded else row["question_id"]
@@ -143,7 +143,7 @@ async def run_one(
         and gold_norm is not None
         and record["cited_section"] == gold_norm
     )
-    # Grounding-compliance (Lesson 6): did the model cite a section that is
+    # Grounding-compliance (Lesson 4): did the model cite a section that is
     # ACTUALLY in the supplied passage, or invent a plausible one anyway? Only
     # meaningful for grounded runs; None otherwise.
     record["grounding_compliant"] = (
@@ -227,7 +227,7 @@ async def main() -> None:
                              "only run the missing/failed (question, repeat) pairs — "
                              "essential on free tiers with small daily quotas")
     parser.add_argument("--grounded", action="store_true",
-                        help="Lesson 6: inject the retrieved code passage per question "
+                        help="Lesson 4: inject the retrieved code passage per question "
                              "(from data/fbc_eval_context.csv); writes "
                              "results/<class>_grounded.jsonl and skips questions with no passage")
     args = parser.parse_args()

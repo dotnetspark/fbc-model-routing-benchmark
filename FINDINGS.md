@@ -51,7 +51,7 @@ Full list in [`results/hallucinated_citations.csv`](results/hallucinated_citatio
 - **Plausible near-misses** — the right neighborhood, wrong section (`62-81` for `62-80`, `105.2.2` for `105.2.4`) — the worst kind for a compliance tool because they pass a smell test.
 - **Outright fabrication** — Gemini 3 Flash inventing an ordinance that doesn't exist ("Collier County Ordinance 2021-03," complete with a fake adoption history), a 300-ft coastal buffer (actual: 100 ft), a 30-ft setback (actual: 75 ft).
 
-## Lesson 7 — routing behavior: grounding is a separate axis, in front of model choice
+## Lesson 5 — routing behavior: grounding is a separate axis, in front of model choice
 
 The obvious closer would be "build a model router." But the market is crowded (RouteLLM, NotDiamond, Martian, Unify, OpenRouter), and they all route on one axis — *prompt → model tier*. So instead of shipping another router, we **dry-ran** several routers over the 45 questions — recording *which model each picks, and whether it grounds*, not the answer — and plotted the selections on two axes: **model strength** and **grounded?** ([`results/router_selection_gravity.png`](results/router_selection_gravity.png), from [`analysis/router_comparison.py`](analysis/router_comparison.py); routers in [`routers/`](routers/), driver [`run_router_dryrun.py`](run_router_dryrun.py)).
 
@@ -67,19 +67,19 @@ They aren't blind to grounding because they're bad — they're blind because **g
 1. **Ground the prompt, keep the default router.** Hand NotDiamond the *grounded* prompt (passage injected). It climbs into the grounded band — but its cost model reads the longer prompt as *harder* and picks the **expensive** tier: **strong 43/44, ~61%**. Composition alone grounds you, but routes you to the costly model.
 2. **Train a custom NotDiamond router** on those grounded prompts (its free `train_custom_router`). On our 44 prompts the cheap model (Haiku) was **never worse** than strong — equal on 43, better on 1 — so the trained router, with `tradeoff="cost"`, routes **cheap + grounded on all 44: ~77%**.
 
-**The hand-built custom router** — a readable lookup table encoding the Lessons 1–6 findings — also sits cheap + grounded, at **~71%** (lower *only* because it routes a third of questions to a free *local* phi3 at ~70%, where the trained NotDiamond uses paid Haiku at ~77%).
+**The hand-built custom router** — a readable lookup table encoding the Lessons 1–4 findings — also sits cheap + grounded, at **~71%** (lower *only* because it routes a third of questions to a free *local* phi3 at ~70%, where the trained NotDiamond uses paid Haiku at ~77%).
 
 The quadrant "gravity" map makes the arc visible: cold, the shaded GROUNDED half is empty for every off-the-shelf router; supply grounding and default NotDiamond enters it at **strong** (blue); **train it and it lands in exactly the same cheap+GROUNDED quadrant (green) as the custom router.**
 
-**The honest conclusion — and a correction to an earlier draft of this doc.** It is *not* true that off-the-shelf routers "can't express grounding" — our own experiment disproves it. The accurate claim is about **layering**: grounding is a separate axis that sits *in front of* model-tier routing. Out of the box a router optimizes the *secondary* lever (which model) and leaves the *primary* one (whether to ground) to you; supply it, and a *trained* router even co-optimizes the tier for cost. So you do **not** need to hand-build a router — **retrieval + a trained off-the-shelf router matches (here, beats) the bespoke one on accuracy.** The bespoke router's only durable edge is **cost**: it can route to a *free local* model, which NotDiamond's hosted catalog cannot. Method, parameter provenance, and honesty guardrails below and in [`LESSON7_PLAN.md`](LESSON7_PLAN.md).
+**The honest conclusion — and a correction to an earlier draft of this doc.** It is *not* true that off-the-shelf routers "can't express grounding" — our own experiment disproves it. The accurate claim is about **layering**: grounding is a separate axis that sits *in front of* model-tier routing. Out of the box a router optimizes the *secondary* lever (which model) and leaves the *primary* one (whether to ground) to you; supply it, and a *trained* router even co-optimizes the tier for cost. So you do **not** need to hand-build a router — **retrieval + a trained off-the-shelf router matches (here, beats) the bespoke one on accuracy.** The bespoke router's only durable edge is **cost**: it can route to a *free local* model, which NotDiamond's hosted catalog cannot. Method, parameter provenance, and honesty guardrails below and in [`ROUTER_STUDY_PLAN.md`](ROUTER_STUDY_PLAN.md).
 
-### Design & parameter provenance (Lesson 7)
+### Design & parameter provenance (Lesson 5)
 
 For anyone presenting this: the method is a **dry-run selection study** — run each router's *choice* over the 45 questions (which model, and would it ground) *without calling the model*, so it isolates the routing **policy** from answer quality at near-zero cost. Then plot strength × grounding. (The one exception is the NotDiamond *training* experiment, which calls the two candidate models once each to build the labeled set — ~$0.30.) Every parameter, and exactly what it rests on:
 
 | Parameter | Value | Based on | Honest status |
 |---|---|---|---|
-| custom router's grounded-accuracy table | measured rates | Lessons 1–6 results | data-derived — but **circular for scoring**, so we don't lead with the score |
+| custom router's grounded-accuracy table | measured rates | Lessons 1–4 results | data-derived — but **circular for scoring**, so we don't lead with the score |
 | custom `FLOOR` (min usable accuracy) | 0.50 | a product judgment call | stated as a choice, not derived |
 | RouteLLM router | `bert` | local/offline (the `mf` router calls the OpenAI *embeddings* API per prompt) | real model output |
 | RouteLLM strong/cheap threshold | win-rate ≥ 0.5 | neutral default | arbitrary — doesn't change the finding (no threshold adds a grounding axis) |
@@ -98,14 +98,14 @@ The move that makes it defensible: **separate the parameters that could be accus
 - **Repeats aren't independent.** Three calls to frozen weights are correlated; effective n ≈ questions, not questions × repeats. Grounded runs are a single pass over 44 questions.
 - **Manual retrieval.** Grounding uses the *correct* hand-verified passage per question, so this measures the *ceiling* of grounding, not a full RAG pipeline (retrieval error would lower it). That is the intended experiment — does the right text change the answer — not an end-to-end RAG benchmark.
 - **The SLM is CPU-bound.** phi3 ran at ~5 tokens/sec, ~68 s/request. The near-zero *marginal* cost is real; the latency is the true cost without a GPU.
-- **FBC text is ICC-copyrighted.** Only short per-question excerpts ship in [`data/fbc_eval_context.csv`](data/fbc_eval_context.csv); reproduce the full passages from UpCodes (see the notebook / Lesson 6).
+- **FBC text is ICC-copyrighted.** Only short per-question excerpts ship in [`data/fbc_eval_context.csv`](data/fbc_eval_context.csv); reproduce the full passages from UpCodes (see the notebook / Lesson 4).
 
 ## Reproduce
 ```bash
 pip install -r requirements.txt                                  # pinned; Python 3.11+
 python run_benchmark.py --model-class foundation                 # cold (Opus; or foundation_gemini for $0)
 python run_benchmark.py --model-class foundation --grounded      # grounded (needs data/fbc_eval_context.csv)
-docker compose run --rm routers                                  # Lesson 7 router dry-run (Linux container)
+docker compose run --rm routers                                  # Lesson 5 router dry-run (Linux container)
 jupyter nbconvert --to notebook --execute --inplace analysis/benchmark_report.ipynb
 ```
 The full command list (all three tiers, grounded runs, NotDiamond training) is in the [README](README.md#reproducing-the-full-benchmark).

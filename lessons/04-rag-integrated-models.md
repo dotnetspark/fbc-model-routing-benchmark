@@ -1,14 +1,14 @@
-# Lesson 6 — RAG-Integrated Models
+# Lesson 4 — RAG-Integrated Models
 
 ## 1. Concept
 
-A "RAG-integrated model" is not a distinct architecture — it's any of the model classes from Lessons 1–4 operating inside a pipeline that retrieves relevant code text before generation and constrains the model to ground its answer in that text. The model is unchanged; the inference-time contract changes: answer only from supplied context, and cite which passage supports the claim.
+A "RAG-integrated model" is not a distinct architecture — it's any of the model classes from Lessons 1–3 operating inside a pipeline that retrieves relevant code text before generation and constrains the model to ground its answer in that text. The model is unchanged; the inference-time contract changes: answer only from supplied context, and cite which passage supports the claim.
 
 This is the single highest-leverage lesson in the series for a code-compliance assistant, because it directly targets the failure mode measured in every prior lesson: invented or wrong section citations. A full advanced-RAG build (query rewriting, hybrid search, reranking across the entire FBC corpus) is a follow-on project — this lesson only tests whether *any* retrieved context changes each model class's citation accuracy, using manually curated context passages.
 
 ## 2. Why it matters for routing decisions
 
-If grounding closes most of the gap between the SLM and the foundation model on citation accuracy, that's the strongest possible argument for a cost-efficient production architecture: cheap model + good retrieval, rather than expensive model alone. If it doesn't close the gap — if the SLM still garbles cross-references and exceptions even with the right text in front of it — that tells you retrieval alone isn't sufficient and you need either a stronger model or the fine-tuning path from Lesson 5.
+If grounding closes most of the gap between the SLM and the foundation model on citation accuracy, that's the strongest possible argument for a cost-efficient production architecture: cheap model + good retrieval, rather than expensive model alone. If it doesn't close the gap — if the SLM still garbles cross-references and exceptions even with the right text in front of it — that tells you retrieval alone isn't sufficient and you need either a stronger model or a fine-tuning pass — deliberately out of scope for this series (see the scope note in the README).
 
 ## 3. Build increment
 
@@ -49,7 +49,7 @@ Cold vs. grounded citation-match rate, same 44 groundable questions (q017 exclud
 
 ¹ grounding compliance = fraction of answers that cite a section *actually present in the supplied passage* (vs inventing a plausible one anyway).
 
-**Grounding is the highest-leverage intervention in the series — it lifts every tier by 33–46 points.** Three findings drive the routing decisions in Lesson 7:
+**Grounding is the highest-leverage intervention in the series — it lifts every tier by 33–46 points.** Three findings drive the routing decisions in Lesson 5:
 
 - **Retrieval rescues the cheap local model — this is the economic headline.** The SLM jumps from 7.9% to 52.5% (a 6.6× relative gain), with jurisdiction_amendment questions going 10.8% → 70.0%. **Grounded phi3 (52.5%) beats *cold* Opus (26.5%) by roughly 2×**, at near-zero marginal cost. Cold, the SLM trailed the flagship by ~19 points; grounded, the gap shrinks to ~7. "Cheap local model + good retrieval" is now a defensible production architecture — exactly the bet Lesson 2 §2 flagged.
 - **The JSON schema flips from liability to asset.** In Lesson 2 the required-`section` field made Haiku the *worst* tier cold (67% hallucination — forbidding "I don't know" turned uncertainty into fabrication). Grounded, that same forced-citation mechanism makes Haiku the *best* tier (77.3%): with the right passage present, being forced to cite means being forced to cite *correctly*. Meanwhile the flagship, even grounded, still abstains ~30% ("Not found in context") — its calibration, an asset cold, now leaves accuracy on the table.
@@ -57,4 +57,4 @@ Cold vs. grounded citation-match rate, same 44 groundable questions (q017 exclud
 
 A methodological note worth publishing: assembling the grounding corpus **caught three errors in our own statewide gold sections** (q001 §1020.2→1020.3, q002 §1003.2→1003.3.1, q011 §1804.4→1804.5) that were written from memory and never checked against the published FBC — the same "trust the model's memory" failure this whole series measures, committed by the authors of the gold set. Verify gold against primary text, always.
 
-**Next:** Lesson 7 closes the loop by comparing routing policies — off-the-shelf routers, a trained NotDiamond custom router, and a hand-built one — on the two axes that actually matter here: model strength × grounding.
+**Next:** Lesson 5 closes the loop by comparing routing policies — off-the-shelf routers, a trained NotDiamond custom router, and a hand-built one — on the two axes that actually matter here: model strength × grounding.

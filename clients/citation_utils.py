@@ -1,7 +1,7 @@
 """
 Shared citation-extraction utility.
 
-Used by every client in clients/ (foundation, instruction-tuned, SLM, multimodal) to
+Used by every client in clients/ (foundation, instruction-tuned, SLM) to
 pull a Florida Building Code / Naples amendment section number out of raw model text,
 so it can be compared against `gold_section` in data/fbc_eval_questions.csv.
 
@@ -90,7 +90,7 @@ def normalize_section(raw_section: str | None) -> str | None:
 
 def section_present_in_context(section: str | None, context: str) -> bool:
     """
-    Used in Lesson 6's grounding-compliance check: does the section the model cited
+    Used in Lesson 4's grounding-compliance check: does the section the model cited
     actually appear in the retrieved context passage, or did it invent one that merely
     looks plausible? A citation can pass extract_section_citation() but still fail this
     check if the model hallucinated a real-looking section number not present in the

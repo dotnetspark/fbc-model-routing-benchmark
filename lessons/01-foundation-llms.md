@@ -1,6 +1,6 @@
 # Lesson 1 — Foundation LLMs: The Cold Parametric Baseline
 
-> **What you're actually measuring.** No commercial API exposes a true foundation model — a raw pretrained checkpoint with no instruction tuning or alignment. Claude, GPT, and Gemini are all already tuned. So this lesson benchmarks the strongest model in your lineup answering **cold, from parametric memory alone** — no retrieval, no supplied code text. `model_class="foundation"` in the code names this *role in the routing architecture* (the trust-the-model's-memory tier), not a literal base checkpoint. That makes every failure recorded here a lower bound: this is the best case for trusting model memory, and Lessons 2–6 measure everything as a delta from it.
+> **What you're actually measuring.** No commercial API exposes a true foundation model — a raw pretrained checkpoint with no instruction tuning or alignment. Claude, GPT, and Gemini are all already tuned. So this lesson benchmarks the strongest model in your lineup answering **cold, from parametric memory alone** — no retrieval, no supplied code text. `model_class="foundation"` in the code names this *role in the routing architecture* (the trust-the-model's-memory tier), not a literal base checkpoint. That makes every failure recorded here a lower bound: this is the best case for trusting model memory, and Lessons 2–5 measure everything as a delta from it.
 
 ## 1. Concept
 
@@ -12,7 +12,7 @@ The classical RLHF alignment stage trains a reward model on human preference com
 
 ## 2. Why it matters for routing decisions
 
-Parametric knowledge of a specific, frequently-amended code document is exactly the kind of narrow, fast-changing knowledge foundation models are worst at — code editions change every three years, and local amendments (Naples/Collier County) are far less represented in training data than the code itself. This lesson establishes your **baseline hallucination rate** for your foundation-tier model with zero retrieval help. Expect it to be non-trivial. That number is the justification for Lesson 6.
+Parametric knowledge of a specific, frequently-amended code document is exactly the kind of narrow, fast-changing knowledge foundation models are worst at — code editions change every three years, and local amendments (Naples/Collier County) are far less represented in training data than the code itself. This lesson establishes your **baseline hallucination rate** for your foundation-tier model with zero retrieval help. Expect it to be non-trivial. That number is the justification for Lesson 4.
 
 ## 3. Build increment
 
@@ -146,7 +146,7 @@ python run_benchmark.py --repeats 1 --limit 2   # cheap smoke test first
 
 The harness normalizes `gold_section` with the same regex extractor used on model output before comparing (gold values are prose-styled, e.g. "FBC Building 1020.2", while `cited_section` is normalized to "1020.2" — a raw string equality would score nearly everything as a miss).
 
-`extract_section_citation()` lives in `clients/citation_utils.py` — a shared regex-based utility imported by every client in this series (foundation, instruction-tuned, SLM, multimodal), so you only implement it once here. It's deliberately regex-based rather than LLM-based: the citation-match metric needs to be a deterministic signal independent of any judge model, otherwise you're measuring the judge's reliability instead of the model under test.
+`extract_section_citation()` lives in `clients/citation_utils.py` — a shared regex-based utility imported by every client in this series (foundation, instruction-tuned, SLM), so you only implement it once here. It's deliberately regex-based rather than LLM-based: the citation-match metric needs to be a deterministic signal independent of any judge model, otherwise you're measuring the judge's reliability instead of the model under test.
 
 ## 4. Checkpoint
 
@@ -170,7 +170,7 @@ Two methodological notes worth carrying forward:
 - **Repeats earn their cost through instability, not independence.** 13 of 44 questions flipped between abstaining and citing across the three runs — nondeterministic recall a single pass would hide. (They do *not* add statistical independence: three calls to frozen weights are highly correlated, so effective n ≈ questions, not questions × repeats.)
 - **A 0% category match can be good behavior.** The flagship scores 0% on `definitional` not by fabricating but by abstaining on §202 — inspect `results/hallucinated_citations.csv` before quoting any category number.
 
-The practical conclusion is the same for both tiers and sets up the rest of the series: **cold parametric answering is unusable for code compliance — abstention is merely safer than fabrication, not correct.** The delta that grounding buys (Lesson 6) is measured against exactly this baseline.
+The practical conclusion is the same for both tiers and sets up the rest of the series: **cold parametric answering is unusable for code compliance — abstention is merely safer than fabrication, not correct.** The delta that grounding buys (Lesson 4) is measured against exactly this baseline.
 
 **Next:** Lesson 2 adds the instruction-tuned client and a structured-output diff on numeric requirements.
 

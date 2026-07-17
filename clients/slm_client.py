@@ -5,7 +5,7 @@ The point of this tier is the opposite of Lesson 1's flagship: a ~3.8B model
 running on your own hardware, near-zero marginal cost, but almost no exposure to
 the Florida Building Code and essentially none to Naples/Collier local
 amendments. Expect cold jurisdiction_amendment performance to be the weakest of
-all three classes — that gap is the finding, and it's what Lesson 6's grounding
+all three classes — that gap is the finding, and it's what Lesson 4's grounding
 is meant to close.
 
 Prerequisite (this client hits a local server, so it must be running first):

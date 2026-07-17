@@ -65,24 +65,27 @@ Each lesson: **Concept → why it matters for routing → build increment → me
 | [01 — Foundation LLMs](lessons/01-foundation-llms.md) | the harness, the 45-question gold set, the cold flagship baseline | ~2 h | $0 (Gemini) or ~$1.40 (Opus) |
 | [02 — Instruction-tuned models](lessons/02-instruction-tuned-models.md) | forced-JSON-schema client; the structured-output trap | ~1 h | ~$0.05 |
 | [03 — Small language models](lessons/03-small-language-models.md) | local phi3:mini via Ollama; honest cost accounting | ~1 h (+ ~2.5 h unattended CPU inference) | $0 |
-| [04 — Multimodal models](lessons/04-multimodal-models.md) | *design note — no reference run in this repo* | — | — |
-| [05 — Fine-tuned models](lessons/05-fine-tuned-models.md) | *design note — no reference run in this repo* | — | — |
-| [06 — RAG-integrated models](lessons/06-rag-integrated-models.md) | grounding corpus verified against published text; the cold→grounded deltas | ~2 h (corpus verification is the real work) | ~$0.60 |
-| [07 — When to use each model type](lessons/07-when-to-use-each-model-type.md) | router dry-run study: RouteLLM, NotDiamond (default + trained), custom | ~2 h | $0 dry-run (+ ~$0.30 optional NotDiamond training) |
+| [04 — RAG-integrated models](lessons/04-rag-integrated-models.md) | grounding corpus verified against published text; the cold→grounded deltas | ~2 h (corpus verification is the real work) | ~$0.60 |
+| [05 — When to use each model type](lessons/05-when-to-use-each-model-type.md) | router dry-run study: RouteLLM, NotDiamond (default + trained), custom | ~2 h | $0 dry-run (+ ~$0.30 optional NotDiamond training) |
+
+## What this series deliberately doesn't cover
+
+- **Multimodal (site plans, diagrams).** "Does this site plan meet the front-setback requirement?" is a real FBC workload, but it needs its own metric (did the model read the dimension actually on the drawing?) and its own gold set — bolting a handful of image questions onto a 45-question citation benchmark would produce directional-only numbers. Measured properly, it's a separate project.
+- **Fine-tuning.** The interesting question is economic, not technical: at what request volume does a one-time tuning cost beat the per-request cost of a bigger (or grounded) model? Given the series' central finding — grounding, not model tier, is the dominant lever, and grounding requires no training — fine-tuning is the *third* thing to reach for, after retrieval and tier routing. A break-even template with placeholder inputs lives in the notebook (Section 4); no finding in the series depends on it.
 
 ## Repository layout
 
 ```
 ├── README.md                    ← results overview + quickstart (you are here)
 ├── FINDINGS.md                  ← the full synthesis — start here for the analysis
-├── LESSON7_PLAN.md              ← design + honesty guardrails for the router study
+├── ROUTER_STUDY_PLAN.md         ← design + honesty guardrails for the router study
 ├── project.md                   ← original architecture/scope plan
 ├── requirements.txt
-├── run_benchmark.py             ← the only place inference happens (Lessons 1–3, 6)
-├── run_router_dryrun.py         ← Lesson 7: records each router's selections
-├── run_notdiamond_training.py   ← Lesson 7: trains NotDiamond's custom router on our scores
+├── run_benchmark.py             ← the only place inference happens (Lessons 1–4)
+├── run_router_dryrun.py         ← Lesson 5: records each router's selections
+├── run_notdiamond_training.py   ← Lesson 5: trains NotDiamond's custom router on our scores
 ├── docker/  docker-compose.yml  ← Linux env for the router stack (RouteLLM won't install on Windows)
-├── lessons/                     ← the tutorial series (01–07)
+├── lessons/                     ← the tutorial series (01–05)
 ├── clients/                     ← model clients + the shared regex citation extractor (the metric)
 ├── routers/                     ← router adapters: custom lookup, RouteLLM, NotDiamond, heuristic
 ├── data/                        ← gold questions, verified grounding excerpts, source corpus PDFs
@@ -107,22 +110,22 @@ python run_benchmark.py --model-class foundation_gemini          # Gemini free t
 python run_benchmark.py --model-class instruction_tuned          # Haiku 4.5 + JSON schema
 python run_benchmark.py --model-class slm                        # phi3:mini via local Ollama
 
-# Grounded runs (Lesson 6) — needs data/fbc_eval_context.csv (committed).
+# Grounded runs (Lesson 4) — needs data/fbc_eval_context.csv (committed).
 python run_benchmark.py --model-class foundation --grounded
 python run_benchmark.py --model-class instruction_tuned --grounded
 python run_benchmark.py --model-class slm --grounded
 
-# Router dry-run (Lesson 7) — Linux container because RouteLLM won't install on Windows.
+# Router dry-run (Lesson 5) — Linux container because RouteLLM won't install on Windows.
 docker compose run --rm routers
 
-# Optional: NotDiamond custom-router training (Lesson 7; NOT_DIAMOND_API_KEY in .env).
+# Optional: NotDiamond custom-router training (Lesson 5; NOT_DIAMOND_API_KEY in .env).
 docker compose run --rm routers python run_notdiamond_training.py
 
 # Regenerate every number and chart from the raw results.
 jupyter nbconvert --to notebook --execute --inplace analysis/benchmark_report.ipynb
 ```
 
-**Copyright note:** the FBC text is ICC-copyrighted. Only short per-question excerpts ship in [`data/fbc_eval_context.csv`](data/fbc_eval_context.csv); reproduce full passages from the published sources (see Lesson 6).
+**Copyright note:** the FBC text is ICC-copyrighted. Only short per-question excerpts ship in [`data/fbc_eval_context.csv`](data/fbc_eval_context.csv); reproduce full passages from the published sources (see Lesson 4).
 
 ## Disclaimer
 

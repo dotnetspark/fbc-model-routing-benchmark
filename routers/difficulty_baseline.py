@@ -1,6 +1,6 @@
 """Difficulty-heuristic router (dry-run) — ILLUSTRATIVE, not evidence.
 
-The evidence in Lesson 7 is the two *real* routers (RouteLLM in Docker, NotDiamond
+The evidence in Lesson 5 is the two *real* routers (RouteLLM in Docker, NotDiamond
 via its API), both of which land 100% ungrounded. This module's job is different:
 it's a transparent, readable stand-in so you can *see* the mechanism behind that
 result — "difficulty → model tier" simply has no grounding variable to set.
