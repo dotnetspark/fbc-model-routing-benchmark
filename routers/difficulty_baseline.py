@@ -29,7 +29,7 @@ def _difficulty(question: str) -> float:
     return len(question) / 90.0 + sum(m in q for m in _MARKERS)
 
 
-def select(question: str, category: str) -> RouterChoice:
+def select(question: str, category: str, context: str | None = None) -> RouterChoice:
     strength = STRONG if _difficulty(question) >= _THRESHOLD else CHEAP
     return RouterChoice("difficulty_baseline", strength, grounded=False,
                         raw_model=f"{strength} (difficulty={_difficulty(question):.1f})")

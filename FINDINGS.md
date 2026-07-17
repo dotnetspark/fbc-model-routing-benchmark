@@ -51,37 +51,47 @@ Full list in [`results/hallucinated_citations.csv`](results/hallucinated_citatio
 - **Plausible near-misses** — the right neighborhood, wrong section (`62-81` for `62-80`, `105.2.2` for `105.2.4`) — the worst kind for a compliance tool because they pass a smell test.
 - **Outright fabrication** — Gemini 3 Flash inventing an ordinance that doesn't exist ("Collier County Ordinance 2021-03," complete with a fake adoption history), a 300-ft coastal buffer (actual: 100 ft), a 30-ft setback (actual: 75 ft).
 
-## Lesson 7 — routing behavior: the grounding axis generic routers can't reach
+## Lesson 7 — routing behavior: grounding is a separate axis, in front of model choice
 
-The obvious closer would be "build a model router." But the market is crowded (RouteLLM, NotDiamond, Martian, Unify, OpenRouter), and they all route on one axis — *prompt → model tier*. So instead of shipping another router, we **dry-ran** several routers over the 45 questions — recording *which model each would pick*, not the answer (near-zero cost) — and plotted the selections on two axes: **model strength** and **grounded?**
+The obvious closer would be "build a model router." But the market is crowded (RouteLLM, NotDiamond, Martian, Unify, OpenRouter), and they all route on one axis — *prompt → model tier*. So instead of shipping another router, we **dry-ran** several routers over the 45 questions — recording *which model each picks, and whether it grounds*, not the answer — and plotted the selections on two axes: **model strength** and **grounded?** ([`results/router_selection_gravity.png`](results/router_selection_gravity.png), from [`analysis/router_comparison.py`](analysis/router_comparison.py); routers in [`routers/`](routers/), driver [`run_router_dryrun.py`](run_router_dryrun.py)).
 
-The result ([`results/router_selection_gravity.png`](results/router_selection_gravity.png), from [`analysis/router_comparison.py`](analysis/router_comparison.py)) — two *real* routers plus a transparent illustration, all against a custom baseline:
+**Off the shelf, every router routes cold — 100% ungrounded, ~30% expected accuracy:**
+- **RouteLLM** (local `bert` win-rate classifier): 89% cheap / 11% strong. *(Its ML stack won't install on Windows, so it runs in a Linux container — `docker compose run --rm routers` — which also makes the comparison reproducible.)*
+- **NotDiamond** (`model_router.select_model`): 42% strong / 58% cheap.
+- **A transparent difficulty heuristic** (*illustrative*, 38 readable lines): 44/56 — ungrounded *by construction* (`grounded=False` hardcoded); it just makes the mechanism legible.
 
-- **RouteLLM** — a real, published router (its local `bert` win-rate classifier) — picks the cheap tier on 89% of questions, strong on 11%, and sits **entirely in the ungrounded band**. It has no grounding axis to move on. *(Its ML stack won't install on Windows, so it runs in a Linux container — `docker compose run --rm routers` — which also makes the whole comparison reproducible.)*
-- **NotDiamond** — a real commercial router (`model_router.select_model`) — routes its own multi-provider catalog by cost/complexity, splitting 42/58 strong/cheap. Also **100% ungrounded**. Note NotDiamond *can* be trained on your own eval data (`train_custom_router`) — so it isn't "closed" — but even the trained router optimizes *which model scores best per prompt*; there's no first-class input for "is grounding available." Extensible on the model axis, still blind on the grounding one.
-- **A transparent difficulty heuristic** (*illustrative*, not evidence: 38 readable lines, prompt length + complexity markers → tier) splits 44/56 and is **100% ungrounded** — but by construction (`grounded=False` is hardcoded). Its job is to make the mechanism legible: "difficulty → tier" has no grounding variable to set. The two real routers above are the actual proof; this just shows *why*.
-- **The custom domain-aware router** — a readable, extensible lookup table encoding the measured findings — sits **entirely in the grounded band**: given the Lessons 1–6 data, grounded-cheap clears the accuracy floor on every category, so it never needs the strong tier.
+They aren't blind to grounding because they're bad — they're blind because **grounding and model-tier are orthogonal**. Grounding is a *pipeline* decision (retrieve a passage, inject it) that lives outside the "pick a model for these messages" abstraction these routers operate on.
 
-The payoff is a quadrant "gravity" map (one strength × grounding panel per router): **the shaded GROUNDED half holds only the custom router — it is empty space for both real off-the-shelf routers.** The gap is a literal empty region in the plot, not a bar segment you have to notice missing. Quantified against the measured data — *if you actually followed each router's selections* — the custom router's picks imply **~77% correct citations vs. ~30% for RouteLLM and ~31% for NotDiamond**, a ~47-point gap that is entirely the cost of the grounding blind spot.
+**So we tested the sharpest objection directly — can you *leverage* NotDiamond instead of hand-building a router?** Two steps (both real, in [`routers/notdiamond_grounded.py`](routers/notdiamond_grounded.py) and [`run_notdiamond_training.py`](run_notdiamond_training.py)):
 
-**The conclusion isn't "our router is smarter"** — it encodes the findings, so that number is circular *by design* and is not the point. The point is **expressiveness**: for a verifiable-answer domain the dominant lever is *whether to ground*; off-the-shelf routers optimize *which model* and — trainable or not — expose no way to make the grounding decision. Put a thin, extensible grounding-first decision in front of routing, and use an off-the-shelf router (if at all) only for the tier choice *after* grounding is decided. Method, parameter provenance, and honesty guardrails below and in [`LESSON7_PLAN.md`](LESSON7_PLAN.md).
+1. **Ground the prompt, keep the default router.** Hand NotDiamond the *grounded* prompt (passage injected). It climbs into the grounded band — but its cost model reads the longer prompt as *harder* and picks the **expensive** tier: **strong 43/44, ~61%**. Composition alone grounds you, but routes you to the costly model.
+2. **Train a custom NotDiamond router** on those grounded prompts (its free `train_custom_router`). On our 44 prompts the cheap model (Haiku) was **never worse** than strong — equal on 43, better on 1 — so the trained router, with `tradeoff="cost"`, routes **cheap + grounded on all 44: ~77%**.
+
+**The hand-built custom router** — a readable lookup table encoding the Lessons 1–6 findings — also sits cheap + grounded, at **~71%** (lower *only* because it routes a third of questions to a free *local* phi3 at ~70%, where the trained NotDiamond uses paid Haiku at ~77%).
+
+The quadrant "gravity" map makes the arc visible: cold, the shaded GROUNDED half is empty for every off-the-shelf router; supply grounding and default NotDiamond enters it at **strong** (blue); **train it and it lands in exactly the same cheap+GROUNDED quadrant (green) as the custom router.**
+
+**The honest conclusion — and a correction to an earlier draft of this doc.** It is *not* true that off-the-shelf routers "can't express grounding" — our own experiment disproves it. The accurate claim is about **layering**: grounding is a separate axis that sits *in front of* model-tier routing. Out of the box a router optimizes the *secondary* lever (which model) and leaves the *primary* one (whether to ground) to you; supply it, and a *trained* router even co-optimizes the tier for cost. So you do **not** need to hand-build a router — **retrieval + a trained off-the-shelf router matches (here, beats) the bespoke one on accuracy.** The bespoke router's only durable edge is **cost**: it can route to a *free local* model, which NotDiamond's hosted catalog cannot. Method, parameter provenance, and honesty guardrails below and in [`LESSON7_PLAN.md`](LESSON7_PLAN.md).
 
 ### Design & parameter provenance (Lesson 7)
 
-For anyone presenting this: the method is a **dry-run selection study** — run each router's *choice* over the 45 questions (which model, and would it ground) *without calling the model*, so it isolates the routing **policy** from answer quality at near-zero cost. Then plot strength × grounding. Every parameter, and exactly what it rests on:
+For anyone presenting this: the method is a **dry-run selection study** — run each router's *choice* over the 45 questions (which model, and would it ground) *without calling the model*, so it isolates the routing **policy** from answer quality at near-zero cost. Then plot strength × grounding. (The one exception is the NotDiamond *training* experiment, which calls the two candidate models once each to build the labeled set — ~$0.30.) Every parameter, and exactly what it rests on:
 
 | Parameter | Value | Based on | Honest status |
 |---|---|---|---|
 | custom router's grounded-accuracy table | measured rates | Lessons 1–6 results | data-derived — but **circular for scoring**, so we don't lead with the score |
 | custom `FLOOR` (min usable accuracy) | 0.50 | a product judgment call | stated as a choice, not derived |
 | RouteLLM router | `bert` | local/offline (the `mf` router calls the OpenAI *embeddings* API per prompt) | real model output |
-| RouteLLM strong/cheap threshold | win-rate ≥ 0.5 | neutral default | arbitrary — **and irrelevant to the finding** (no threshold adds a grounding axis) |
-| NotDiamond candidates | gpt-4o / claude-3-7-sonnet vs gpt-4o-mini / claude-3-haiku | probed against NotDiamond 1.7.0's catalog (many strings 400) | verified accepted |
-| NotDiamond tradeoff | `"cost"` | cost-aware routing | a knob; quality-mode would shift the split, not the grounding axis |
+| RouteLLM strong/cheap threshold | win-rate ≥ 0.5 | neutral default | arbitrary — doesn't change the finding (no threshold adds a grounding axis) |
+| NotDiamond **routing** candidates (cold) | gpt-4o / claude-3-7-sonnet vs gpt-4o-mini / claude-3-haiku | probed against NotDiamond 1.7.0's catalog (many strings 400) | verified accepted |
+| NotDiamond tradeoff | `"cost"` | cost-aware routing | a knob; drives the trained router toward cheap when quality ties |
+| NotDiamond **training** candidates | `claude-sonnet-4-5` / `claude-haiku-4-5-20251001` | must be callable by our key **and** in ND's catalog (the 4-5/4-6 overlap) | cheap candidate **is** the benchmark's Haiku → trained cheap picks map exactly |
+| NotDiamond training score | citation-match (1.0/0.0), `maximize=True` | our deterministic metric | binary + nearly non-discriminative (cheap ≤ strong on 43/44) — which is *why* the trained router picks cheap |
+| trained-router re-route | re-run **after** training settles | async: `select_model(preference_id)` uses the *default* router until training finishes | 4-s first pass = strong 43/44; settled pass = cheap 44/44 |
 | difficulty heuristic threshold / markers | 2.0, hand-picked words | domain intuition | **illustrative only**, not derived from data |
-| strong→Opus, cheap→Haiku (accuracy overlay) | — | a stated mapping | assumption for the overlay, not measured per router |
+| strong→Opus, cheap→Haiku (accuracy overlay) | — | a stated mapping | assumption for the overlay; **exact** for custom's phi3 picks and the trained router's Haiku picks |
 
-The move that makes it defensible: **separate the parameters that could be accused of "tuning to win" (the thresholds) from the finding, and show the finding survives any of their values.** The empty grounded band does not depend on a single cutoff.
+The move that makes it defensible: **separate the parameters that could be accused of "tuning to win" from the finding.** The empty *cold* grounded band doesn't depend on a threshold; and the training result (cheap 44/44) is *forced by the data* — the cheap model was never worse when grounded.
 
 ## Caveats
 - **Small category counts.** `state_amendment` (n=3) and `definitional` (n=4) are directional, not headline. The 22 jurisdiction and 16 numeric questions carry the weight.

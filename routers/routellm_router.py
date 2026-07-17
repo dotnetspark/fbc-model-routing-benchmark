@@ -36,7 +36,7 @@ def _controller():
     return _ctrl
 
 
-def select(question: str, category: str) -> RouterChoice:
+def select(question: str, category: str, context: str | None = None) -> RouterChoice:
     # VERIFY against the current RouteLLM API if this errors; the intent is a
     # per-prompt routing decision without inference.
     wr = _controller().batch_calculate_win_rate(pd.Series([question]), router="bert").iloc[0]

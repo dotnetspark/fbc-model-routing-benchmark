@@ -1,0 +1,1525 @@
+prompt,anthropic/claude-sonnet-4-5/score,anthropic/claude-sonnet-4-5/response,anthropic/claude-haiku-4-5-20251001/score,anthropic/claude-haiku-4-5-20251001/response
+"Answer using ONLY the building-code excerpt below. Cite the section.
+
+EXCERPT:
+n 903.3.1.1 or 903.3.1.2
+where allowed.
+1020.3 Width and Capacity
+The required capacity of corridors shall be determined as specified in Section 1005.1, but the minimum width shall be not less than that
+specified in Table 1020.3.
+Exception: In Group I-2 occupancies, corridors are not required to have a clear width of 96 inches (2438 mm) in areas where there
+will not be stretcher or bed movement for access to care or as part of the defend-in-place strategy.
+TABLE 1020.3
+MINIMUM CORRIDOR WIDTH
+OCCUPANCY
+MINIMUM WIDTH
+(inches)
+Any facilities not listed below
+44
+Access to and utilization of mechanical,
+plumbing or electrical systems or equipment
+24
+With an occupant load of less than 50
+36
+Within a dwelling unit
+36
+In Group E with a corridor having an occupant
+load of 100 or more
+72
+In corridors and areas serving stretcher
+traffic in occupancies where patients
+receive outpatient medical care that causes
+the patient to be incapable of self-preservation
+72
+Group I-2 in areas where required for bed
+movement
+96
+For SI: 1 inch = 25.4 mm.
+1020.4 Obstruction
+The minimum width or required capacity of corridors shall be unobstructed.
+Exception: Encroachments complying with Section 1005.7.
+1020.5 Dead Ends
+a
+b
+
+Where more than one exit or exit access doorway is required, the exit access shall be arranged such that there are no dead ends in
+corridors more than 20 feet (6096 mm) in length.
+Exceptions:
+1. In occupancies in Group I-3 of Condition 2, 3 or 4, the dead end in a corridor shall not exceed 50 feet (15 240 mm).
+2. In occupa
+
+QUESTION: What section of the 2023 Florida Building Code, Building, governs the width and capacity of corridors used as a means of egress?",1.0,"According to the excerpt provided, **Section 1020.3** governs the width and capacity of corridors used as a means of egress.",1.0,Section 1020.3 governs the width and capacity of corridors used as a means of egress.
+"Answer using ONLY the building-code excerpt below. Cite the section.
+
+EXCERPT:
+of Sections 1003.3.1 through 1003.3.4.
+1003.3.1 Headroom
+Protruding objects are permitted to extend below the minimum ceiling height required by Section 1003.2 where a minimum headroom
+of 80 inches (2032 mm) is provided over any walking surface, including walks, corridors, aisles and passageways. Not more than 50
+percent of the ceiling area of a means of egress shall be reduced in height by protruding objects.
+Exception: Door closers, overhead door stops, frame stops, power door operators and electromagnetic door locks shall be
+permitted to project into the opening height not lower than 78 inches (1981 mm).
+A barrier shall be provided where the vertical clearance is less than 80 inches (2032 mm) high. The leading edge of such a barrier
+shall be located 27 inches (686 mm) maximum above the floor.
+1003.3.2 Post-Mounted Objects
+A free-standing object mounted on a post or pylon shall not overhang that post or pylon more than 4 inches (102 mm) where the
+lowest point of the leading edge is more than 27 inches (686 mm) and less than 80 inches (2032 mm) above the walking surface.
+Where a sign or other obstruction is mounted between posts or pylons and the clear distance between the posts or pylons is greater
+than 12 inches (305 mm), the lowest edge of such sign or obstruction shall be 27 inches (686 mm) maximum or 80 inches (
+
+QUESTION: What is the minimum headroom clearance required over a walking surface in the means of egress?",1.0,"According to **Section 1003.3.1 Headroom**, a minimum headroom of **80 inches (2032 mm)** is required over any walking surface, including walks, corridors, aisles and passageways.",1.0,"According to Section 1003.3.1, the minimum headroom required over any walking surface, including walks, corridors, aisles and passageways, is **80 inches (2032 mm)**."
+"Answer using ONLY the building-code excerpt below. Cite the section.
+
+EXCERPT:
+exits
+in accordance with this section.
+1006.2.1 Egress Based on Occupant Load and Common Path of Egress Travel Distance
+Two exits or exit access doorways from any space shall be provided where the design occupant load or the common path of egress
+travel distance exceeds the values listed in Table 1006.2.1. The cumulative occupant load from adjacent rooms, areas or spaces shall
+be determined in accordance with Section 1004.2.
+Exceptions:
+1. The number of exits from foyers, lobbies, vestibules or similar spaces need not be based on cumulative occupant loads for
+areas discharging through such spaces, but the capacity of the exits from such spaces shall be based on applicable
+cumulative occupant loads.
+2. Care suites in Group I-2 occupancies complying with Section 407.4.
+3. Unoccupied mechanical rooms and penthouses are not required to comply with the common path of egress travel distance
+measurement.
+TABLE 1006.2.1
+SPACES WITH ONE EXIT OR EXIT ACCESS DOORWAY
+OCCUPANCY
+MAXIMUM OCCUPANT
+LOAD OF SPACE
+MAXIMUM COMMON PATH OF EGRESS TRAVEL DISTANCE (feet)
+Without Sprinkler System
+(feet)
+With Sprinkler System
+(feet)
+Occupant Load
+OL ≤ 30
+OL > 30
+A , E, M
+49
+75
+75
+75
+B
+49
+100
+75
+100
+F
+49
+75
+75
+100
+H-1, H-2, H-3
+3
+NP
+NP
+25
+H-4, H-5
+10
+NP
+NP
+75
+I-1, I-2 , I-4
+10
+NP
+NP
+75
+I-3
+10
+NP
+NP
+100
+R-1
+10
+NP
+NP
+75
+R-2
+49
+NP
+NP
+125
+R-3
+49
+NP
+NP
+125
+R-4
+20
+75
+75
+125
+S
+29
+100
+75
+100
+U
+49
+100
+75
+75
+For SI: 1 foot = 304.8 mm.
+NP = Not Permitted.
+c
+a
+a
+a
+b
+b
+d
+a
+a
+a
+a
+e
+a
+e
+a
+f
+a
+a
+
+a. Buildings equipped throughout with an automatic sprinkler system in accordance with Section 903.3.1.1 or 903.3.1.2.
+See Section 903 for occupancies where automatic sprinkler systems are permitted in accordance with Section
+903.3.1.2.
+b. Group H occupancies equipped throughout with an automatic sprinkler system in accordance with Section 903.2.5.
+c. For a
+
+QUESTION: Under what conditions does Section 1006.2.1 of the Florida Building Code, Building, require two exits or exit access doorways from a single space?",1.0,"According to Section 1006.2.1, two exits or exit access doorways from any space shall be provided where **either**:
+
+1. **The design occupant load exceeds the values listed in Table 1006.2.1**, OR
+2. **The common path of egress travel distance exceeds the values listed in Table 1006.2.1**
+
+The specific threshold values vary based on occupancy classification and whether the building is equipped with an automatic sprinkler system, as detailed in Table 1006.2.1.
+
+**Citation: Section 1006.2.1 Egress Based on Occupant Load and Common Path of Egress Travel Distance**",1.0,"According to Section 1006.2.1, two exits or exit access doorways from any space shall be provided where **the design occupant load or the common path of egress travel distance exceeds the values listed in Table 1006.2.1**."
+"Answer using ONLY the building-code excerpt below. Cite the section.
+
+EXCERPT:
+exit discharge is
+open to the outdoors.
+1005.3.2 Other Egress Components
+The capacity, in inches, of means of egress components other than stairways shall be calculated by multiplying the occupant load
+served by such component by a means of egress capacity factor of 0.2 inch (5.1 mm) per occupant.
+Exceptions:
+1. For other than Group H and I-2 occupancies, the capacity, in inches, of means of egress components other than stairways
+shall be calculated by multiplying the occupant load served by such component by a means of egress capacity factor of 0.15
+inch (3.8 mm) per occupant in buildings equipped throughout with an automatic sprinkler system installed in accordance with
+Section 903.3.1.1 or 903.3.1.2 and an emergency voice/alarm communication system in accordance with Section 907.5.2.2.
+2. Facilities with smoke-protected assembly seating shall be permitted to use the capacity factors in Table 1029.6.2 indicated for
+level or ramped aisles for means of egress components other than stairways where the entire path for means of egress from
+the seating to the exit discharge is provided with a smoke control system complying with Section 909.
+
+3. Facilities with open-air assembly seating shall be permitted to the capacity factors in Section 1029.6.3 indicated for level or
+ramped aisles for means of egress components other th
+
+QUESTION: What is the means-of-egress capacity factor per occupant for components other than stairways in sprinklered buildings with an emergency voice/alarm communication system, per the 2023 FBC?",1.0,"According to Section 1005.3.2, Exception 1, the means of egress capacity factor is **0.15 inch (3.8 mm) per occupant** for components other than stairways in buildings equipped throughout with an automatic sprinkler system installed in accordance with Section 903.3.1.1 or 903.3.1.2 and an emergency voice/alarm communication system in accordance with Section 907.5.2.2.
+
+Note: This exception does not apply to Group H and I-2 occupancies.",1.0,"# Answer
+
+According to Section 1005.3.2, Exception 1, the means of egress capacity factor for components other than stairways in sprinklered buildings equipped with an emergency voice/alarm communication system is **0.15 inch (3.8 mm) per occupant** (for occupancies other than Group H and I-2)."
+"Answer using ONLY the building-code excerpt below. Cite the section.
+
+EXCERPT:
+determined
+in accordance with Sections 1005.3.1 and 1005.3.2:
+1005.3.1 Stairways
+The capacity, in inches, of means of egress stairways shall be calculated by multiplying the occupant load served by such stairways
+by a means of egress capacity factor of 0.3 inch (7.6 mm) per occupant. Where stairways serve more than one story, only the
+occupant load of each story considered individually shall be used in calculating the required capacity of the stairways serving that
+story.
+Exceptions:
+1. For other than Group H and I-2 occupancies, the capacity, in inches, of means of egress stairways shall be calculated by
+multiplying the occupant load served by such stairways by a means of egress capacity factor of 0.2 inch (5.1 mm) per
+occupant in buildings equipped throughout with an automatic sprinkler system installed in accordance with Section 903.3.1.1
+or 903.3.1.2 and an emergency voice/alarm communication system in accordance with Section 907.5.2.2.
+2. Facilities with smoke-protected assembly seating shall be permitted to use the capacity factors in Table 1029.6.2 indicated for
+stepped aisles for exit access or exit stairways where the entire path for means of egress from the seating to the exit
+discharge is provided with a smoke control system complying with Section 909.
+3. Facilities with open-air assembly seating shall be p
+
+QUESTION: What is the means-of-egress capacity factor per occupant for stairways in sprinklered buildings with an emergency voice/alarm communication system, per the 2023 FBC?",1.0,"According to **Section 1005.3.1, Exception 1**, the means of egress capacity factor for stairways in buildings (other than Group H and I-2 occupancies) equipped throughout with an automatic sprinkler system installed in accordance with Section 903.3.1.1 or 903.3.1.2 **and** an emergency voice/alarm communication system in accordance with Section 907.5.2.2 is **0.2 inch (5.1 mm) per occupant**.",1.0,"# Answer
+
+According to Section 1005.3.1, Exception 1, the means of egress capacity factor for stairways in sprinklered buildings with an emergency voice/alarm communication system is **0.2 inch (5.1 mm) per occupant** for occupancies other than Group H and I-2."
+"Answer using ONLY the building-code excerpt below. Cite the section.
+
+EXCERPT:
+Loads
+RESERVED
+Section 1609 Wind Loads
+1609.1 Applications
+Buildings, structures and parts thereof shall be designed to withstand the minimum wind loads prescribed herein. Decreases in wind loads shall not be made for the effect of shielding by
+other structures. All exterior wall coverings and soffits shall be capable of resisting the design pressures specified for walls for components and cladding loads in accordance with Section
+1609.1.1. Manufactured soffits shall be labeled in accordance with Section 1709.10 of this code.
+1609.1.1 Determination of Wind Loads
+Wind loads on every building or structure shall be determined in accordance with Chapters 26 to 30 of ASCE 7. Wind shall be assumed to come from any horizontal direction and wind
+pressures shall be assumed to act normal to the surface considered.
+Exceptions:
+1. Subject to the limitations of Section 1609.1.1.1, the provisions of ICC 600 shall be permitted for applicable Group R-2 and R-3 buildings.
+2. Subject to the limitations of Section 1609.1.1.1, residential structures using the provisions of AWC WFCM.
+3. Subject to the limitations of Section 1609.1.1.1, residential structures using the provisions of AISI S230.
+4. Designs using NAAMM FP 1001, Guide Specifications for Design of Metal Flagpoles.
+5. Designs using TIA-222 for antenna-supporting structures and antennas. Design using this standard shall be permitted for communication tower and steel antenna sup
+
+QUESTION: What section of the 2023 Florida Building Code, Building, governs wind loads, and which standard does it reference for detailed calculation?",0.0,"Based on the excerpt provided:
+
+**Section 1609.1.1** governs the determination of wind loads.
+
+According to Section 1609.1.1: ""Wind loads on every building or structure shall be determined in accordance with **Chapters 26 to 30 of ASCE 7**.""",0.0,"# Answer
+
+**Section 1609** governs wind loads in the building code excerpt provided.
+
+**Section 1609.1.1** references **Chapters 26 to 30 of ASCE 7** as the standard for detailed wind load calculation. The section states: ""Wind loads on every building or structure shall be determined in accordance with Chapters 26 to 30 of ASCE 7."""
+"Answer using ONLY the building-code excerpt below. Cite the section.
+
+EXCERPT:
+REGION.
+WIND SPEED, V
+.
+WIND SPEED, V
+.
+1609.3 Ultimate Design Wind Speed
+The ultimate design wind speed, V
+, in mph, for the determination of the wind loads shall be determined by Figures 1609.3(1), 1609.3(2), 1609.3(3) and 1609.3(4). The ultimate design
+wind speed, V
+, for use in the design of Risk Category II buildings and structures shall be obtained from Figure 1609.3(1). The ultimate design wind speed, V
+, for use in the design of
+Risk Category III buildings and structures shall be obtained from Figure 1609.3(2). The ultimate design wind speed, V
+, for use in the design of Risk Category IV buildings and structures
+shall be obtained from Figure 1609.3(3). The ultimate design wind speed, V
+, for use in the design of Risk Category I buildings and structures shall be obtained from Figure 1609.3(4).
+The ultimate design wind speed, V
+, for the special wind regions indicated near mountainous terrain and near gorges shall be in accordance with local jurisdiction requirements. The
+ultimate design wind speeds, V
+, determined by the local jurisdiction shall be in accordance with Chapter 26 of ASCE 7. The exact location of wind speed lines shall be established by
+local ordinance using recognized physical landmarks such as major roads, canals, rivers and lake shores wherever possible.
+FIGURE 1609.3(1)
+ULTIMATE DESIGN WIND SPEEDS, V
+, FOR RISK CATEGORY II BUILDINGS AND OTHER STRUCTURES
+ult
+asd
+ult
+ult
+ult
+ult
+ult
+ult
+ult
+ULT
+
+FIGURE 1609.3(2)
+ULTIMATE DESIGN WIND SPEEDS, V
+, FOR RISK CATEGORY III BUILDINGS AND OTHER STRUCTURES
+FIGURE 1609.3(3)
+ULTIMATE DESIGN WIND SPEEDS, V
+, FOR RISK CATEGORY IV BUILDINGS AND OTHER STRU
+
+QUESTION: How is the ultimate design wind speed (Vult) for Risk Category II buildings determined under the 2023 Florida Building Code, Building?",1.0,"According to Section 1609.3 Ultimate Design Wind Speed:
+
+""The ultimate design wind speed, Vult, for use in the design of Risk Category II buildings and structures shall be obtained from Figure 1609.3(1).""
+
+**Citation: Section 1609.3**",1.0,"According to **Section 1609.3**, the ultimate design wind speed (V_ult) for Risk Category II buildings and structures shall be obtained from **Figure 1609.3(1)**."
+"Answer using ONLY the building-code excerpt below. Cite the section.
+
+EXCERPT:
+es of the wind-load-resistance testing.
+1609.2 Definitions
+For the purposes of Section 1609 and as used elsewhere in this code, the following terms are defined in Chapter 2.
+HURRICANE-PRONE REGIONS.
+WIND-BORNE DEBRIS REGION.
+WIND SPEED, V
+.
+WIND SPEED, V
+.
+1609.3 Ultimate Design Wind Speed
+The ultimate design wind speed, V
+, in mph, for the determination of the wind loads shall be determined by Figures 1609.3(1), 1609.3(2), 1609.3(3) and 1609.3(4). The ultimate design
+wind speed, V
+, for use in the design of Risk Category II buildings and structures shall be obtained from Figure 1609.3(1). The ultimate design wind speed, V
+, for use in the design of
+Risk Category III buildings and structures shall be obtained from Figure 1609.3(2). The ultimate design wind speed, V
+, for use in the design of Risk Category IV buildings and structures
+shall be obtained from Figure 1609.3(3). The ultimate design wind speed, V
+, for use in the design of Risk Category I buildings and structures shall be obtained from Figure 1609.3(4).
+The ultimate design wind speed, V
+, for the special wind regions indicated near mountainous terrain and near gorges shall be in accordance with local jurisdiction requirements. The
+ultimate design wind speeds, V
+, determined by the local jurisdiction shall be in accordance with Chapter 26 of ASCE 7. The exact location of wind speed lines shall be established by
+local ordinance using recognized physical landm
+
+QUESTION: Under the 2023 FBC, on which figure is the wind-borne debris region based for Risk Category II buildings?",0.0,"Based on the excerpt provided, I cannot answer this question. 
+
+While Section 1609.3 specifies that the ultimate design wind speed V for Risk Category II buildings shall be obtained from Figure 1609.3(1), the excerpt does not indicate which figure shows the wind-borne debris region for Risk Category II buildings. The excerpt only addresses ultimate design wind speeds, not wind-borne debris regions.",0.0,"I cannot answer this question using only the building-code excerpt provided. The excerpt does not specify which figure contains wind-borne debris region information for Risk Category II buildings. While Section 1609.3 directs readers to Figure 1609.3(1) for Risk Category II buildings' ultimate design wind speed, the excerpt does not clarify whether wind-borne debris region data is shown on that same figure or a different one."
+"Answer using ONLY the building-code excerpt below. Cite the section.
+
+EXCERPT:
+Section 1609 for wind loads and Section 1610 for lateral soil
+loads.
+1604.5 Risk Category
+Each building and structure shall be assigned a risk category in accordance with Table 1604.5. Where a referenced standard specifies an occupancy category, the risk category shall not
+be taken as lower than the occupancy category specified therein. Where a referenced standard specifies that the assignment of a risk category be in accordance with ASCE 7, Table 1.5-1,
+Table 1604.5 shall be used in lieu of ASCE 7, Table 1.5-1.
+TABLE 1604.5
+RISK CATEGORY OF BUILDINGS AND OTHER STRUCTURES
+RISK
+CATEGORY
+NATURE OF OCCUPANCY
+I
+Buildings and other structures that represent a low hazard to human life in the event of failure, including but not limited to:
+Agricultural facilities.
+Certain temporary facilities.
+Minor storage facilities.
+Screen enclosures.
+II
+Buildings and other structures except those listed in Risk Categories I, III and IV.
+III
+Buildings and other structures that represent a substantial hazard to human life in the event of failure, including but not limited to:
+Buildings and other structures whose primary occupancy is public assembly with an occupant load greater than 300.
+
+Buildings and other structures containing one or more public assembly spaces each having an occupant load greater than 300 and a cumulative occupant load
+of these public assembly spaces of greater than 2,500.
+Buildings and other structures containing Group E or Group I-4 occupancies or combination thereof, with an occupant load greater than 250.
+Buildings and other structures containing educational occupancies for students above the 12th grade with a
+
+QUESTION: What Florida Building Code section governs foundation walls and retaining wall design for lateral soil loads, and where are the minimum design soil loads found?",0.0,"Based on the excerpt provided, **Section 1610** governs lateral soil loads for foundation walls and retaining wall design.
+
+However, the excerpt does not contain information about where the minimum design soil loads are found. The excerpt only references that Section 1610 covers lateral soil loads but does not provide the actual content of that section or specify where minimum design soil loads would be located.",0.0,"I cannot answer this question using only the provided building-code excerpt. The excerpt addresses wind loads (Section 1609) and lateral soil loads (Section 1610) only in passing, and does not contain information about which section governs foundation walls and retaining wall design, nor does it specify where minimum design soil loads are found.
+
+To answer your question accurately, I would need access to the relevant sections of the Florida Building Code (specifically Section 1610 and related foundation/soil load provisions) beyond what is provided in this excerpt."
+"Answer using ONLY the building-code excerpt below. Cite the section.
+
+EXCERPT:
+ection 1803 Geotechnical Investigations
+1803.1 General
+Geotechnical investigations shall be conducted in accordance with Section 1803.2 and reported in accordance with Section 1803.6.
+Where required by the building official or where geotechnical investigations involve in-situ testing, laboratory testing or engineering
+calculations, such investigations shall be conducted by a registered design professional.
+1803.2 Investigations Required
+Geotechnical investigations shall be conducted in accordance with Sections 1803.3 through 1803.5.
+Exception: The building official shall be permitted to waive the requirement for a geotechnical investigation where satisfactory data
+from adjacent areas is available that demonstrates an investigation is not necessary for any of the conditions in Sections 1803.5.1
+through 1803.5.6 and Section 1803.5.10.
+1803.3 Basis of Investigation
+Soil classification shall be based on observation and any necessary tests of the materials disclosed by borings, test pits or other
+subsurface exploration made in appropriate locations. Additional studies shall be made as necessary to evaluate slope stability, soil
+strength, position and adequacy of load-bearing soils, the effect of moisture variation on soil-bearing capacity, compressibility,
+liquefaction and expansiveness.
+1803.3.1 Scope of Investigation
+The scope of the geotechnical investigation including the number and types of borings or soundings, the
+
+QUESTION: What section of the 2023 Florida Building Code, Building, governs geotechnical investigations for foundation design?",0.0,"According to the excerpt provided, **Section 1803** governs geotechnical investigations for foundation design. Specifically, Section 1803.1 General states that ""Geotechnical investigations shall be conducted in accordance with Section 1803.2 and reported in accordance with Section 1803.6.""",0.0,"Based on the excerpt provided, **Section 1803** governs geotechnical investigations. Specifically:
+
+- **Section 1803.1** addresses general requirements for geotechnical investigations
+- **Section 1803.2** specifies when investigations are required
+- **Section 1803.3** establishes the basis of investigation
+
+However, I cannot confirm this is from the ""2023 Florida Building Code, Building"" based solely on this excerpt, as the code source is not identified in the provided text."
+"Answer using ONLY the building-code excerpt below. Cite the section.
+
+EXCERPT:
+additional settlement of the
+backfill.
+1804.5 Grading and Fill in Flood Hazard Areas
+In flood hazard areas established in Section 1612.3, grading, fill, or both, shall not be approved:
+1. Unless such fill is placed, compacted and sloped to minimize shifting, slumping and erosion during the rise and fall of flood water
+and, as applicable, wave action.
+2. In floodways, unless it has been demonstrated through hydrologic and hydraulic analyses performed by a registered design
+professional in accordance with standard engineering practice that the proposed grading or fill, or both, will not result in any
+increase in flood levels during the occurrence of the design flood.
+3. In coastal high hazard areas, unless such fill is conducted and/or placed to avoid diversion of water and waves toward any building
+or structure.
+4. Where design flood elevations are specified but floodways have not been designated, unless it has been demonstrated that the
+cumulative effect of the proposed flood hazard area encroachment, when combined with all other existing and anticipated flood
+hazard area encroachment, will not increase the design flood elevation more than 1 foot (305 mm) at any point.
+1804.6 Compacted Fill Material
+Where shallow founda
+
+QUESTION: What section addresses grading and fill placement requirements in flood hazard areas under the 2023 FBC, Building?",0.0,Section **1804.5 Grading and Fill in Flood Hazard Areas** addresses grading and fill placement requirements in flood hazard areas.,1.0,Section 1804.5 addresses grading and fill placement requirements in flood hazard areas.
+"Answer using ONLY the building-code excerpt below. Cite the section.
+
+EXCERPT:
+OSHA, FCC and EPA regulations.
+Section 3109 Structures Seaward of a Coastal Construction Control Line
+3109.1 General
+The provisions of this section shall apply to the design and construction of habitable structures, and substantial improvement or repair
+of substantial damage of such structures, that are entirely seaward of, and portions of such structures that extend seaward of, the
+coastal construction control line or seaward of the 50-foot setback line, whichever is applicable. This section does not apply to
+structures that are not habitable structures, as defined in this section. Section 1612 shall apply to habitable structures and structures that
+are not habitable structures if located in whole or in part in special flood hazard areas established in Section 1612.3.
+3109.1.1 Modification, Maintenance or Repair of Existing Habitable Structures
+The requirements of Section 3109 do not apply to the modification, maintenance or repair of existing habitable structures, provided all
+of the following apply to the modification, maintenance or repair:
+1. Is within the limits of the existing foundation.
+2. Does not require, involve or include any additions to, or repair or modification of, the existing foundation.
+3. Does not include any additions or enclosures added, constructed, or installed below the lowest floor or deck.
+Advisory Note. If the modification or repair is determined to be substantial improvement or substantial damage, and if the building is
+located in a special flood hazard area (Zone A and Zone V) established in Section 1612.3, the requirements of Florida Building Code,
+Existing Building applicable to
+
+QUESTION: What Florida Building Code section governs construction seaward of the Coastal Construction Control Line (CCCL)?",0.0,"According to the excerpt provided, **Section 3109** governs construction seaward of the Coastal Construction Control Line (CCCL).
+
+Specifically, Section 3109.1 General states: ""The provisions of this section shall apply to the design and construction of habitable structures, and substantial improvement or repair of substantial damage of such structures, that are entirely seaward of, and portions of such structures that extend seaward of, the coastal construction control line or seaward of the 50-foot setback line, whichever is applicable.""",0.0,"Section 3109 governs construction seaward of the Coastal Construction Control Line (CCCL). Specifically, Section 3109 is titled ""Structures Seaward of a Coastal Construction Control Line"" and applies to the design and construction of habitable structures, and substantial improvement or repair of substantial damage of such structures, that are entirely seaward of, and portions of such structures that extend seaward of, the coastal construction control line or seaward of the 50-foot setback line, whichever is applicable (Section 3109.1)."
+"Answer using ONLY the building-code excerpt below. Cite the section.
+
+EXCERPT:
+hich
+an application has been filed.
+[A] 110.3 Required Inspections
+The building official upon notification from the permit holder or his or her agent shall make the following inspections, and shall either
+release that portion of the construction or shall notify the permit holder or his or her agent of any violations which must be corrected in
+order to comply with the technical codes. The building official shall determine the timing and sequencing of when inspections occur and
+what elements are inspected at each inspection.
+Building
+Foundation inspection. To be made after trenches are excavated and forms erected and shall at a minimum include the following
+building components:
+Stem-wall
+Monolithic slab-on-grade
+1.
+
+Piling/pile caps
+Footers/grade beams
+In flood hazard areas, upon placement of the lowest floor, including basement, and prior to further vertical construction,
+the elevation certification shall be submitted to the authority having jurisdiction.
+1.1.
+Framing inspection. To be made after the roof, all framing, fireblocking and bracing is in place, all concealing wiring, all pipes,
+chimneys, ducts and vents are complete and shall at a minimum include the following building components:
+Window/door framing
+Vertical cells/columns
+Lintel/tie beams
+Framing/trusses/bracing/connectors
+Draft stopping/fire blocking
+Curtain wall framing
+Energy insulation
+Accessibility
+Verify rough opening dimensions are within tolerance
+
+QUESTION: What Florida Building Code section requires elevation certification to be submitted for buildings in flood hazard areas after the foundation inspection?",0.0,"According to Section **[A] 110.3**, under the Foundation inspection requirements (item 1.1), the code states:
+
+""In flood hazard areas, upon placement of the lowest floor, including basement, and prior to further vertical construction, the elevation certification shall be submitted to the authority having jurisdiction.""",0.0,"According to section [A] 110.3, elevation certification shall be submitted to the authority having jurisdiction in flood hazard areas ""upon placement of the lowest floor, including basement, and prior to further vertical construction.""
+
+However, the excerpt does not specify a separate section number for this requirement—it appears as part of the Foundation inspection requirements under [A] 110.3."
+"Answer using ONLY the building-code excerpt below. Cite the section.
+
+EXCERPT:
+ly with Sections R301.2.4, R301.2.5 and R322.
+R301.1.1 Alternative Provisions
+As an alternative to the requirements in Section R301.1, the following standards are permitted subject to the limitations of this code and the limitations therein. Where engineered design is used in
+conjunction with these standards, the design shall comply with the Florida Building Code, Building.
+1. AF&PA Wood Frame Construction Manual (AWC WFCM).
+2. AISI Standard for Cold-Formed Steel Framing— Prescriptive Method for One- and Two-Family Dwellings (AISI S230).
+3. ICC Standard on the Design and Construction of Log Structures (ICC 400).
+R301.1.2 Construction Systems
+The requirements of this code are based on platform and balloon-frame construction for light-frame buildings. The requirements for concrete and masonry buildings are based on a balloon framing system.
+Other framing systems must have equivalent detailing to ensure force transfer, continuity and compatible deformations.
+R301.1.3 Engineered Design
+Where a building of otherwise conventional construction contains structural elements exceeding the limits of Section R301 or otherwise not conforming to this code, these elements shall be designed in
+accordance with accepted engineering practice. The extent of such design need only demonstrate compliance of nonconventional elements with other applicable provisions and shall be compatible with
+the performance of the conventional framed system. Engineered design in accordance with the Florida Building Code, Building is permitted for buildings and structures, and parts thereof, included in the
+scope of this code.
+R301.2 Climatic and Geogr
+
+QUESTION: What section of the Florida Building Code, Residential, addresses flood-resistant construction requirements, including provisions for coastal high-hazard areas?",1.0,"Based on the excerpt provided, **Section R322** addresses flood-resistant construction requirements, including provisions for coastal high-hazard areas. This is referenced in Section R301.1, which states that buildings must be constructed to ""safely support all loads"" in accordance with ""Sections R301.2.4, R301.2.5 and R322.""
+
+However, the actual content of Section R322 is not included in the excerpt provided, so I cannot cite specific provisions within that section.",1.0,"I cannot answer this question using only the building-code excerpt provided. The excerpt does not contain information about flood-resistant construction requirements or provisions for coastal high-hazard areas. While Section R322 is referenced in the excerpt (R301.1.1), the actual text of R322 is not included in the provided excerpt.
+
+To answer your question accurately, I would need the full text of Section R322 or other relevant sections addressing flood-resistant construction."
+"Answer using ONLY the building-code excerpt below. Cite the section.
+
+EXCERPT:
+nistrator.
+(Ord. No. 2019-01, § 8)
+Sec. 62-77. - Variances and appeals.
+Variances and appeals; In General. Requests for variances and requests for appeals shall be
+processed in accordance with this section. Requests for variances and appeals shall be
+accompanied with the fee specified in the Growth Management Department, Development
+Services Fee Schedule.
+The Office of the Hearing Examiner (or the Planning Commission if the Hearing Examiner is
+not available) shall hear requests for variances from the strict application of requirements of
+this ordinance and which are not requirements of the Florida Building Code, in accordance
+with Land Development Code section 10.09.00.
+Pursuant to F.S. § 553.73(5), the Board of Building Adjustments and Appeals shall hear and
+decide on requests for appeals and requests for variances from the strict application of the
+flood-resistant construction requirements of the Florida Building Code. This section does not
+apply to Section 3109 of the Florida Building Code, Building.
+
+B.
+C.
+D.
+E.
+F.
+(1)
+Limitations on Authority to Grant Variances. The Office of the Hearing Examiner (or the Planning
+Commission if the Hearing Examiner is not available) and the Board of Building Adjustments and
+Appeals, as applicable, shall base its decisions on variances on technical justifications submitted
+by applicants, the considerations for issuance in Section 9, F (§ 62-77.F) of this ordinance, the
+conditions of issuance set forth in Section 9, G (§ 62-77.G) of this ordinance, and the comments
+and recommendations of the Floodplain Administrator and the Building Official. The Office of the
+Hearing Examiner (or the Planning Commission if the Hearing Examiner is not available) and the
+Board of Building Adjustments and Appeals, as applicable, has the right to attach such conditions
+as it deems necessary to further the purposes and objectives of this ordinance and the Florida
+Building Code, as applicable.
+Restrictions in Floodways. A variance shall not be issued by the Office of the Hearing Examiner (or
+
+QUESTION: Which Collier County code section governs flood variance requests, including variances from the flood-resistant construction requirements of the Florida Building Code?",1.0,"According to the excerpt, **Section 62-77** governs flood variance requests in Collier County.
+
+Specifically, Section 62-77 states: ""Pursuant to F.S. § 553.73(5), the Board of Building Adjustments and Appeals shall hear and decide on requests for appeals and requests for variances from the strict application of the flood-resistant construction requirements of the Florida Building Code.""",1.0,"According to the excerpt, **Section 62-77** governs flood variance requests, including variances from the flood-resistant construction requirements of the Florida Building Code.
+
+Specifically, the Board of Building Adjustments and Appeals hears and decides on requests for variances from the strict application of the flood-resistant construction requirements of the Florida Building Code pursuant to F.S. § 553.73(5), as stated in Section 62-77."
+"Answer using ONLY the building-code excerpt below. Cite the section.
+
+EXCERPT:
+Collier County Ordinance No. 2023-64.
+
+NERS OF COLLIER COUNTY, FLORIDA, THAT: 
+SECTION ONE: ADOPTION OF THE FLORIDA BUILDING CODE AND ADDITIONS 
+TO THE FLORIDA BUILDING CODE. 
+1. Adoption . There is hereby adopted by reference , the Florida Building Code, Eighth Edition 
+(2023), and any amendments thereto, to be enforced by Collier County in the unincorporated 
+portions of the County. 
+2. Additions. The following additions , adjustments , amendments, and exemptions are added to 
+the Eighth Edition (2023) Florida Building Code, as amended: 
+Definitions. For purposes of this section, the following terms apply: 
+Repair. To restore by replacing a part or putting together what is torn or broken; to 
+restore or renew any part
+
+QUESTION: Which Collier County ordinance adopted the 2023 8th Edition Florida Building Code, and which subsequent ordinance amended that adoption?",0.0,"Based on the excerpt provided, **Collier County Ordinance No. 2023-64** adopted the Florida Building Code, Eighth Edition (2023), as stated in **SECTION ONE, paragraph 1**.
+
+However, the excerpt does not contain information about any subsequent ordinance that amended that adoption. The excerpt only shows the original adoption ordinance (2023-64) itself.",0.0,"Based on the excerpt provided, I can only answer the first part of your question:
+
+**Collier County Ordinance No. 2023-64** adopted the 2023 8th Edition Florida Building Code (Section One, subsection 1).
+
+The excerpt does not contain information about any subsequent ordinance that amended that adoption, so I cannot answer that portion of your question using only this excerpt."
+"Answer using ONLY the building-code excerpt below. Cite the section.
+
+EXCERPT:
+2023 Florida Building Code, Building — Section 202 (Definitions).
+
+building or structure to a
+public way. A means of egress consists of three separate and distinct parts: the exit access, the exit and the exit discharge.
+Means of Escape
+As used in Section 1010.3.5, a way out of a building or structure that does not conform to the strict definition of means of egress but
+does provide an alternate way out. A means of escape consists of a door, stairway, passage or hall providing a way of unobstructed
+travel to the outside at street or ground level. It may also consist of a passage through an adjacent nonlockable space, i
+
+QUESTION: How is 'means of egress' defined in Section 202 of the 2023 Florida Building Code, Building?",0.0,"According to Section 202 of the 2023 Florida Building Code, Building, **Means of Egress** is defined as:
+
+""A continuous and unobstructed path of vertical and horizontal egress travel from any occupied portion of a building or structure to a public way. A means of egress consists of three separate and distinct parts: the exit access, the exit and the exit discharge.""
+
+**Citation: Section 202 (Definitions)**",0.0,"According to Section 202 of the 2023 Florida Building Code, Building, ""Means of Egress"" is defined as:
+
+""A continuous and unobstructed way of egress travel that includes vertical and horizontal travel and ultimately leads to a public way. A means of egress consists of three separate and distinct parts: the exit access, the exit and the exit discharge."""
+"Answer using ONLY the building-code excerpt below. Cite the section.
+
+EXCERPT:
+2023 Florida Building Code, Building — Section 202 (Definitions).
+
+building or structure to a
+public way. A means of egress consists of three separate and distinct parts: the exit access, the exit and the exit discharge.
+Means of Escape
+As used in Section 1010.3.5, a way out of a building or structure that does not conform to the strict definition of means of egress but
+does provide an alternate way out. A means of escape consists of a door, stairway, passage or hall providing a way of unobstructed
+travel to the outside
+
+QUESTION: What are the three separate and distinct parts of a means of egress under the Florida Building Code?",0.0,"According to Section 202 (Definitions) of the 2023 Florida Building Code, Building, the three separate and distinct parts of a means of egress are:
+
+1. The exit access
+2. The exit
+3. The exit discharge",0.0,"According to Section 202 of the 2023 Florida Building Code, Building, the three separate and distinct parts of a means of egress are:
+
+1. The exit access
+2. The exit
+3. The exit discharge"
+"Answer using ONLY the building-code excerpt below. Cite the section.
+
+EXCERPT:
+2023 Florida Building Code, Building — Section 202 (Definitions).
+
+le point in a building or facility to a public way.
+Accessible Route
+See the Florida Building Code, Accessibility.
+Accessible Unit
+See the Florida Building Code, Accessibility.
+Accessory Components
+Components used in the installation of pedestals and pedestrian deck panels or pavers of the exterior elevated flooring system.
+Accessory components are made of either plastic, metal or other approved materials. Accessory components may be used to provide
+lateral bracing of the pedestals, to provide vertical support, for leveling the pedestal, to restrain the pedestrian deck panels or pavers to
+the top of the pedestal, or for other system
+
+QUESTION: What is a 'public way' as defined by the Florida Building Code?",0.0,"Based on the excerpt provided, a 'public way' is **not defined** in this section. 
+
+The excerpt from Section 202 (Definitions) only shows the definitions for ""Accessible Route,"" ""Accessible Unit,"" ""Accessory Components,"" and a partial definition for ""Accessible Means of Egress"" (which mentions ""to a public way""). However, the actual definition of ""public way"" itself is not included in this excerpt.
+
+To answer this question, I would need the portion of Section 202 that contains the definition for ""public way.""",0.0,"The excerpt provided does not contain a definition of ""public way."" While ""public way"" is mentioned in the excerpt under ""Accessible Route,"" the definition itself is not included in this section. To answer your question, I would need the complete definition from the Florida Building Code."
+"Answer using ONLY the building-code excerpt below. Cite the section.
+
+EXCERPT:
+.
+3. Stairways leading to crawl spaces.
+R311.7.1 Width
+Stairways shall be not less than 36 inches (914 mm) in clear width at all points above the permitted handrail height and below the required headroom height. The clear width of the stairway at and below the
+handrail height, including treads and landings, shall be not less than 31 / inches (787 mm) where a handrail is installed on one side and 27 inches (698 mm) where handrails are provided on both sides.
+Exception: The width of spiral stairways shall be in accordance with Section R311.7.10.1.
+R311.7.2 Headroom
+The headroom in stairways shall be not less than 6 feet 8 inches (2032 mm) measured vertically from the sloped line adjoining the tread nosing or from the floor surface of the landing or platform on that
+portion of the stairway.
+Exceptions:
+1. Where the nosings of treads at the side of a flight extend under the edge of a floor opening through which the stair passes, the floor opening shall be allowed to project horizontally into the required
+headroom not more than 4
+
+QUESTION: What is the minimum required stairway width for a residential stairway under the Florida Building Code, Residential (R311.7.1)?",1.0,"According to **Section R311.7.1 Width**, stairways shall be not less than **36 inches (914 mm) in clear width** at all points above the permitted handrail height and below the required headroom height. 
+
+The clear width at and below the handrail height, including treads and landings, shall be not less than **31½ inches (787 mm)** where a handrail is installed on one side and **27 inches (698 mm)** where handrails are provided on both sides.",1.0,"According to R311.7.1, the minimum required stairway width is **36 inches (914 mm) in clear width at all points above the permitted handrail height and below the required headroom height.**
+
+At and below the handrail height, the clear width shall be not less than **31½ inches (787 mm) where a handrail is installed on one side** and **27 inches (698 mm) where handrails are provided on both sides.**"
+"Answer using ONLY the building-code excerpt below. Cite the section.
+
+EXCERPT:
+of the
+adjacent winders shall be used.
+R311.7.5 Stair Treads and Risers
+Stair treads and risers shall meet the requirements of this section. For the purposes of this section, dimensions and dimensioned surfaces shall be exclusive of carpets, rugs or runners.
+R311.7.5.1 Risers
+The riser height shall be not more than 7 / inches (196 mm). The riser height shall be measured vertically between leading edges of the adjacent treads. The greatest riser height within any flight of
+stairs shall not exceed the smallest by more than / inch (9.5 mm). Risers shall be vertical or sloped from the underside of the nosing of the tread above. Open risers are permitted provided that the
+openings located more than 30 inches (762 mm), as measured vertically, to the floor or grade below do not permit the passage of a 4-inch-diameter (102 mm) sphere.
+Exceptions:
+1. The opening between adjacent treads is not limited on spiral stairways.
+2. The riser height of spiral stairways shall be in accordance with Section R311.7.10.1.
+R311.7.5.2 Treads
+The tread depth shall be not less than 10 inches (254 mm). The tread depth shall be measured horizontally between the vertical planes of the foremost projection of adjacent treads and at a right angle to
+the tread's leading edge. The greatest tread depth within any flight of stairs shall not exceed the smallest by more than / inch (9.5 mm).
+R311.7.5.2.1 Winder Treads
+Winder treads shall have a tread dep
+
+QUESTION: What is the minimum tread depth and maximum riser height for a residential stairway under the Florida Building Code, Residential?",0.0,"Based on the excerpt provided:
+
+**Minimum Tread Depth:** 10 inches (254 mm)
+- **Citation:** Section R311.7.5.2 states ""The tread depth shall be not less than 10 inches (254 mm).""
+
+**Maximum Riser Height:** 7¾ inches (196 mm)
+- **Citation:** Section R311.7.5.1 states ""The riser height shall be not more than 7¾ inches (196 mm).""",0.0,"Based on the excerpt provided:
+
+**Minimum tread depth:** 10 inches (254 mm) - Section R311.7.5.2
+
+**Maximum riser height:** 7⅜ inches (196 mm) - Section R311.7.5.1"
+"Answer using ONLY the building-code excerpt below. Cite the section.
+
+EXCERPT:
+in accordance with Section R311.7.10.1.
+R311.7.3 Vertical Rise
+A flight of stairs shall not have a vertical rise greater than 12 feet 7 inches (3835 mm) between floor levels or landings.
+R311.7.4 Walkline
+The walkline across winder treads shall be concentric to the curved direction of travel through the turn and located 12 inches (305 mm) from the side where the winders are narrower. The 12-inch (305 mm)
+dimension shall be measured from the widest point of the clear stair width at the walking surface of the winder. If winders are adjacent within the flight, the point of the widest clear stair width of the
+adjacent winders shall be used.
+R311.7.5 Stair Treads and Risers
+Stair treads and risers shall meet the requirements of this section. For the purposes of this section, dimensions and dimensioned surfaces shall be exclusive of carpets, rugs or runners.
+R311.7.5.1 Risers
+The riser height shall be not more than 7 / inches (196 m
+
+QUESTION: What is the maximum vertical rise permitted between landings in a single residential stairway flight?",1.0,"According to **Section R311.7.3 Vertical Rise**, a flight of stairs shall not have a vertical rise greater than **12 feet 7 inches (3835 mm)** between floor levels or landings.",1.0,"According to Section R311.7.3, a flight of stairs shall not have a vertical rise greater than **12 feet 7 inches (3835 mm)** between floor levels or landings."
+"Answer using ONLY the building-code excerpt below. Cite the section.
+
+EXCERPT:
+ith Section 1023.9.1, Items 4, 5 and 6.
+1023.11 Smokeproof Enclosures
+Where required by Section 403.5.4, 405.7.2 or 412.3.2.1, interior exit stairways and ramps shall be smokeproof enclosures in accordance
+with Section 909.20.
+1023.11.1 Termination and Extension
+A smokeproof enclosure shall terminate at an exit discharge or a public way. The smokeproof enclosure shall be permitted to be
+extended by an exit passageway in accordance with Section 1023.3. The exit passageway shall be without openings other than the
+fire door assembly required by Section 1023.3.1 and those necessary for egress from the exit passageway. The exit passageway shall
+be separated from the remainder of the building by 2-hour fire barriers constructed in accordance with Section 707 or horizontal
+assemblies constructed in accordance with Section 711, or both.
+Exceptions:
+1. Openings in the exit passageway serving a smokeproof enclosure are permitted where the exit passageway is protected and
+pressurized in the same manner as the smokeproof enclosure, and openings are protected as required for access from other
+floors.
+2. The fire barrier separating the smokeproof enclosure from the exit passageway is not required, provided the exit passageway
+is prote
+
+QUESTION: What Section 1023 requirement applies to interior exit stairways serving floor levels more than 30 feet below the exit discharge level, per the 2023 FBC?",1.0,"Based on the excerpt provided, I cannot answer this question because the excerpt does not contain information about requirements for interior exit stairways serving floor levels more than 30 feet below the exit discharge level.
+
+The excerpt only covers Section 1023.11 (Smokeproof Enclosures) and Section 1023.11.1 (Termination and Extension), and mentions references to Sections 1023.9.1 and 1023.3, but does not include the actual text of those sections or any provisions specifically addressing stairways serving levels more than 30 feet below exit discharge.",1.0,"I cannot answer this question based on the excerpt provided. The excerpt does not contain information about interior exit stairways serving floor levels more than 30 feet below the exit discharge level. The excerpt addresses smokeproof enclosures (Section 1023.11) and their termination and extension (Section 1023.11.1), but does not discuss the specific requirement you are asking about."
+"Answer using ONLY the building-code excerpt below. Cite the section.
+
+EXCERPT:
+adjacent stories, whichever is larger.
+1005.7 Encroachment
+Encroachments into the required means of egress width shall be in accordance with the provisions of this section.
+1005.7.1 Doors
+Doors, when fully opened, shall not reduce the required width by more than 7 inches (178 mm). Doors in any position shall not reduce
+the required width by more than one-half.
+Exceptions:
+1. Surface-mounted latch release hardware shall be exempt from inclusion in the 7-inch maximum (178 mm) encroachment
+where both of the following conditions exist:
+1.1. The hardware is mounted to the side of the door facing away from the adjacent wall where the door is in the open
+position.
+1.2. The hardware is mounted not less than 34 inches (865 mm) nor more than 48 inches (1219 mm) above the finished floor.
+2. The restrictions on door swing shall not apply to doors within individual dwelling units and sleeping units of Group R-2
+occupancies and dwelling units of Group R-3 occupancies.
+1005.7.2 Other Projections
+Handrail projections shall be in accordance with the provisions of Section 1014.8. Other nonstructural projections such as trim and
+similar decorative features shall be permitted to project into the required width not more than 1 / inches (38
+
+QUESTION: Under the 2023 FBC, what is the maximum encroachment allowed by a door into a required means-of-egress width when the door is fully open?",1.0,"According to Section 1005.7.1 Doors:
+
+Doors, when fully opened, shall not reduce the required width by **more than 7 inches (178 mm)**.
+
+**Citation: Section 1005.7.1**",1.0,"According to Section 1005.7.1, when a door is fully opened, it shall not reduce the required width by more than **7 inches (178 mm)**."
+"Answer using ONLY the building-code excerpt below. Cite the section.
+
+EXCERPT:
+# Collier County Code of Ordinances — Sec. 22-26
+
+**Source:** Municode, Chapter 22 (Buildings and Building Regulations), Article II (Florida Building Code)
+https://library.municode.com/fl/collier_county/codes/code_of_ordinances?nodeId=PTICO_CH22BUBURE_ARTIIFLBUCO_S22-26ADADFLBUCO
+**Retrieved:** 2026-07-09 (verified against Municode by human review — Lesson 1 verification pass)
+**History note:** (Ord. No. 2012-14, § 1; Ord. No. 2015-36, § 1; Ord. No. 2017-52, § 1; Ord. No. 2020-48, § 1; Ord. No. 2023-64, § 1; Ord. No. 2024-40, § 1)
+
+---
+
+## Sec. 22-26. — Adoption of and additions to the Florida Building Code.
+
+1. **Adoption.** There is hereby adopted by reference, the Florida Building Code, Eighth Edition (2023),
+ and any amendments thereto, to be enforced by Collier County in the unincorporated portions of
+ the County.
+
+2. **Additions.** The following additions, adjustments, amendments, and exemptions are added to the
+ Eighth Edition (2023) Florida Building Code, as amended:
+
+*Definitions.* For purposes of this section, the following terms apply:
+
+- *Repair.* To restore by replacing a part or putting together what is torn or broken; to restore or
+ renew any part for the purpose of its maintenance or to correct damage.
+- *Replacement.* To put something new in the place of, to remove the entire component (not a part
+ of) and install a new component in former place or position.
+- *Like for Like, Like Kind.* Si
+
+QUESTION: Which section of the Collier County Code of Ordinances adopts the Florida Building Code and sets out the County's local additions to it?",1.0,"Based on the excerpt provided, **Section 22-26** of the Collier County Code of Ordinances adopts the Florida Building Code and sets out the County's local additions to it.
+
+Specifically, Section 22-26 is titled ""Adoption of and additions to the Florida Building Code"" and contains two main subsections: (1) ""Adoption"" which adopts the Florida Building Code, Eighth Edition (2023) by reference, and (2) ""Additions"" which establishes local additions, adjustments, amendments, and exemptions to the Florida Building Code.",1.0,"According to the excerpt, **Section 22-26** of the Collier County Code of Ordinances adopts the Florida Building Code and sets out the County's local additions to it. (Sec. 22-26)"
+"Answer using ONLY the building-code excerpt below. Cite the section.
+
+EXCERPT:
+it for unsafe/unsound structures).
+
+### 107.3.1 Approval of construction documents.
+
+The following amendment to the administrative provisions of the Florida Building Code has been
+established for Collier County based on Section 107.3 of the Florida Building Code and Section
+553.74(4)(a), Florida Statutes.
+
+When the building official issues a permit, the construction documents shall be approved, in
+writing or by stamp, as ""Reviewed for Code Compliance."" One set of construction documents so
+reviewed shall be retained by the building official. The other set shall be returned to the
+applicant, shall be kept at the site of work, and shall be open to inspection by the building official
+or a duly authorized representative. **Digital copies available at the site of work and open to
+inspection by the building official or a duly authorized representative will also be accepted.**
+
+### 110.3 Required Inspections. (Building — Foundation inspection)
+
+Foundation inspection: to be made after trenches are excavated and forms erected, and sha
+
+QUESTION: Which administrative section of the Florida Building Code did Collier County amend to allow approved digital construction documents to be kept at the work site?",0.0,"According to the excerpt, Collier County amended **Section 107.3 of the Florida Building Code**.
+
+The excerpt states: ""The following amendment to the administrative provisions of the Florida Building Code has been established for Collier County based on Section 107.3 of the Florida Building Code and Section 553.74(4)(a), Florida Statutes.""
+
+This amendment, codified as Section 107.3.1, allows digital copies of construction documents to be available at the site of work as an acceptable alternative to physical copies.",0.0,"According to the excerpt, Collier County amended **Section 107.3** of the Florida Building Code to allow approved digital construction documents to be kept at the work site. (Section 107.3.1)"
+"Answer using ONLY the building-code excerpt below. Cite the section.
+
+EXCERPT:
+ext; see source for full wording).
+
+### 105.2 Work exempt from permit.
+
+The following permit exemptions have been established for Collier County based on Section
+105.2.2 of the Florida Building Code and Section 553.73(4)(a), Florida Statutes.
+
+Exemptions from permit requirements of this code shall not be deemed to grant authorization for
+any work to be done in any manner in violation of the provisions of this code. Permits shall not be
+required for the following:
+
+**Mechanical:** dustless ventilation isolated systems, that do not affect any fire penetrations or rated assemblies.
+
+**Plumbing:** plumbing fixture repair or replacement, that does not affect any fire penetrations or rated assemblies.
+
+**Electrical:** ceiling fixture replacement using existing outlet box and wiring, that does not affect any fire penetrations or rated assemblies.
+
+**Building:**
+1. Flooring installation.
+2. Painting/wallpaper.
+3. Finish trim work.
+4. Interior door replacement not affecting existing framed opening.
+5. Drywall repair/replacement that are not fire-related and are small areas that do not exceed
+ two sheets of drywall (64 sq. ft.).
+6. Gutters and leaders.
+
+### 105.2.4. Exemptions for detached single-family residences.
+
+The followin
+
+QUESTION: To which Florida Building Code section did Collier County add local exemptions relating to permits for minor residential repairs and replacements?",0.0,"According to the excerpt, Collier County established permit exemptions based on **Section 105.2.2 of the Florida Building Code** and Section 553.73(4)(a), Florida Statutes, as stated in Section 105.2.",0.0,"According to the excerpt, Collier County based its permit exemptions on **Section 105.2.2 of the Florida Building Code** and Section 553.73(4)(a), Florida Statutes (Section 105.2)."
+"Answer using ONLY the building-code excerpt below. Cite the section.
+
+EXCERPT:
+3 and Category 4, are hereby adopted. 
+SECTION THREE: REPEAL. 
+Ordinance No . 2020-48, is hereby repealed in its entirety . 
+SECTION FOUR. CONFLICT AND SEVERABILITY. 
+In the event this Ordinance conflicts with any other ordinance of Collier County or other 
+applicable law , the more restrictive shall apply . If any phrase or portion of the Ordinance is held 
+invalid or unconstitutional by any court of competent jurisdiction, such porti
+
+QUESTION: Which prior ordinance did Collier County Ordinance 2023-64 repeal when it adopted the 2023 Florida Building Code?",0.0,"According to **SECTION THREE: REPEAL** of the excerpt, **Ordinance No. 2020-48** was repealed in its entirety.",0.0,"According to the excerpt, Ordinance No. 2020-48 was repealed in its entirety. (SECTION THREE: REPEAL)"
+"Answer using ONLY the building-code excerpt below. Cite the section.
+
+EXCERPT:
+20-05, § 1; Ord. No. 2024-12, § 6)
+Sec. 62-80. - Buildings and structures.
+Design and construction of buildings, structures and facilities exempt from the Florida Building
+Code. Pursuant to Section 6, C (§ 62-74.C) of this ordinance, buildings, structures, and facilities
+that are exempt from the Florida Building Code, including substantial improvement or repair of
+substantial damage of such buildings, structures and facilities, shall be designed and constructed
+in accordance with the flood load and flood-resistant construction requirements of ASCE 24.
+Structures exempt from the Florida Building Code that are not walled and roofed buildings shall
+comply with the requirements of Section 18 (§ 62-86) of this ordinance.
+Enclosures below the lowest floor. Enclosed areas below elevated buildings and structures shall
+comply with the requirements of the Florida Building Code, shall be limited to parking of vehicles,
+storage, and building access, and shall comply with the following:
+Access to the enclosed area shall be the minimum necessary to allow for:
+Parking of vehicles (garage doors);
+Limited storage of maintenance equipment used in connection with the premises
+(standard exterior door not to exceed 3.0 ft. by 8.0 ft.);
+Main entrance to the structure (one double door set).
+All areas that are partitioned within the enclosed area shall be vented in accordance with
+ASCE 24 Flood-Resistant Design and Construction;
+All construction below the lowest floor shall be built with flood damage-resistant materials
+consistent with ASCE 24 Flood-Resistant Design and Construction, for example: pressure
+treated wood and water-durable and mold-resistant cement backerboard; and
+
+C.
+(1)
+(2)
+(3)
+(4)
+(5)
+(6)
+D.
+E.
+Section 6, D(8) (§ 62-74.D(8)) of this ordinance, regarding a Declaration of Land Restriction (Non-conversion
+agreement).
+D
+
+QUESTION: Which section of Collier County's flood ordinance (Code of Ordinances Chapter 62, Floods) governs requirements for buildings and structures in flood hazard areas?",1.0,"According to the excerpt provided, **Section 62-80** governs requirements for buildings and structures in flood hazard areas. This section is titled ""Buildings and structures"" and addresses design and construction requirements for buildings, structures and facilities in relation to flood hazards.",1.0,"According to the excerpt provided, **Section 62-80** governs requirements for buildings and structures in flood hazard areas. It specifically addresses ""Design and construction of buildings, structures and facilities exempt from the Florida Building Code"" and establishes requirements for enclosures below the lowest floor of elevated buildings and structures."
+"Answer using ONLY the building-code excerpt below. Cite the section.
+
+EXCERPT:
+19-01, § 4; Ord. No. 2024-12, § 3)
+Sec. 62-73. - Duties and powers of the floodplain administrator.
+Designation. The County Manager or designee is designated as the Floodplain Administrator. The
+Floodplain Administrator may delegate performance of certain duties to other employees.
+General. The Floodplain Administrator is authorized and directed to administer and enforce the
+provisions of this ordinance. The Floodplain Administrator shall have the authority to render
+interpretations of this ordinance consistent with the intent and purpose of this ordinance and
+may establish policies and procedures in order to clarify the application of its provisions. Such
+interpretations, policies, and procedures shall not have the effect of waiving requirements
+specifically provided in this ordinance without the granting of a variance pursuant to Section 9 (§
+62-77) of this ordinance.
+Duties of the Floodplain Administrator. The Floodplain Administrator, in coordination with other
+pertinent offices of the community, shall:
+Review applications and plans to determine whether proposed new development will be
+located in flood hazard areas;
+Re
+
+QUESTION: Which Collier County Code section establishes the duties and powers of the county floodplain administrator?",1.0,"According to the excerpt provided, **Section 62-73** establishes the duties and powers of the floodplain administrator.",1.0,"According to the building-code excerpt provided, **Section 62-73** establishes the duties and powers of the floodplain administrator."
+"Answer using ONLY the building-code excerpt below. Cite the section.
+
+EXCERPT:
+Collier County Land Development Code — Section 4.02.01, Dimensional Standards for Principal Uses in Base Zoning Districts.
+
+re Minimum Yard (Setback) Requirements: Table 2.1, below, provides the
+minimum yard requirements for principal structures on conforming lots of record in base
+zoning districts. The following shall apply for all other lots:
+Corner Lots: Corner lots shall have front yards along each street frontage. The other
+yards shall be considered side yards. See LDC section 2.03.01 for Estates setbacks.
+Nonconforming Lots of Record: Minimum yard requirements for nonconforming lots of
+record are provided in LDC section 9.03.03 A.
+Table 2.1 - TABLE OF MINIMUM YARD REQUIREMENTS
+(SETBACKS) FOR BASE ZONING DISTRICTS
+Note as to setback line measurement: minimum setback lines are typically measured from the
+legal boundary of a lot, regardless of all easements burdening a lot, with the exception of
+easements that comprise a road right-of-way where the minimum setback line is to be measured
+from the road right-of-way easement line.
+
+Zoning
+district
+Minimum
+Front
+Yard
+(feet)
+Minimum Side Yard (feet)
+Minimum Rear Yard (feet)
+Public School
+Requiremen
+
+QUESTION: Which Collier County Land Development Code section contains the dimensional standards table (Table 2.1) of minimum yard requirements for principal structures in base zoning districts?",1.0,"According to the excerpt, **Section 4.02.01** contains Table 2.1, which provides the dimensional standards for minimum yard requirements for principal structures in base zoning districts.",1.0,"According to the excerpt, Table 2.1 is contained in **Collier County Land Development Code Section 4.02.01, Dimensional Standards for Principal Uses in Base Zoning Districts**."
+"Answer using ONLY the building-code excerpt below. Cite the section.
+
+EXCERPT:
+Collier County Land Development Code — Section 4.02.01, Dimensional Standards for Principal Uses in Base Zoning Districts.
+
+2 
+3 
+4 
+5 
+
+B.
+1.
+2.
+3.
+C.
+D.
+1.
+e = the total of all side yard setbacks shall equal 20% of the lot width, with a maximum of 50 feet.
+No side yard shall be less than 10 feet. Alternative dimensions may be possible when approved
+through a unified plan of development involving one or more lots under common ownership
+where the yard requirements are met for the unified site but not necessarily for each parcel within
+the unified site.
+f = the yard requirements shall be equal to the most restrictive adjoining district.
+x = for principal
+
+QUESTION: Under footnote (e) of Table 2.1 in Collier County LDC 4.02.01, what is the side yard rule for the Industrial (I) zoning district, expressed as a percentage of lot width?",1.0,"According to Section 4.02.01, footnote (e) of Table 2.1, the total of all side yard setbacks shall equal **20% of the lot width**, with a maximum of 50 feet. Additionally, no side yard shall be less than 10 feet.",1.0,"# Answer
+
+According to Section 4.02.01, footnote (e), the side yard setback requirement is **20% of the lot width**, with a maximum of 50 feet, and no individual side yard shall be less than 10 feet.
+
+However, the excerpt provided does not specify which zoning districts this footnote applies to, so I cannot confirm whether this rule specifically applies to the Industrial (I) zoning district as your question asks."
+"Answer using ONLY the building-code excerpt below. Cite the section.
+
+EXCERPT:
+Collier County Land Development Code — Section 4.02.03, Specific Standards for Location of Accessory Buildings and Structures.
+
+determine yard requirements, the term ""accessory
+structure"" shall include detached and attached accessory use structures or buildings
+notwithstanding the attachment of such structure or building containing the accessory use to
+the principal use structure or building. Accessory buildings and structures must be constructed
+simultaneously with or following the construction of the principal structure and shall conform
+with the following setbacks and building separations.
+Accessory buildings shall not occupy an area greater than five (5) percent of the total lot area in
+all residential zoning districts, or occupy an area greater than forty (40) percent of any building
+envelope (i.e., area of lot remaining for building purposes after accounting for required setbacks),
+whichever is the lesser, provided the total maximum coverage provision of this ordinance for all
+principal and accessory buildings is not exceeded. Nothing herein contained shall serve to
+prevent the construction of an accessory building containing an area of less t
+
+QUESTION: Which Collier County LDC section sets the specific standards for the location of accessory buildings and structures, such as pools and screen enclosures?",1.0,"According to the excerpt provided, **Section 4.02.03** sets the specific standards for location of accessory buildings and structures.",1.0,"According to the excerpt, **Section 4.02.03** of the Collier County Land Development Code sets the specific standards for the location of accessory buildings and structures."
+"Answer using ONLY the building-code excerpt below. Cite the section.
+
+EXCERPT:
+Collier County Land Development Code — Section 4.02.01, Dimensional Standards for Principal Uses in Base Zoning Districts.
+
+al Standards for Principal Uses in Base Zoning Districts
+The following tables describe the dimensional standards pertaining to base zoning districts. Site
+design requirements apply to the principal building on each site.
+Table 1. Lot Design Requirements for Principal Uses in Base Zoning Districts.
+Zoning District
+Minimum Lot Area
+(square feet)
+Minimum Lot Width
+(linear feet)
+Maximum Building
+Coverage
+(%)
+GC
+None
+None
+None
+A
+217,800
+165
+None
+E
+98,010
+150
+None
+RSF-1
+43,560
+150
+None
+RSF-2
+20,000
+120
+None
+RSF-3
+10,000
+Corner lot
+95
+Interior lot
+80
+None
+RSF-4
+7,500
+75
+70
+None
+RSF-5
+6,000
+70
+60
+None
+RSF-6
+6,000
+70
+60
+None
+RMF-6 S.F.
+Duplex
+3+ units
+6,500
+12,000
+5,500 per unit
+60
+80
+100
+None
+RMF-12
+43,560
+150
+None
+RMF-16
+43,560
+150
+None
+RT
+43,560
+150
+None
+VR
+S.F./MH
+Duplex
+M.F.
+6,000
+10,000
+43,560
+60
+100
+150
+None
+MH
+6,000
+60
+None
+TTRVC Park
+site
+lots
+20 acres
+800
+Travel trailers/Park models 40
+Campsites 30
+None
+C-1
+20,000
+100
+None
+C-
+
+QUESTION: What is the minimum front yard setback for a principal structure in the Collier County Estates (E) zoning district?",1.0,"Based on the excerpt provided, I cannot answer this question. 
+
+The excerpt from Section 4.02.01 shows only ""Table 1. Lot Design Requirements for Principal Uses in Base Zoning Districts,"" which contains information about minimum lot area, minimum lot width, and maximum building coverage. 
+
+**Setback requirements are not included in this excerpt.** The E (Estates) zoning district shows a minimum lot area of 98,010 square feet and minimum lot width of 150 linear feet, but no front yard setback information is provided in Table 1.",1.0,"The excerpt provided does not contain information about minimum front yard setback requirements for the Collier County Estates (E) zoning district. Section 4.02.01 only includes lot design requirements (minimum lot area, minimum lot width, and maximum building coverage), but does not specify setback standards."
+"Answer using ONLY the building-code excerpt below. Cite the section.
+
+EXCERPT:
+Collier County Land Development Code — Section 4.02.01, Dimensional Standards for Principal Uses in Base Zoning Districts.
+
+Base Zoning Districts.
+Zoning District
+Minimum Lot Area
+(square feet)
+Minimum Lot Width
+(linear feet)
+Maximum Building
+Coverage
+(%)
+GC
+None
+None
+None
+A
+217,800
+165
+None
+E
+98,010
+150
+None
+RSF-1
+43,560
+150
+None
+RSF-2
+20,000
+120
+None
+RSF-3
+10,000
+Corner lot
+95
+Interior lot
+80
+None
+RSF-4
+7,500
+75
+70
+None
+RSF-5
+6,000
+70
+60
+None
+RSF-6
+6,000
+70
+60
+None
+RMF-6 S.F.
+Duplex
+3+ units
+6,500
+12,000
+5,500 per unit
+60
+80
+100
+None
+RMF-12
+43,560
+150
+None
+RMF-16
+43,560
+150
+None
+RT
+43,560
+150
+None
+VR
+S.F./MH
+Duplex
+M.F.
+6,000
+10,000
+43,560
+60
+100
+150
+None
+MH
+6,000
+60
+None
+TTRVC Park
+site
+lots
+20 acres
+800
+Travel trailers/Park models 40
+Campsites 30
+None
+C-1
+20,000
+100
+None
+C-2
+15,000
+150
+None
+C-3
+10,000
+75
+None
+C-4
+10,000
+100
+None
+C-5
+10,000
+100
+Non
+
+QUESTION: What is the minimum lot area for the Estates (E) zoning district under Collier County LDC 4.02.01 Table 1?",1.0,"According to Section 4.02.01, Dimensional Standards for Principal Uses in Base Zoning Districts, the minimum lot area for the Estates (E) zoning district is **98,010 square feet**.",1.0,"According to Collier County Land Development Code Section 4.02.01, the minimum lot area for the Estates (E) zoning district is **98,010 square feet**."
+"Answer using ONLY the building-code excerpt below. Cite the section.
+
+EXCERPT:
+Collier County Land Development Code — Section 3.04.02, Species Specific Requirements (Sea Turtle Protection).
+
+ean any beach, or grade any dirt within 100 feet of the nesting
+zone of a beach where sea turtles nest or may nest, without obtaining a
+construction in sea turtle nesting area permit from the County Manager or
+designee.
+Page 22 of 34
+Words struck through are deleted, words underlined are added
+e. Minor structures, as defined by Florida Statutes-Subsection 161. 055, of the
+Coastal Zone Protection Act of 1985, shall be approved, provided that they 
+also comply with:
+Chapter 62 of the Collier County Code of Laws and Ordinances.
+Federal requirements for elevations above the 100 year flood level,
+ii. Florida Building Code 
+for flood pro
+
+QUESTION: During sea turtle nesting season in Collier County, within how many feet of the nesting zone of a beach is it unlawful to construct a structure, add fill, mechanically clean the beach, or grade dirt without a permit?",1.0,"According to Section 3.04.02, Species Specific Requirements (Sea Turtle Protection), it is unlawful to construct a structure, add fill, mechanically clean the beach, or grade any dirt within **100 feet** of the nesting zone of a beach where sea turtles nest or may nest, without obtaining a construction in sea turtle nesting area permit from the County Manager or designee.",1.0,"According to Section 3.04.02 of the Collier County Land Development Code, it is unlawful to construct a structure, add fill, mechanically clean the beach, or grade dirt within **100 feet** of the nesting zone of a beach where sea turtles nest or may nest without obtaining a construction in sea turtle nesting area permit from the County Manager or designee."
+"Answer using ONLY the building-code excerpt below. Cite the section.
+
+EXCERPT:
+Collier County Code of Ordinances, Sec. 62-80 (Buildings and structures).
+
+Restriction (Non-conversion
+agreement).
+Detached accessory structures. Detached accessory structures used only for parking or storage
+that are not elevated (garages, tool sheds, storage buildings, steel ISO 10'-20'-40' storage
+containers, etc.) may be positioned on the ground or a slab below the base flood elevation
+provided:
+If located in special flood hazard areas (Zone A/AE) other than coastal high hazard areas and
+Coastal A Zones, are one-story and not larger than 600 sq. ft. and have flood openings in
+accordance with Section R322.2 of the Florida Building Code, Residential;
+If located in coastal high hazard areas (Zone V/VE) and Coastal A Zones, are not located below
+elevated buildings and are not larger than 100 sq. ft.;
+Are anchored to resist flotation, collapse or lateral movement resulting from flood loads;
+Have flood damage-resistant materials used below the base flood elevation plus one (1) foot;
+Have mechanical, plumbing and electrical systems, including plumbing fixtures, elevated to or
+above the base flood elevation plus one (1) foot; and
+A property owner must provide a signed Declaration of Land Restriction (Non-conversion
+agreement) prior to the issuance of the certificate of completion for detached accessory
+structures that are not elevated and are greater than 120 square feet.
+Design and construction of nonresidential farm buildings on farms. Pursuant to Section 6, C (§ 62-
+74.C) of this ordinance, nonresidential farm buildings on farms that are exempt from the Florida
+Building Code, including substantial improvement or repair of substantial damage of such
+buildings, shall be designed and constructed in accordance with the flood load and flood-resistant
+construction requirements of ASCE 24. If required to be elevated in accordance with ASCE 24,
+nonresidential farm buildings on farms shall be elevated to or above the base flood elevation
+unless granted a variance pursuant to Section 9 (§ 62-77) for wet floodproofing in accordance
+with Section 9, H (§ 62-77.H). Structures exempt from the Florida Building Code that are not
+walled and roofed buildings shall comply with the requirements of Section 18 (§ 62-86) of this
+ordinance.
+Permanently-mounted air-conditioners, generators, and other
+
+QUESTION: Under Collier County's flood ordinance, to what elevation must mechanical, plumbing, and electrical systems be elevated for a detached accessory structure permitted below the base flood elevation?",1.0,"According to **Section 62-80 (Detached accessory structures)**, mechanical, plumbing and electrical systems, including plumbing fixtures, must be ""elevated to or above the **base flood elevation plus one (1) foot**"" for detached accessory structures positioned on the ground or a slab below the base flood elevation.",1.0,"According to Collier County Code of Ordinances, Sec. 62-80, mechanical, plumbing and electrical systems, including plumbing fixtures, must be elevated to or above the **base flood elevation plus one (1) foot**."
+"Answer using ONLY the building-code excerpt below. Cite the section.
+
+EXCERPT:
+sq. ft.).
+6. Gutters and leaders.
+
+### 105.2.4. Exemptions for detached single-family residences.
+
+The following permit exemptions have been established for Collier County based on Sections
+102.2.5 and 105.2.2 of the Florida Building Code, and Sections 553.73(4)(a) and 553.80(3)(b)(1),
+Florida Statutes.
+
+The following permit exemptions are for owners of single-family or their hired licensed non-owner
+(contractor) of detached residences performing work on detached single-family properties.
+All work performed shall comply with the standards of the Florida Building Code Residential and
+Florida Statutes.
+
+**Electrical:**
+1. Repair work performed by licensed electrical contractors that does not exceed $1,500.00 in
+ value of materials and labor.
+2. Repair or replace existing light fixtures and ceiling fans.
+3. Repair or replace electrical wall switches and wall outlet devices of 20 amps or less and 120 volts.
+4. Repair/replace low voltage (under 77 volts) devices.
+
+**Plumbing:**
+1. Repair work performed by licensed plumbing contractors that does not exceed $1,500.00 in
+ value of materials and labor.
+2. Repair water solar panels by licensed plumbing contractors.
+3. Change out of an above ground LP tank 100 lbs. or less.
+4. Repair irrigation system.
+5. Repair domestic water service/lines.
+6. Unclog sewer stoppage.
+7. Repair sewer line excluding repair or replacement of interceptors, separators by licensed plumbing contr
+
+QUESTION: Under Collier County's local FBC exemptions for detached single-family residences, what is the maximum value of non-structural repair work by a licensed contractor that is exempt from a building permit?",1.0,"Based on Section 105.2.4, the maximum value of non-structural repair work by a licensed contractor that is exempt from a building permit is **$1,500.00 in value of materials and labor**.
+
+This limit is specified for both:
+- Electrical repair work performed by licensed electrical contractors
+- Plumbing repair work performed by licensed plumbing contractors
+
+**Citation: Section 105.2.4 (Exemptions for detached single-family residences)**",1.0,"According to Section 105.2.4, the maximum value of non-structural repair work by a licensed contractor that is exempt from a building permit is **$1,500.00 in value of materials and labor**.
+
+This applies to both electrical repair work (Electrical #1) and plumbing repair work (Plumbing #1) performed by licensed contractors on detached single-family residences in Collier County."
+"Answer using ONLY the building-code excerpt below. Cite the section.
+
+EXCERPT:
+ext; see source for full wording).
+
+### 105.2 Work exempt from permit.
+
+The following permit exemptions have been established for Collier County based on Section
+105.2.2 of the Florida Building Code and Section 553.73(4)(a), Florida Statutes.
+
+Exemptions from permit requirements of this code shall not be deemed to grant authorization for
+any work to be done in any manner in violation of the provisions of this code. Permits shall not be
+required for the following:
+
+**Mechanical:** dustless ventilation isolated systems, that do not affect any fire penetrations or rated assemblies.
+
+**Plumbing:** plumbing fixture repair or replacement, that does not affect any fire penetrations or rated assemblies.
+
+**Electrical:** ceiling fixture replacement using existing outlet box and wiring, that does not affect any fire penetrations or rated assemblies.
+
+**Building:**
+1. Flooring installation.
+2. Painting/wallpaper.
+3. Finish trim work.
+4. Interior door replacement not affecting existing framed opening.
+5. Drywall repair/replacement that are not fire-related and are small areas that do not exceed
+ two sheets of drywall (64 sq. ft.).
+6. Gutters and leaders.
+
+### 105.2.4. Exemptions for detached single-family residences.
+
+The followin
+
+QUESTION: What is the maximum drywall repair area exempt from a building permit under Collier County's local amendments to FBC 105.2?",1.0,"According to Section 105.2, Building exemption #5, drywall repair/replacement that are not fire-related and are small areas that do not exceed two sheets of drywall **(64 sq. ft.)** are exempt from permit requirements.",1.0,"According to Section 105.2, the maximum drywall repair area exempt from a building permit is **two sheets of drywall (64 sq. ft.)**, provided the repairs are not fire-related and are small areas."
+"Answer using ONLY the building-code excerpt below. Cite the section.
+
+EXCERPT:
+sentative will also be accepted.**
+
+### 110.3 Required Inspections. (Building — Foundation inspection)
+
+Foundation inspection: to be made after trenches are excavated and forms erected, and shall at a
+minimum include the following building components:
+
+> The permit holder shall submit, **within 10 calendar days of this inspection, a spot survey
+> depicting the building foundation** to the authority having jurisdiction. For structures without a
+> foundation inspection and that require a minimum floor elevation, a spot survey is required prior
+> to receiving a certificate of Occupancy/Completion. The spot survey shall be prepared by or under
+> the direct supervision of a Florida Registered land surveyor and certified by same and shall be in
+> a form acceptable to the Building Official. The Building Official has the right to waive this
+> requirement for certain small, non-habitable structures.
+
+QUESTION: Within how many days of the foundation inspection must the permit holder submit a spot survey of the building foundation, under Collier County's local amendment to FBC 110.3?",1.0,"According to Section 110.3 (Building — Foundation inspection), the permit holder shall submit a spot survey depicting the building foundation **within 10 calendar days** of the foundation inspection.",1.0,"According to Section 110.3 (Building — Foundation inspection), the permit holder shall submit the spot survey depicting the building foundation **within 10 calendar days of this inspection** to the authority having jurisdiction."
+"Answer using ONLY the building-code excerpt below. Cite the section.
+
+EXCERPT:
+Collier County Ordinance No. 2023-64.
+
+TWO: INCORPORATION, AS EXHIBIT ""A"", OF UPDATED WIND ZONE 
+MAPS. 
+The Wind Zone Maps appended hereto as Exhibit ""A"", consisting of Category 1, Category 2, 
+Category 3 and Category 4, are hereby adopted. 
+SECTION THREE: REPEAL. 
+Ordinance No . 2020-48, is hereby repealed in its entirety . 
+SECTION FOUR. CONFLICT AND SEVERABILITY. 
+In the event this Ordinance conflicts with any other ordinance of Collier County or other 
+applicable law , the more restrictive shall apply . If any phrase or portion of the Ordinance is held 
+invalid or unconstitutional by any court of competent jurisdicti
+
+QUESTION: In addition to adopting the 2023 Florida Building Code, what wind-related local content did Collier County Ordinance 2023-64 incorporate as its Exhibit A?",0.0,"According to **Section Two** of Collier County Ordinance No. 2023-64, the ordinance incorporated **Wind Zone Maps** as Exhibit ""A"", consisting of **Category 1, Category 2, Category 3 and Category 4**.",0.0,"According to the excerpt, Collier County Ordinance No. 2023-64, SECTION TWO, incorporated **Updated Wind Zone Maps** as Exhibit ""A"", consisting of Category 1, Category 2, Category 3 and Category 4."
+"Answer using ONLY the building-code excerpt below. Cite the section.
+
+EXCERPT:
+Collier County Code of Ordinances, Sec. 22-28 (Penalties for violation).
+
+23-IPR-00044 /I 8205 38/2) 
+Page 6of7 
+
+SECTION SIX: PENALTIES FOR VIOLATION. 
+If any person, firm, corporation, or other legal entity whether public or private, shall fail or 
+refuse to obey or comply with, or violates, any of the provisions of the Ordinance, such person, 
+firm , corporation, or other legal entity whether public or private, upon conviction of such 
+offense, shall be punished by a fine not to exceed Five Hundred Dollars ($500.00) or by 
+imprisonment not to exceed sixty (60) days in the County jail, or both, in the discretion of the 
+court. Each day of continued violation or noncompliance shall be considered as a separate 
+offense. 
+In addition, any person, firm , corporation, or other legal entity whether public o
+
+QUESTION: What is the maximum fine for violating the provisions of Collier County's building code ordinance, per Ordinance 2023-64?",1.0,"Based on the excerpt provided from Collier County Code of Ordinances, Section 22-28 (Penalties for violation), the maximum fine for violating the provisions of the Ordinance is **Five Hundred Dollars ($500.00)** per offense.
+
+The relevant section states: ""such person, firm, corporation, or other legal entity whether public or private, upon conviction of such offense, shall be punished by a fine not to exceed Five Hundred Dollars ($500.00) or by imprisonment not to exceed sixty (60) days in the County jail, or both, in the discretion of the court.""
+
+Additionally, ""Each day of continued violation or noncompliance shall be considered as a separate offense.""
+
+**Citation: Section Six: Penalties for Violation**",1.0,"According to Collier County Code of Ordinances, Sec. 22-28 (Penalties for violation), the maximum fine for violating the provisions is Five Hundred Dollars ($500.00).
+
+Note: The excerpt provided does not reference ""Ordinance 2023-64"" specifically."
+"Answer using ONLY the building-code excerpt below. Cite the section.
+
+EXCERPT:
+Collier County Land Development Code — Section 4.02.03, Specific Standards for Location of Accessory Buildings and Structures.
+
+s shall not occupy an area greater than five (5) percent of the total lot area in
+all residential zoning districts, or occupy an area greater than forty (40) percent of any building
+envelope (i.e., area of lot remaining for building purposes after accounting for required setbacks),
+whichever is the lesser, provided the total maximum coverage provision of this ordinance for all
+principal and accessory buildings is not exceeded. Nothing herein contained shall serve to
+prevent the construction of an accessory building containing an area of less than 500 square feet
+provided all yard and building spacing requirements can be met.
+All accessory structures in Rural Agricultural (A) and Estates (E) zoning districts must meet
+principal str
+
+QUESTION: Under Collier County LDC 4.02.03, what is the maximum area an accessory building may occupy on a residentially zoned lot?",1.0,"According to Section 4.02.03, accessory buildings in residential zoning districts shall not occupy an area greater than **five (5) percent of the total lot area** OR **forty (40) percent of any building envelope**, **whichever is the lesser**, provided the total maximum coverage provision for all principal and accessory buildings is not exceeded.
+
+However, the code also states that nothing shall prevent construction of an accessory building containing an area of **less than 500 square feet**, provided all yard and building spacing requirements can be met.",1.0,"According to Collier County Land Development Code Section 4.02.03, an accessory building in a residential zoning district shall not occupy an area greater than **five (5) percent of the total lot area**, or occupy an area greater than **forty (40) percent of any building envelope**, **whichever is the lesser**, provided the total maximum coverage provision for all principal and accessory buildings is not exceeded."
+"Answer using ONLY the building-code excerpt below. Cite the section.
+
+EXCERPT:
+Collier County Land Development Code — Section 4.02.03, Specific Standards for Location of Accessory Buildings and Structures.
+
+n front of
+building
+SPS
+15 Feet
+10 feet
+Swimming pool and/or
+screen enclosure (one-
+and two-family)
+SPS
+SPS
+10 feet
+None
+Swimming pool (multi-
+family and commercial)
+SPS
+15 feet
+20 feet
+None
+1
+2 
+1
+
+Tennis courts (one- and
+two-family)
+SPS
+SPS
+15 Feet
+10 feet
+Tennis courts (multi-
+family, and commercial)
+SPS
+15 feet
+20 feet
+20 feet
+Trellises, arbors, and
+similar structures that
+do not exceed the
+maximum fence height
+in LDC section 5.03.02
+None
+None
+None
+None
+Trellises, arbors, and
+similar structures that
+exceed the maximum
+fence height
+
+QUESTION: What is the minimum rear yard setback for a one- or two-family swimming pool and/or screen enclosure on a non-waterfront lot in Collier County?",1.0,"According to Section 4.02.03, Specific Standards for Location of Accessory Buildings and Structures, the minimum rear yard setback for a one- and two-family swimming pool and/or screen enclosure is **10 feet**.",1.0,"According to Section 4.02.03 of the Collier County Land Development Code, the minimum rear yard setback for a one- or two-family swimming pool and/or screen enclosure is **10 feet**."

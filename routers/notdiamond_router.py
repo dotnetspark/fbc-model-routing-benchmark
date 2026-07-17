@@ -35,14 +35,21 @@ def _get_client():
     return _client
 
 
-def select(question: str, category: str) -> RouterChoice:
+def _pick(content: str) -> tuple[str, str]:
+    """Ask NotDiamond which tier to route `content` to. Returns (strength, raw_model).
+    Shared by the cold router here and the grounded variant in notdiamond_grounded."""
     providers = [{"provider": p, "model": m} for (p, m) in (_STRONG | _CHEAP)]
     resp = _get_client().model_router.select_model(
         llm_providers=providers,
-        messages=[{"role": "user", "content": question}],
+        messages=[{"role": "user", "content": content}],
         tradeoff="cost",  # cost-aware routing; drop or change to compare tradeoffs
     )
     top = resp.providers[0]  # ranked; [0] is NotDiamond's pick
-    picked = (top.provider, top.model)
-    strength = STRONG if picked in _STRONG else CHEAP
-    return RouterChoice("notdiamond", strength, grounded=False, raw_model=f"{top.provider}/{top.model}")
+    strength = STRONG if (top.provider, top.model) in _STRONG else CHEAP
+    return strength, f"{top.provider}/{top.model}"
+
+
+def select(question: str, category: str, context: str | None = None) -> RouterChoice:
+    # Cold: route on the bare question. grounded=False — this router never sees a passage.
+    strength, raw = _pick(question)
+    return RouterChoice("notdiamond", strength, grounded=False, raw_model=raw)

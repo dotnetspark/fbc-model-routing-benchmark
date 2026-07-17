@@ -26,6 +26,10 @@ RUN pip install --no-cache-dir \
     python-dotenv \
     pandas
 
+# Separate layer (keeps the big ML layer cached): anthropic is only needed to
+# generate candidate-model responses for the NotDiamond custom-router TRAINING set.
+RUN pip install --no-cache-dir anthropic
+
 # Code + data are mounted at runtime (see docker-compose.yml), not copied, so the
 # image is just the environment and results land back on the host.
 CMD ["python", "run_router_dryrun.py"]

@@ -25,7 +25,7 @@ FLOOR = 0.50  # minimum grounded correct-rate to keep a query on a cheap tier
 _CHEAPEST_FIRST = ["cheap_local", "cheap", "strong"]
 
 
-def select(question: str, category: str) -> RouterChoice:
+def select(question: str, category: str, context: str | None = None) -> RouterChoice:
     grounded = category in GROUNDABLE
     if not grounded:
         # No passage to ground on — fall back to the strongest parametric memory.

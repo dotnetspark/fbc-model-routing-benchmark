@@ -50,7 +50,7 @@ def measured_accuracy():
     """acc[(tier_file, grounded)][category] = correct-rate, re-scored with current gold."""
     gold = _gold()
     acc = defaultdict(lambda: defaultdict(lambda: [0, 0]))  # [correct, total]
-    for tier in ("foundation", "instruction_tuned"):
+    for tier in ("foundation", "instruction_tuned", "slm"):
         for grounded, suffix in ((False, "raw"), (True, "grounded")):
             p = ROOT / "results" / f"{tier}_{suffix}.jsonl"
             if not p.exists():
@@ -91,9 +91,12 @@ def main():
     SCALE = 62  # bubble area per question (points^2)
 
     # Real routers first, custom (the contrast) last; illustrative heuristic flagged.
-    ORDER = ["routellm", "notdiamond", "difficulty_baseline", "custom"]
+    ORDER = ["routellm", "notdiamond", "notdiamond_grounded", "notdiamond_trained",
+             "difficulty_baseline", "custom"]
     panels = [r for r in ORDER if r in routers] + [r for r in routers if r not in ORDER]
-    DISPLAY = {"difficulty_baseline": "difficulty (illustrative)"}
+    DISPLAY = {"difficulty_baseline": "difficulty (illustrative)",
+               "notdiamond_grounded": "notdiamond (grounded, default)",
+               "notdiamond_trained": "notdiamond (grounded, TRAINED)"}
 
     ncol = 2
     nrow = (len(panels) + ncol - 1) // ncol
@@ -121,7 +124,7 @@ def main():
         axes[j // ncol][j % ncol].axis("off")
 
     fig.suptitle("Router selection gravity — where each router's 45 picks land", y=0.99, fontsize=13)
-    fig.text(0.5, 0.945, "x: model tier   ·   y: grounded?   —   the shaded GROUNDED half is empty for every real router",
+    fig.text(0.5, 0.945, "training moves grounded NotDiamond from STRONG (blue) to cheap + GROUNDED (green) — matching the custom router",
              ha="center", fontsize=9, color=MUTED)
     handles = [plt.Line2D([0], [0], marker="o", color="w", markerfacecolor=C[k], markersize=10)
                for _, _, k, _ in combos]
@@ -131,13 +134,15 @@ def main():
 
     # --- Expected-accuracy overlay: follow each router's picks, score by measured data ---
     print("\nExpected citation accuracy if you followed each router's selections")
-    print("(strong→Opus, cheap→Haiku; grounded per the flag; measured Lessons 1-6):")
+    print("(strong→Opus, cheap→Haiku, cheap_local→phi3; grounded per the flag; measured Lessons 1-6):")
     gold = _gold()
     for router in routers:
         tot = corr = 0.0
         for r in (x for x in sel if x["router"] == router):
             _, cat = gold.get(r["question_id"], (None, None))
-            tf = TIER_FILE[r["strength"]]
+            # custom routes some picks to the LOCAL phi3 (raw_model "cheap_local+..."),
+            # not Haiku — score those as phi3 (slm), else the number is inflated.
+            tf = "slm" if r["raw_model"].startswith("cheap_local") else TIER_FILE[r["strength"]]
             a = acc.get((tf, r["grounded"] == "True"), {}).get(cat)
             if a is not None:
                 corr += a; tot += 1

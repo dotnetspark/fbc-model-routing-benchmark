@@ -17,7 +17,7 @@ from pathlib import Path
 
 from dotenv import load_dotenv
 
-from routers import custom, difficulty_baseline, notdiamond_router
+from routers import custom, difficulty_baseline, notdiamond_router, notdiamond_grounded
 
 load_dotenv()
 
@@ -25,6 +25,9 @@ ROUTERS = {
     "custom": custom.select,
     "difficulty_baseline": difficulty_baseline.select,
     "notdiamond": notdiamond_router.select,
+    # NotDiamond fed the GROUNDED prompt — "compose retrieval + off-the-shelf router"
+    # instead of building a bespoke one. See routers/notdiamond_grounded.py.
+    "notdiamond_grounded": notdiamond_grounded.select,
 }
 
 # RouteLLM's ML stack only installs on Linux (the Docker image); include it when
@@ -35,6 +38,7 @@ try:
 except Exception:
     pass
 DATA = Path("data/fbc_eval_questions.csv")
+CONTEXT = Path("data/fbc_eval_context.csv")   # retrieved passages for the grounded variant
 OUT = Path("results/router_selections.csv")
 
 
@@ -44,14 +48,18 @@ def main() -> None:
     args = ap.parse_args()
 
     rows = list(csv.DictReader(DATA.open(encoding="utf-8")))
+    contexts = ({r["question_id"]: r["context"] for r in csv.DictReader(CONTEXT.open(encoding="utf-8"))}
+                if CONTEXT.exists() else {})
     routers = {k: v for k, v in ROUTERS.items() if k not in args.skip}
-    print(f"Routers: {list(routers)}  |  {len(rows)} questions")
+    print(f"Routers: {list(routers)}  |  {len(rows)} questions  |  {len(contexts)} contexts")
 
     out = []
     for r in rows:
         for name, fn in routers.items():
             try:
-                c = fn(r["question"], r["category"])
+                c = fn(r["question"], r["category"], context=contexts.get(r["question_id"]))
+                if c is None:      # router abstained for this question (e.g. grounded router, ungroundable q)
+                    continue
                 out.append({"question_id": r["question_id"], "category": r["category"],
                             "router": name, "strength": c.strength,
                             "grounded": c.grounded, "raw_model": c.raw_model})
