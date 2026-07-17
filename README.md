@@ -78,8 +78,6 @@ Each lesson: **Concept → why it matters for routing → build increment → me
 ```
 ├── README.md                    ← results overview + quickstart (you are here)
 ├── FINDINGS.md                  ← the full synthesis — start here for the analysis
-├── ROUTER_STUDY_PLAN.md         ← design + honesty guardrails for the router study
-├── project.md                   ← original architecture/scope plan
 ├── requirements.txt
 ├── run_benchmark.py             ← the only place inference happens (Lessons 1–4)
 ├── run_router_dryrun.py         ← Lesson 5: records each router's selections
