@@ -8,9 +8,11 @@ Model selection is a constrained-optimization problem: given a latency budget, a
 
 This lesson makes the project operationally useful rather than just a benchmark report. A decision engine that takes `{query_category, latency_budget_ms, cost_ceiling_usd, accuracy_floor}` and returns a ranked recommendation — including whether grounding is mandatory for that category — is the difference between "here are some numbers" and "here is a routing policy a permitting-software vendor could actually deploy."
 
-## 3. Build increment
+## 3. Build increment — the original design (a sketch, superseded by §4)
 
-Add `engine/router.py`:
+> **Status note.** The code in this section is the *original design* for Lesson 7 — a constraint-based recommendation function plus a Streamlit dashboard. The reference implementation **replaced it** with the router dry-run study described in the checkpoint below (see [`routers/custom.py`](../routers/custom.py) for the lookup-table router that survived from this design). The sketch is kept because it's the natural product layer a permitting-software vendor would build *on top of* the measured results — but it is not implemented in this repo, and no result in FINDINGS.md depends on it.
+
+A recommendation engine over the measured results would look like:
 
 ```python
 import pandas as pd
@@ -41,7 +43,7 @@ def recommend_model_class(
     }
 ```
 
-Build the dashboard front end (Streamlit is fastest):
+And a dashboard front end over it (Streamlit is fastest — again, design sketch, not implemented here):
 
 ```python
 import streamlit as st
@@ -86,12 +88,11 @@ On NotDiamond's Pay-as-you-go plan this costs **$0** (custom-router training is 
 
 At this point you have:
 
-- Three (or four, with multimodal) working model clients measured against real FBC and Naples code questions
-- A documented baseline hallucination rate per model class, cold
-- A grounded-vs-ungrounded comparison quantifying what RAG buys you per model class
-- A fine-tuning breakeven calculator using your own measured costs
-- A constraint-based recommendation engine with an interactive dashboard
-- A committed evaluation dataset and results (CSV/Parquet) — the actual evidence
+- Three working model clients (plus a free-tier Gemini variant) measured against real FBC and Naples code questions
+- A documented baseline citation-outcome profile per model class, cold — correct / hallucinated / abstained
+- A grounded-vs-ungrounded comparison quantifying what RAG buys each model class
+- A router dry-run comparison — RouteLLM, NotDiamond (default and trained), a difficulty heuristic, and a hand-built lookup router — plotted on model-strength × grounding
+- A committed evaluation dataset, grounding excerpts, and raw results (`data/`, `results/`) — the actual evidence, regenerated end-to-end by `analysis/benchmark_report.ipynb`
 
 ## 5. Publish
 

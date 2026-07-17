@@ -18,8 +18,8 @@ This repo benchmarks three model tiers on Florida Building Code / Naples-Collier
 
 | tier | cold correct | grounded correct | jurisdiction cold→grounded |
 |---|---|---|---|
-| Opus 4.8 (strong) | 25.8% | 59.1% | 28.8% → 63.6% |
-| Haiku 4.5 (cheap, schema) | 29.5% | 77.3% | ~ → 81.8% |
+| Opus 4.8 (strong) | 26.5% | 59.1% | 28.8% → 63.6% |
+| Haiku 4.5 (cheap, schema) | 31.8% | 77.3% | ~ → 81.8% |
 | phi3:mini (cheap, local) | 7.9% | 52.5% | 10.8% → 70.0% |
 
 **Lesson 7 goal.** *Dry-run* three routers over the 45 evaluation questions — record **which model each router selects**, not the answer (near-zero cost: routing logic runs without calling the target LLM). Plot the selection "gravity" on two axes — **model strength** (strong↔cheap) and **grounded? (yes/no)** — and give a data-referenced recommendation.

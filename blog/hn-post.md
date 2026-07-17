@@ -1,70 +1,39 @@
-# Can an LLM cite the building code? I measured it — cold vs. grounded, three model tiers
+# HN submission plan
 
-*Suggested HN title: "Grounded phi3 (3.8B, on a laptop) beats cold Opus at citing building code"*
+**Submit as a Show HN *link* post to the repo** — https://github.com/dotnetspark/fbc-model-routing-benchmark — not as a text post. HN text posts don't render markdown (no tables, no headers), and the README now leads with the results table and charts, so the repo *is* the post. Then immediately add the first comment below.
 
-I kept seeing "LLMs are great at code lookup now" and wanted a number, not a vibe. So I built a small, reproducible benchmark: **can a model correctly cite the section of the Florida Building Code (and the Naples/Collier County local amendments) that governs a given question?** Citation is a nice task to measure because it's *checkable* — either the model names the section the published code assigns, or it doesn't.
+**Title** (frames it as a benchmark, not a stunt; avoids inviting "you gave it the answer" as the top comment):
 
-Repo (MIT, all data + results committed): https://github.com/dotnetspark/fbc-model-routing-benchmark
+> Show HN: Can an LLM cite the Florida Building Code? Three tiers, cold vs. grounded
 
-## Setup
+Backup title:
 
-- **45 questions** against the 2023 8th-Edition FBC and Naples/Collier local code, each with a gold section citation **verified against the published text**. 22 are narrow local-jurisdiction questions (ordinances, the LDC) — the low-traffic material.
-- **Metric: deterministic section-citation match** via regex, split three ways — **correct / wrong (hallucination) / no-citation (abstention)**. No LLM judge, so the signal doesn't depend on any model's opinion.
-- **Three tiers:** Claude Opus 4.8 (flagship), Claude Haiku 4.5 under a required-`section` JSON schema (cheap hosted), and phi3:mini (~3.8B) on local Ollama (cheap, offline).
-- **Two conditions:** cold (parametric memory only) and grounded (the correct code passage injected as context).
+> Show HN: Measuring LLM citation accuracy on building code (45 questions, 3 model tiers)
 
-## Finding 1: cold, no tier is usable — and each fails *differently*
+**First comment** — paste the text below verbatim. It's written in HN-safe formatting: blank-line paragraphs, 4-space-indented blocks for aligned numbers, no tables or headers. It leads with method, preempts the strongest objection in the body instead of the footnotes, and ends with an invitation to attack the setup.
 
-| tier | correct | wrong | abstained |
-|---|---|---|---|
-| Opus 4.8 | 25.8% | 32.6% | **41.7%** |
-| Haiku 4.5 (forced schema) | 29.5% | **69.7%** | 0.8% |
-| phi3:mini (local) | 7.9% | 39.4% | 52.8% |
+---
 
-Same poor correctness, three different failure shapes, and the shape is the whole story:
+I kept seeing "LLMs are good at code lookup now" and wanted a number, not a vibe. So I measured a checkable task: can a model cite the section of the Florida Building Code (and the Naples/Collier County local amendments) that governs a question? Either it names the section the published code assigns, or it doesn't. A regex extractor does the scoring — no LLM judge, so the signal doesn't depend on any model's opinion.
 
-- **The flagship abstains.** Opus says "I don't have that section memorized with enough precision" 42% of the time — calibrated honesty.
-- **The forced-schema model fabricates.** Haiku's JSON schema *requires* a `section`, so it can never say "I don't know" — uncertainty becomes confident invention (70% wrong).
-- **The small model just doesn't know** (8% correct).
+Setup: 45 questions, each with a gold citation verified against the published text (22 are narrow local-jurisdiction questions — the low-traffic material). Three tiers: Claude Opus 4.8 (flagship), Claude Haiku 4.5 forced through a JSON schema with a required "section" field (cheap hosted), and phi3:mini (~3.8B) on local Ollama. Two conditions: cold (parametric memory only) and grounded (the correct code passage injected as context). All data, raw results, and the analysis notebook are in the repo (MIT).
 
-The dangerous failure for a compliance tool is a *confident wrong citation*, which is exactly what the cheap schema-bound model produces most. A schema buys you a parseable answer, never a correct one.
+Cold — correct / wrong (hallucinated) / abstained:
 
-## Finding 2: grounding rescues the cheap *local* model (the economic headline)
+    Opus 4.8:   26.5% / 31.8% / 41.7%
+    Haiku 4.5:  31.8% / 67.4% /  0.8%
+    phi3:mini:   7.9% / 39.4% / 52.8%
 
-Inject the correct passage and everything moves — +33 to +48 points per tier:
+Similar (poor) correctness, three completely different failure shapes — and the shape is the story. The flagship abstains ("I don't have that section memorized with enough precision" — verbatim). The schema-bound model can never say "I don't know," so its uncertainty becomes confident invention: 67% wrong citations. The small model mostly just doesn't know. For a compliance tool, the dangerous failure is the confident wrong citation, which is exactly what the forced schema manufactures. A schema buys you a parseable answer, never a correct one.
 
-| tier | cold → grounded (correct) |
-|---|---|
-| Opus 4.8 | 25.8% → 59.1% |
-| Haiku 4.5 | 29.5% → **77.3%** |
-| phi3:mini | 7.9% → **52.5%** |
+Grounded, correct-citation rates become: Opus 59.1%, Haiku 77.3%, phi3 52.5%. The reordering is the point — grounded phi3, running on a laptop CPU, ~free and offline, beats cold Opus (26.5%) by about 2x. Cheap local model + good retrieval beat an expensive model alone, and the same JSON schema that made Haiku the worst tier cold makes it the best tier grounded.
 
-The reordering is the point: **grounded phi3 (52.5%, running on a laptop, ~free, offline) beats *cold* Opus (25.8%) by ~2×.** The production lesson isn't "use the big model" — it's **cheap local model + good retrieval beats an expensive model alone.** Model tier matters far less than whether you ground.
+The obvious objection: grounding injects the passage that contains the right section number, so this is close to a reading-comprehension task — it measures the *ceiling* of retrieval, not an end-to-end RAG pipeline. That's deliberate (the question was "does the right text change the answer"), but here's what surprised me: models still fail it. Even with the correct passage in front of them, 16–38% of cited sections aren't present in the supplied passage at all (grounding-compliance: Haiku 84%, Opus 70%, phi3 62%). Grounding is risk reduction, not a guarantee.
 
-(The same forced-JSON schema that made Haiku the *worst* tier cold makes it the *best* grounded — with the right passage present, being made to cite means being made to cite correctly.)
+On routers: the tempting next step is a model router, but every off-the-shelf router I dry-ran (RouteLLM, NotDiamond — recording which model each picks, not the answers) routes 100% ungrounded, because grounding is a pipeline decision outside the "pick a model for these messages" abstraction. Ground the prompt yourself and NotDiamond's default router climbs into the grounded band but picks the expensive tier (it reads the longer prompt as harder). Train its free custom router on my own citation scores and it learns cheap + grounded on all 44 prompts (~77%) — matching a hand-built domain router (~71%). So: put the grounding decision in front of routing, and you probably don't need to build a router.
 
-## Finding 3: don't build a router — grounding is a separate axis
+My favorite finding is the embarrassing one: building the grounding corpus against the published text caught three wrong section numbers and a wrong date in gold answers I'd written from memory. The project's own thesis — don't trust memory for code citations — turned on its author. If you build an eval set for a citation task, verify every gold answer against the primary source.
 
-The obvious next move is a model router. But every off-the-shelf router (I dry-ran RouteLLM and NotDiamond — recording *which* model each picks, not the answer) routes on one axis, prompt → model tier, and lands **100% ungrounded** (~30% expected accuracy). Not because they're bad — because **grounding and model-tier are orthogonal.** Grounding is a pipeline step (retrieve, inject) that lives outside the "pick a model for these messages" abstraction.
+Caveats: n=45 (some categories are directional only); repeats of frozen weights aren't independent samples; the local model is CPU-bound (~68 s/request — the "free" is marginal cost, not latency); and this is a research benchmark, not compliance advice — nobody should pull a permit based on it.
 
-So I tested the obvious objection directly — can you *leverage* an off-the-shelf router instead of hand-building one?
-
-- **Ground the prompt, keep the default router:** NotDiamond climbs into the grounded band but its cost model reads the longer prompt as *harder* and picks the **expensive** tier (strong 43/44, ~61%).
-- **Train a custom NotDiamond router** (its free `train_custom_router`) on the grounded prompts scored by citation-match: on 43/44 the cheap model was *never worse* than the strong one, so the trained router routes **cheap + grounded on all 44 (~77%)** — matching a hand-built, domain-specific router (~71%).
-
-Conclusion: **put the grounding decision in front of routing, then a *trained* off-the-shelf router recovers cheap+grounded on its own.** You don't need to build a router. (The hand-built one's only durable edge: it can route to a free *local* model, which a hosted router's catalog can't.)
-
-## The meta-finding: my own gold set had errors
-
-Building the grounding corpus against the *published* text caught three wrong section numbers and one wrong date in gold answers I'd written from memory (e.g. §1020.2→1020.3, §1003.2→1003.3.1). The project's own thesis — *don't trust memory for code citations, verify against primary text* — turned on its author. If you build an eval set for a citation task, verify every gold against the primary source; I didn't, at first, and it showed.
-
-## Caveats (the honest ones)
-
-- **Small n.** 45 questions; some categories (state amendments n=3, definitions n=4) are directional only. The 22 jurisdiction + 16 numeric questions carry the weight.
-- **This measures the *ceiling* of grounding.** I inject the *correct* hand-verified passage, so it isolates "does the right text change the answer" — not an end-to-end RAG pipeline (retrieval error would lower it).
-- **The local model is CPU-bound** (~5 tok/s, ~68 s/request). The near-zero *marginal* cost is real; latency is the true cost without a GPU.
-- **The trained-router result is n=44 with a binary score.** It works *because* cheap was never worse than strong when grounded — that's the mechanism, not a tuned outcome.
-
-**Disclaimer:** this is a research/benchmarking tool, not a substitute for a licensed design professional or the Naples/Collier building department. Do not make compliance decisions from it.
-
-Every number regenerates from the raw results in the repo. Happy to be told I measured something wrong.
+Every number regenerates from the raw results in the repo (one notebook, committed outputs). Happy to be told I measured something wrong.

@@ -49,6 +49,18 @@ MODEL_NAMES = {
     "slm": slm_client.SLM_MODEL,
 }
 
+# The $0 path: Gemini's free tier covers the whole benchmark (Lesson 1 provider
+# note). Registered lazily — the module builds its genai.Client at import time,
+# which requires GEMINI_API_KEY, and a missing key must not break the default
+# Anthropic/Ollama classes.
+try:
+    from clients import foundation_client_gemini
+    CLIENTS["foundation_gemini"] = (foundation_client_gemini.call_foundation_model,
+                                    foundation_client_gemini.API_ERRORS)
+    MODEL_NAMES["foundation_gemini"] = foundation_client_gemini.FOUNDATION_MODEL
+except Exception:
+    pass  # no GEMINI_API_KEY in the environment — the free-tier class is optional
+
 DATA_PATH = Path("data/fbc_eval_questions.csv")
 CONTEXT_PATH = Path("data/fbc_eval_context.csv")
 RESULTS_DIR = Path("results")

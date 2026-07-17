@@ -1,0 +1,23 @@
+# Core benchmark + analysis dependencies. Python 3.11+ (reference runs: 3.13).
+# Pinned to the versions the committed results were produced with.
+#
+# NOT in this file: the Lesson 7 router dry-run stack (routellm / litellm /
+# notdiamond) — it has no working install path on Windows and lives in
+# docker/Dockerfile instead. Run it with:  docker compose run --rm routers
+#
+# Local SLM tier (Lesson 3) additionally needs Ollama: https://ollama.com
+# (then: ollama pull phi3:mini)
+
+anthropic==0.116.0
+google-genai==2.11.0
+python-dotenv==1.2.2
+httpx==0.28.1
+pydantic==2.13.4
+pandas==3.0.3
+matplotlib==3.11.0
+pymupdf==1.28.0
+
+# Notebook execution (analysis/benchmark_report.ipynb)
+jupyter==1.1.1
+nbconvert==7.17.1
+ipykernel==7.3.0
