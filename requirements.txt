@@ -15,7 +15,8 @@ httpx==0.28.1
 pydantic==2.13.4
 pandas==3.0.3
 matplotlib==3.11.0
-pymupdf==1.28.0
+# pymupdf==1.28.0  — only needed to re-extract text from the corpus PDFs in
+# data/corpus/ (the extracted .txt files are committed); nothing else imports it.
 
 # Notebook execution (analysis/benchmark_report.ipynb)
 jupyter==1.1.1
