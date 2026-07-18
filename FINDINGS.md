@@ -12,6 +12,7 @@ This document is the synthesis. Per-lesson detail (concept, method, full reasoni
 - **Metric.** Deterministic **section-citation match** (does the model cite the section the published code assigns?), split three ways: **correct**, **wrong/invented** (hallucination), **no citation** (abstention). A regex extractor, not an LLM judge, so the signal is independent of any model.
 - **Tiers.** *Foundation* = Claude Opus 4.8 (flagship). *Instruction-tuned* = Claude Haiku 4.5 under a required-`section` JSON schema. *SLM* = phi3:mini (~3.8B) on local Ollama.
 - **Conditions.** *Cold* (parametric memory only, 45 questions × 3 repeats) vs. *grounded* (the correct code passage injected as context, 44 questions; q017 is a FEMA date with no code section).
+- **Models & runs.** Exact strings as called, recorded per result row as `model_name`: `claude-opus-4-8`, `claude-haiku-4-5`, `phi3:mini` (Ollama's default quantized build — record your own `ollama show phi3:mini` output when reproducing), and `gemini-3-flash-preview` for the appendix run. Reference runs executed July 10–16, 2026. Hosted models drift; re-run before comparing new numbers against these.
 
 ## Headline result
 
@@ -22,6 +23,19 @@ Citation outcomes, scored against the verified gold set. Denominators are *score
 | Opus 4.8 (foundation) | 26.5% / 31.8% / 41.7% | **59.1%** / 11.4% / 29.5% | **+32.6** |
 | Haiku 4.5 (instruction-tuned) | 31.8% / 67.4% / 0.8% | **77.3%** / 22.7% / 0.0% | **+45.5** |
 | phi3:mini (SLM, local) | 7.9% / 39.4% / 52.8% | **52.5%** / 12.5% / 35.0% | **+44.6** |
+
+### Per-category breakdown (correct citations, cold → grounded)
+
+| category (questions) | Opus 4.8 | Haiku 4.5 | phi3:mini |
+|---|---|---|---|
+| jurisdiction_amendment (22) | 28.8% → 63.6% | 31.8% → **81.8%** | 10.8% → **70.0%** |
+| numeric (16) | 27.1% → 62.5% | 29.2% → 75.0% | 6.7% → 46.7% |
+| state_amendment (3)† | 33.3% → 66.7% | 22.2% → 66.7% | 0% → 0% |
+| definitional (3)† | 0% → 0% | 55.6% → 66.7% | 0% → 0% |
+
+† directional only — 3 scoreable questions each (the 4th definitional question, q017, has no gold section), and grounded cells are a single pass. Cold cells are questions × 3 repeats.
+
+The pattern that matters: **the narrowest knowledge gains the most from grounding.** The jurisdiction (Naples/Collier) questions — the hardest category cold for every tier — become the *strongest* grounded category for both cheap tiers.
 
 ## The findings
 
@@ -96,6 +110,7 @@ The move that makes it defensible: **separate the parameters that could be accus
 ## Caveats
 - **Small category counts.** `state_amendment` (n=3) and `definitional` (n=4) are directional, not headline. The 22 jurisdiction and 16 numeric questions carry the weight.
 - **Repeats aren't independent.** Three calls to frozen weights are correlated; effective n ≈ questions, not questions × repeats. Grounded runs are a single pass over 44 questions.
+- **Interval estimates.** 95% Wilson intervals on the grounded rates: Haiku 77.3% [63.0%, 87.2%], Opus 59.1% [44.4%, 72.3%], phi3 52.5% [37.5%, 67.1%]. A two-proportion test separates Haiku from phi3 (p ≈ 0.02) but **not Opus from phi3** (p ≈ 0.5) — do not read a grounded ordering between the flagship and the SLM. The robust claims are the cold→grounded deltas and grounded-phi3 ≈ 2× *cold*-Opus.
 - **Manual retrieval.** Grounding uses the *correct* hand-verified passage per question, so this measures the *ceiling* of grounding, not a full RAG pipeline (retrieval error would lower it). That is the intended experiment — does the right text change the answer — not an end-to-end RAG benchmark.
 - **The trained-router result is in-sample.** NotDiamond's custom router was trained and re-routed on the same 44 grounded prompts; ~77% is the expected accuracy of the learned policy on that set, not held-out performance. The defensible claim is the *policy* it learned (cheap + grounded), which the data forces — the cheap model was never worse than the strong one when grounded.
 - **The schema finding compares different models, not one model with and without the schema.** Opus answered in free prose and Haiku under the forced schema, so the abstention-collapse claim rests on the mechanical fact that a required `section` field forecloses "I don't know" (0.8% abstention by construction) — not on a single-model ablation, which was not run.

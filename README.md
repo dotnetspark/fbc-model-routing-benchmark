@@ -73,6 +73,8 @@ Each lesson: **Concept → why it matters for routing → build increment → me
 - **Multimodal (site plans, diagrams).** "Does this site plan meet the front-setback requirement?" is a real FBC workload, but it needs its own metric (did the model read the dimension actually on the drawing?) and its own gold set — bolting a handful of image questions onto a 45-question citation benchmark would produce directional-only numbers. Measured properly, it's a separate project.
 - **Fine-tuning.** The interesting question is economic, not technical: at what request volume does a one-time tuning cost beat the per-request cost of a bigger (or grounded) model? Given the series' central finding — grounding, not model tier, is the dominant lever, and grounding requires no training — fine-tuning is the *third* thing to reach for, after retrieval and tier routing. A break-even template with placeholder inputs lives in the notebook (Section 4); no finding in the series depends on it.
 
+**Future work:** a realistic-retrieval variant (top-k chunks with retrieval error, measured against this benchmark's hand-verified ceiling), additional jurisdictions, and — each with its own metric — the multimodal and fine-tuning tracks above.
+
 ## Repository layout
 
 ```
@@ -128,6 +130,10 @@ jupyter nbconvert --to notebook --execute --inplace analysis/benchmark_report.ip
 ## Disclaimer
 
 This is a research/benchmarking tool, **not** a substitute for a licensed design professional or the Naples/Collier County building department. Do not make compliance decisions from it — the benchmark's own headline result is that no configuration tested is reliable enough for that.
+
+## Citing
+
+If you use the benchmark or the evaluation set, cite it via [CITATION.cff](CITATION.cff) — GitHub's "Cite this repository" button reads it.
 
 ## License
 

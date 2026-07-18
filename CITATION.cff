@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use this benchmark or its evaluation set, please cite it as below."
+title: "FBC Model-Routing Benchmark: LLM citation accuracy on the Florida Building Code, cold vs. grounded"
+type: software
+authors:
+  - family-names: "Lopez"
+    given-names: "Yadel"
+repository-code: "https://github.com/dotnetspark/fbc-model-routing-benchmark"
+license: MIT
+date-released: "2026-07-17"
+abstract: >-
+  A reproducible benchmark of model-routing decisions on a deterministically
+  checkable task: whether an LLM cites the section of the Florida Building Code
+  (and Naples/Collier County local amendments) that the published code assigns.
+  Three model tiers, cold vs. grounded, scored by regex citation match against
+  gold sections verified against primary sources.
